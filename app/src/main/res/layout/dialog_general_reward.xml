@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/dp32"
+    app:cardCornerRadius="@dimen/dp8"
+    app:cardElevation="@dimen/dp2"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/close_dialog_general"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="@dimen/dp8"
+            android:src="@drawable/ic_cross"
+            android:contentDescription="@string/app_name" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/close_dialog_general"
+            android:layout_marginLeft="@dimen/dp32"
+            android:layout_marginRight="@dimen/dp32"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_gift_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/dp24"
+                    android:foregroundGravity="center"
+                    android:src="@drawable/giftbox_icon"
+                    android:contentDescription="@string/app_name" />
+
+                <LinearLayout
+                    android:id="@+id/txt_ll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_gift_icon"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/dp4">
+
+                    <com.panelManagement.widgets.TextViewPlusBold
+                        android:id="@+id/tv_reward"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/txt_redemption_request"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/sp16" />
+
+                    <com.panelManagement.widgets.TextViewPlusBold
+                        android:id="@+id/tv_reward_point_general"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="@dimen/sp16" />
+
+                </LinearLayout>
+
+                <com.panelManagement.widgets.TextViewPlusBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_ll"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/dp16"
+                    android:gravity="center"
+                    android:padding="@dimen/dp4"
+                    android:text="@string/txt_points_processed_successfully"
+                    android:textSize="@dimen/sp16" />
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

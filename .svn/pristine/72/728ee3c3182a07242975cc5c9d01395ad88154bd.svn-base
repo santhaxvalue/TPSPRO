@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    //Tagalog
+
+    <string name="txt_redemption_request">Matagumpay na naproseso ang ang hiling ng pag-redeem sa</string>
+    //added by niyaj
+    <string name="txt_points_processed_successfully">puntos</string>
+    //added by niyaj
+    <string name="txt_profile_successfully_updated">"Matagumpay na na-update ang iyong profile"</string>
+    <string name="txt_mandatory">"Mandatoryo"</string>
+    <string name="userlogin">"Pag-login ng User"</string>
+    <string name="isvalidbamarket">"Ang Panel Station ay hindi karapat-dapat para sa"</string>
+    <string name="hint_dob_select">"Piliin ang Petsa ng Kapanganakan"</string>
+    <string name="text_OR">"o "</string>
+    <string name="signin_facebook">"Mag-sign in gamit ang Facebook"</string>
+    <string name="signin_signinpage_google">"Mag-sign in gamit ang Google+"</string>
+    <string name="error_terms_conditions">""Mangyaring tanggapin ang aming mga tuntunin at kundisyon""</string>
+    <string name="profiler">"Pahina ng Profiler"</string>
+    <string name="personal_info">"PERSONAL NA IMPORMASYON"</string>
+    <string name="text_welcome">"Maligayang pagdating"</string>
+    <string name="profilecompleted">"Ang iyong profile ay 100% kumpleto"</string>
+    <string name="txt_complete_profile_point_1">"maaari kang kumita ng mga puntos sa %d sa pamamagitan ng pagkumpleto ng iyong profile"</string>
+    <string name="txt_start">"Magsimula"</string>
+    <string name="text_edit">"i-edit"</string>
+    <string name="thanks_smiley_msg">"Salaamt sa pag-update ng iyong profile; tatanggap ka ng mas maraming ginagantimpaalng survey na gusto mo."</string>
+    <string name="empty_message_update_profile">"i-update ang iyong profile para makatanggap ng survey na kabilang sa iyong interes."</string>
+    <string name="empty_message_receive_survey">"Makakatanggap ka agad ng isang kawili-wiling survey"</string>
+    <string name="txt_Reward">"Gantimpala"</string>
+    <string name="txt_Redeem">"Tubusin"</string>
+    <string name="txt_msg_pinsent">"Matagumpay na ipinadala ang PIN!"</string>
+    <string name="txt_RedeemHist">"Kasaysayan ng Pagtubos"</string>
+    <string name="txt_RewardHist">"Kasaysayan ng mga Puntos"</string>
+    <string name="txt_mobile_verification">"Pag-verify ng mobile"</string>
+    <string name="txt_mobile_number_verify">"Kailangan mong i-verify ang iyong numero ng mobile upang matanggap ang regalo na redemption"</string>
+    <string name="txt_mobilenumber">"cellphone number"</string>
+    <string name="txt_donot_enter_code">"Tandaan: Mangyaring huwag ipasok ang code ng bansa</string>
+    <string name="txt_pin">"Pin"</string>
+    <string name="btn_verify">""</string>
+    <string name="txt_submit">"ISUMITE"</string>
+    <string name="general_rewards">"Pangkalahatang mga gantimpala"</string>
+    <string name="txt_option">"pagpipilian"</string>
+    <string name="txt_description">"Paglalarawan"</string>
+    <string name="txt_select">"Piliin ang"</string>
+    <string name="txt_enter_points_redeem">"Ipasok ang mga punto na gusto mong Bawasan"</string>
+    <string name="sweepstakes">"Mga sweepstake"</string>
+    <string name="txt_each_ticket_part1">"Ang bawat tiket ay nagkakahalaga ng %d puntos"</string>
+    <string name="txt_tickets">"Ticket"</string>
+    <string name="txt_balance_points">"Mga puntos ng balanse"</string>
+    <string name="txt_select_quantity">"Piliin ang dami"</string>
+    <string name="txt_points_number">"mga puntos"</string>
+    <string name="txt_BUY">"Bumili"</string>
+    <string name="txt_buy_btn_agreeing">"Sa pamamagitan ng pag-click sa pindutan ng pagbili, sumasang-ayon ka sa lahat ng term &amp; conditions ng The Panel Station"</string>
+    <string name="alert_dialog_txt_part3">"Paumanhin kailangan mo ng higit pang mga %d na redeem"</string>
+    <string name="alert_dialog_txt_part1">"Kailangan mo ng higit pang mga puntos para sa pangkalahatang pagtubos. Gayunpaman maaari mong laging lumahok sa aming Buwanang Prize Draw upang manalo ng mga kapana-panabik na premyo."</string>
+    <string name="txt_thanks">"Salamat ! "</string>
+    <string name="txt_puchased_ticket_part1">"Binili mo ang (Mga) Tiket sa %s."</string>
+    <string name="txt_receive_email_shortly">"Makakatanggap ka ng isang email sa ilang sandali ng lahat ng impormasyon tungkol sa draw"</string>
+    <string name="setting">"Mga Setting"</string>
+    <string name="ChangeLang">"Baguhin ang Lengguwahe"</string>
+    <string name="lbl_privacy_policy">"Pahayag ng Privacy"</string>
+    <string name="Terms">"Mga Alituntunin "</string>
+    <string name="txt_contactus">"Makipag-ugnayan sa amin"</string>
+    <string name="txt_language">"Wika"</string>
+    <string name="txt_raise_request">"Itaas ang isang kahilingan"</string>
+    <string name="txt_msg_subject">"Paksa"</string>
+    <string name="btn_send">"Ipadala"</string>
+    <string name="btn_cancel">"Kanselahin"</string>
+    <string name="thanks_dialog_txt">"Salamat sa pagsulat sa amin! Kami ay babalik sa iyo sa ilang sandali."</string>
+    <string name="fanpage">"Blog"</string>
+
+    <string name="txt_pointin_review">"Mga Puntos na Nirerebyu"</string>
+    <string name="txt_points_in_review">"Mga Puntos na Nirerebyu"</string>
+
+    <string name="api_msg_90days">"Maaari kang kumuha ng survey sa isang beses sa 90 araw lamang."</string>
+    <string name="api_nosurveyavailable">"Walang Survey ay Magagamit para sa iyo sa kasalukuyan. Subukang muli mamaya!"</string>
+    <string name="api_tps_account_linked">"Ang TPS account ay naka-link sa Social media"</string>
+    <string name="api_profiler_unavailable">"Hindi available ang Profiler Sa kasalukuyan"</string>
+    <string name="api_recently_updated">"Tila na-update mo kamakailan ang profile, magagamit lamang ito pagkatapos ng 90 araw pagkatapos ng iyong huling pag-update."</string>
+    <string name="api_email_registered">"Nakarehistro na ang iyong EmailId"</string>
+    <string name="api_device_registered">"Nakarehistro na ang iyong Device para sa aming serbisyo."</string>
+    <string name="api_email_device_registered">"Na-rehistro na ang iyong EmailId at Device para sa aming serbisyo"</string>
+    <string name="api_facebook_credentials">"Ang mga kredensyal sa Facebook ay nauugnay na."</string>
+    <string name="api_associated_tps_account">"Mayroon ka bang anumang account sa TPS upang maiugnay sa Facebook?"</string>
+    <string name="api_enter_valid_pin">"Mangyaring ipasok ang wastong pin"</string>
+    <string name="api_network_connection_unavailbale">"Hindi available ang koneksyon sa network"</string>
+    <string name="api_subject_here">"Ipasok ang paksa dito"</string>
+    <string name="api_fill_all_answers">"Pakipunan ang lahat ng mga sagot sa pahinang ito"</string>
+
+    <string name="api_verification_pin_message">"Ang iyong verification pin ay XXX. Pakipasok ito upang beripikahin ang iyong account."</string>
+    <string name="txt_surveyrewardMSG">"Kumuha ng Mga Surveys."</string>
+    <string name="txt_surveyanytime">"Kahit kailan Kahit saan."</string>
+    <string name="txt_opinion">"Ang iyong opinyon hugis mga produkto at serbisyo na inaalok ng mga global na kumpanya"</string>
+    <string name="txt_save">"I-save"</string>
+    <string name="msg_select_any_coupoun">"Mangyaring pumili ng anumang pagpipilian"</string>
+    <string name="txt_tickets_buyMax">"Maaari kang bumili ng maximum na %d Ticket (s)"</string>
+    <string name="signupcomplete_logincred">"Ang iyong mga kredensyal sa pag-login ay naipadala sa iyong rehistradong email id."</string>
+    <string name="msg_message">"Pakipasok ang mensahe"</string>
+    <string name="msg_subject">"Mangyaring ipasok ang paksa"</string>
+    <string name="txt_email">Email Id</string>
+    <string name="forgotPassword_title">Nakalimutan ang Password</string>
+    <string name="txt_rememberme">Tandaan mo ako</string>
+    <string name="txt_login">Mag log in</string>
+    <string name="lbl_privacy_policy_url">http://www.informatemi.com/tps/pp.php</string>
+    <string name="lbl_terms_cond_url">http://www.informatemi.com/tps/tandc.php</string>
+    <string name="lbl_terms_cond">Mga Tuntunin at Kondisyon</string>
+    <string name="lbl_allowdata">Pinapayagan ko ang aking data na gamitin nang hindi nagpapakilala para sa layunin ng pananaliksik.</string>
+
+    <!-- Signup implementation Strings -->
+    <string name="SignUp">"Mag-sign UP"</string>
+    <string name="SignIn">"Mag-sign in"</string>
+    <string name="signupcomplete_thanks">Salamat. Matagumpay kang nakarehistro.</string>
+    <string name="signupcomplete_note">Tandaan: Gumawa ng sumangguni sa folder ng spam at pag-promote para sa aming email kung hindi mo ito mahanap sa iyong inbox.</string>
+    <string name="lbl_laststage">"Iyan na ang lahat para sa ngayon! Makikipag-ugnay kami sa iyo sa ilang sandali"</string>
+    <string name="checkmail">"Tingnan ang Email"</string>
+    <string name="emailSignupMesage">"O Mag-sign-Up gamit ang Email"</string>
+    <!-- <string name="loginInfo">Login Info :</string> -->
+    <string name="hint_email">e-mail</string>
+    <string name="hint_confirm_email">"Kumpirmahin ang Email"</string>
+    <string name="hint_phoneno">"Numero ng Telepono"</string>
+    <string name="contact_info">"IMPORMASYON NG KONTAK"</string>
+    <string name="hint_firstname">"Pangalan "</string>
+    <string name="hint_lastname">"Apelyido"</string>
+    <string name="hint_country">"Bansa"</string>
+    <string name="hint_city">"lungsod"</string>
+    <string name="hint_zip">"Zip Code"</string>
+    <string name="hint_gender">"Kasarian"</string>
+    <string name="hint_dob">"Petsa ng Kapanganakan"</string>
+    <!--
+         <string name="hint_education">Education</string>
+    <string name="hint_annualHighSAl">Annual HH.Income</string>
+    <string name="hint_maritalStatus">Marital Status</string>
+    <string name="hint_ethnicity">Ethnicity</string>
+    <string name="hint_employment_status">Employment Status</string>
+    <string name="hint_industry">Industry</string>
+    <string name="hint_address">"Address"</string>
+    -->
+    <string name="SIgnUp_Submit">ibigay</string>
+    <string name="panel_copyrights">\@Copyrights 2015 thepanelstation.All rights reserved.</string>
+    <string name="startearning">"Magsimulang Magkamit"</string>
+    <string name="month">"Buwan"</string>
+    <string name="day">"Araw"</string>
+    <string name="year">"Taon"</string>
+    <string name="next">"Susunod"</string>
+    <string name="contact_info_descriptions">"Nangangako kami sa pagtiyak ng iyong pagiging pribado. Gayon pa man, hinihiling namin na ilagay ang iyong personal na impormasyon sa ibaba upang kumpirmahin ang iyong paglahok sa sweepstakes o mga special promotion. Gagamitin namin ang personal na impormasyong iyong ibibigay upang iproseso ang mga pagbili at mga entry para sa swwepstakes, upang maihatid ang mga produkto at premyo sa iyo!"</string>
+    <string name="select_country">"Bansa"</string>
+    <string name="async_task_error">Mangyaring suriin ang intenet connection</string>
+    <string name="login_email">"Mangyaring ipasok ang email Id"</string>
+    <!-- <string name="txt_send">"Send"</string> -->
+    <!-- <string name="msg_login_connprob">"Connection may not be sufficient to login at this time. Please try again later."</string> -->
+    <string name="msg_invalid_login_creditional">"Di-wastong email id o password."</string>
+    <string name="msg_enter_pass">"Mangyaring ipasok ang password"</string>
+    <!-- <string name="msg_login_session_expire">"Your session has been expired due to login from other device/portal."</string> -->
+    <string name="msg_unregister_email">"Mangyaring ipasok ang rehistradong email id"</string>
+    <string name="msg_valid_email">"Mangyaring magpasok ng wastong email id"</string>
+    <string name="txt_survey">"Survey"</string>
+    <string name="txt_reward_point">"Reward Points"</string>
+    <string name="txt_earned_point">"Points kinita"</string>
+    <string name="txt_redeemed_point"> "tinubos ang mga puntos"</string>
+    <string name="txt_aval_point">"mga punto na magagamit"</string>
+    <string name="txt_redemption">"pagtubos sa kasalanan"</string>
+    <string name="msg_refreshing">"Nakapresko na listahan ng survey"</string>
+    <string name="msg_open_survey">"Gusto mo bang magbukas ng survey?"</string>
+    <string name="msg_logout">"Sigurado ka bang gusto mong mag-logout ?"</string>
+    <string name="txt_yes">"oo"</string>
+    <string name="txt_no">"hindi"</string>
+    <string name="empty_msg_you_haven_t_redeemed_yet">hindi ka pa natubos</string>
+
+    <string name="msg_logoff_connec_lost">"Connection ay maaaring hindi sapat upang mag-logout sa oras na ito . Mangyaring subukan muli sa ibang pagkakataon."</string>
+    <string name="msg_timeout">"Application ay nakaharap sa mga problema sa pagkuha ng impormasyon . Mangyaring subukan muli sa ibang pagkakataon."</string>
+    <string name="msg_low_conn">"Connection ay maaaring hindi sapat sa oras na ito upang makatanggap ng mga kahilingan sa ngayon . Mangyaring subukan muli sa ibang pagkakataon."</string>
+    <string name="msg_survy_info">"Mag-click sa mga magagamit na mga survey upang ilunsad ang mga ito sa browser. Hilahin pababa sa listahan upang i-refresh ang mga survey.\n\nYou maaaring piliin ang iyong ginustong wika mula sa screen ng Mga Setting. \n\npagbisita www.thepanelstation.com para sa mga detalye ng iyong account."</string>
+    <string name="txt_takeby">"Sumakay sa pamamagitan ng"</string>
+    <string name="txt_earn">"kumita"</string>
+    <string name="Points_Ticket">"Puntos/Blg. ng Tiket"</string>
+    <string name="txt_points">"mga puntos"</string>
+    <string name="txt_earned">"Nagkamit"</string>
+    <string name="txt_voucher_code">"voucher Code"</string>
+    <string name="txt_redeemed">"Redeemed"</string>
+    <string name="txt_status">"katayuan"</string>
+    <string name="txt_done">"Tapos"</string>
+    <string name="txt_valid_till">"Valid Hanggang"</string>
+    <string name="txt_month_jan">"Jan"</string>
+    <string name="txt_month_feb">"Pebrero"</string>
+    <string name="txt_month_march">"Marso"</string>
+    <string name="txt_month_apr">"Abr"</string>
+    <string name="txt_month_may">"Mayo"</string>
+    <string name="txt_month_jun">"Hunyo"</string>
+    <string name="txt_month_july">"Hulyo"</string>
+    <string name="txt_month_aug">"Ago"</string>
+    <string name="txt_month_sept">"Septiyembre"</string>
+    <string name="txt_month_oct">"Oktubre"</string>
+    <string name="txt_month_nov">"Nobyembre"</string>
+    <string name="txt_month_dec">"Disyembre"</string>
+    <string name="txt_iaggree">"Sumasang-ayon ako"</string>
+    <string name="txt_and_text">" sa "</string>
+    <string name="txt_allowing_text">"Wyrażam zgodę na wykorzystywanie moich danych w sposób anonimowy do celów badawczych. "</string>
+    <string name="txt_visit">"bumisita"</string>
+    <string name="error_fn">"hindi puwedeng walang pangalan"</string>
+    <string name="error_ln">"hindi puwedeng walang apelyido"</string>
+    <string name="error_gender">"pakipili ang iyong kasarian"</string>
+    <string name="error_dob">"Pakipasok ang iyong Petsa ng Kapanganakan."</string>
+    <string name="error_select_country">"Pakipili ang iyong bansa"</string>
+    <string name="error_phone_empty">"hindi puwedeng walang cellphone number."</string>
+    <string name="error_city">"Pakipili ang iyong lungsod"</string>
+    <string name="error_zipcode">"Hindi maaaring walang laman ang Zip Code"</string>
+    <!-- Added more for length validations -->
+    <string name="error_phone_length">"pakipasok ang isang balidong cell phone number"</string>
+    <string name="error_zipcode_length">"pakipasok ang isang balidong Zip Code"</string>
+    <string name="message_city">"Piliin ang Lungsod"</string>
+    <string name="message_panel_intake_1">Congratulation, isang hakbang ka na lang mula sa pagkamit ng mga gantimpala.  </string>
+    <string name="message_panel_intake_2">Pakikumpirma ang iyong rehistrasyon sa pamamagitan ng pagbeberika ng iyong email id.</string>
+    <string name="allowdatausage">"Kinakailangan ng PanelStation ang iyong pahintulot upang ma-access ang iyong applications data. Pahintulutan ang access sa paggamit sa PanelStation."</string>
+    <string name="hint_search">"paghahanap"</string>
+    <string name="agreedTermsandCondition"> pumayag sa mga alituntunin at kondisyon at pahayag sa pagkapribado.</string>
+    <string name="registrationfails">"Registration Fails."</string>
+    <string name="signup_facebook">Mag-sign Up sa Facebook</string>
+    <string name="signup_google">Mag-sign Up sa Google+</string>
+    <string name="press_again_close">"pindutin muli upang isara!"</string>
+
+    <!-- Added new strings for tagalong -->
+    <string name="txt_each_ticket_part2">"Points"</string>
+    <string name="txt_tickets_in_cart_part1">"Meron ka"</string>
+    <string name="txt_tickets_in_cart_part2">"(Mga) Ticket sa cart"</string>
+    <string name="surveys">"Survey"</string>
+    <string name="rewards">"Gantimpala"</string>
+    <string name="PrivacyPol">"Pahayag ng Privacy"</string>
+    <string name="ContactUs">"Makipag-ugnayan sa amin"</string>
+    <string name="txt_imnew">"bago ako"</string>
+
+    <!-- sudhir append strings -->
+    <string name="txt_wait_for_questions">"Pakihintay, sini-set up ang palatanungan para sa iyo "</string>
+    <string name="txt_expired">"mag-i-expire sa"</string>
+    <string name="msg_serverdown">"Server ay down o sa ilalim ng maintenance. Mangyaring subukan muli sa ibang pagkakataon."</string>
+    <string name="msg_citynotfound">"Hindi maproseso ang kahilingan, dahil sa kahirapan sa paghahanap panalist lungsod ng iyong bansa."</string>
+    <string name="unabletoverifypin">"Hindi ma- verify ang iyong pin, mangyaring input tamang pin number"</string>
+    <!-- sudhir end append strings -->
+    <string name="pointexpired">"Nag-expire Point"</string>
+    <string name="open">"Bukas"</string>
+
+    <!-- New Changes Strings -->
+    <string name="ui_activationcode">"Verification Code ng User"</string>
+    <string name="ui_msg_checkemail">
+<![CDATA[
+                        <p>Mangyaring suriin ang iyong email Inbox para sa code ng activation ng <B>\"Ang Panel ng Station\"</B></p>
+
+                    ]]>
+    </string>
+    <string name="ui_msg_checkemail_spam">"Paki-check ang iyong Promotional &amp; Spam Folder para sa email ng activation code mula sa The Panel Station, kung hindi mo ito makikita sa iyong Inbox."</string>
+    <string name="hint_activationcode">"Ilagay ang iyong activation code dito"</string>
+    <string name="ui_termsandcondition">
+<![CDATA[
+                        <p>Sumasang-ayon ako sa mga alituntunin at kondisyon at patakaran ng Pagkapribado</p>
+                    ]]>
+    </string>
+    <string name="ui_textSignIn">I-click Dito para sa Login Page</string>
+    <string name="signupsocial">Ngayon, mag-sign up sa <b>The Panel Station</b></string>
+    <string name="signupsocial_appends">Sa isang ligtas at secure na paraan</string>
+    <string name="msgcheckemailforotp"> Ang Activation code ay naipadala na sa iyong %s email id. Pakitingnan at beripikahin upang ma-activate. </string>
+    <string name="congratulation_header"> Binabati kita! </string>
+    <string name="congratulation_msg">Ikaw ay isa na ngayong kasapi ng pinakamalaking online research Panels. Paki-click ang “Start Earning” (Magsimulang Kumita) upang pumunta sa Seksiyon ng mga Survey sa App.</string>
+
+    <!-- sud changes -->
+    <string name="action_settings">Mga setting</string>
+    <string name="dialog_login">Mangyaring Maghintay …</string>
+    <string name="txt_password">password</string>
+    <string name="txt_cancel">Kanselahin</string>
+    <!-- <string name="surveyList_title">Available Surveys</string> -->
+    <string name="txt_no_survey">Walang available na survey</string>
+    <string name="txt_no_rewards">Walang available na gantimpala</string>
+    <string name="txt_no_redemption">Walang available na redemption</string>
+    <string name="txt_info">I-click ang available na survey upang ilunsad ang mga ito sa browser. Hilahin pababa upang i-refresh ang mga survey.Maaari mong piliin ang iyong gustong wika mula sa screen ng mga Setting.";</string>
+    <string name="loginInfo">Mag-login</string>
+    <string name="txt_send">"Ipadala"</string>
+    <string name="msg_login_connprob">"Ang koneksyon ay maaaring hindi sapat upang mag-login sa oras na ito. Subukang muli mamaya."</string>
+    <string name="msg_login_session_expire">"Nag-expire na ang iyong session dahil sa pag-login mula sa iba pang device / portal."</string>
+
+    <!-- <string name="userexist">User already exist , Please login</string> -->
+    <string name="async_task_not_responding">Maaaring hindi sapat ang koneksiyon na mag-login sa oras na ito. Pakisubukan maya-maya.</string>
+    <string name="msg_confirm_open">Gusto mo nang buksan ang isang survey?</string>
+    <string name="Ok"> Ok</string>
+    <string name="unsubscribe_text1">Nalulungkot kaming marinig na ikaw ay hindi na interesado sa aming mga survey.</string>
+    <string name="unsubscribe_text2">Mamimiss ka namin at nagpapasalamat kung \n iyong maibabahagi ang iyong feedback, para sa \n ikabubuti ng aming mga serbisyo</string>
+    <string name="unsubscribe_text3">Mangyaring mamili mula sa (mga) dahilan na nasa ibaba:</string>
+    <string name="msg_valid_password">"Mangyaring ipasok ang password"</string>
+    <string name="survey_not_found">"Walang available na survey."</string>
+    <!-- <string name="txt_receive_email_shortly">"You will recive an email shortly with all the information about the draw."</string> -->
+    <string name="btn_next">"susunod"</string>
+
+    <string name="txt_forgot_password">"Nakalimutan ang Password"</string>
+    <string name="txt_social_link">Link</string>
+    <string name="txt_takenby">"Kinuha ni "</string>
+    <string name="text_existing_member">"Umiiral na Kasapi"</string>
+    <string name="resendactivationcode">"Muling ipadala ang Activation Code sa  "</string>
+    <string name="clickhere">"Hindi pa natanggap ang  code? Mag-click dito"</string>
+    <string name="min">"min"</string>
+    <string name="sec">"seg"</string>
+
+    <!-- <string name="txt_tell_us_more">"Tell us more about the problem"</string> -->
+    <string name="alredy_otp">May OTP na bang beberipikahin?</string>
+    <string name="otp_email">Ipasok ang iyong registered email-id</string>
+    <string name="resend_otp">Ipadala muli ang OTP?</string>
+    <string name="when_you_refer_a_friend">Kapag tinutukoy mo ang isang kaibigan</string>
+    <string name="msg_first_time_500_earn">1. Makakakuha ka ng 500 puntos sa pagre-refer (Kapag nakumpleto lang nila ang kanilang unang survey).</string>
+    <string name="your_friend_earns_500_joining_points">2. Makakakuha ang kaibigan mo ng 500 puntos sa pagsali.</string>
+    <string name="_3_you_can_refer_a_maximum_of_5_friends_in_a_month">3. Maaari kang mag-refer ng hanggang 5 kaibigan sa isang buwan.</string>
+    <string name="the_more_the_merrier">Mas marami, mas masaya!</string>
+    <string name="so_get_your_going_in_now">Kaya simulan mo na ngayon!</string>
+    <string name="match_the_puzzle_to_fetch_a_survey">Pagtugmain ang palaisipan para makakuha ng survey</string>
+    <string name="and_each_time_500_referral_points">At sa bawat oras na gagawin mo, kumita ng 500 puntos ng referral!</string>
+    <string name="friends_make_life_better">Mas maganda ang buhay ng mga kaibigan at dapat ipagdiriwang! sa paniniwalang ito, nilikha namin ang programa ng Refer-A-Friend upang gantimpalaan ang lahat ng iyong mga kaibigan doon</string>
+    <string name="for_more_details">Para sa higit pang mga detalye</string>
+    <string name="click_here">Pindutin dito</string>
+
+    <string name="consent_form">FORM NG PAHINTULOT</string>
+    <string name="consent_form_p_tc_1">\"Ang The Panel Station  ay pagmamay-aring produkto ng Borderless Access Panels kasama ng lahat ng mga trademark nitong teksto, ilustrasyon, larawan, graphics, file, disenyo, at pagsasaayos. Ang mga nilalaman ng website na ito ay maaari lamang gamitin alinsunod sa mga tuntunin at kondisyon at patakaran sa pagkapribadong nakalakip dito.\"</string>
+    <string name="disclaimer">Pagtatatuwa:</string>
+    <string name="before_we_proceed">Bago tayo magpatuloy, mangyaring maglaan ng ilang minuto upang ibigay sa amin ang iyong impormasyon at pahintulot na kinakailangang makuha alinsunod sa mga bagong batas sa pagkapribado ng datos.</string>
+    <string name="are_you_citizen_of_eu">Ikaw ba ay mamamayan ng European Union?</string>
+    <string name="are_you_in_eu_region">Kasalukuyan ka bang nasa European Union?</string>
+    <string name="in_accordance_big_1">Alinsunod sa mga bagong batas sa pagkapribado ng datos sa European Union (GDPR), hinihiling namin sa iyong basahing mabuti ang form sa ibaba at ibigay ang iyong pahintulot upang patuloy na maging bahagi ng Komunidad ng TPS.</string>
+    <string name="here_at_the_big_2">Dito sa The Panel Station , seryoso naming pinatutunguhan ang iyong pagkapribado at gagamitin lamang namin ang iyong personal na impormasyon upang pamahalaan ang iyong account at ibigay ang mga produkto at serbisyong hiniling mo sa amin.</string>
+    <string name="you_understand_big_text_3">Nauunawaan mo at sumasang-ayon ka na sa pagpili mo ng opsyong \"Oo\", maaari ka naming padalhan ng mga angkop na notipikasyon sa pamamagitan ng mga e-mail at SMS na bubuo ng bahagi ng mga serbisyong iniaalok sa iyo.</string>
+    <string name="if_at_any_point">Kung sa alinmang punto ng panahon matapos ang pagpaparehistro, magpapasya kang bawiin ang iyong pahintulot, maaari mo itong gawin sa pamamagitan ng pagpapadala ng iyong kahilingan sa amin sa [ipasok ang e-mail address]. Sasagot kami sa iyong mga sulat sa loob ng tatlong araw matapos itong matanggap.</string>
+    <string name="if_at_any_point_custom">Kung sa alinmang punto ng panahon matapos ang pagpaparehistro, magpapasya kang bawiin ang iyong pahintulot, maaari mo itong gawin sa pamamagitan ng pagpapadala ng iyong kahilingan sa amin sa %s. Sasagot kami sa iyong mga sulat sa loob ng tatlong araw matapos itong matanggap.</string>
+    <string name="do_you_wish">Nais mo bang pahintulutan ang iyong sarili na maging bahagi ng komunidad ng The Panel Station  upang makibahagi sa mga inaalok nitong pananaliksik?</string>
+    <string name="yes_i_agree">Oo, sumasang-ayon ako</string>
+    <string name="no_i_dont_agree">Hindi, hindi ako sumasang-ayon</string>
+    <string name="consent_disclaimer_1">"\"Ang The Panel Station  ay pagmamay-aring produkto ng Borderless Access Panels kasama ng lahat ng mga trademark nitong teksto, ilustrasyon, larawan, graphics, file, disenyo, at pagsasaayos. Ang mga nilalaman ng website na ito ay maaari lamang gamitin alinsunod sa mga tuntunin at "</string>
+    <string name="consent_disclaimer_2">nakalakip dito.\"</string>
+    <string name="in_case_you_delete">Sakaling naisa mong burahin ang iyong nakarekord na impormasyon sa amin, mangyaring sumulat sa amin sa Dataprotectionofficer01@borderlessaccess .com</string>
+    <string name="rejoin_panel_email">Sa alinmang punto ng panahon, kung nais mong muling sumali sa aming panel, maaari mo itong gawin sa pamamagitan ng pagpaparehistro sa amin. Upang magparehistro, mangyaring i-click ang sumusunod na link</string>
+    <string name="title_msg_succeess_unsubscribe">Matagumpay kang nakapag-unsubscribe sa aming komunidad.</string>
+    <string name="msg_eu_region_decline_consent_form">Binanggit ninyo na kayo ay mula sa Europa/mamamayan ng Europa, kaya hinihiling namin na tanggapin ang form ng pagpayag para magpatuloy sa rehistrasyon.</string>
+    <string name="lbl_privacy_statement">Pahayag sa Pagkapribado</string>
+
+    <string name="swipe_up">I-swipepataas para mag-sign-up</string>
+    <string name="swipe_down">I-swipe pababa para mag-sign-in</string>
+    <string name="refer_2_more">Mag-refer ng Friend o 2 o 3 at mas higit pa</string>
+    <string name="invite_your_friends">Imbitahin ang iyong mga kaibigan</string>
+    <string name="refer_code_not_avaliable">Ang referral code ay hindi available</string>
+
+    <string name="select_optional">Mangyaring mamili ng isang file (opsyonal)</string>
+    <string name="connect_your_accounts">Ikonekta ang iyong mga account</string>
+    <string name="profile_settings">Settings ng Profile</string>
+
+    <string name="change_password">Baguhin ang Password</string>
+    <string name="unsubscribe">Mag-unsubscribe</string>
+
+    <string name="unsubscribe_lowercase">Mag-unsubscribe</string>
+    <string name="refer_frnd">Mag-refer ng Friend</string>
+    <string name="title_contact_us">Makipag-ugnayan sa Amin</string>
+    <string name="user_msg">“Ang iyong account ay minarkahang hindi aktibo, mangyaring makipag-ugnayan sa aming support team sa mobile@thepanelstationsurveys3.com para sa karagdagang tulong.”</string>
+
+
+
+    <string name="reset">I-RESET</string>
+
+
+    <string name="err_msg_invalid_phone_number">Di-wastong numero ng telepono
+</string>
+      <string name="user_not_active">Hindi ka wastong gumagamit
+</string>
+    <string name="alert">Alert</string>
+
+
+    <string name="my_rewards">Aking Mga Gantimpala</string>
+    <string name="my_profile">Aking Profile</string>
+    <string name="my_surveys">Aking Mga Survey</string>
+    <string name="contact_us">Makipag-ugnayan sa amin</string>
+    <string name="invite">Imbitahan</string>
+
+    <string name="faq">Mga FAQs</string>
+    <string name="settings">Mga Setting
+</string>
+    <string name="particitpate_and_luck">Makilahok at makakuha ng masuwerteng
+</string>
+
+    <string-array
+        name="home">
+        <item>@string/my_rewards</item>
+        <item>@string/my_profile</item>
+        <item>@string/my_surveys</item>
+        <item>@string/contact_us</item>
+        <item>@string/fanpage</item>
+        <item>@string/invite</item>
+        <item>@string/badges</item>
+        <item>@string/faq</item>
+        <item>@string/settings</item>
+
+    </string-array>
+
+    <string name="available_count">Available na Survey -</string>
+
+
+
+    <string name="tv_rewards_history">"Mga Gantimpala sa Kasaysayan
+"</string>
+    <string name="participate">"Makilahok"</string>
+
+    <!-- resolved tranlations issues -->
+
+    <string name="surveyList_title">Available na Survey
+</string>
+    <string name="hint_education">Edukasyon</string>
+    <string name="hint_annualHighSAl">Taunang HH.Income
+</string>
+    <string name="hint_maritalStatus">Katayuan ng Pag-aasawa
+</string>
+    <string name="hint_ethnicity">Lahi</string>
+    <string name="hint_employment_status">Katayuan ng Pagtatrabaho
+</string>
+    <string name="hint_industry">Industriya</string>
+    <string name="hint_address">Address</string>
+    <!-- <string name="fbapp_id">872503272868996</string> -->
+    <!--<string name="fbapp_id">789115197884008</string> --><!-- pankaj id -->
+    <!--  <string name="FACEBOOK_APP_ID">364129010721192</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">9b0cbed7da502035fdeac395853b9c7e</string>-->
+    <!--<string name="fbapp_id">1311050882301521</string>-->  <!--Rahul U id-->
+    <!--<string name="fb_login_protocol_scheme">fb364129010721192</string>-->
+    <string name="FACEBOOK_APP_ID">2214631975437544</string>
+    <string name="fb_login_protocol_scheme">fb2214631975437544</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">663529e74794f870c76caa3c96dffc56</string>
+    <string name="c">"Ang koneksyon ay maaaring hindi sapat sa oras na ito upang tumanggap ng kahilingan. Subukang muli mamaya
+."</string>
+    <string name="signout_facebook">Mag-sign up sa Facebook
+</string>
+    <string name="signout_google"> Mag-sign up gamit ang Google+
+</string>
+    <string name="userexist">May umiiral na User, Mangyaring mag-login
+</string>
+
+    <!-- Manoj pop up Strings -->
+    <string name="error">"Error:"</string>
+
+    <!-- Added more for length validations -->
+    <string name="message_sel_country">"Mangyaring Piliin ang iyong bansa "
+</string>
+    <string name="mat_addid">174926</string>
+    <string name="mat_onversionkey">f9217ab0bd684aee398cfc950547d6e6</string>
+    <string name="alert_dialog_txt_part2">"  higit pang mga punto para sa pangkalahatang pagtubos. Gayunpaman maaari mong laging lumahok sa aming Buwanang Prize Draw upang manalo ng mga kapana-panabik na premyo.
+"</string>
+    <string name="alert_dialog_txt_part4">"  higit pang mga punto upang tubusin.
+"</string>
+    <string name="webpage_being_loaded">"Naglo-load ng Pahina sa Web
+"</string>
+
+    <!-- Added By saurabh -->
+    <string name="txt_tell_us_more">"Sabihin sa amin ang higit pa tungkol sa problema
+"</string>
+
+    <!-- parser app authentication -->
+
+    <string name="parser_appid">"5Tl7X8lvmLUXHJiHOh5m3zGq2L8UWCqhNy78AMse"</string>
+    <string name="parser_clientkey">"kIKn4rBV0MhGYYn0uxCKaDBVBEJf0rsvLSNIR1Dj"</string>
+    <string name="lbl_appusagepermission">"Mahalagang Hakbang: \ nIsang pahintulot sa paggamit ng Panel Station App. \ NGo to Settings-> Security-> Mga Apps na may access sa paggamit
+."</string>
+
+    <!-- New Changes Strings -->
+
+    <string name="_0">0%</string>
+    <string name="profile_name">Pangalan</string>
+    <string name="profile">Profiler</string>
+    <string name="maxicano">Maxicano</string>
+    <string name="data_plan">Ito ay nag-aalok sa iyo upang Recharge malayang sa freeCharge. Paki-install ang App at makakuha ng Exiting na alok para sa iyo na plano ng data.
+</string>
+    <string name="points">3000</string>
+    <string name="default_channel">tps_notification_channel</string>
+    <string name="rationale_location">Mangyaring i-click ang "payagan" na pindutan sa susunod na kahon ng dialogo.
+</string>
+    <string name="tps">TPS</string>
+    <string name="_1">1</string>
+    <string name="_0_0">0.0</string>
+    <string name="date">date</string>
+    <string name="title_activity_ff">FF</string>
+    <string name="notifications">Mga Abiso
+</string>
+
+
+    <string name="facebook">FACEBOOK</string>
+    <string name="twitter">TWITTER</string>
+    <string name="google">GOOGLE</string>
+    <string name="menu_back">bumalik</string>
+    <string name="home">bahay</string>
+    <string name="apply_referral_code">APPLY</string>
+    <string name="error_valid_referral_code">Mangyaring magpasok ng wastong code ng referral
+</string>
+    <string name="tv_redemption_history">Kasaysayan ng Pagtubos
+</string>
+
+
+    <string name="txt_redeem_points">Piliin ang mga puntos na nais mong tubusin
+</string>
+    <string name="please_update_your_mobile_number">Paki-update ang numero ng iyong mobile
+</string>
+    <string name="hint_mobile_number">Numero ng mobile
+</string>
+    <string name="btn_txt_update">I-update
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_faq">FAQ\'s</string>
+
+    <string name="update_profile">I-UPDATE ANG PROFILE
+</string>
+    <string name="msg_update_available">Available ang bagong pag-update!
+</string>
+    <string name="msg_update_app_2">Gumagamit ka ng mas lumang bersyon ng app, paki-update ang app sa pinakabagong bersyon para sa walang pinagtahian na karanasan!
+</string>
+
+
+    <string name="thank_you">Salamat</string>
+
+
+    <string name="other_reason">Iba pang Dahilan
+</string>
+    <string name="if_at_any_point_2">Tutugon kami sa iyong mga mail sa loob ng tatlong araw mula sa pagtanggap ng pareho.
+</string>
+    <string name="subject">Paksa</string>
+    <string name="enter_paytm_id">Mangyaring ipasok ang iyong Paytm ID</string>
+    <string name="add_photo">Magdagdag ng Larawan</string>
+    <string name="take_photo">Kumuha ng Larawan</string>
+    <string name="choose_from_gallery">Pumili mula sa Gallery</string>
+    <string name="remove_photo">Alisin ang Larawan</string>
+    <string name="profile_update_success">Ang iyong profile picture ay may</string>
+    <string name="delete_profile_picture">Ang iyong profile picture ay may</string>
+    <string name="enter_confirm_password">ipasok ang kumpirmang password</string>
+    <string name="current_password">ipasok ang kasalukuyang password</string>
+    <string name="new_password">ipasok ang bagong password</string>
+    <string name="retry">Subukang muli</string>
+    <string name="please_select_reason">Pakipili ang (mga) dahilan</string>
+    <string name="others_cannot_be_blank">Dahilan na hindi maaaring blangko ang iba/ mga iba pa</string>
+    <string name="badges">Mga badge</string>
+    <string name="badge_increase">Nag-credit ng %1$s points para sa pagkumpleto ng %2$s o higit pang mga survey kada buwan.</string>
+    <string name="at">sa</string>
+    <string name="old_password">* Lumang Password:</string>
+    <string name="confirm_password">* Kumpirmahin ang Password:</string>
+    <string name="newpassword">* Bagong Password:</string>
+    <string name="password_comapre_mismatch">bagong password at kumpirmahin ang mismatch ng password.</string>
+    <string name="new_password_length">Ang bagong password ay dapat na nasa pagitan ng 6 at 16 na karakter.</string>
+    <string name="need_more_points">Kailangan mo ng %1$d dagdag na puntos para mag-redeem ng %2$s vouchers, gayunpaman, pwede kang pumili ng ibang opsyon sa pag-redeem.</string>
+    <string name="password_expiry_message">Na-expire na ang iyong password, pakipalitan ang iyong password ngayon para mag-login sa iyong dashboard</string>
+    <string name="please_change_your_password">Palitan ang Iyong Password</string>
+    <string name="new_old_password_match_error">Hindi dapat magkatulad ang Bagong Password at ang Lumang Password</string>
+    <string name="register_here">Mag-register dito</string>
+    <string name="communication_preferences">Mga Kagustuhan sa Komunikasyon</string>
+    <string name="poll_result">Mga Resulta</string>
+    <string name="quick_poll">Mabilisang Botohan</string>
+    <string name="result">Mga Resulta</string>
+    <string name="notification">Mga Notipikasyon</string>
+    <string name="no_notifications">Walang mga Notipikasyon</string>
+    <string name="activity">Mga Log ng Activity</string>
+    <string name="last_log_in">Huling Log-In</string>
+    <string name="last_log_out">Huling Log-Out</string>
+    <string name="resubscribe">Mag-resubscribe</string>
+    <string name="resubscribe_msg">Matagumpay kang nag-unsubscribed mula sa aming komunidad ngunit gusto naming bumalik ka, mag-click lamang sa \"Mag-resubscribe\"</string>
+    <string name="successfully_resubscribed">Matagumpay na na-resubscribed</string>
+    <string name="subscribe_success_msg">Congratulations! Nakabalik ka! Sabihin ang ating mga opinyon para matiyak ang mas magandang bukas</string>
+    <string name="logout">MAG-LOGOUT</string>
+    <string name="no_quick_poll">Walang available na Quickpolls.</string>
+    <string name="comm_pref_email">Email</string>
+    <string name="comm_pref_mobile_sms">Mobile SMS</string>
+    <string name="comm_pref_mobile_push_notification">Push Notifications ng Mobile</string>
+    <string name="comm_pref_desktop_notification">Mga Notipikasyon ng Desktop</string>
+    <string name="comm_pref_save_success">Ang mga Kagustuhan sa Komunikasyon ay matagumpay na nai-save.</string>
+    <string name="error_msg_for_invalid_redeem_points">Pakilagay ang balidong puntos na i-redeem</string>
+    <string name="redeem_instantly">Agarang Mag-redeem</string>
+    <string name="legend">Legend</string>
+    <string name="grand_master">Grand Master</string>
+    <string name="master">Master</string>
+    <string name="sensei">Guro</string>
+    <string name="newbei">Baguhan</string>
+    <string name="unsubscribe_delete_confirmation">I-unsubscribe ka mula sa aming komunidad at lahat ng iyong pangkasaysayang datos ay buburahin. I-click ang OK kung nais mong magpatuloy</string>
+    <string name="unsubscribe_delete_successful">Matagumpay kang na-unsubscribe mula sa aming komunidad. Buburahin namin ang iyong pagkasaysayang datos mula sa aming system makalipas ang 2 hanggang 3 araw na may pasok.</string>
+    <string name="unsubscribe_delete">Mag-unsubscribe at Burahin</string>
+    <string name="your_VoucherCode" translatable="false">"Ang iyong Voucher Code ay "</string>
+    <string name="redemptionRevoke">Kapag nagawa na ang pag-redeem, hindi na ito maibabalik/mapapawalan ng bisa</string>
+
+
+</resources>

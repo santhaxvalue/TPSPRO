@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dp28"
+    android:layout_margin="@dimen/dp8"
+    android:background="@color/off_white"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Button
+        android:id="@+id/redeem_point"
+        android:layout_width="90dp"
+        android:layout_height="@dimen/_18sdp"
+        android:layout_margin="@dimen/dp3"
+        android:background="@color/purple"
+        android:text="3000"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_10sdp" />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/dp28"-->
+<!--        android:layout_margin="@dimen/dp8"-->
+<!--        android:background="@color/off_white"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:weightSum="3"-->
+<!--        xmlns:android="http://schemas.android.com/apk/res/android" >-->
+
+<!--    <Button-->
+<!--        android:id="@+id/redeem_point"-->
+<!--        android:layout_width="@dimen/dp0"-->
+<!--        android:layout_height="@dimen/_18sdp"-->
+<!--        android:layout_margin="@dimen/dp3"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="@color/purple"-->
+<!--        android:text="3000"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="@dimen/_10sdp" />-->
+
+</LinearLayout>

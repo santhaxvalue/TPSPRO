@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="image_slider_height">95dp</dimen>
+    <dimen name="home_header_height">150dp</dimen>
+    <dimen name="edit_contact_us_height">72dp</dimen>
+    <dimen name="tv_menu_name_text_size">14sp</dimen>
+    <dimen name="tv_error_dialog_text_size">16sp</dimen>
+    <dimen name="invite_page_margin_bottom">40dp</dimen>
+</resources>

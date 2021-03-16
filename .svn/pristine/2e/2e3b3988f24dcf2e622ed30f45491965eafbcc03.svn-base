@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyt_notification"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:layout_marginTop="@dimen/_20sdp"
+    android:layout_marginEnd="@dimen/_15sdp"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/_20sdp"
+    android:layout_gravity="center"
+    android:background="@color/transparent">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_13sdp"
+            android:background="@color/white">
+
+            <com.panelManagement.widgets.TextViewPlusBold
+                android:id="@+id/tv_notificationLog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/dp5"
+                android:text="@string/notification"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:textSize="@dimen/sp20"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/no_notifications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp8"
+                android:text="@string/no_notifications"
+                android:layout_below="@id/tv_notificationLog"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:visibility="gone"
+                android:textSize="@dimen/sp12"
+                />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/notificationList"
+                android:layout_marginTop="@dimen/dp10"
+                android:layout_below="@id/no_notifications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_13sdp"
+            android:id="@+id/lut_activity_log"
+            android:visibility="gone"
+            android:background="@color/white">
+
+            <com.panelManagement.widgets.TextViewPlusBold
+                android:id="@+id/tv_ActivityLog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/dp5"
+                android:text="@string/activity"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:textSize="@dimen/sp20"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_logIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="@dimen/dp10"
+                android:layout_below="@id/tv_ActivityLog"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:text="@string/last_log_in"
+                android:textSize="@dimen/sp14" />
+
+            <TextView
+                android:id="@+id/tv_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/last_log_out"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp14"
+                android:gravity="bottom"
+                android:layout_below="@id/tv_logIn"
+                android:layout_gravity="bottom"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

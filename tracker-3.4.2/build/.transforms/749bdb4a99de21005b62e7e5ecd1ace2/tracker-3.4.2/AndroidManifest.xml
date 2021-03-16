@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kochava.base"
+    android:versionCode="11"
+    android:versionName="3.4.2" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="27" />
+
+    <!-- KochavaTracker: Required: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- KochavaTracker: Recommended: Wifi and Network State Collection -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- KochavaTracker: Optional: Force removal of the WIFI and NETWORK state permissions. -->
+    <!--
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" tools:node="remove"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" tools:node="remove"/>
+    -->
+    <!-- KochavaTracker: Optional: Paired and Connected Bluetooth Device Collection. -->
+<!--     <uses-permission android:name="android.permission.BLUETOOTH"/> -->
+    <!-- KochavaTracker: Optional: Location Gathering Include At least One -->
+    <!--
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    -->
+    <!--
+ KochavaTracker: Optional: Email Collection.
+    Note: Ensure you are compliant with the terms and requirements of the publishing app store when using this permission.
+    -->
+<!--     <uses-permission android:name="android.permission.GET_ACCOUNTS"/> -->
+    <application>
+
+        <!--
+        KochavaTracker: Optional: Included automatically. If you are using a forwarder for multiple INSTALL_REFERRER Broadcast Receivers
+        you must remove it.
+
+            <receiver
+                tools:node="remove"
+                android:name="com.kochava.base.ReferralReceiver">
+            </receiver>
+
+            View the reference documentation for "ReferralReceiver" for more information.
+        -->
+        <receiver
+            android:name="com.kochava.base.ReferralReceiver"
+            android:exported="true"
+            android:priority="999" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

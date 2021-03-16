@@ -1,0 +1,75 @@
+# variant.config
+# This file belongs in the assets/ directory
+# Edit to override default values for variant-specific configurations
+#
+# Format is Key on one line, Value to be assigned that key on the
+# next line.  Key values are case-insensitive.  Lines beginning with
+# '#' are comments and not processed.
+#
+# Supported settings, default values, and explanations:
+#
+# DisableNotification
+# true
+# Controls whether the Agent Service displays a user notification
+# when in foreground mode.
+# Legal values: true false
+#
+# SmsPriority
+# 500
+# Controls the order in which Sms Text Messages are received
+# for remote commands
+# Legal values: -999 to 999
+#
+# DataSmsPort
+# 1111
+# Defines the logical port number for Sms Data Messages are received
+# Legal values: 0 to 65535
+#
+# SS2APrefix
+# Android-embedded-version:
+# Agent build type identification string for SS2A metrics
+# 
+# LogoName
+# i1logo48
+# Name of the drawable to use as the logo on message displays
+#
+# MessageTitle
+# IQAgent Message
+# Title string to be displayed on IQAgent message displays
+#
+# MessageButton
+# Ok
+# Text for message dialog button
+#
+# NotificationTitle
+# IQAgent Notification
+# Title string to be displayed for IQAgent Notifications
+#
+# ForegroundNotificationText
+# actively monitoring device health
+# String to be displayed in body of foreground notification 
+# message 
+#
+# EnabledDefault
+# true
+# Determines whether the agent:
+# true runs by default (Opt-Out) or
+# false requires user approval to run (Opt-In)
+# Legal Values: true false
+#
+DisableNotification
+false
+SmsPriority
+0
+SS2APrefix
+Android-nielsenaik-version:
+MessageTitle
+Nielsen Mobile Performance Message
+MessageButton
+Go To Mobile Performance Meter Application
+NotificationTitle
+Nielsen Mobile Performance
+ForegroundNotificationText
+Your Mobile Performance Meter is running!
+EnabledDefault
+false

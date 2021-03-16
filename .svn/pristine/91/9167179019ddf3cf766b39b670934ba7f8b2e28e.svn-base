@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>     //Korean
+
+    <string name="txt_redemption_request">쿠폰 사용 요청</string>
+    //added by niyaj
+    <string name="txt_points_processed_successfully">포인트가 성공적으로 처리되었습니다.</string>
+    //added by niyaj
+    <string name="txt_profile_successfully_updated">"귀하의 프로필이 성공적으로 업데이트되었습니다."</string>
+    <string name="txt_mandatory">"필수"</string>
+    <string name="userlogin">"사용자 로그인"</string>
+    <string name="isvalidbamarket">"Panel Station은 자격이 없습니다."</string>
+    <string name="hint_dob_select">"생년월일 선택"</string>
+    <string name="text_OR">"또는"</string>
+    <string name="signin_facebook">"페이스 북으로 로그인"</string>
+    <string name="signin_signinpage_google">"Google+로 로그인"</string>
+    <string name="error_terms_conditions">""이용 약관에 동의하십시오""</string>
+    <string name="profiler">"프로파일 러 페이지"</string>
+    <string name="personal_info">"개인적인 정보"</string>
+    <string name="text_welcome">"환영"</string>
+    <string name="profilecompleted">"귀하의 프로필은 100 % 완료되었습니다."</string>
+    <string name="txt_complete_profile_point_1">"프로필을 완성하시면 * %d 포인트를 적립하실 수 있습니다."</string>
+    <string name="txt_start">"스타트"</string>
+    <string name="text_edit">"편집하다"</string>
+    <string name="thanks_smiley_msg">"프로필을 업데이트해주셔서 감사합니다; 곧 회원님의 관심분야와 관련된 유상설문조사를 더 많이 받게 되실 것입니다."</string>
+    <string name="empty_message_update_profile">"프로필을 업데이트하시면 관심 분야의 설문 조사를 받을 수 있습니다."</string>
+    <string name="empty_message_receive_survey">"곧 흥미로운 설문 조사가 열릴 것입니다."</string>
+    <string name="txt_Reward">"보상"</string>
+    <string name="txt_Redeem">"도로 사다"</string>
+    <string name="txt_msg_pinsent">"PIN이 전송되었습니다."</string>
+    <string name="txt_RedeemHist">"구속사"</string>
+    <string name="txt_RewardHist">"포인트 기록"</string>
+    <string name="txt_mobile_verification">"모바일 인증"</string>
+    <string name="txt_mobile_number_verify">"보너스 상품권을 받으려면 휴대 전화 번호를 확인해야합니다."</string>
+    <string name="txt_mobilenumber">"휴대폰 번호"</string>
+    <string name="txt_donot_enter_code">"참고 : 국가 코드를 입력하지 마십시오."</string>
+    <string name="txt_pin">"핀"</string>
+    <string name="btn_verify">"확인"</string>
+    <string name="txt_submit">"제출"</string>
+    <string name="general_rewards">"일반 보상"</string>
+    <string name="txt_option">"선택권"</string>
+    <string name="txt_description">"기술"</string>
+    <string name="txt_select">"고르다"</string>
+    <string name="txt_enter_points_redeem">"보너스 포인트를 입력하십시오"</string>
+    <string name="sweepstakes">"경품 행사"</string>
+    <string name="txt_each_ticket_part1">"각 티켓의 가격은 %d 포인트입니다."</string>
+    <string name="txt_tickets">"티켓"</string>
+    <string name="txt_balance_points">"잔액"</string>
+    <string name="txt_select_quantity">"수량 선택"</string>
+    <string name="txt_points_number">"전철기"</string>
+    <string name="txt_BUY">"사다"</string>
+    <string name="txt_buy_btn_agreeing">"구매 버튼을 클릭하면 Panel Station의 모든 이용 약관에 동의하게됩니다"</string>
+    <string name="alert_dialog_txt_part3">"%d을 (를) 사용하려면 죄송합니다."</string>
+    <string name="alert_dialog_txt_part1">"일반적인 보너스로 %d 포인트가 더 필요합니다. 그러나 매월 상금 추첨 행사에 참여하여 흥미 진진한 상을받을 수 있습니다."</string>
+    <string name="txt_thanks">"감사!"</string>
+    <string name="txt_puchased_ticket_part1">" %s 티켓을 구입하셨습니다."</string>
+    <string name="txt_receive_email_shortly">"곧 추첨에 관한 모든 정보를 이메일로 보내드립니다."</string>
+    <string name="setting">"설정"</string>
+    <string name="ChangeLang">"언어 변경"</string>
+    <string name="lbl_privacy_policy">"개인 정보 보호 정책"</string>
+    <string name="Terms">"약관"</string>
+    <string name="txt_contactus">"연락처"</string>
+    <string name="txt_language">"언어 변경"</string>
+    <string name="txt_raise_request">"요청을 제기하십시오."</string>
+    <string name="txt_msg_subject">"제목"</string>
+    <string name="btn_send">"보내다"</string>
+    <string name="btn_cancel">"취소"</string>
+    <string name="thanks_dialog_txt">"우리에게 편지를 보내 주셔서 감사합니다! 잠시 후 다시 연락 드리겠습니다."</string>
+
+    <string name="txt_pointin_review">"리뷰 점수"</string>
+    <string name="txt_points_in_review">"리뷰 점수"</string>
+
+    <string name="api_msg_90days">"설문 조사는 90 일 이내에 한 번만 수행 할 수 있습니다."</string>
+    <string name="api_nosurveyavailable">"현재 설문 조사를 사용할 수 없습니다. 나중에 다시 시도하십시오!"</string>
+    <string name="api_tps_account_linked">"TPS 계정은 소셜 미디어와 연결되어 있습니다."</string>
+    <string name="api_profiler_unavailable">"프로파일 러를 사용할 수 없습니다. 현재"</string>
+    <string name="api_recently_updated">"최근에 프로필을 업데이트 한 것으로 보이며 마지막 업데이트 후 90 일 후에 만 ​​사용할 수 있습니다."</string>
+    <string name="api_email_registered">"이메일 ID가 이미 등록되었습니다."</string>
+    <string name="api_device_registered">"기기가 이미 Google 서비스에 등록되었습니다."</string>
+    <string name="api_email_device_registered">"이메일 주소 및 기기가 이미 Google 서비스에 등록되어 있습니다."</string>
+    <string name="api_facebook_credentials">"Facebook 자격 증명이 이미 연결되어 있습니다."</string>
+    <string name="api_associated_tps_account">"TPS에 페이스 북과 연결할 계정이 있습니까?"</string>
+    <string name="api_enter_valid_pin">"유효한 핀을 입력하십시오."</string>
+    <string name="api_network_connection_unavailbale">"네트워크 연결을 사용할 수 없음"</string>
+    <string name="api_subject_here">"여기에 과목을 입력하십시오."</string>
+    <string name="api_fill_all_answers">"이 페이지에서 모든 답을 기입하십시오."</string>
+
+    <string name="api_verification_pin_message">"회원님의 인증 PIN 번호는 XXX입니다. 이 인증번호를 입력하셔서 회원님의 계정을 인증해주시기 바랍니다.."</string>
+    <string name="txt_surveyrewardMSG">"설문 조사에 참여하십시오."</string>
+    <string name="txt_surveyanytime">"언제나 어디서나."</string>
+    <string name="txt_opinion">"귀하의 의견은 글로벌 기업이 제공하는 제품 및 서비스를 형성합니다."</string>
+    <string name="txt_save">"구하다"</string>
+    <string name="msg_select_any_coupoun">"옵션을 선택하십시오."</string>
+    <string name="txt_tickets_buyMax">"최대 xx 티켓을 구매할 수 있습니다."</string>
+    <string name="signupcomplete_logincred">"로그인 자격 증명이 등록 된 이메일 ID로 전송되었습니다."</string>
+    <string name="msg_message">"메시지를 입력하십시오."</string>
+    <string name="msg_subject">"제목을 입력하십시오."</string>
+    <string name="action_settings">설정</string>
+    <string name="dialog_login">기다려주십시오 …</string>
+    <string name="txt_email">이메일 주소</string>
+    <string name="txt_password">비밀번호</string>
+    <string name="txt_cancel">취소</string>
+    <string name="login_title">Panel Station</string>
+    <string name="surveyList_title">사용 가능한 설문 조사</string>
+    <string name="forgotPassword_title">비밀번호 잊음</string>
+    <string name="txt_rememberme">날 기억해</string>
+    <string name="txt_login">로그인</string>
+    <string name="txt_no_survey">참여가능한 설문조사가 없습니다</string>
+    <string name="txt_no_rewards">사용가능한 보상이 없습니다</string>
+    <string name="txt_no_redemption">사용가능한 상환이 없습니다</string>
+    <string name="txt_info">브라우저 를 실행 가능한 설문 조사 를 클릭하십시오.\n\n설문 조사를 새로 고침 목록을 아래로 당겨 .\n\n방문 <a href="www.thepanelstation.com">www.thepanelstation.com</a> 당신의 계정 세부 사항 및 지원 .</string>
+    <string name="lbl_terms_cond">이용 약관 </string>
+    <string name="lbl_allowdata">내 데이터가 연구 목적으로 익명으로 사용되도록 허용합니다.</string>
+    <!-- Signup implementation Strings -->
+    <string name="SignUp">가입</string>
+    <string name="SignIn">로그인</string>
+    <string name="signupcomplete_thanks">고맙습니다. 귀하는 성공적으로 등록되었습니다.</string>
+    <string name="signupcomplete_note">참고 :받은 편지함에서 스팸 및 프로모션 폴더를 찾지 못하면 스팸 및 프로모션 폴더를 참조하십시오.</string>
+    <string name="lbl_laststage">지금은 여기까지입니다! 잠시 후 연락 드리겠습니다.</string>
+    <string name="checkmail">이메일 확인</string>
+    <string name="emailSignupMesage">또는 이메일 계정으로 가입하세요.</string>
+    <string name="loginInfo">로그인 정보 :</string>
+    <string name="hint_email">이메일 ID</string>
+    <string name="hint_confirm_email">확인 이메일</string>
+    <string name="hint_phoneno">전화번호</string>
+    <string name="contact_info">연락처</string>
+    <string name="hint_firstname">이름</string>
+    <string name="hint_lastname">성</string>
+    <string name="hint_country">국가</string>
+    <string name="hint_city">도시</string>
+    <string name="hint_zip">우편번호</string>
+    <string name="hint_gender">성별</string>
+    <string name="hint_dob">D.O.B.</string>
+    <string name="hint_education">Education</string>
+    <string name="hint_annualHighSAl">Annual HH.Income</string>
+    <string name="hint_maritalStatus">Marital Status</string>
+    <string name="hint_ethnicity">Ethnicity</string>
+    <string name="hint_employment_status">Employment Status</string>
+    <string name="hint_industry">Industry</string>
+    <string name="hint_address">주소</string>
+    <string name="SIgnUp_Submit">제출</string>
+    <string name="panel_copyrights">\@Copyrights 2015 thepanelstation.All rights reserved.</string>
+    <string name="agreedTermsandCondition"> 사용 약관과 개인정보처리방침에 동의합니다.</string>
+    <string name="startearning">적립 시작</string>
+    <string name="month">월</string>
+    <string name="day">일</string>
+    <string name="year">년</string>
+    <string name="next">다음</string>
+    <string name="contact_info_descriptions">저희는 귀하의 개인정보보호를 위해 최선을 다하고 있습니다. 그러나, 귀하의 경품행사 또는 특별 프로모션 참여를 확인하기 위해 아래에 귀하의 개인정보를 입력해주실 것을 부탁드립니다. 저희는 귀하가 제공하신 개인정보를 구매 진행과 경품행사에 응모 그리고 귀하에게 제품 및 경품을 배달하기 위해 사용합니다.</string>
+    <string name="select_country">국가</string>
+    <string name="async_task_error">네트워크 연결이 끊어진 것 같습니다. 나중에 다시 시도해 주세요.</string>
+    <string name="login_email">"이메일 ID를 입력하십시오."</string>
+    <string name="txt_send">"전송"</string>
+    <string name="msg_login_connprob">"현재 로그인 할 수없는 경우가 있습니다. 나중에 다시 시도하십시오."</string>
+    <string name="msg_invalid_login_creditional">"잘못된 이메일 ID 또는 비밀번호입니다."</string>
+    <string name="msg_enter_pass">"비밀번호를 입력 해주세요"</string>
+    <string name="msg_login_session_expire">"다른 기기 / 포털에서 로그인하여 세션이 만료되었습니다."</string>
+    <string name="msg_unregister_email">"등록 된 이메일 ID를 입력하십시오."</string>
+    <string name="msg_valid_email">"유효한 이메일 ID를 입력해 주세요"</string>
+    <string name="txt_survey">"설문조사"</string>
+    <string name="txt_reward_point">"보상 포인트"</string>
+    <string name="txt_earned_point">"적립 포인트"</string>
+    <string name="txt_redeemed_point"> "포인트를 되찾았다."</string>
+    <string name="txt_aval_point">"이용 가능한 포인트"</string>
+    <string name="txt_redemption">"상환"</string>
+    <string name="msg_refreshing">"조사 목록 새로 고침"</string>
+    <string name="msg_open_survey">"설문 조사를 열시겠습니까?"</string>
+    <string name="msg_logout">"정말로 로그아웃하시겠습니까?"</string>
+    <string name="txt_yes">"네"</string>
+    <string name="txt_no">"아니오"</string>
+    <string name="empty_msg_you_haven_t_redeemed_yet">너는 아직 구속되지 않았다.</string>
+
+    <string name="msg_logoff_connec_lost">"지금 연결이 원활하지 않습니다. 나중에 다시 시도해 주세요"</string>
+    <string name="msg_timeout">"애플리케이션이 정보를 검색하는데 문제가 있습니다. 나중에 다시 시도해 주세요."</string>
+    <string name="msg_low_conn">"지금 신청을 받기에는 연결이 원활하지가 않습니다. 나중에 다시 시도해 주세요."</string>
+    <string name="msg_survy_info">"브라우저에서 설문조사를 시작하시려면 참여가능한 설문조사를 클릭해 주세요. 목록을 내려서 설문조사들을 새로고침해주세요. \n\n 더 자세한 귀하의 계정정보를 설정으로 들어가시면 귀하가 사용하시는 언어를 선택하실 수 있습니다. \n\n 원하시면  <a href="www.thepanelstation.com">www.thepanelstation.com</a> 을 방문하세요."</string>
+    <string name="txt_takeby">"까지 완료"</string>
+    <string name="txt_earn">"적립"</string>
+    <string name="Points_Ticket">"포인트/티켓번호"</string>
+    <string name="txt_points">"전철기"</string>
+    <string name="txt_earned">"적립"</string>
+    <string name="txt_voucher_code">"상품권 코드"</string>
+    <string name="txt_redeemed">"상환"</string>
+    <string name="txt_status">"상태"</string>
+    <string name="txt_done">"완료"</string>
+    <string name="txt_valid_till">"유효기간"</string>
+    <string name="txt_month_jan">"1 월"</string>
+    <string name="txt_month_feb">"2 월"</string>
+    <string name="txt_month_march">"3 월"</string>
+    <string name="txt_month_apr">"4 월"</string>
+    <string name="txt_month_may">"할 수있다"</string>
+    <string name="txt_month_jun">"6 월"</string>
+    <string name="txt_month_july">"7월"</string>
+    <string name="txt_month_aug">"8 월"</string>
+    <string name="txt_month_sept">"9월"</string>
+    <string name="txt_month_oct">"10 월"</string>
+    <string name="txt_month_nov">"11 월"</string>
+    <string name="txt_month_dec">"12 월"</string>
+    <string name="txt_iaggree">"동의합니다"</string>
+    <string name="txt_and_text">" 그리고 "</string>
+    <string name="txt_allowing_text">"나는 내 정보가 조사목적을 위해 익명으로 사용되는 것을 허락합니다."</string>
+    <string name="txt_visit">"방문"</string>
+    <string name="signup_facebook">페이스북 가입</string>
+    <string name="signout_facebook">Sign Out with Facebook</string>
+    <string name="signup_google">Google+ 가입</string>
+    <string name="signout_google">Sign Out with Google+</string>
+    <string name="userexist">User already exist , Please login</string>
+    <string name="async_task_not_responding">Unable to process your request , Please try later.</string>
+    <string name="msg_confirm_open">설문조사를 여시겠습니까?</string>
+    <string name="Ok"> 확인</string>
+    <string name="unsubscribe_text1">저희의 설문조사에 더 이상 관심이 없으시다니 유감입니다.</string>
+    <string name="unsubscribe_text2">저희의 서비스를 \n개선시킬 수 있도록 피드백을 \n 공유해주시면 감사하겠습니다</string>
+    <string name="unsubscribe_text3">아래에서 이유를 선택해주십시오:</string>
+    <string name="error">"오류"</string>
+    <string name="error_fn">"이름을 입력해주세요."</string>
+    <string name="error_ln">"성을 입력해주세요."</string>
+    <string name="error_gender">"성별을 선택해주세요."</string>
+    <string name="error_dob">"생년월일을 입력해주십시오"</string>
+    <string name="error_select_country">"국가를 선택해주십시오"</string>
+    <string name="error_phone_empty">"휴대폰 번호를 입력해주세요."</string>
+    <string name="error_city">"도시를 선택해주십시오."</string>
+    <string name="error_zipcode">"우편번호는 필수입력사항입니다."</string>
+    <string name="hint_mobile_number">휴대 전화 번호</string>
+
+
+    <!-- Added more for length validations -->
+    <string name="error_phone_length">"유효한 휴대폰 번호를 입력해주십시오"</string>
+    <string name="error_zipcode_length">"유효한 우편번호를 입력해주십시오"</string>
+    <string name="message_city">"도시 선택"</string>
+    <string name="message_panel_intake_1">축하합니다, 귀하는 이제 보상 획득까지 한 걸음 남았습니다. </string>
+    <string name="message_panel_intake_2">귀하의 이메일 주소로 가입을 확인해주시기 바랍니다.</string>
+    <string name="allowdatausage">"패널스테이션은 귀하의 애플리케이션 데이터에 접근할 수 있는 권한이 필요합니다. 패널스테이션에 사용권한을 허용해주시기 바랍니다."</string>
+    <string name="registrationfails">"가입 실패"</string>
+    <string name="hint_search">"수색"</string>
+    <string name="txt_each_ticket_part2">"포인트"</string>
+    <string name="txt_tickets_in_cart_part1">"회원님 카트에 X티켓이 있습니다"</string>
+    <string name="txt_tickets_in_cart_part2">""</string>
+    <string name="surveys">"설문조사"</string>
+    <string name="rewards">""보상"</string>
+    <string name="press_again_close">"다시 눌러 닫습니다"</string>
+    <string name="msg_valid_password">"올바른 암호 를 입력하십시오"</string>
+    <string name="survey_not_found">"설문 조사 를 찾을 수 없습니다."</string>
+    <string name="webpage_being_loaded">"웹 페이지 로딩"</string>
+    <string name="PrivacyPol">"개인 정보 보호 정책"</string>
+    <string name="ContactUs">"저희에게 연락하십시오"</string>
+    <string name="txt_takenby">"에 의해 받아 "</string>
+    <string name="message_sel_country">"국가를 선택하세요"</string>
+    <string name="alert_dialog_txt_part2">"  일반 상환 에 대한 더 많은 포인트 . 그러나 당신은 항상 흥미로운 상품을 승리 하기 위해 매월 추첨 에 참여할 수 있습니다"</string>
+    <string name="alert_dialog_txt_part4">" 더 많은 포인트 신청 하기."</string>
+    <string name="txt_expired">"종료 날짜:"</string>
+
+    <!-- sudhir append strings -->
+    <string name="txt_puchased_ticket_part2">" 티켓 (들 ) ."</string>
+    <string name="txt_tell_us_more">"더 문제 에 대한 정보를 알려주십시오"</string>
+    <string name="btn_next">"다음"</string>
+    <string name="txt_forgot_password">"비밀번호 잊음"</string>
+    <string name="txt_social_link">링크</string>
+    <string name="txt_wait_for_questions">"설문지를 설정하고 있습니다. 잠시 기다려주세요."</string>
+    <string name="txt_imnew">"나는 새로운 해요"</string>
+    <string name="msg_serverdown">"서버가 다운 또는 유지 관리 - 을 받고있다. 나중에 다시 시도 해주십시오."</string>
+    <string name="msg_citynotfound">"때문에 국가 의 panalist 도시 를 찾는 어려움으로 요청을 처리 할 수 ​​없습니다 ."</string>
+    <string name="unabletoverifypin">"PIN을 확인할 수 없습니다 , ​​제발 입력 올바른 PIN 번호"</string>
+
+    <string name="pointexpired">"포인트 만료"</string>
+    <string name="open">"열린"</string>
+
+    <!-- New Changes Strings -->
+    <string name="ui_activationcode">"이용자 인증 코드"</string>
+    <string name="ui_msg_checkemail">
+<![CDATA[
+                        <p>이메일 수신함에서 <B>\"The Panel Station\"</B>활성화 코드를 확인하십시오.</p>
+                    ]]>
+    </string>
+    <string name="ui_msg_checkemail_spam">"만약 수신함에서 찾지 못하신 경우에는, 귀하의 광고 &amp; 스팸 폴더에 패널스테이션으로부터 온 활성화 코드가 있는지 확인하시기 바랍니다."</string>
+    <string name="hint_activationcode">"귀하의 활성화 코드를 여기에 입력하십시오."</string>
+    <string name="ui_termsandcondition">
+<![CDATA[
+                        <p>나는 이용약관 및 개인정보보호정책에 동의합니다"</p>
+                    ]]>
+    </string>
+    <string name="ui_textSignIn">로그인 페이지를 보시려면 여기를 클릭하세요</string>
+    <string name="signupsocial">지금 패널스테이션에 가입하세요 </string>
+    <string name="signupsocial_appends">안전한 방법으로</string>
+    <string name="msgcheckemailforotp"> 활성화 코드가 귀하의 %s 이메일 주소로 발송되었습니다, 확인하시고 인증하여 활성화하시기 바랍니다. </string>
+    <string name="congratulation_header"> 축하해!</string>
+    <string name="congratulation_msg">귀하는 지금 가장 큰 온라인 조사 패널들 중 하나의 회원입니다. 앱의 설문조사 섹션으로 이동하시려면 "적립 시작"을 클릭하십시오.</string>
+
+    <!-- sudhir changes -->
+    <string name="text_existing_member">"기존 회원"</string>
+    <string name="resendactivationcode">"활성화 코드 재발송 "</string>
+    <string name="clickhere">"아직 코드를 받지 못하셨습니까? 여기를 클릭하세요"</string>
+    <string name="min">"분"</string>
+    <string name="sec">"초"</string>
+    <string name="alredy_otp">인증할 1회용 암호가 있나요?</string>
+    <string name="otp_email">가입 시 사용한 이메일 ID를 입력하세요</string>
+    <string name="resend_otp">OTP를 다시 보내시겠습니까?</string>
+    <string name="when_you_refer_a_friend">친구를 추천 할 때</string>
+    <string name="msg_first_time_500_earn">1. 소개 500점을 받을 수 있습니다 (친구가 첫 설문조사 작성 완료시에만).</string>
+    <string name="your_friend_earns_500_joining_points">2. 친구는 가입 500점을 받습니다.</string>
+    <string name="_3_you_can_refer_a_maximum_of_5_friends_in_a_month">3. 한 달에 최대 5 명의 친구를 소개할 수 있습니다.</string>
+    <string name="the_more_the_merrier">친구가 더 많아질수록, 더 즐겁습니다!</string>
+    <string name="so_get_your_going_in_now">지금 소개하세요!</string>
+    <string name="match_the_puzzle_to_fetch_a_survey">퍼즐을 맞추고 설문 조사를 받으세요.</string>
+    <string name="and_each_time_500_referral_points">그리고 할 때마다 500 추천 지점을 적립하십시오!</string>
+    <string name="friends_make_life_better">친구들은 인생을 더 좋게 만들고 축하해야합니다! 이 신념으로, 우리는 당신의 친구들을 모두 거기에 보답하는 Refer-A-Friend 프로그램을 만들었습니다.</string>
+    <string name="for_more_details">자세한 사항은</string>
+    <string name="click_here">여기를 클릭하십시오.</string>
+    <string name="consent_form">동의서</string>
+    <string name="connect_your_accounts">계정 연결</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="twitter">TWITTER</string>
+    <string name="google">GOOGLE</string>
+    <string name="consent_form_p_tc_1">\"The Panel Station는 모든 텍스트, 상표, 삽화, 사진, 그래픽, 파일, 디자인 및 계약서와 함께 Borderless Access Panels의 독점 제품입니다. 이 웹 사이트의 내용은 여기에 첨부 된 이용 약관 및 개인 정보 보호 정책에 따라서만 사용됩니다. \"</string>
+    <string name="disclaimer">부인 성명:</string>
+    <string name="before_we_proceed">계속 진행하기 전에 새로운 데이터 개인 정보 보호법에 따라 취득해야하는 귀하의 정보와 동의를 우리에게 제공하기 위해 잠시 시간을내어주십시오.</string>
+    <string name="are_you_citizen_of_eu">유럽 ​​연합 (EU) 시민권 자입니까?</string>
+    <string name="are_you_in_eu_region">현재 유럽 연합에 계십니까?</string>
+    <string name="in_accordance_big_1">유럽 ​​연합 (GDPR)의 새로운 개인 정보 보호법에 따라, 우리는 귀하가 아래 양식을주의 깊게 읽고 귀하가 TPS 커뮤니티의 일원이 될 수 있도록 귀하의 동의를 제공 할 것을 요청합니다.</string>
+    <string name="here_at_the_big_2">The Panel Station는 귀하의 개인 정보를 중요하게 여기며 귀하의 개인 정보를 사용하여 귀하의 계정을 관리하고 귀하가 요청한 제품과 서비스를 제공합니다.</string>
+    <string name="you_understand_big_text_3">귀하는 \"예\"옵션을 선택함으로써 귀하에게 제공되는 서비스의 일부를 구성하는 전자 메일 및 SMS를 통해 귀하에게 적절한 통지를 보낼 수 있음을 이해하고 이에 동의합니다.</string>
+    <string name="if_at_any_point">등록 후 언제든지 동의를 철회하기로 결정한 경우 [이메일 주소 삽입]으로 귀하의 요청을 우편으로 보내주십시오. 우리는 우편물을받은 후 3 일 이내에 귀하의 우편물에 회신 할 것입니다.</string>
+    <string name="if_at_any_point_custom">등록 후 언제든지 동의를 철회하기로 결정한 경우 %s 으로 귀하의 요청을 우편으로 보내주십시오. 우리는 우편물을받은 후 3 일 이내에 귀하의 우편물에 회신 할 것입니다.</string>
+    <string name="do_you_wish">연구 서비스에 참여하기 위해 The Panel Station 커뮤니티에 참여하는 데 동의하고 싶습니까?</string>
+    <string name="yes_i_agree">예, 동의합니다.</string>
+    <string name="no_i_dont_agree">아니오, 동의하지 않습니다.</string>
+    <string name="consent_disclaimer_1">"\"The Panel Station는 모든 텍스트, 상표, 삽화, 사진, 그래픽, 파일, 디자인 및 계약서와 함께 Borderless Access Panels의 독점 제품입니다. 이 웹 사이트의 내용은 여기에 첨부 된 이용 "</string>
+    <string name="consent_disclaimer_2">따라서만 사용됩니다. \"</string>
+    <string name="in_case_you_delete">기록 된 정보를 삭제하고자하는 경우 Dataprotectionofficer01@borderlessaccess.com으로 이메일을 보내주십시오.</string>
+    <string name="rejoin_panel_email">언제든지 패널에 다시 가입하려면 당사에 등록해야합니다. 등록하려면 다음 링크를 클릭하십시오.</string>
+    <string name="title_msg_succeess_unsubscribe">커뮤니티에서 성공적으로 탈퇴했습니다.</string>
+    <string name="msg_eu_region_decline_consent_form">귀하가 유럽 시민이거나 거주지가 유럽일 경우, 다음 가입 단계로 이동하기 위해 동의서를 수락해주시기 바랍니다.</string>
+    <string name="lbl_privacy_statement">개인 정보 보호 정책</string>
+    <string name="swipe_up">위로 밀어서 가입하기</string>
+    <string name="swipe_down">아래로 밀어서 로그인하기</string>
+
+
+    <string name="refer_2_more">친구 또는 2 ~ 3 명에게 추천</string>
+    <string name="invite_your_friends">친구 초대하기</string>
+    <string name="refer_code_not_avaliable">추천 코드는 사용할 수 없습니다.</string>
+    <string name="select_optional">파일을 선택하십시오 (선택 사항)</string>
+
+    <string name="change_password">비밀번호 변경</string>
+<string name="unsubscribe">수신 거부</string>
+
+
+    <string name="refer_frnd">친구 추천하기</string>
+    <string name="title_contact_us">연락처</string>
+
+    <string name="my_rewards">내 보상</string>
+    <string name="my_profile">내 프로필</string>
+    <string name="my_surveys">내 설문 조사</string>
+    <string name="contact_us">연락처</string>
+    <string name="fanpage">블로그</string>
+    <string name="invite">초대 </string>
+    <string name="faq">FAQ\'s</string>
+    <string name="settings">설정</string>
+    <string name="reset">초기화</string>
+
+
+    <string name="update_profile">프로필 업데이트
+</string>
+
+
+    <string-array
+        name="home">
+        <item>내 보상</item>
+        <item>내 프로필</item>
+        <item>내 설문 조사</item>
+        <item>연락처</item>
+        <item>블로그 </item>
+        <item>초대</item>
+        <item>@string/badges</item>
+        <item>FAQ</item>
+        <item>설정</item>
+    </string-array>
+    <string name="unsubscribe_lowercase">가입 취소</string>
+    <string name="user_msg">회원님의 계정이 비활성 계정으로 표시되었습니다. 도움이 필요하시면 저희 지원팀(mobile@thepanelstationsurveys3.com)에 문의하시기 바랍니다.</string>
+
+    <string name="error_valid_referral_code">올바른 추천 코드를 입력하십시오.
+
+</string>
+    <string name="apply_referral_code">신청
+</string>
+
+    <string name="subject">제목
+</string>
+    <string name="profile_settings">프로필 설정
+
+</string>
+    <string name="txt_redeem_points">쿠폰으로 사용할 포인트를 선택하십시오.
+
+</string>
+    <string name="particitpate_and_luck">참여하고 운이 좋다..
+
+</string>
+    <string name="tv_redemption_history">구속사
+
+</string>
+    <string name="tv_rewards_history">리워드 기록</string>
+    <string name="available_count">사용 가능한 설문 조사 - </string>
+    <string name="enter_paytm_id">Paytm ID를 입력하십시오.</string>
+    <string name="add_photo">사진 추가</string>
+    <string name="take_photo">사진을 찍다</string>
+    <string name="choose_from_gallery">갤러리에서 선택하십시오.</string>
+    <string name="remove_photo">사진 제거</string>
+    <string name="profile_update_success">프로필 사진이 성공적으로 업데이트되었습니다.</string>
+    <string name="delete_profile_picture">프로필 사진이 성공적으로 제거되었습니다.</string>
+    <string name="enter_confirm_password">암호 확인을 입력하십시오.</string>
+    <string name="current_password">현재 비밀번호를 입력하십시오.</string>
+    <string name="new_password">새로운 비밀번호를 입력하세요</string>
+    <string name="retry">다시 해 보다</string>
+    <string name="please_select_reason">이유를 선택해 주세요</string>
+    <string name="others_cannot_be_blank">기타 이유 항목은 비워둘 수 없음</string>
+    <string name="badges">배지</string>
+    <string name="badge_increase">매월 %2$s 회 이상 설문 조사를 완료하면 %1$s 점으로 인정됩니다.</string>
+    <string name="at">시간:</string>
+    <string name="old_password">* 이전 비밀번호:</string>
+    <string name="confirm_password">* 비밀번호 확인:</string>
+    <string name="newpassword">* 새 비밀번호:</string>
+    <string name="password_comapre_mismatch">새 암호 및 암호 불일치 확인</string>
+    <string name="new_password_length">새 암호 길이는 6 자에서 16 자 사이 여야합니다.</string>
+    <string name="need_more_points">%1$d 상품권을 받기에는 %2$s 포인트가 더 필요합니다. 하지만, 다른 상환 옵션도 선택 가능합니다.</string>
+    <string name="password_expiry_message">회원님의 비밀번호가 만료되었습니다. 비밀번호를 변경하고 대시보드에 로그인하세요</string>
+    <string name="please_change_your_password">비밀번호를 변경하세요</string>
+    <string name="new_old_password_match_error">새 비밀번호는 이전 비밀번호와 달라야 합니다</string>
+    <string name="rationale_location">다음 대화 상자에서 화살표 버튼을 클릭해 주세요</string>
+    <string name="register_here">여기서 등록하기</string>
+    <string name="communication_preferences">선호하는 의사소통 수단</string>
+    <string name="poll_result">결과</string>
+    <string name="quick_poll">온라인 투표</string>
+    <string name="result">결과</string>
+    <string name="notification">알림</string>
+    <string name="no_notifications">알림 없음</string>
+    <string name="activity">활동 로그</string>
+    <string name="last_log_in">마지막 로그인</string>
+    <string name="last_log_out">마지막 로그 아웃</string>
+    <string name="resubscribe">재가입</string>
+    <string name="resubscribe_msg">저희 커뮤니티에 가입을 취소하셨습니다. 다시 가입을 원하시면 언제든지 \"재가입\"을 클릭해 주세요.</string>
+    <string name="successfully_resubscribed">재가입이 완료되었습니다.</string>
+    <string name="subscribe_success_msg">다시 활동하시게 된 것을 축하드립니다! 더 나은 미래를 위해 여러분의 소중한 의견이 필요합니다.</string>
+    <string name="logout">로그아웃</string>
+    <string name="no_quick_poll">Quickpoll(실시간 설문조사) 없음</string>
+    <string name="comm_pref_email">이메일</string>
+    <string name="comm_pref_mobile_sms">모바일 SMS</string>
+    <string name="comm_pref_mobile_push_notification">모바일 푸쉬 알람</string>
+    <string name="comm_pref_desktop_notification">데스크탑 알람</string>
+    <string name="comm_pref_save_success">
+통신 선호도 설정이 성공적으로 저장되었습니다.</string>
+    <string name="error_msg_for_invalid_redeem_points">사용할 포인트를 입력하세요</string>
+    <string name="redeem_instantly">즉시 상환하기</string>
+    <string name="legend">레전드</string>
+    <string name="grand_master">그랜드 마스터</string>
+    <string name="master">마스터</string>
+    <string name="sensei">센세이</string>
+    <string name="newbei">뉴비</string>
+    <string name="unsubscribe_delete_confirmation">귀하의 더패널스테이션 커뮤니티 가입이 취소되며 개인 데이터도 모두 삭제됩니다. 계속하려면 확인을 클릭하세요.</string>
+    <string name="unsubscribe_delete_successful">귀하의 커뮤니티 가입이 취소되었습니다. 영업일 기준 2~3일 안에 더패널스테이션 시스템에서 개인 데이터가 삭제됩니다.</string>
+    <string name="unsubscribe_delete">가입 취소 및 삭제</string>
+    <string name="your_VoucherCode" translatable="false">바우처 코드:</string>
+    <string name="redemptionRevoke">상환한 후에는 다시 롤백하거나 취소할 수 없습니다.</string>
+</resources>

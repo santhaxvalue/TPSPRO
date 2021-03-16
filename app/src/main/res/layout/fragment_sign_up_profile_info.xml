@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/nevigationbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_titlebar_header">
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/logo_for_nevigation_bar" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/nevigationbar"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/ic_parentview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:id="@+id/linear_logininfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ic_social_profile_image"
+                    android:layout_width="@dimen/socialprofileHW"
+                    android:layout_height="@dimen/socialprofileHW"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@null"
+                    android:src="@drawable/ic_profile" />
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/ic_social_profile_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/personal_info"
+                    android:typeface="sans" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_contactinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear_logininfo"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edt_personal_info_firstname"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editText_height"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_weight="1"
+                    android:hint="@string/hint_firstname"
+                    android:inputType="text"
+                    android:maxLength="55"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="10dip"
+                    android:singleLine="true"
+                    android:textColorHint="@color/aqua"
+                    android:typeface="sans" />
+
+                <EditText
+                    android:id="@+id/edt_personal_info_lastname"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editText_height"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="15dip"
+                    android:layout_weight="1"
+                    android:hint="@string/hint_lastname"
+                    android:inputType="text"
+                    android:maxLength="55"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="10dip"
+                    android:singleLine="true"
+                    android:textColorHint="@color/aqua"
+                    android:typeface="sans" />
+
+                <LinearLayout
+                    android:id="@+id/linear_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dip"
+                    android:paddingTop="15dp"
+                    android:textAlignment="center"
+                    android:weightSum="3">
+
+                    <com.panelManagement.widgets.TextViewPlus
+                        android:id="@+id/lbl_gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="2dp"
+                        android:layout_weight="1"
+                        android:text="@string/hint_gender"
+                        android:textSize="18sp"
+                        android:typeface="sans" />
+
+                    <CheckBox
+                        android:id="@+id/signupProfile_checkbox_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@+id/lbl_gender"
+                        android:button="@drawable/custom_checkbox"
+                        android:checked="false" />
+
+                    <ImageView
+                        android:id="@+id/img_male"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/signupProfile_checkbox_male"
+                        android:layout_weight="1"
+                        android:paddingRight="20dp"
+                        android:src="@drawable/ic_male" />
+
+                    <CheckBox
+                        android:id="@+id/signupProfile_checkbox_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_toRightOf="@+id/img_male"
+                        android:button="@drawable/custom_checkbox"
+                        android:checked="false" />
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/signupProfile_checkbox_female"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:paddingRight="20dp"
+                        android:src="@drawable/ic_female" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_dateofbirth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp">
+
+                    <com.panelManagement.widgets.TextViewPlus
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:text="@string/hint_dob"
+                        android:textSize="18sp"
+                        android:typeface="sans" />
+
+                    <EditText
+                        android:id="@+id/signupProfile_btn_month"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/editText_height"
+                        android:layout_weight="3"
+                        android:clickable="false"
+                        android:drawableRight="@drawable/ic_action_dropdown"
+                        android:editable="false"
+                        android:ems="10"
+                        android:gravity="left|center_vertical"
+                        android:hint="@string/hint_dob_select"
+                        android:minWidth="100dp"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:typeface="sans" />
+                </LinearLayout>
+
+                <com.panelManagement.widgets.ButtonPlus
+                    android:id="@+id/btn_profileinfo_next"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/aqua_dark"
+                    android:gravity="center"
+                    android:text="@string/next"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.panelManagement.widgets.TextViewPlus
+        android:id="@+id/lbl_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:gravity="center"
+        android:text="@string/panel_copyrights"
+        android:textColor="#4C4C4C" />
+
+</RelativeLayout>

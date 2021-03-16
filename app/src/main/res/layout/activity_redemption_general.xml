@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/general_redeeem_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+<!--    android:background="@color/off_white"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp32"
+            android:layout_marginRight="@dimen/dp32"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center">
+<!--            android:background="@color/off_white"-->
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/general_cardview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="18dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="@dimen/dp2"
+                app:cardElevation="@dimen/dp3"
+                app:cardPreventCornerOverlap="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/white"
+                    android:padding="@dimen/dp5">
+
+                    <ImageView
+                        android:id="@+id/general_image"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/dp12"
+                        android:layout_marginLeft="@dimen/dp12"
+                        android:contentDescription="@string/app_name"
+
+                        android:src="@drawable/pointsavailable" />
+
+                    <com.panelManagement.widgets.TextViewPlusBold
+                        android:id="@+id/general_head"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_14sdp"
+                        android:layout_toEndOf="@id/general_image"
+                        android:layout_toRightOf="@id/general_image"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp5"
+                        android:text="@string/general_rewards"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/_15sdp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/general_subcardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/general_cardview"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginRight="@dimen/dp16"
+                android:layout_marginBottom="@dimen/dp16"
+                app:cardCornerRadius="@dimen/dp2"
+                app:cardElevation="@dimen/dp2"
+                app:cardPreventCornerOverlap="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
+                    <me.crosswall.lib.coverflow.core.PagerContainer
+                        android:id="@+id/pager_container"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_height="wrap_content">
+
+
+                        <android.support.v4.view.ViewPager
+                            android:id="@+id/carasol"
+                            android:layout_width="@dimen/_137sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/dp8"
+                            android:layout_marginBottom="@dimen/_5sdp" />
+
+
+                    </me.crosswall.lib.coverflow.core.PagerContainer>
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/tl_dots"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_10sdp"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_below="@id/pager_container"
+                        app:tabBackground="@drawable/tab_selector"
+                        app:tabGravity="center"
+                        app:tabIndicatorHeight="0dp" />
+
+
+                    <com.panelManagement.widgets.TextViewPlusBold
+                        android:id="@+id/points_head"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tl_dots"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/dp8"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp2"
+                        android:text="@string/txt_redeem_points"
+                        android:textSize="@dimen/_10sdp"
+                        android:textStyle="bold" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/ll_points_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp28"
+                        android:layout_below="@+id/points_head"
+                        android:layout_centerHorizontal="true"
+                        android:visibility="gone"/>
+
+                    <EditText
+                        android:id="@+id/redeem_points"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_points_layout"
+                        android:background="@drawable/rounded_topcorners"
+                        android:layout_marginRight="@dimen/dp50"
+                        android:layout_marginLeft="@dimen/dp50"
+                        android:inputType="number"
+                        android:visibility="gone"
+                        android:padding="@dimen/dp5"
+                        android:maxLength="8"
+                        android:gravity="center_horizontal"/>
+
+<!--                    <LinearLayout-->
+<!--                        android:id="@+id/ll_points_layout"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="@dimen/dp28"-->
+<!--                        android:layout_below="@+id/points_head"-->
+<!--                        android:layout_margin="@dimen/dp8"-->
+<!--                        android:background="@color/off_white"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="horizontal"-->
+<!--                        android:weightSum="3">-->
+
+<!--                        <Button-->
+<!--                            android:id="@+id/btn_3000"-->
+<!--                            android:layout_width="@dimen/dp0"-->
+<!--                            android:layout_height="@dimen/_18sdp"-->
+<!--                            android:layout_margin="@dimen/dp3"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:background="@color/purple"-->
+<!--                            android:text="3000"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+
+<!--                        <Button-->
+<!--                            android:id="@+id/btn_5000"-->
+<!--                            android:layout_width="@dimen/dp0"-->
+<!--                            android:layout_height="@dimen/_18sdp"-->
+<!--                            android:layout_margin="@dimen/dp3"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:background="@color/normal_gray"-->
+<!--                            android:text="5000"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+
+<!--                        <Button-->
+<!--                            android:id="@+id/btn_8000"-->
+<!--                            android:layout_width="@dimen/dp0"-->
+<!--                            android:layout_height="@dimen/_18sdp"-->
+<!--                            android:layout_margin="@dimen/dp3"-->
+<!--                            android:layout_weight="1"-->
+<!--                            android:background="@color/normal_gray"-->
+<!--                            android:text="8000"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:textSize="@dimen/_10sdp" />-->
+<!--                    </LinearLayout>-->
+
+                    <TextView
+                        android:id="@+id/btn_submit"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_below="@id/redeem_points"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/dp10"
+                        android:background="@color/btn_bg"
+                        android:gravity="center"
+                        android:text="@string/txt_submit"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <com.panelManagement.widgets.TextViewPlus
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btn_submit"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="@dimen/dp24"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/dp16"
+                        android:paddingTop="10dp"
+                        android:paddingRight="@dimen/dp16"
+                        android:text="@string/txt_buy_btn_agreeing"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/_8sdp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/redeeem_layout"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_250sdp"
+            android:layout_marginLeft="@dimen/dp32"
+android:layout_gravity="center"
+            android:layout_marginRight="@dimen/dp32"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/offer_image_cardview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_65sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/dp16"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="@dimen/dp2"
+                app:cardElevation="@dimen/dp4"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:id="@+id/offer_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/sweepkes_cardview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_below="@+id/offer_image_cardview"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="@dimen/dp2"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:cardElevation="@dimen/dp5"
+                app:cardPreventCornerOverlap="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:id="@+id/sweeps_image"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/app_name"
+                        android:padding="@dimen/dp5"
+                        android:src="@drawable/sweepstakes" />
+
+                    <TextView
+                        android:id="@+id/sweeps_head"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@id/sweeps_image"
+                        android:layout_toRightOf="@id/sweeps_image"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/dp5"
+                        android:text="@string/sweepstakes"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/_14sdp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/sweeps_head"
+                        android:layout_toEndOf="@+id/sweeps_image"
+                        android:layout_toRightOf="@+id/sweeps_image"
+                        android:gravity="center_horizontal"
+                        android:paddingBottom="@dimen/dp5"
+                        android:text="@string/particitpate_and_luck"
+                        android:textSize="@dimen/_12sdp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/sweepstakes_subcardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sweepkes_cardview"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginRight="@dimen/dp16"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="@dimen/dp2"
+                app:cardElevation="@dimen/dp2"
+                app:cardPreventCornerOverlap="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent">
+
+                    <TextView
+                        android:id="@+id/sweepstakes_buy"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="@dimen/dp12"
+                        android:layout_marginTop="@dimen/dp12"
+                        android:background="@color/btn_bg"
+                        android:gravity="center"
+                        android:text="@string/txt_BUY"
+                        android:textAlignment="center"
+
+                        android:textSize="@dimen/_14sdp" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/general_cardview"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_below="@+id/sweepstakes_subcardview"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="@dimen/dp2"
+                app:cardElevation="@dimen/dp5"
+                app:cardPreventCornerOverlap="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:id="@+id/general_image"
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:padding="@dimen/dp5"
+                        android:src="@drawable/pointsavailable" />
+
+                    <com.panelManagement.widgets.TextViewPlusBold
+                        android:id="@+id/general_head"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/general_image"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_toRightOf="@id/general_image"
+                        android:gravity="center"
+                        android:padding="@dimen/dp5"
+                        android:text="@string/general_rewards"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/_14sdp" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/general_subcardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/general_cardview"
+                android:layout_marginBottom="@dimen/dp24"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginRight="@dimen/dp16"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="@dimen/dp2"
+                app:cardElevation="@dimen/dp2"
+                app:cardPreventCornerOverlap="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent">
+
+                    <TextView
+                        android:id="@+id/general_buy"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="@dimen/_22sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="@dimen/dp12"
+                        android:layout_marginTop="@dimen/dp12"
+                        android:background="@color/btn_bg"
+                        android:gravity="center"
+                        android:text="@string/txt_Redeem"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/sp14" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt_redemption_request">贖回要求</string>
+    //added by niyaj //traditional
+    <string name="txt_points_processed_successfully">積分處理成功。</string>
+    //added by niyaj
+    <string name="txt_profile_successfully_updated">"你的個人資料已成功更新"</string>
+    <string name="txt_mandatory">"強制性的"</string>
+    <string name="userlogin">"用戶登錄"</string>
+    <string name="isvalidbamarket">"Panel Station不符合條件。"</string>
+    <string name="hint_dob_select">"選擇出生日期"</string>
+    <string name="text_OR">"要么"</string>
+    <string name="signin_facebook">"用Facebook登錄"</string>
+    <string name="signin_signinpage_google">"使用Google+登錄"</string>
+    <string name="error_terms_conditions">"“請接受我們的條款和條件”"</string>
+    <string name="profiler">"Profiler頁面"</string>
+    <string name="personal_info">"個人信息"</string>
+    <string name="text_welcome">"歡迎"</string>
+    <string name="profilecompleted">"您的個人資料已100％完成"</string>
+    <string name="txt_complete_profile_point_1">"透過完成您的檔案，您可以贏取 * %d 積分"</string>
+    <string name="txt_start">"開始"</string>
+    <string name="text_edit">"編輯"</string>
+    <string name="thanks_smiley_msg">"感謝您更新您的檔案資料；您不久便會收到更多您感興趣的有償調查。 "</string>
+    <string name="empty_message_update_profile">"更新您的個人檔案資料以接收您感興趣的調查。"</string>
+    <string name="empty_message_receive_survey">"您很快就會收到一個有趣的調查"</string>
+    <string name="txt_Reward">"獎勵"</string>
+    <string name="txt_Redeem">"贖回"</string>
+    <string name="txt_msg_pinsent">"密碼發送成功！"</string>
+    <string name="txt_RedeemHist">"救贖歷史 "</string>
+    <string name="txt_RewardHist">"積分歷史 "</string>
+    <string name="txt_mobile_verification">"移動驗證"</string>
+    <string name="txt_mobile_number_verify">"您需要驗證您的手機號碼才能收到兌換禮品"</string>
+    <string name="txt_mobilenumber">"手機號碼"</string>
+    <string name="txt_donot_enter_code">"注意：請不要輸入國家/地區代碼"</string>
+    <string name="txt_pin">"銷"</string>
+    <string name="btn_verify">"校驗"</string>
+    <string name="txt_submit">"提交"</string>
+    <string name="general_rewards">"一般獎勵"</string>
+    <string name="txt_option">"選項"</string>
+    <string name="txt_description">"描述"</string>
+    <string name="txt_select">"選擇"</string>
+    <string name="txt_enter_points_redeem">"輸入您要兌換的積分"</string>
+    <string name="sweepstakes">"抽獎活動"</string>
+    <string name="txt_each_ticket_part1">"每張票價為%d點"</string>
+    <string name="txt_tickets">"票"</string>
+    <string name="txt_balance_points">"平衡點"</string>
+    <string name="txt_select_quantity">"選擇數量"</string>
+    <string name="txt_points_number">"點"</string>
+    <string name="txt_BUY">"購買"</string>
+    <string name="txt_buy_btn_agreeing">"點擊購買按鈕即表示您同意Panel Station的所有條款和條件。"</string>
+    <string name="alert_dialog_txt_part3">"對不起，您還需要%d點才能兌換。"</string>
+    <string name="alert_dialog_txt_part1">"一般兌換需要%d點以上。但是，您可以隨時參加我們的每月抽獎活動，贏取精彩獎品。"</string>
+    <string name="txt_thanks">"謝謝！"</string>
+    <string name="txt_puchased_ticket_part1">"您已購買%s票。"</string>
+    <string name="txt_receive_email_shortly">"您將很快收到一封電子郵件，其中包含有關抽獎的所有信息"</string>
+    <string name="setting">"設定"</string>
+    <string name="ChangeLang">"更改語言"</string>
+    <string name="lbl_privacy_policy">"隱私權聲明"</string>
+    <string name="Terms">"條款與條件"</string>
+    <string name="txt_contactus">"聯繫我們"</string>
+    <string name="txt_language">"語言"</string>
+    <string name="txt_raise_request">"提出請求"</string>
+    <string name="txt_msg_subject">"主題"</string>
+    <string name="btn_send">"취소"</string>
+    <string name="btn_cancel">"取消"</string>
+    <string name="thanks_dialog_txt">"感謝您給我們寫信！我們會盡快給您回复。"</string>
+    <string name="fanpage">"博客"</string>
+
+    <string name="txt_pointin_review">"審查中的積分"</string>
+    <string name="txt_points_in_review">"審查中的積分"</string>
+
+    <string name="api_msg_90days">"您只能在90天內進行一次調查。"</string>
+    <string name="api_nosurveyavailable">"目前沒有針對您的調查。請稍後再試！"</string>
+    <string name="api_tps_account_linked">"TPS帳戶與社交媒體相關聯"</string>
+    <string name="api_profiler_unavailable">"Profiler目前不可用"</string>
+    <string name="api_recently_updated">"您似乎最近更新了個人資料，只有在您上次更新後的90天后才能使用。"</string>
+    <string name="api_email_registered">"您的EmailId已經註冊"</string>
+    <string name="api_device_registered">"您的設備已註冊我們的服務"</string>
+    <string name="api_email_device_registered">"您的EmailId和設備已經註冊了我們的服務"</string>
+    <string name="api_facebook_credentials">"Facebook憑據已經關聯。"</string>
+    <string name="api_associated_tps_account">"您在TPS中有任何與Facebook相關聯的帳戶嗎？"</string>
+    <string name="api_enter_valid_pin">"請輸入有效的PIN碼"</string>
+    <string name="api_network_connection_unavailbale">"網絡連接不可用"</string>
+    <string name="api_subject_here">"在這裡輸入主題"</string>
+    <string name="api_fill_all_answers">"請填寫此頁面上的所有答案"</string>
+
+    <string name="api_verification_pin_message">"您的驗證碼是XXX。請填寫此碼驗證您的帳戶。"</string>
+    <string name="txt_surveyrewardMSG">"參加調查。"</string>
+    <string name="txt_surveyanytime">"隨時隨地。"</string>
+    <string name="txt_opinion">"您的意見塑造了全球公司提供的產品和服務"</string>
+    <string name="txt_save">"保存"</string>
+    <string name="msg_select_any_coupoun">"請選擇任何選項"</string>
+    <string name="txt_tickets_buyMax">"你可以購買最大的%d機票"</string>
+    <string name="signupcomplete_logincred">"您的登錄憑據已發送到您註冊的電子郵件ID。"</string>
+    <string name="msg_message">"請輸入留言"</string>
+    <string name="msg_subject">"請輸入主題"</string>
+
+    <string name="action_settings">設定</string>
+    <string name="dialog_login">請耐心等待…</string>
+    <string name="txt_email">電子郵件ID</string>
+    <string name="txt_password">密码</string>
+    <string name="txt_cancel">取消</string>
+    <string name="login_title">Panel Station</string>
+    <string name="select_optional">請選擇一個檔（可選）</string>
+    <string name="reset">重設</string>
+
+    <string name="surveyList_title">可用調查</string>
+    <string name="forgotPassword_title">忘記密碼</string>
+    <string name="txt_rememberme">記住賬號</string>
+    <string name="txt_login">登錄</string>
+    <string name="txt_no_survey">没有可用的问卷调查</string>
+    <string name="txt_no_rewards">没有可用的奖励</string>
+    <string name="txt_no_redemption">没有可用的兑换。</string>
+    <string name="txt_info">Click on the available survey to launch them in browser.\n\nPull down the list to refresh surveys.\n\nVisit <a href="www.thepanelstation.com">www.thepanelstation.com</a> for your account details and support.</string>
+    <string name="ptr_pull_to_refresh"></string>
+    <string name="ptr_release_to_refresh"></string>
+    <string name="ptr_refreshing"></string>
+    <string name="ptr_last_updated"></string>
+    <string name="lbl_privacy_policy_url">http://www.informatemi.com/tps/pp.php</string>
+    <string name="lbl_terms_cond_url">http://www.informatemi.com/tps/tandc.php</string>
+    <string name="lbl_terms_cond">條件及條款</string>
+    <string name="lbl_allowdata">我允許我的數據匿名用於研究目的。</string>
+    <string name="change_password">更改密碼</string>
+
+
+    <!-- Signup implementation Strings -->
+    <string name="SignUp">注册</string>
+    <string name="SignIn">登入</string>
+    <string name="select_language">选择语言</string>
+    <string name="signupcomplete_thanks">謝謝。您已成功註冊。</string>
+    <string name="signupcomplete_note">注意：如果您的收件箱中沒有找到垃圾郵件和促銷文件夾，請參閱我們的電子郵件。</string>
+    <string name="lbl_laststage">目前為止就這樣了！我們會在一段時間內與您取得聯繫</string>
+    <string name="emailSignupMesage">或使用電子郵箱註冊</string>
+    <string name="loginInfo">Login Info :</string>
+    <string name="hint_email">电子邮件帐号</string>
+    <string name="hint_confirm_email">确认电子邮件</string>
+    <string name="hint_phoneno">电话号码</string>
+    <string name="contact_info">联系信息</string>
+    <string name="hint_firstname">名 </string>
+    <string name="hint_lastname">姓</string>
+    <string name="hint_country">国家</string>
+    <string name="hint_city">城市</string>
+    <string name="hint_zip">郵政編碼</string>
+    <string name="hint_gender">性别</string>
+    <string name="hint_dob">出生日期</string>
+    <string name="hint_address">地址</string>
+    <string name="SIgnUp_Submit">提交</string>
+    <string name="agreedTermsandCondition"> 同意條款與條件以及隱私聲權聲明。</string>
+    <string name="startearning">开始赚钱</string>
+    <string name="month">月 </string>
+    <string name="day">日  </string>
+    <string name="year">年</string>
+    <string name="next">下一步</string>
+    <string name="contact_info_descriptions">我们致力于确保您的隐私。不过我们需要请您输入下方的个人信息以便确认您参与抽奖或特别推广活动。我们将您提供的个人信息用于处理购买活动和进 </string>
+    <string name="select_country">国家</string>
+    <string name="async_task_error">Please check intenet connection</string>
+    <string name="login_email">"請輸入電子郵件ID"</string>
+    <string name="txt_send">"寄送"</string>
+    <string name="msg_login_connprob">"此時連接可能不足以登錄。請稍後再試。"</string>
+    <string name="msg_invalid_login_creditional">"電子郵件ID或密碼無效。"</string>
+    <string name="msg_enter_pass">"請輸入密碼"</string>
+    <string name="msg_login_session_expire">"由於從其他設備/門戶登錄，您的會話已過期。"</string>
+    <string name="msg_unregister_email">"請輸入註冊的電子郵件ID"</string>
+    <string name="msg_valid_email">"請輸入有效的電子信箱賬戶"</string>
+    <string name="txt_survey">"調查"</string>
+    <string name="txt_reward_point">"獎勵積分"</string>
+    <string name="txt_earned_point">"已贏得積分"</string>
+    <string name="txt_redeemed_point"> "兌換積分"</string>
+    <string name="txt_aval_point">"可用積分"</string>
+    <string name="txt_redemption">"兌換"</string>
+    <string name="msg_refreshing">"刷新調查清單"</string>
+    <string name="msg_open_survey">"你想開個調查嗎？"</string>
+    <string name="msg_logout">"您確定要登出嗎？"</string>
+    <string name="txt_yes">"是"</string>
+    <string name="empty_msg_you_haven_t_redeemed_yet">你還沒有贖回</string>
+
+    <string name="txt_no">"否"</string>
+    <string name="msg_logoff_connec_lost">"此時連結效率過低，無法登出。請稍後再次嘗試。"</string>
+    <string name="msg_timeout">"申請事項難以檢索資料。請稍後再嘗試。"</string>
+    <string name="msg_low_conn">"當前連結無法有效接受連結要求。請稍後再嘗試。"</string>
+    <string name="msg_survy_info">"請點選可參與的調查將其在瀏覽器中打開。下拖隊列刷新調查。\n\n您可以在設置頁面選擇您的語言\n\n請訪問 www.thepanelstation.com 獲取更多您賬戶的信息。"</string>
+    <string name="txt_takeby">"調查開放至"</string>
+    <string name="txt_earn">"贏得"</string>
+    <string name="Points_Ticket">"積分/抽獎券號"</string>
+    <string name="txt_points">"點"</string>
+    <string name="txt_earned">"賺"</string>
+    <string name="txt_voucher_code">"代金券編碼"</string>
+    <string name="txt_redeemed">"已兌換"</string>
+    <string name="txt_status">"狀態"</string>
+    <string name="txt_done">"做"</string>
+    <string name="txt_valid_till">"有效至"</string>
+    <string name="txt_month_jan">"一月"</string>
+    <string name="txt_month_feb">"二月"</string>
+    <string name="txt_month_march">"損傷"</string>
+    <string name="txt_month_apr">"四月"</string>
+    <string name="txt_month_may">"可以"</string>
+    <string name="txt_month_jun">"君"</string>
+    <string name="txt_month_july">"7月"</string>
+    <string name="txt_month_aug">"八月"</string>
+    <string name="txt_month_sept">"9月"</string>
+    <string name="txt_month_oct">"十月"</string>
+    <string name="txt_month_nov">"十一月"</string>
+    <string name="txt_month_dec">"十二月"</string>
+    <string name="txt_iaggree">"我同意"</string>
+    <string name="txt_and_text">" 和 "</string>
+    <string name="txt_allowing_text">"我允許我提供的信息被匿名地用於研究目的"</string>
+    <string name="txt_visit">"請訪問"</string>
+    <string name="signup_facebook">使用Facebook的賬戶登入</string>
+    <string name="signout_facebook">退出與Facebook</string>
+    <string name="signup_google">使用Google+的賬戶登入</string>
+    <string name="signout_google">退出與Google+相關</string>
+    <string name="userexist">用戶已經存在，請登錄</string>
+    <string name="async_task_not_responding">無法處理您的請求，請稍後再試。</string>
+    <string name="refer_2_more">推薦 1 位、2 位、3 位或更多位好友</string>
+    <string name="refer_code_not_avaliable">推薦代碼不可用</string>
+
+
+    <string name="msg_confirm_open">你想開一個調查？</string>
+    <string name="user_msg">您的賬戶被標記為休眠賬戶，請聯繫我們的會員服務專員(郵箱 mobile@thepanelstationsurveys3.com)，獲取更進一步的幫助。</string>
+
+    <string name="Ok"> 確認</string>
+    <string name="unsubscribe_text1">听到你不再对我们的调查感兴趣，我们感到很难过。</string>
+    <string name="unsubscribe_text2">我们会想你的。\n 如果你能与我们分享你的反馈意见 \n 帮助我们改进服务，我们将非常感激。</string>
+    <string name="unsubscribe_text3">请从以下原因中选择：</string>
+    <string name="error">“錯誤:”</string>
+    <string name="error_fn">"名字不能為空白。”</string>
+    <string name="error_ln">“姓氏不能為空白。”</string>
+    <string name="error_gender">“請選擇您的性別“</string>
+    <string name="error_dob">“請輸入您的出生日期。”</string>
+    <string name="error_select_country">“請選擇您所在的國家”</string>
+    <string name="error_phone_empty">“手機號碼不能為空白"</string>
+    <string name="error_city">“請選擇您所在的城市”</string>
+    <string name="error_zipcode">“郵政編碼不能為空白”</string>
+    <string name="hint_mobile_number">手機號碼</string>
+
+
+    <!-- Added more for length validations -->
+    <string name="error_phone_length">"請輸入有效的手機號碼"</string>
+    <string name="error_zipcode_length">"請輸入有效的郵政編碼"</string>
+    <string name="message_city">"請選擇城市"</string>
+    <string name="message_panel_intake_1">"恭喜您，只差一個步驟您就可以開始賺取報酬。"</string>
+    <string name="message_panel_intake_2">"請驗證您的電子信箱地址，確認您的註冊。"</string>
+    <string name="allowdatausage">"The Panel Station需要權限方可訪問您的應用程式的資料。請授以The Panel Station使用訪問的權限。"</string>
+    <string name="registrationfails">"註冊失敗"</string>
+    <string name="hint_search">"搜索"</string>
+    <string name="txt_each_ticket_part2">"積分"</string>
+    <string name="txt_tickets_in_cart_part1">"您的購物車里有X張抽獎券。"</string>
+    <string name="txt_tickets_in_cart_part2">""</string>
+    <string name="surveys">"調查"</string>
+    <string name="rewards">"獎勵"</string>
+    <string name="PrivacyPol">"隱私權聲明"</string>
+    <string name="ContactUs">"联系我们"</string>
+    <string name="press_again_close">"Pressione novamente para fechar!"</string>
+
+    <!-- sudhir changes -->
+    <string name="checkmail">檢查郵件</string>
+    <string name="msg_valid_password">"請輸入有效的密碼"</string>
+    <string name="survey_not_found">"未發現調查。"</string>
+    <string name="alert_dialog_txt_part2">"  更多的積分一般贖回。然而，你可以隨時參與我們月度抽獎贏取豐富獎品。"</string>
+    <string name="alert_dialog_txt_part4">"  更多的積分兌換。"</string>
+    <string name="webpage_being_loaded">"網頁加載"</string>
+    <string name="txt_puchased_ticket_part2">" 門票"</string>
+    <string name="txt_tell_us_more">"告訴我們更多關於這個問題"</string>
+    <string name="btn_next">"下一項"</string>
+    <string name="txt_forgot_password">"忘記密碼"</string>
+    <string name="txt_social_link">鏈接</string>
+    <string name="txt_wait_for_questions">"請等待為您設置問卷。 "</string>
+    <string name="txt_imnew">"我是新"</string>
+    <string name="txt_takenby">"以通過 "</string>
+    <string name="txt_expired">"截止日期"</string>
+    <string name="msg_serverdown">"服務器關閉或正在維修。請稍後再試。"</string>
+    <string name="msg_citynotfound">"無法處理請求，因為很難找到你的國家panalist城市。"</string>
+    <string name="unabletoverifypin">"無法核實你的腳，請輸入正確的針碼"</string>
+    <!-- sudhir changes done -->
+    <string name="pointexpired">"點過期"</string>
+    <string name="open">"開放"</string>
+
+    <!-- New Changes Strings -->
+    <string name="ui_activationcode">"用戶驗證碼"</string>
+    <string name="ui_msg_checkemail">
+<![CDATA[
+                        <p>請檢查您的電子郵件收件箱中的“Panel Station”激活碼"</p>
+                    ]]>
+    </string>
+    <string name="ui_msg_checkemail_spam">"如果您在收信箱里沒有找到含有驗證碼的信件，請在促銷活動或者垃圾郵件文件夾中查找"</string>
+    <string name="hint_activationcode">"在這裡輸入您的驗證碼"</string>
+    <string name="ui_termsandcondition">
+<![CDATA[
+                        <p>我同意條款與條件以及隱私權政策"</p>
+                    ]]>
+    </string>
+    <string name="ui_textSignIn">按這裡前往登入頁面</string>
+    <string name="signupsocial">立即註冊<b>The Panel Station</b>調查站帳戶 </string>
+    <string name="signupsocial_appends">用一種安全和有保障的方式</string>
+    <string name="msgcheckemailforotp"> 激活碼已經寄送至你的%s 電子郵箱，請查看并確認以便激活帳戶。</string>
+    <string name="congratulation_header"> 恭喜 </string>
+    <string name="congratulation_msg">您已成為最大的線上調查社區的一名會員。請按開始賺取報酬前往App的調查板塊。</string>
+
+    <!-- sud changes -->
+    <string name="text_existing_member">"現有會員"</string>
+    <string name="resendactivationcode">"XXX後重新寄送激活碼 "</string>
+    <string name="clickhere">"還未收到激活碼？請按這裡"</string>
+    <string name="min">"分鐘"</string>
+    <string name="sec">"秒鐘"</string>
+
+    <string name="alredy_otp">已經有用於驗證的一次性密碼了？</string>
+    <string name="otp_email">请输入您的注册邮箱地址</string>
+    <string name="resend_otp">重新發送OTP？</string>
+    <string name="when_you_refer_a_friend">當你推荐一位朋友</string>
+    <string name="msg_first_time_500_earn">1. 您獲得 500 點推薦積分（僅在他們完成首個調查後）。</string>
+    <string name="your_friend_earns_500_joining_points">2. 您的好友獲得 500 點加入積分。</string>
+    <string name="_3_you_can_refer_a_maximum_of_5_friends_in_a_month">3. 您每月最多可推薦 5 位好友。</string>
+    <string name="the_more_the_merrier">多多益善！</string>
+    <string name="so_get_your_going_in_now">那麼，現在就開始吧！</string>
+    <string name="match_the_puzzle_to_fetch_a_survey">匹配拼圖以獲取調查 </string>
+    <string name="and_each_time_500_referral_points">每次你這樣做，賺取500個推薦點！</string>
+    <string name="friends_make_life_better">朋友讓生活更美好，應該慶祝！有了這個信念，我們創建了推薦朋友計劃，以獎勵那裡的所有朋友</string>
+    <string name="for_more_details">"更多細節"</string>
+    <string name="click_here">點擊這裡</string>
+    <string name="consent_form">同意书</string>
+    <string name="connect_your_accounts">關聯您的帳戶</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="twitter">TWITTER</string>
+    <string name="google">GOOGLE</string>
+    <string name="consent_form_p_tc_1">“The Panel station 是 Borderless Access Panels 的专利产品，以及其全部文字商标、插图、图片、图形、文件、设计与排版均隶属于 Borderless Access Panels。本网站内容仅限于在遵守条款与条件和 隐私权政策 （见附件）的前提下使用。”</string>
+    <string name="disclaimer">免责声明：</string>
+    <string name="before_we_proceed">在继续之前，请花几分钟时间向我们提供您的信息和同意书，依据新数据隐私法，我们须获得您的同意。</string>
+    <string name="are_you_citizen_of_eu">您是欧盟公民吗？</string>
+    <string name="are_you_in_eu_region">您目前在欧盟吗？</string>
+    <string name="in_accordance_big_1">为遵守欧盟新数据隐私法 (GDPR) 的规定，我们需要您仔细阅读以下表格，并提供同意书，之后您方可继续加入 TPS 社区。</string>
+    <string name="here_at_the_big_2">在 The Panel station，我们会高度重视您的隐私，仅允许使用您的个人信息管理帐户，以及提供您所请求的产品和服务。</string>
+    <string name="you_understand_big_text_3">"若您已知悉并同意其中的内容，请选择“是”选项，我们会通过电子邮件和短信向您发送适当的通知，电子邮件和短信通知将构成我们提供给您的服务的一部分。 "</string>
+    <string name="if_at_any_point">"若注册后您决定撤销同意书，请将您的请求发送至[插入电子邮件地址]，即可随时撤销。自收到您的请求之日起，我们会在三日内回复您的电子邮件。 "</string>
+    <string name="if_at_any_point_custom">"若注册后您决定撤销同意书，请将您的请求发送至 %s ，即可随时撤销。自收到您的请求之日起，我们会在三日内回复您的电子邮件。 "</string>
+    <string name="do_you_wish">您同意加入 The Panel station 社区参与研究调查吗？</string>
+    <string name="yes_i_agree">是，我同意</string>
+    <string name="no_i_dont_agree">否，我不同意</string>
+    <string name="consent_disclaimer_1">"條款與條件和 隱私權政策 "</string>
+    <string name="consent_disclaimer_2">（见附件）的前提下使用。”</string>
+    <string name="in_case_you_delete">如需删除我们所记录的信息，请发送邮件至 Dataprotectionofficer01@borderlessaccess.com</string>
+    <string name="rejoin_panel_email">"如需重新加入我们的小组，可随时重新进行注册。请单击以下链接进行注册 "</string>
+    <string name="title_msg_succeess_unsubscribe">"您已成功取消订阅本社区。  "</string>
+    <string name="msg_eu_region_decline_consent_form">您提到您来自欧洲/是欧洲公民，因此请您接受同意书以继续注册。</string>
+    <string name="lbl_privacy_statement">隐私声明</string>
+    <string name="swipe_up">向上滑註冊</string>
+    <string name="swipe_down">向下滑登入</string>
+    <string name="update_profile">更新檔案資料</string>
+    <string name="my_rewards">我的獎勵</string>
+    <string name="my_profile">我的簡歷</string>
+    <string name="my_surveys">我的調查</string>
+    <string name="contact_us">聯繫我們</string>
+    <string name="invite">邀請</string>
+    <string name="faq">常見問題解答</string>
+    <string name="settings">設置</string>
+    <string-array
+        name="home">
+        <item>@string/my_rewards</item>
+        <item>@string/my_profile</item>
+        <item>@string/my_surveys</item>
+        <item>@string/contact_us</item>
+        <item>@string/fanpage</item>
+        <item>@string/invite</item>
+        <item>@string/badges</item>
+        <item>@string/faq</item>
+        <item>@string/settings</item>
+
+    </string-array>
+    <string name="unsubscribe_lowercase">取消訂閱</string>
+    <string name="unsubscribe">取消訂閱</string>
+
+
+    <string name="error_valid_referral_code">请输入有效的推荐代码
+
+</string>
+    <string name="apply_referral_code">适用</string>
+
+    <string name="subject">主题
+</string>
+    <string name="profile_settings">設定檔設定
+
+</string>
+    <string name="refer_frnd">推薦 1 位好友</string>
+
+    <string name="invite_your_friends">邀請您的好友</string>
+    <string name="txt_redeem_points">選擇您要兌換的積分</string>
+    <string name="particitpate_and_luck">參與並獲得幸運</string>
+    <string name="tv_redemption_history">救贖歷史</string>
+    <string name="tv_rewards_history">獎勵歷史</string>
+    <string name="available_count">可用調查- </string>
+    <string name="enter_paytm_id">請輸入您的Paytm ID</string>
+    <string name="add_photo">添加照片</string>
+    <string name="take_photo">拍照</string>
+    <string name="choose_from_gallery">從圖庫中選擇</string>
+    <string name="remove_photo">刪除照片</string>
+    <string name="profile_update_success">您的個人資料照片已成功更新</string>
+    <string name="delete_profile_picture">您的個人資料照片已成功刪除</string>
+    <string name="enter_confirm_password">輸入確認密碼</string>
+    <string name="current_password">輸入當前密碼</string>
+    <string name="new_password">輸入新密碼</string>
+    <string name="retry">重試</string>
+    <string name="please_select_reason">請選擇原因</string>
+    <string name="others_cannot_be_blank">其他原因/其他原因不能為空</string>
+    <string name="badges">徽章</string>
+    <string name="badge_increase">每月完成 %2$s 項或更多調查問卷即可獲得 %1$s 積分獎勵。</string>
+    <string name="at">時刻</string>
+    <string name="old_password">* 舊密碼:</string>
+    <string name="confirm_password">* 確認密碼:</string>
+    <string name="newpassword">* 新密碼:</string>
+    <string name="password_comapre_mismatch">新密碼和確認密碼不匹配。</string>
+    <string name="new_password_length">新密碼長度應在6到16個字符之間。</string>
+    <string name="need_more_points">您還需要%1$d點積分才可兌換價值%2$s的代金券，但是您也可以選擇兌換成其他選項。</string>
+    <string name="password_expiry_message">您的密碼已過期，請您現在更改密碼以便登入您的控制面板。</string>
+    <string name="please_change_your_password">請更改您的密碼</string>
+    <string name="new_old_password_match_error">新密碼與舊密碼不能相同</string>
+    <string name="rationale_location">請在下一個對話方塊按允許按鈕。</string>
+    <string name="register_here">在這裏注冊</string>
+    <string name="communication_preferences">通訊偏好</string>
+    <string name="poll_result">結果</string>
+    <string name="quick_poll">簡短調查</string>
+    <string name="result">結果</string>
+    <string name="notification">通知</string>
+    <string name="no_notifications">不發送通知</string>
+    <string name="activity">活動紀錄</string>
+    <string name="last_log_in">上次登入</string>
+    <string name="last_log_out">上次登出</string>
+    <string name="resubscribe">重新訂閲</string>
+    <string name="resubscribe_msg">您已成功退出我們的調查社區，但我們殷切盼望您能再次加入，只需按重新訂閲按鈕</string>
+    <string name="successfully_resubscribed">成功重新訂閲</string>
+    <string name="subscribe_success_msg">恭喜您！您又回來了！讓我們一起發聲，建設更美好的明天</string>
+    <string name="logout">登出</string>
+    <string name="no_quick_poll">沒有可參加的簡短調查</string>
+    <string name="comm_pref_email">電子郵件地址</string>
+    <string name="comm_pref_mobile_sms">行動電話短信</string>
+    <string name="comm_pref_mobile_push_notification">行動電話推送通知</string>
+    <string name="comm_pref_desktop_notification">桌面通知</string>
+    <string name="comm_pref_save_success">通訊偏好已保存成功。</string>
+    <string name="error_msg_for_invalid_redeem_points">請輸入欲兌換的有效積分數</string>
+    <string name="redeem_instantly">立即兌換</string>
+    <string name="legend">大神</string>
+    <string name="grand_master">大師</string>
+    <string name="master">師傅</string>
+    <string name="sensei">老師</string>
+    <string name="newbei">新手</string>
+    <string name="unsubscribe_delete_confirmation">您即將從我們社區退訂調查，所有您的歷史資料將被刪除。如果要繼續，請單擊“確定”。</string>
+    <string name="unsubscribe_delete_successful">您已成功從我們社區退訂調查。我們將在2至3個工作日內從系統中刪除您的歷史資料。</string>
+    <string name="unsubscribe_delete">退訂和刪除資料</string>
+    <string name="your_VoucherCode" translatable="false">您的代金券编号是</string>
+    <string name="redemptionRevoke">" 兑换要求做出后不可撤回/取消"</string>
+    <string name="click_yes">Click Yes to confirm your voucher selection. Please note that you will not be allowed to change the selection once made.</string>
+
+</resources>

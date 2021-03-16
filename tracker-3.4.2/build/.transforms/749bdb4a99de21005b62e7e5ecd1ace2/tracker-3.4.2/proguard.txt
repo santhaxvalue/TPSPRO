@@ -1,0 +1,5 @@
+#Kochava: Ignore SDK warnings for missing dependencies.
+-dontwarn com.kochava.**
+
+#Kochava: Do not run ProGuard on the SDK at all.
+-keep class com.kochava.** { *; }

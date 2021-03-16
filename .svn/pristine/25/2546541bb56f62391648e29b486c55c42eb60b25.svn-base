@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; user-scalable=0;"/>
+    <script language="javascript" src="aes.js"></script>
+</head>
+<body>
+<h1>MyHTML</h1>
+<p id="mytext">Hello!</p>
+<script language="javascript">
+		function myFunction_encrypted(string) {
+
+			var key = CryptoJS.enc.Hex
+					.parse('000102030405060708090a0b0c0d0e0f');
+			var iv = CryptoJS.enc.Hex.parse('101112131415161718191a1b1c1d1e1f');
+
+			var encrypted = CryptoJS.AES.encrypt(string, key, {
+				iv : iv
+			});
+			showAndroidToast(encrypted.toString());
+			//return encrypted.toString();
+		}
+
+		function myFunction_decrypted(string) {
+			var key = CryptoJS.enc.Hex
+					.parse('000102030405060708090a0b0c0d0e0f');
+			var iv = CryptoJS.enc.Hex.parse('101112131415161718191a1b1c1d1e1f');
+
+			var decrypted = CryptoJS.AES.decrypt(string, key, {
+				iv : iv
+			});
+			alert(decrypted.toString(CryptoJS.enc.Utf8));
+
+			return decrypted;
+		}
+
+		function showAndroidToast(text) {
+			AndroidFunction.getEncryptedText(text);
+		}
+
+</script>
+</body>
+</html>

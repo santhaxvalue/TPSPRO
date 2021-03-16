@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp12"
+    android:layout_marginRight="@dimen/dp12"
+    android:padding="@dimen/dp8"
+    app:cardCornerRadius="@dimen/dp4"
+    app:cardElevation="@dimen/dp1"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/parentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/off_white"
+        android:padding="@dimen/dp4">
+
+        <LinearLayout
+            android:id="@+id/date_ll_red_hist"
+            android:layout_width="@dimen/margin_70"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@color/gray"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"
+            tools:ignore="RtlSymmetry">
+
+            <TextView
+                android:id="@+id/day_label_red_his"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="@dimen/dp8"
+                android:text="@string/date"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp20" />
+
+            <TextView
+                android:id="@+id/month_label_red_his"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="@dimen/dp8"
+                android:text="@string/month"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/date_ll_red_hist"
+            android:layout_toRightOf="@+id/date_ll_red_hist"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dp10"
+            android:paddingRight="@dimen/dp10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_vendorimg"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginBottom="@dimen/dp6"
+                    android:layout_marginTop="@dimen/dp6"
+                    android:scaleType="centerInside"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/app_name" />
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/tv_vendorName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/iv_vendorimg"
+                    android:layout_toRightOf="@+id/iv_vendorimg"
+                    android:inputType="textCapWords"
+                    android:padding="@dimen/dp2"
+                    android:textSize="@dimen/sp14"
+                    tools:text="joijijoji" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.panelManagement.widgets.TextViewPlusBold
+                    android:id="@+id/tv_VoucherCodeTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp6"
+                    android:padding="@dimen/dp2"
+                    android:text="@string/txt_voucher_code"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp14"
+                    android:textStyle="bold" />
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/tv_voucherCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tv_VoucherCodeTxt"
+                    android:autoLink="web"
+                    android:linksClickable="true"
+                    android:textColor="@color/aqua"
+                    android:padding="@dimen/dp2"
+                    android:textSize="@dimen/sp14"
+                    android:singleLine="true"
+                    tools:text="GHiyytTGHieyuyuSHffd5542" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/linear_sublayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/tv_redeemedTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp6"
+                    android:layout_marginStart="@dimen/dp6"
+                    android:padding="@dimen/dp2"
+                    android:text="@string/txt_redeemed"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp14"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_points"
+                    android:layout_width="@dimen/dp20"
+                    android:layout_height="@dimen/dp20"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp6"
+                    android:layout_marginStart="@dimen/dp6"
+                    android:layout_toEndOf="@+id/tv_redeemedTxt"
+                    android:layout_toRightOf="@+id/tv_redeemedTxt"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_points"
+                    android:visibility="gone" />
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/tv_earnPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp6"
+                    android:layout_marginStart="@dimen/dp6"
+                    android:layout_toEndOf="@id/iv_points"
+                    android:layout_toRightOf="@id/iv_points"
+                    android:padding="@dimen/dp2"
+                    android:text=""
+                    android:textColor="@color/aqua"
+                    android:textSize="@dimen/sp14" />
+
+                <ImageView
+                    android:id="@+id/iv_calendar"
+                    android:layout_width="@dimen/dp20"
+                    android:layout_height="@dimen/dp20"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp6"
+                    android:layout_marginStart="@dimen/dp6"
+                    android:layout_toEndOf="@+id/tv_earnPoint"
+                    android:layout_toRightOf="@+id/tv_earnPoint"
+                    android:contentDescription="@string/app_name"
+                    android:src="@mipmap/sliding_calender"
+                    android:visibility="gone" />
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/tv_calendarDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp6"
+                    android:layout_marginStart="@dimen/dp6"
+                    android:layout_toEndOf="@id/iv_calendar"
+                    android:layout_toRightOf="@id/iv_calendar"
+                    android:text=""
+                    android:textColor="@color/aqua"
+                    android:textSize="@dimen/sp14"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp2"
+                android:visibility="visible">
+
+                <com.panelManagement.widgets.TextViewPlusBold
+                    android:id="@+id/tv_StatusTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp6"
+                    android:layout_marginStart="@dimen/dp6"
+                    android:padding="@dimen/dp2"
+                    android:text="@string/txt_status"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp14"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_done"
+                    android:layout_width="@dimen/dp20"
+                    android:layout_height="@dimen/dp20"
+                    android:visibility="gone"
+                    android:layout_toEndOf="@+id/tv_StatusTxt"
+                    android:layout_toRightOf="@+id/tv_StatusTxt"
+                    android:background="@drawable/ic_circle_green_tick"
+                    android:contentDescription="@string/app_name" />
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/tv_donetxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp6"
+                    android:layout_marginStart="@dimen/dp6"
+                    android:layout_toEndOf="@id/iv_done"
+                    android:layout_toRightOf="@id/iv_done"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp12" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

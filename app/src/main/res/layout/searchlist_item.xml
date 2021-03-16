@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+
+    <com.panelManagement.widgets.TextViewPlus
+        android:id="@+id/ic_searchlist_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:ellipsize="marquee"
+        android:maxLines="2"
+        android:padding="@dimen/dp8"
+        android:text="India"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp18" />
+
+</LinearLayout>

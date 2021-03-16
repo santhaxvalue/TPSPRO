@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_light"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.panelManagement.widgets.ButtonPlus
+        android:id="@+id/btn_startearning"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/editText_height"
+        android:layout_below="@+id/_mesgText"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/drawable_rounded_aqua"
+        android:gravity="center"
+        android:text="@string/startearning"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/_mesgText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/rounded_aqua_border"
+        android:minHeight="160dp"
+        android:orientation="vertical">
+
+        <com.panelManagement.widgets.TextViewPlusBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/congratulation_header"
+            android:textColor="@color/aqua"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <com.panelManagement.widgets.TextViewPlus
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/congratulation_msg"
+            android:textColor="@color/aqua"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

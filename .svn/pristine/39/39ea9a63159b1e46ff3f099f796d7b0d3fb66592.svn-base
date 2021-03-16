@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('imiodm-sdk3.4_tps.aar'))

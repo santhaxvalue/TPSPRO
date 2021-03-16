@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".HomeActivity">
+
+    <FrameLayout
+        android:id="@+id/mainAppbackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/redeem_light_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar_main"
+            layout="@layout/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home_header_height" />
+
+        <FrameLayout
+            android:id="@+id/main_container_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/_15sdp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/second_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/toolbar_main"
+        app:layout_anchorGravity="bottom|center"
+        app:layout_scrollFlags="enterAlwaysCollapsed">
+
+        <include layout="@layout/header_in_second_container" />
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp36"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_back_left_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp36"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="@dimen/dp8"
+            android:src="@drawable/left_arrow" />
+
+        <ImageView
+            android:id="@+id/iv_home"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp36"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="@dimen/dp8"
+            android:src="@drawable/home" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/dp14"
+        android:background="@color/transparent"
+        android:src="@drawable/ic_action_square"
+        android:visibility="visible"
+        app:elevation="2dp"
+        app:fabSize="mini" />
+
+    <FrameLayout
+        android:id="@+id/lyt_change_password"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash"
+        android:visibility="gone">
+
+        <include
+            layout="@layout/dialog_change_password_alert"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

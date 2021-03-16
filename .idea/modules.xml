@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TPSNew.iml" filepath="$PROJECT_DIR$/.idea/modules/TPSNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TPSNew.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TPSNew.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/coverflowand/TPSNew.coverflowand.iml" filepath="$PROJECT_DIR$/.idea/modules/coverflowand/TPSNew.coverflowand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/imi-odmm-1.53/TPSNew.imi-odmm-1.53.iml" filepath="$PROJECT_DIR$/.idea/modules/imi-odmm-1.53/TPSNew.imi-odmm-1.53.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/imiodm-sdk3.4_tps/TPSNew.imiodm-sdk3.4_tps.iml" filepath="$PROJECT_DIR$/.idea/modules/imiodm-sdk3.4_tps/TPSNew.imiodm-sdk3.4_tps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/imiodm-tps_1.63/TPSNew.imiodm-tps_1.63.iml" filepath="$PROJECT_DIR$/.idea/modules/imiodm-tps_1.63/TPSNew.imiodm-tps_1.63.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/release-sdk2.6_tps/TPSNew.release-sdk2.6_tps.iml" filepath="$PROJECT_DIR$/.idea/modules/release-sdk2.6_tps/TPSNew.release-sdk2.6_tps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tracker-3.4.2/TPSNew.tracker-3.4.2.iml" filepath="$PROJECT_DIR$/.idea/modules/tracker-3.4.2/TPSNew.tracker-3.4.2.iml" />
+    </modules>
+  </component>
+</project>

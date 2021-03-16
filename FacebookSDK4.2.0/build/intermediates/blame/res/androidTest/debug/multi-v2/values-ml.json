@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\jayesh_new\\new\\tpsnew\\FacebookSDK4.2.0\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ml\\values-ml.xml",
+            "map": [
+                {
+                    "source": "D:\\jayesh_new\\new\\tpsnew\\FacebookSDK4.2.0\\build\\intermediates\\bundles\\debug\\res\\values-ml\\values-ml.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,181,300,395,469,546,613,689,768,872,956,1040,1135,1245,1314,1382,1544",
+                        "endColumns": "125,118,94,73,76,66,75,78,103,83,83,94,109,68,67,161,64",
+                        "endOffsets": "176,295,390,464,541,608,684,763,867,951,1035,1130,1240,1309,1377,1539,1604"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1922,2048,2167,2262,2336,2413,2480,2556,2635,2739,2823,2907,3002,3112,3181,3249,3411",
+                        "endColumns": "125,118,94,73,76,66,75,78,103,83,83,94,109,68,67,161,64",
+                        "endOffsets": "2043,2162,2257,2331,2408,2475,2551,2630,2734,2818,2902,2997,3107,3176,3244,3406,3471"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Centura User1\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\15c3e25813ed70d86558face6d75920e\\res\\values-ml\\values-ml.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3558",
+                        "endColumns": "100",
+                        "endOffsets": "3654"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Centura User1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\d5973f96ec39065092f2f128a85c854e\\res\\values-ml\\values-ml.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,224,342,457,550,655,787,864,940,1022,1133,1239,1337,1451,1551,1662,1821,1922",
+                        "endColumns": "118,117,114,92,104,131,76,75,81,110,105,97,113,99,110,158,100,81",
+                        "endOffsets": "219,337,452,545,650,782,859,935,1017,1128,1234,1332,1446,1546,1657,1816,1917,1999"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,224,342,457,550,655,787,864,940,1022,1133,1239,1337,1451,1551,1662,1821,3476",
+                        "endColumns": "118,117,114,92,104,131,76,75,81,110,105,97,113,99,110,158,100,81",
+                        "endOffsets": "219,337,452,545,650,782,859,935,1017,1128,1234,1332,1446,1546,1657,1816,1917,3553"
+                    }
+                }
+            ]
+        }
+    ]
+}

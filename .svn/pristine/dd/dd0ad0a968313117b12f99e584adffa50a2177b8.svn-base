@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/dp32"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/dp12"
+    app:cardElevation="@dimen/dp2"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/close_dialog_refer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/dp8"
+            android:src="@drawable/ic_cross" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/close_dialog_refer"
+            android:layout_marginLeft="@dimen/dp8"
+            android:layout_marginRight="@dimen/dp8"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/tv_thanks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:padding="@dimen/dp8"
+                    android:text="@string/when_you_refer_a_friend"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp22" />
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/tv_first_point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_thanks"
+                    android:padding="@dimen/dp8"
+                    android:text="@string/msg_first_time_500_earn"
+                    android:textSize="@dimen/sp14" />
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/tv_second_point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_first_point"
+                    android:padding="@dimen/dp8"
+                    android:text="@string/your_friend_earns_500_joining_points"
+                    android:textSize="@dimen/sp14" />
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/tv_third_point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_second_point"
+                    android:padding="@dimen/dp8"
+                    android:text="@string/_3_you_can_refer_a_maximum_of_5_friends_in_a_month"
+                    android:textSize="@dimen/sp14" />
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/tv_footer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_third_point"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/dp8"
+                    android:padding="@dimen/dp2"
+                    android:text="@string/the_more_the_merrier"
+                    android:textSize="@dimen/sp18" />
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/tv_footer_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_footer"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/dp32"
+                    android:padding="@dimen/dp2"
+                    android:text="@string/so_get_your_going_in_now"
+                    android:textSize="@dimen/sp18" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

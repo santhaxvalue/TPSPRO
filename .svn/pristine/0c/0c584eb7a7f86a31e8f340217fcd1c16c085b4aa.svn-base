@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Malasyia
+    <string name="txt_redemption_request">Permintaan penebusan</string>
+    //added by niyaj
+    <string name="txt_points_processed_successfully">mata telah berjaya diproses.</string>
+    //added by niyaj
+    <string name="txt_profile_successfully_updated">"profil anda telah berjaya dikemas kini"</string>
+    <string name="action_settings">Tetapan</string>
+    <string name="dialog_login">Sila tunggu…</string>
+    <string name="txt_email">ID emel</string>
+    <string name="txt_password">kata laluan</string>
+    <string name="txt_submit">SERAH</string>
+    <string name="txt_cancel">Batal</string>
+    <string name="login_title">Panel Station</string>
+    <string name="surveyList_title">Tinjauan Tersedia</string>
+    <string name="forgotPassword_title">Lupa Kata Laluan</string>
+    <string name="txt_rememberme">ingat saya</string>
+    <string name="txt_login">Log masuk</string>
+    <string name="txt_no_survey">Tiada tinjauan tersedia</string>
+    <string name="txt_no_rewards">Tiada ganjaran tersedia</string>
+    <string name="txt_no_redemption">Tiada penebusan tersedia.</string>
+    <string name="txt_info">Klik pada tinjauan yang tersedia untuk melancarkannya dalam pelayar.\n\n Tarik ke bawah senarai untuk menyegar semula tinjauan.\n\nLawati <a href="www.thepanelstation.com">www.thepanelstation.com</a> for your account details and support.</string>
+    <string name="ptr_pull_to_refresh"></string>
+    <string name="ptr_release_to_refresh"></string>
+    <string name="ptr_refreshing"></string>
+    <string name="ptr_last_updated"></string>
+    <string name="lbl_privacy_policy_url">http://www.informatemi.com/tps/pp.php</string>
+    <string name="lbl_terms_cond_url">http://www.informatemi.com/tps/tandc.php</string>
+    <string name="lbl_privacy_policy">Pernyataan Privasi</string>
+    <string name="lbl_terms_cond">Terma dan syarat</string>
+    <string name="lbl_allowdata">Saya membenarkan data saya digunakan secara anonim untuk tujuan penyelidikan.</string>
+
+    <!-- Signup implementation Strings -->
+    <string name="SignUp">Daftar Masuk</string>
+    <string name="SignIn">Masuk</string>
+
+    <string name="signupcomplete_thanks">Terima kasih. \nAnda telah berjaya didaftarkan.</string>
+    <string name="signupcomplete_logincred">Kelayakan log masuk anda telah dihantar ke id e-mel berdaftar anda.</string>
+    <string name="signupcomplete_note">Nota: Lakukan merujuk folder spam dan promosi untuk e-mel kami jika anda tidak menjumpai peti masuk anda.</string>
+    <string name="lbl_laststage">"Itu sahaja buat masa ini! Kami akan menghubungi anda dalam beberapa ketika"</string>
+    <string name="checkmail">Periksa E-mel</string>
+    <string name="loginInfo">Info Log masuk:</string>
+    <string name="hint_email">E-mel</string>
+    <string name="hint_confirm_email">Sahkan E-mel</string>
+    <string name="hint_phoneno">No Telefon</string>
+    <string name="contact_info">INFO PERHUBUNGAN</string>
+    <string name="hint_firstname">Nama Pertama</string>
+    <string name="hint_lastname">Nama Keluarga</string>
+    <string name="hint_country">Negara</string>
+    <string name="hint_city">bandar</string>
+    <string name="hint_zip">poskod</string>
+    <string name="personal_info">MAKLUMAT PERIBADI</string>
+    <string name="hint_gender">Jantina</string>
+    <string name="hint_dob">Tarikh Lahir</string>
+    <string name="hint_education">Pendidikan</string>
+    <string name="hint_annualHighSAl">Pendapatan IR Tahunan</string>
+    <string name="hint_maritalStatus">Status Perkahwinan</string>
+    <string name="hint_ethnicity">Etnik</string>
+    <string name="hint_employment_status">Status Pekerjaan</string>
+    <string name="hint_industry">Industri</string>
+    <string name="hint_address">Alamat</string>
+    <string name="SIgnUp_Submit">Sign-In</string>
+    <string name="panel_copyrights">"Hak Cipta © 2015 thepanelstation. Hak cipta terpelihara."</string>
+    <string name="agreedTermsandCondition"> setuju dengan terma dan syarat serta kenyataan privasi.</string>
+    <string name="startearning">Mula Memperoleh</string>
+    <string name="month">Select DOB</string>
+    <string name="day">Hari</string>
+    <string name="year">Tahun</string>
+    <string name="next">Seterusnya</string>
+    <string name="contact_info_descriptions">Kami komited untuk memastikan privasi anda. Walau bagaimanapun kami meminta anda untuk memasukkan maklumat peribadi anda di bawah untuk mengesahkan penyertaan anda dalam cabutan bertuah atau promosi istimewa. Kami menggunakan maklumat peribadi yang anda berikan untuk memproses pembelian dan kemasukan untuk cabutan bertuah, untuk menghantar produk dan hadiah kepada anda!</string>
+    <string name="select_country">Pilih Negara</string>
+    <string name="async_task_error">Sila periksa sambungan internet</string>
+    <string name="login_email">"Sila masukkan Id e-mel"</string>
+    <string name="txt_send">"Kirim"</string>
+    <string name="msg_login_connprob">"Sambungan mungkin tidak mencukupi untuk masuk pada masa ini. Sila cuba sebentar lagi."</string>
+    <string name="msg_invalid_login_creditional">"ID e-mel atau kata laluan tidak sah."</string>
+    <string name="msg_enter_pass">"Sila masukkan kata laluan"</string>
+    <string name="msg_login_session_expire">"Sesi anda telah tamat tempoh kerana log masuk dari peranti / portal lain."</string>
+    <string name="msg_unregister_email">"Sila masukkan id e-mel berdaftar"</string>
+    <string name="msg_valid_email">"Sila masukkan id e-mel yang sah"</string>
+    <string name="txt_survey">"Kaji selidik"</string>
+    <string name="txt_reward_point">"Mata Ganjaran"</string>
+    <string name="txt_earned_point">"titik diperolehi"</string>
+    <string name="txt_redeemed_point"> "mata ditebus."</string>
+    <string name="txt_aval_point">"mata disediakan"</string>
+    <string name="txt_redemption">"Penebusan"</string>
+    <string name="msg_refreshing">"Senarai tinjauan yang menyegarkan"</string>
+    <string name="msg_open_survey">"Adakah Anda ingin membuka kaji selidik?"</string>
+    <string name="msg_logout">"Adakah anda pasti anda mahu log keluar?"</string>
+    <string name="txt_yes">"Ya"</string>
+    <string name="txt_no">"Tidak"</string>
+    <string name="empty_msg_you_haven_t_redeemed_yet">anda belum lagi ditebus</string>
+
+    <string name="msg_logoff_connec_lost">"Sambungan mungkin tidak mencukupi untuk log keluar pada kali ini. Sila cuba sekali lagi kemudian."</string>
+    <string name="msg_timeout">"Aplikasi menghadapi kesukaran mendapatkan maklumat. Sila cuba sekali lagi kemudian.."</string>
+    <string name="msg_low_conn">"Sambungan mungkin tidak mencukupi pada kali ini untuk menerima permintaan. Sila cuba sekali lagi kemudian."</string>
+    <string name="msg_survy_info">"Klik pada tinjauan yang tersedia untuk melancarkannya dalam pelayar. Tarik ke bawah senarai untuk menyegar semula tinjauan.\n\nYou can select your preferred language from Settings screen. \n\nLawati www.thepanelstation.com untuk butiran akaun anda."</string>
+    <string name="txt_language">"Bahasa"</string>
+    <string name="txt_takeby">"Ambil Oleh"</string>
+    <string name="txt_earn">"Dapatkan"</string>
+    <string name="Points_Ticket">"Mata/No Tiket"</string>
+    <string name="txt_points">"mata"</string>
+    <string name="txt_earned">"Diperoleh"</string>
+    <string name="txt_voucher_code">"Kod Baucar"</string>
+    <string name="txt_redeemed">"Ditebus semula"</string>
+    <string name="txt_status">"Status"</string>
+    <string name="txt_done">"Selesai"</string>
+    <string name="txt_valid_till">"Sah Sehingga"</string>
+    <string name="txt_month_jan">"Jan"</string>
+    <string name="txt_month_feb">"Feb"</string>
+    <string name="txt_month_march">"Mar"</string>
+    <string name="txt_month_apr">"Apr"</string>
+    <string name="txt_month_may">"Mungkin"</string>
+    <string name="txt_month_jun">"Jun"</string>
+    <string name="txt_month_july">"Jul"</string>
+    <string name="txt_month_aug">"Aug"</string>
+    <string name="txt_month_sept">"Sept"</string>
+    <string name="txt_month_oct">"Okt"</string>
+    <string name="txt_month_nov">"Nov"</string>
+    <string name="txt_month_dec">"Dis"</string>
+    <string name="txt_iaggree">"Saya bersetuju"</string>
+    <string name="txt_and_text">" dan "</string>
+    <string name="txt_allowing_text">Saya membenarkan data saya digunakan secara tanpa nama untuk tujuan penyelidikan.</string>
+    <string name="txt_visit">"lawati"</string>
+    <string name="signup_facebook">Daftar Masuk dengan Facebook</string>
+    <string name="signout_facebook">Daftar Masuk dengan Facebook</string>
+    <string name="signup_google">Daftar Masuk dengan Google+</string>
+    <string name="signout_google"> Daftar Masuk dengan Google+</string>
+    <string name="userexist">Pengguna telah sedia ada wujud , Sila log masuk</string>
+    <string name="async_task_not_responding">Tidak dapat memproses permintaan anda , Sila cuba kemudian.</string>
+    <string name="msg_confirm_open">Adakah Anda mahu membuka tinjauan?</string>
+    <string name="Ok"> Ok </string>
+    <string name="unsubscribe_text1">Kami merasa kecewa anda tidak lagi berminat dengan tinjauan kami.</string>
+    <string name="unsubscribe_text2">Kami akan merasa kehilangan anda dan berterima kasih jika \n anda boleh berkongsi maklum balas, untuk kami \n meningkatkan perkhidmatan kami</string>
+    <string name="unsubscribe_text3">Sila pilih sebab di bawah:</string>
+    <string name="error">"Ralat:"</string>
+    <string name="error_fn">"nama pertama tidak boleh kosong"</string>
+    <string name="error_ln">"nama terakhir tidak boleh kosong"</string>
+    <string name="error_gender">"nama terakhir tidak boleh kosong"</string>
+    <string name="error_dob">"Sila Masukkan Tarikh Lahir anda."</string>
+    <string name="error_select_country">"Sila Pilih negara ana"</string>
+    <string name="error_phone_empty">"Sila pilih jantina anda"</string>
+    <string name="error_city">"Sila Pilih bandar anda"</string>
+    <string name="error_zipcode">"Poskod tidak boleh kosong."</string>
+    <string name="error_terms_conditions">"Sila terima terma dan syarat kami"</string>
+
+    <!-- Added more for length validations -->
+    <string name="error_phone_length">"sila masukkan nombor mudah alih yang sah"</string>
+    <string name="error_zipcode_length">"sila masukkan Poskod yang sah"</string>
+    <string name="message_city">"Pilih Bandar"</string>
+    <string name="hint_dob_select"> Pilih Tarikh Lahir</string>
+    <string name="message_panel_intake_1">Tahniah, anda kini hanya selangkah dari memperoleh ganjaran. </string>
+    <string name="message_panel_intake_2">Sila sahkan pendaftaran anda dengan mengesahkan id e-mel anda.</string>
+    <string name="allowdatausage">"PanelStation memerlukan kebenaran untuk mengakses data aplikasi anda. Sila benarkan akses penggunaan kepada PanelStation."</string>
+    <string name="registrationfails">"Pendaftaran Gagal."</string>
+    <string name="hint_search">"Carian"</string>
+
+    <!-- Added By saurabh -->
+    <string name="profiler">Profiler</string>
+    <string name="surveys">Tinjauan</string>
+    <string name="rewards">Ganjaran</string>
+
+    <string name="userlogin">Log masuk pengguna </string>
+    <string name="msg_valid_password">"Sila masukkan kata laluan yang sah"</string>
+    <string name="survey_not_found">"Tinjauan tidak ditemui."</string>
+    <string name="thanks_dialog_txt">"Terima kasih kerana menulis kepada kami! Kami akan kembali kepada anda tidak lama lagi."</string>
+    <string name="setting">"Tetapan"</string>
+    <string name="webpage_being_loaded">"Halaman Web Memuatkan"</string>
+    <string name="ChangeLang">"Tukar Bahasa"</string>
+    <string name="PrivacyPol">"Pernyataan Privasi"</string>
+    <string name="Terms">"Terma dan Syarat"</string>
+    <string name="ContactUs">"Hubungi Kami"</string>
+    <string name="txt_takenby">"Ambil Oleh "</string>
+    <string name="txt_surveyrewardMSG">"Bila-bila masa, di mana-mana sahaja."</string>
+    <string name="txt_surveyanytime">"Bila-bila, Di mana-mana"</string>
+    <string name="txt_start">"Mulakan"</string>
+    <string name="text_welcome">"Selamat datang:"</string>
+    <string name="txt_opinion">"Anda bentuk produk dan perkhidmatan pendapat yang ditawarkan oleh syarikat global"</string>
+    <string name="empty_message_update_profile">"kemas kini profil anda untuk menerima kaji selidik yang anda minati."</string>
+    <string name="empty_message_receive_survey">"Anda tidak lama lagi akan menerima tinjauan yang menarik"</string>
+    <string name="profilecompleted">"Profil anda 100% selesai."</string>
+    <string name="msg_subject">"Sila masukkan subjek"</string>
+    <string name="msg_message">"Sila masukkan mesej"</string>
+    <string name="msg_select_any_coupoun">"Sila pilih sebarang pilihan"</string>
+    <string name="pointexpired">"Mata Tamat Tempoh"</string>
+    <string name="open">"Buka"</string>
+    <string name="unsupport_fb_details">"Sila masukkan butiran akaun Facebook dengan id-e-mel"</string>
+
+
+    <string name="press_again_close">"Nhấn lần nữa để Đóng!"</string>
+    <string name="text_OR">"atau"</string>
+    <string name="signin_facebook">"Daftar masuk dengan Facebook"</string>
+    <string name="signin_signinpage_google">"Log masuk dengan Google+"</string>
+    <string name="txt_tickets_buyMax">"AAnda boleh membeli tiket %d maksimum"</string>
+    <string name="thanks_smiley_msg">"Terima kasih kerana mengemas kini profil anda; anda tidak lama lagi akan menerima lebih banyak tinjauan yang memberi ganjaran bagi minat anda. "</string>
+    <string name="txt_complete_profile_point_1">"anda boleh mendapat mata %d dengan melengkapkan profil anda"</string>
+    <string name="txt_RedeemHist">"Sejarah Penebusan"</string>
+    <string name="txt_Redeem">"Tebus"</string>
+    <string name="text_edit">"edit"</string>
+    <string name="btn_send">"Hantar"</string>
+    <string name="btn_cancel">"Batalkan"</string>
+    <string name="txt_contactus">"Hubungi Kami"</string>
+    <string name="txt_raise_request">"Naikkan permintaan"</string>
+    <string name="txt_msg_subject">"Tajuk"</string>
+    <string name="txt_tell_us_more">"Cho chúng tôi biết thêm về vấn đề"</string>
+    <string name="txt_mobile_verification">"Pengesahan mudah alih"</string>
+    <string name="txt_mobile_number_verify">"Anda perlu mengesahkan nombor mudah alih anda untuk menerima hadiah penebusan"</string>
+    <string name="txt_mobilenumber">"Nombor mudah alih"</string>
+    <string name="txt_donot_enter_code">"Nota: Sila jangan masukkan kod negara"</string>
+    <string name="txt_pin">"Pin"</string>
+    <string name="txt_save">"Simpan"</string>
+    <string name="btn_verify">"Sahkan"</string>
+    <string name="general_rewards">"Ganjaran umum"</string>
+    <string name="txt_option">"pilihan"</string>
+    <string name="txt_description">"Penerangan"</string>
+
+    <string name="txt_select">"Pilih"</string>
+    <string name="txt_enter_points_redeem">"Masukkan mata yang anda mahu Tebus"</string>
+    <string name="sweepstakes">"Loteri"</string>
+    <string name="txt_each_ticket_part1">"Setiap tiket berharga %d mata"</string>
+    <string name="txt_tickets">"Tiket"</string>
+    <string name="txt_balance_points">"Mata keseimbangan"</string>
+    <string name="txt_select_quantity">"Pilih kuantiti"</string>
+    <string name="txt_points_number">"Mata:"</string>
+    <string name="txt_tickets_in_cart_part1">"Anda memiliki"</string>
+    <string name="txt_tickets_in_cart_part2">" tiket dalam troli"</string>
+    <string name="txt_BUY">"Beli"</string>
+    <string name="txt_buy_btn_agreeing">"Dengan mengklik butang beli, anda bersetuju dengan semua terma &amp; syarat Stesen Panel"</string>
+    <string name="alert_dialog_txt_part3">"Maaf, anda memerlukan %d lagi mata untuk ditebus"</string>
+    <string name="alert_dialog_txt_part1">"Anda memerlukan %d lagi mata untuk penebusan am. Bagaimanapun, anda sentiasa boleh mengambil bahagian dalam Cabutan Hadiah Bulanan kami untuk memenangi hadiah yang menarik."</string>
+    <string name="txt_thanks">"Terima kasih! "</string>
+    <string name="txt_puchased_ticket_part1">"Anda telah membeli %s Tiket."</string>
+    <string name="txt_receive_email_shortly">"  Anda akan menerima e-mel tidak lama lagi dengan semua maklumat mengenai cabutan itu"</string>
+    <string name="unabletoverifypin">"Unable to verify your pin, please input correct pin number"</string>
+    <string name="txt_msg_pinsent">"PIN dihantar berjaya!"</string>
+    <string name="txt_mandatory">"Mandatori"</string>
+
+    <string name="api_msg_90days">"Anda boleh mengambil kaji selidik sekali dalam 90 hari sahaja."</string>
+    <string name="api_nosurveyavailable">"Tiada Ukur tersedia untuk anda pada masa ini. Sila cuba sebentar lagi!"</string>
+    <string name="api_tps_account_linked">"Akaun TPS dikaitkan dengan Media sosial"</string>
+    <string name="api_profiler_unavailable">"Profiler tidak tersedia Pada masa ini"</string>
+    <string name="api_recently_updated">"Nampaknya anda baru-baru ini mengemas kini profil, ia akan tersedia hanya selepas 90 hari selepas kemas kini terakhir anda."</string>
+    <string name="api_email_registered">"EmailId anda telah didaftarkan"</string>
+    <string name="api_device_registered">"Peranti anda telah didaftarkan untuk perkhidmatan kami"</string>
+    <string name="api_email_device_registered">"EmailId dan Peranti anda telah didaftarkan untuk perkhidmatan kami"</string>
+    <string name="api_facebook_credentials">"Kredensial Facebook sudah dikaitkan."</string>
+    <string name="api_associated_tps_account">"Adakah anda mempunyai akaun di TPS untuk bergaul dengan Facebook?"</string>
+    <string name="api_enter_valid_pin">"Sila masukkan pin yang sah"</string>
+    <string name="api_network_connection_unavailbale">"Sambungan rangkaian tidak tersedia"</string>
+    <string name="api_subject_here">"Masukkan subjek di sini"</string>
+    <string name="api_fill_all_answers">"Sila lengkapkan semua jawapan di halaman ini"</string>
+
+    <string name="signupsocial">Now Sign-Up with <b>The Panel Station</b></string>
+    <string name="signupsocial_appends">In a safe and secure way</string>
+    <string name="emailSignupMesage">Atau Daftar menggunakan Emel</string>
+    <string name="text_existing_member">"Existing Member"</string>
+    <string name="resendactivationcode">"Re-send Activation Code in "</string>
+    <string name="clickhere">"Did not receive the code yet? Click here."</string>
+    <string name="min">"Min"</string>
+    <string name="sec">"sec"</string>
+    <string name="error_enter_otp">"Please enter Activation code."</string>
+    <string name="ui_textSignIn">Click Here for Login Page</string>
+    <string name="msgcheckemailforotp"> OTP has been sent to your %s email id. Please check and verify to activate. </string>
+    <string name="congratulation_header"> Tahniah! </string>
+    <string name="congratulation_msg">Anda, sekarang merupakan ahli salah satu Panel penyelidikan dalam talian yang terbesar. Sila klik pada “Mula Memperoleh” untuk pergi ke Bahagian Tinjauan Apl.</string>
+    <string name="txt_wait_for_questions">"Sedang menetapkan soal selidik untuk anda, sila tunggu "</string>
+    <string name="txt_imnew">"I'm new"</string>
+    <string name="txt_expired">"Đã hết hạn"</string>
+    <string name="msg_serverdown">"Server is down or under maintainance . Please try again later."</string>
+    <string name="msg_citynotfound">"Unable to process request , due to difficulty in finding panalist cities of your country."</string>
+    <string name="lbl_appusagepermission">"Important Step:\nTurn on Panel Station App Usage permission.\nGo to Settings->Security->Apps with usage access."</string>
+
+    <!-- New Changes Strings -->
+    <string name="ui_activationcode"><b>User Activation Code</b></string>
+
+
+    <string name="ui_msg_checkemail_spam">Sila semak Peti Masuk e-mel anda untuk kod pengaktifan "Stesen Panel"</string>
+    <string name="hint_activationcode">"Enter your activation code here"</string>
+
+    <!--VISHAL-->
+    <string name="isvalidbamarket">"Panel Panel tidak layak untuk"</string>
+    <string name="txt_Reward">"Ganjaran"</string>
+    <string name="txt_each_ticket_part2">"Mata"</string>
+    <string name="alert_dialog_txt_part2">"lagi mata untuk penebusan umum. Walau bagaimanapun anda sentiasa boleh menyertai dalam Cabutan Hadiah Bulanan kami untuk memenangi hadiah yang menarik."</string>
+    <string name="alert_dialog_txt_part4">"lagi mata untuk menebus semula."</string>
+    <string name="btn_next">"Seterusnya"</string>
+    <string name="hint_mobile_number">Nombor telefon</string>
+
+    <string name="txt_forgot_password">"Terlupa Kata laluan"</string>
+    <string name="txt_social_link">Pautan</string>
+    <string name="ui_msg_checkemail">
+<![CDATA[
+                        <p>Sila periksa Peti Masuk e-mel anda untuk kod pengaktifan<B>\"The Panel Station\"</B></p>
+                    ]]>
+    </string>
+    <string name="ui_termsandcondition">
+<![CDATA[
+                        <p>By clicking submit, You agree and accept to our <a href=\'"http://www.informatemi.com/tps/tandc.php"\'><u>Terms and Conditions</u></a> and <a href=\'"http://www.informatemi.com/tps/pp.php"\'><u><u>Dasar Privasi</u></a>"</p>
+                    ]]>
+    </string>
+    <string name="resend_otp">Hantar semula OTP?</string>
+    <string name="when_you_refer_a_friend">Apabila anda merujuk kawan</string>
+    <string name="msg_first_time_500_earn">1. Anda akan memperoleh 500 mata rujukan ( Jika tinjauan pertama berjaya diselesaikan)</string>
+    <string name="your_friend_earns_500_joining_points">2. Rakan anda akan menerima 500 mata penyertaan</string>
+    <string name="_3_you_can_refer_a_maximum_of_5_friends_in_a_month">3. Anda boleh merujuk maksimum 5 rakan anda dalam sebulan</string>
+    <string name="the_more_the_merrier">Lebih ramai, lebih meriah!</string>
+    <string name="so_get_your_going_in_now">Jadi, ambil bahagian anda, sekarang!</string>
+    <string name="match_the_puzzle_to_fetch_a_survey">Padankan teka teki untuk mendapatkan kaji selidik</string>
+    <string name="and_each_time_500_referral_points">Dan setiap kali anda lakukan, dapatkan 500 mata rujukan!</string>
+    <string name="friends_make_life_better">Kawan menjadikan hidup lebih baik dan patut disambut! dengan kepercayaan ini, kami mencipta program Rujuk-A-Kawan untuk memberi ganjaran kepada semua rakan anda di sana</string>
+    <string name="for_more_details">Untuk maklumat lanjut</string>
+    <string name="click_here">Tekan di sini</string>
+
+    <string name="consent_form">BORANG PERSETUJUAN</string>
+    <string name="consent_form_p_tc_1">“The Panel Station ialah produk proprietari Borderless Access Panels bersama-sama dengan semua tanda dagangan teks, ilustrasi, foto, grafik, fail, reka bentuk dan pengaturannya. Kandungan laman web ini hendaklah digunakan hanya menurut terma dan syarat dan dasar privasi yang disambungkan di sini.”</string>
+    <string name="disclaimer">Penafian:</string>
+    <string name="before_we_proceed">Sebelum kami meneruskan, sila luangkan beberapa minit untuk memberikan kepada kami maklumat dan persetujuan yang dikehendaki untuk diperoleh menurut undang-undang privasi data baharu.</string>
+    <string name="are_you_citizen_of_eu">"Adakah anda rakyat Kesatuan Eropah? "</string>
+    <string name="are_you_in_eu_region">"Adakah anda pada masa ini berada di Kesatuan Eropah? "</string>
+    <string name="in_accordance_big_1">Selaras dengan undang-undang privasi data baharu di Kesatuan Eropah (GDPR), kami memohon anda agar membaca borang di bawah dengan teliti dan memberikan persetujuan anda untuk terus menjadi sebahagian daripada Komuniti TPS.</string>
+    <string name="here_at_the_big_2">Di sini di The Panel Station, kami mengambil serius terhadap privasi anda dan hanya akan menggunakan maklumat peribadi anda untuk mentadbir akaun anda dan untuk menyediakan produk dan perkhidmatan yang anda minta daripada kami.</string>
+    <string name="you_understand_big_text_3">"Anda memahami dan bersetuju bahawa dengan memilih pilihan “Ya”, kami boleh menghantarkan pemberitahuan yang wajar kepada anda melalui e-mel dan SMS yang akan membentuk sebahagian daripada perkhidmatan yang ditawarkan kepada anda. "</string>
+    <string name="if_at_any_point">"Jika pada bila-bila masa selepas pendaftaran anda memutuskan untuk menarik balik persetujuan anda, anda boleh melakukannya dengan menghantar melalui mel permintaan anda kepada kami di [masukkan alamat e-mel]. Kami akan membalas kepada mel anda dalam masa tiga hari selepas menerima permohonan tersebut. "</string>
+    <string name="if_at_any_point_custom">"Jika pada bila-bila masa selepas pendaftaran anda memutuskan untuk menarik balik persetujuan anda, anda boleh melakukannya dengan menghantar melalui mel permintaan anda kepada kami di %s. Kami akan membalas kepada mel anda dalam masa tiga hari selepas menerima permohonan tersebut. "</string>
+    <string name="do_you_wish">Adakah anda mahu membenarkan diri anda sendiri untuk menjadi sebahagian daripada komuniti The Panel Station untuk menyertai penawaran penyelidikannya?</string>
+    <string name="yes_i_agree">" Ya, saya setuju"</string>
+    <string name="no_i_dont_agree">Tidak, saya tidak setuju</string>
+    <string name="consent_disclaimer_1">"“The Panel Station ialah produk proprietari Borderless Access Panels bersama-sama dengan semua tanda dagangan teks, ilustrasi, foto, grafik, fail, reka bentuk dan pengaturannya. Kandungan laman web ini hendaklah digunakan hanya menurut "</string>
+    <string name="consent_disclaimer_2">yang disambungkan di sini.”</string>
+    <string name="in_case_you_delete">Sekiranya anda mahu memadamkan maklumat anda yang dicatat dengan kami, sila tulis kepada kami di Dataprotectionofficer01@borderlessaccess.com</string>
+    <string name="rejoin_panel_email">"Pada bila-bila masa, jika anda mahu menyertai semula panel kami, anda boleh melakukannya dengan mendaftar dengan kami. Untuk mendaftar, sila klik pada pautan yang berikut "</string>
+    <string name="title_msg_succeess_unsubscribe">"Anda telah berjaya dinyahlanggan daripada komuniti kami.  "</string>
+    <string name="msg_eu_region_decline_consent_form">Anda memberitahu bahawa anda dari Eropah/warganegara Eropah, oleh itu kami ingin meminta anda untuk menerima borang persetujuan untuk meneruskan pendaftaran dengan lebih lanjut.</string>
+    <string name="lbl_privacy_statement">Pernyataan Privasi</string>
+    <string name="refer_2_more">Rujuk seorang rakan atau 2 atau 3 lagi</string>
+    <string name="invite_your_friends">Jemput rakan anda</string>
+    <string name="refer_code_not_avaliable">Kod rujukan tidak tersedia</string>
+    <string name="select_optional">Sila pilih fail (pilihan)</string>
+    <string name="connect_your_accounts">Sambungkan ke akaun anda</string>
+
+    <string name="profile_settings">Tetapan Profil</string>
+    <string name="change_password">Tukar Kata Lakuan</string>
+    <string name="unsubscribe">Nyahlanggan
+    </string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="twitter">TWITTER</string>
+    <string name="google">GOOGLE</string>
+    <string name="refer_frnd">Rujuk seorang Rakan</string>
+    <string name="title_contact_us">Hubungi Kami</string>
+    <string name="otp_email">Masukkan id emel berdaftar anda.</string>
+
+
+    <string name="my_rewards">Ganjaran Saya</string>
+    <string name="alredy_otp">Sudah mempunyai OTP untuk mengesahkan?</string>
+
+    <string name="my_profile">Profil saya</string>
+    <string name="my_surveys">Tinjauan saya</string>
+    <string name="contact_us">Hubungi Kami</string>
+    <string name="fanpage">Blog</string>
+    <string name="reset">TETAPKAN SEMULA</string>
+
+    <string name="invite">Jemput </string>
+    <string name="faq">Soalan Lazim</string>
+    <string name="settings">Tetapan</string>
+    <string name="user_msg">"Akaun anda telah ditandakan sebagai tidak aktif, sila hubungi pasukan sokongan kami di mobile@thepanelstationsurveys3.com untuk bantuan lanjut."
+</string>
+    <string name="unsubscribe_lowercase">Nyahlanggan</string>
+    <string name="update_profile">KEMAS KINI PROFIL
+</string>
+    <string-array name="home">
+        <item>Ganjaran Saya</item>
+        <item>Profil saya</item>
+        <item>Tinjauan saya</item>
+        <item>Hubungi Kami</item>
+        <item>Blog </item>
+        <item>Jemput</item>
+        <item>Lencana</item>
+        <item>Soalan Lazim</item>
+        <item>Tetapan</item>
+    </string-array>
+
+    <string name="error_valid_referral_code">Sila masukkan kod rujukan yang sah</string>
+    <string name="apply_referral_code">MEMOHON</string>
+
+    <string name="subject">Tajuk</string>
+
+    <string name="txt_redeem_points">Pilih mata yang ingin ditebus</string>
+    <string name="particitpate_and_luck">Mengambil bahagian dan bertuah</string>
+    <string name="tv_redemption_history">Sejarah Penebusan</string>
+    <string name="tv_rewards_history">Sejarah Rewards</string>
+
+    <string name="available_count">Tinjauan Tersedia -</string>
+    <string name="enter_paytm_id">Sila masukkan ID Paytm anda</string>
+    <string name="add_photo">Tambah Foto</string>
+    <string name="take_photo">Mengambil gambar</string>
+    <string name="choose_from_gallery">Pilih dari Galeri</string>
+    <string name="remove_photo">Keluarkan Foto</string>
+    <string name="profile_update_success">Gambar profil anda telah berjaya dikemas kini</string>
+    <string name="delete_profile_picture">Gambar profil anda telah berjaya dialih keluar</string>
+    <string name="enter_confirm_password">masukkan kata laluan mengesahkan</string>
+    <string name="current_password">masukkan kata laluan semasa</string>
+    <string name="new_password">masukkan kata laluan baru</string>
+    <string name="retry">Cuba semula</string>
+    <string name="please_select_reason">Please select reason(s)</string>
+    <string name="others_cannot_be_blank">Sebab lain / lain-lain tidak boleh kosong</string>
+    <string name="badges">Lencana</string>
+    <string name="badge_increase">%1$s mata dikreditkan kerana melengkapkan %2$s atau lebih kaji selidik setiap bulan.</string>
+    <string name="at">pada pukul</string>
+    <string name="old_password">* Kata laluan Lama:</string>
+    <string name="confirm_password">* Sahkan Kata laluan:</string>
+    <string name="newpassword">* Kata laluan Baharu:</string>
+    <string name="txt_RewardHist">"Sejarah Rewards"</string>
+    <string name="password_comapre_mismatch">kata laluan baru dan sahkan kata laluan tidak sepadan.</string>
+    <string name="new_password_length">lenght kata laluan baru harus antara aksara 6 dan 16.</string>
+    <string name="need_more_points">Anda perlukan %1$d mata lagi untuk menebus baucar %2$s, walau bagaimanapun anda boleh memilih opsyen lain untuk menebus.</string>
+    <string name="password_expiry_message">Kata laluan anda sudah tamat tempoh, Sila tukar kata laluan anda sekarang untuk log masuk ke papan pemuka anda</string>
+    <string name="please_change_your_password">Sila Tukar Kata Laluan Anda</string>
+    <string name="new_old_password_match_error">Kata Laluan Baharu dan Kata Laluan Lama tidak boleh sama</string>
+    <string name="rationale_location">Sila Klik pada butang Anak Panah dalam kotak dialog yang seterusnya</string>
+    <string name="register_here">Daftar di sini</string>
+    <string name="communication_preferences">Keutamaan Komunikasi</string>
+    <string name="poll_result">Keputusan</string>
+    <string name="quick_poll">Undian Pantas</string>
+    <string name="result">Keputusan</string>
+    <string name="notification">Pemberitahuan</string>
+    <string name="no_notifications">Tiada Pemberitahuan</string>
+    <string name="activity">Log Aktiviti</string>
+    <string name="last_log_in">Kali Terakhir Log Masuk</string>
+    <string name="last_log_out">Kali Terakhir Log Keluar</string>
+    <string name="resubscribe">Langgan Semula</string>
+    <string name="resubscribe_msg">Anda telah berjaya nyahlanggan daripada komuniti kami tetapi kami inginkan anda kembali, hanya klik pada \"Langgan Semula\"</string>
+    <string name="successfully_resubscribed">Berjaya Melanggan Semula</string>
+    <string name="subscribe_success_msg">Tahniah! Anda kembali bersama kami! Mari suarakan pandangan anda untuk memastikan hari esok yang lebih baik</string>
+    <string name="logout">LOG KELUAR</string>
+    <string name="no_quick_poll">Tiada Undian Pantas tersedia.</string>
+    <string name="comm_pref_email">E-mel</string>
+    <string name="comm_pref_mobile_sms">SMS Mudah Alih</string>
+    <string name="comm_pref_mobile_push_notification">Pemberitahuan Tolak Mudah Alih</string>
+    <string name="comm_pref_desktop_notification">Pemberitahuan Desktop</string>
+    <string name="comm_pref_save_success">Keutamaan Komunikasi berjaya disimpan.</string>
+    <string name="error_msg_for_invalid_redeem_points">Sila masukkan mata yang sah untuk penebusan.</string>
+    <string name="redeem_instantly">Tebus Serta-merta.</string>
+    <string name="legend">Lagenda</string>
+    <string name="grand_master">Jaguh</string>
+    <string name="master">Mahaguru</string>
+    <string name="sensei">Sensei</string>
+    <string name="newbei">Orang baharu</string>
+    <string name="unsubscribe_delete_confirmation">Anda akan dinyahlanggan daripada komuniti kami dan semua data sejarah anda akan dipadamkan. Klik OK jika anda ingin meneruskan</string>
+    <string name="unsubscribe_delete_successful">Anda telah berjaya menyahlanggan daripada komuniti kami. Kami akan memadamkan data sejarah anda daripada sistem kami dalam masa 2 ke 3 hari perniagaan.</string>
+    <string name="unsubscribe_delete">Nyahlanggan dan Padam</string>
+    <string name="your_VoucherCode" translatable="false">Kod Baucar anda ialah</string>
+    <string name="redemptionRevoke">Setelah membuat penebusan, ia tidak boleh diputarkan kembali/dibatalkan</string>
+    <string name="txt_points_in_review">Mata dalam Semakan</string>
+    <string name="txt_pointin_review">Mata dalam Semakan</string>
+</resources>

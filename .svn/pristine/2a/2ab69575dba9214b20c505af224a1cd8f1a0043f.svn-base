@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\jayesh_new\\new\\tpsnew\\FacebookSDK4.2.0\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-pa\\values-pa.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Centura User1\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\d5973f96ec39065092f2f128a85c854e\\res\\values-pa\\values-pa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,305,410,496,596,709,786,862,941,1042,1146,1243,1352,1451,1561,1720,1820",
+                        "endColumns": "102,96,104,85,99,112,76,75,78,100,103,96,108,98,109,158,99,79",
+                        "endOffsets": "203,300,405,491,591,704,781,857,936,1037,1141,1238,1347,1446,1556,1715,1815,1895"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,305,410,496,596,709,786,862,941,1042,1146,1243,1352,1451,1561,1720,3324",
+                        "endColumns": "102,96,104,85,99,112,76,75,78,100,103,96,108,98,109,158,99,79",
+                        "endOffsets": "203,300,405,491,591,704,781,857,936,1037,1141,1238,1347,1446,1556,1715,1815,3399"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Centura User1\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\15c3e25813ed70d86558face6d75920e\\res\\values-pa\\values-pa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3404",
+                        "endColumns": "100",
+                        "endOffsets": "3500"
+                    }
+                },
+                {
+                    "source": "D:\\jayesh_new\\new\\tpsnew\\FacebookSDK4.2.0\\build\\intermediates\\bundles\\debug\\res\\values-pa\\values-pa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,177,300,396,469,541,608,681,757,854,932,1010,1105,1220,1283,1352,1499",
+                        "endColumns": "121,122,95,72,71,66,72,75,96,77,77,94,114,62,68,146,59",
+                        "endOffsets": "172,295,391,464,536,603,676,752,849,927,1005,1100,1215,1278,1347,1494,1554"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1820,1942,2065,2161,2234,2306,2373,2446,2522,2619,2697,2775,2870,2985,3048,3117,3264",
+                        "endColumns": "121,122,95,72,71,66,72,75,96,77,77,94,114,62,68,146,59",
+                        "endOffsets": "1937,2060,2156,2229,2301,2368,2441,2517,2614,2692,2770,2865,2980,3043,3112,3259,3319"
+                    }
+                }
+            ]
+        }
+    ]
+}

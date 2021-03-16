@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_faq_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/dp60"
+    android:layout_marginEnd="@dimen/dp16"
+    android:layout_marginStart="@dimen/dp16"
+    android:layout_marginTop="@dimen/dp16"
+    tools:context="com.panelManagement.fragment.FAQFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:cardCornerRadius="@dimen/dp4"
+        app:cardElevation="@dimen/dp2"
+        app:cardUseCompatPadding="true">
+
+        <ExpandableListView
+            android:id="@+id/lvExp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:groupIndicator="@color/transparent"
+            android:scrollbars="vertical" />
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

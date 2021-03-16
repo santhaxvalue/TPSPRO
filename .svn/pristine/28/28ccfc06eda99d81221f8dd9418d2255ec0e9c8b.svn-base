@@ -1,0 +1,82 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/dp16"
+    android:background="@color/white"
+    android:foregroundGravity="center"
+    android:padding="@dimen/dp8"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/dp12"
+    app:cardElevation="@dimen/dp4"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dp40"
+            android:paddingTop="@dimen/dp30">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@android:style/TextAppearance.Small"
+                android:layout_marginEnd="@dimen/dp16"
+                android:layout_marginStart="@dimen/dp16"
+                android:lineSpacingExtra="@dimen/_4sdp"
+                android:gravity="center"
+                android:text="@string/resubscribe_msg"
+                android:textColor="@color/link_black"
+                android:textSize="@dimen/sp20" />
+
+            <FrameLayout
+                android:id="@+id/linearUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_7sdp"
+                android:gravity="center_horizontal"
+                android:layout_marginEnd="@dimen/_7sdp"
+                android:layout_marginLeft="@dimen/_7sdp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/resubscribe_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edtbox_rounded_corner"
+                    android:cursorVisible="true"
+                    android:hint="XYZ@gmail.com"
+                    android:imeActionId="@+id/email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:padding="@dimen/dp8"
+                    android:textSize="@dimen/sp16" />
+
+            </FrameLayout>
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:id="@+id/btn_resubscribe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp10"
+                android:textColor="@color/link_blue"
+                android:text="@string/resubscribe"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

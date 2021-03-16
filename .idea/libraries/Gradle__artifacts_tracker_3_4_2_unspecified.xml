@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:tracker-3.4.2:unspecified">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tracker-3.4.2.aar/cbf84d8c11455c5e2e33490e404740c8/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tracker-3.4.2.aar/cbf84d8c11455c5e2e33490e404740c8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tracker-3.4.2.aar/cbf84d8c11455c5e2e33490e404740c8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tracker-3.4.2.aar/cbf84d8c11455c5e2e33490e404740c8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.mukeshsolanki:android-otpview-pinview:1.0.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-otpview-pinview-1.0.4.aar/cacd464da241bacfab5e02cbcf08a10c/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-otpview-pinview-1.0.4.aar/cacd464da241bacfab5e02cbcf08a10c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-otpview-pinview-1.0.4.aar/cacd464da241bacfab5e02cbcf08a10c/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-otpview-pinview-1.0.4.aar/74895d5656ed1a6fc08b7fb8f92eec47/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-otpview-pinview-1.0.4.aar/74895d5656ed1a6fc08b7fb8f92eec47/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-otpview-pinview-1.0.4.aar/74895d5656ed1a6fc08b7fb8f92eec47/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

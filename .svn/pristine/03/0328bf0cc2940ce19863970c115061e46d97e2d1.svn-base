@@ -1,0 +1,1 @@
+[{"outputType":{"type":"AAPT_FRIENDLY_MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":2,"versionName":"1.0.2","enabled":true,"outputFile":"coverflowand-release.aar","fullName":"release","baseName":"release"},"path":"AndroidManifest.xml","properties":{"packageId":"me.crosswall.lib.coverflow","split":""}}]

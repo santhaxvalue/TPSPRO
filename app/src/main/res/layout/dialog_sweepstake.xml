@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/dp32"
+    app:cardCornerRadius="@dimen/dp8"
+    app:cardElevation="@dimen/dp2"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/close_dialog_sweepstake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="@dimen/dp8"
+            android:src="@drawable/ic_cross"
+            android:contentDescription="@string/app_name" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/close_dialog_sweepstake"
+            android:layout_marginLeft="@dimen/dp32"
+            android:layout_marginRight="@dimen/dp32">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/tv_thanks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:padding="@dimen/dp8"
+                    android:text="@string/txt_thanks"
+                    android:textSize="@dimen/sp32" />
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/tv_purchased_ticket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_thanks"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/dp6"
+                    android:gravity="center"
+                    android:lines="2"
+                    android:text="@string/txt_puchased_ticket_part1"
+                    android:textSize="@dimen/sp16" />
+
+                <ImageView
+                    android:id="@+id/iv_gift_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_purchased_ticket"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/dp6"
+                    android:foregroundGravity="center"
+                    android:src="@drawable/giftbox_icon"
+                    android:contentDescription="@string/app_name" />
+
+                <com.panelManagement.widgets.TextViewPlusBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_gift_icon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/dp16"
+                    android:gravity="center"
+                    android:padding="@dimen/dp12"
+                    android:text="@string/txt_receive_email_shortly"
+                    android:textSize="@dimen/sp16" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/dp32"
+    app:cardCornerRadius="@dimen/dp8"
+    app:cardElevation="@dimen/dp2"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/close_dialog_general"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/dp8"
+            android:src="@drawable/ic_cross" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/close_dialog_general"
+            android:layout_marginBottom="@dimen/dp32"
+            android:layout_marginLeft="@dimen/dp32"
+            android:layout_marginRight="@dimen/dp32"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <LinearLayout
+                    android:id="@+id/txt_ll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.panelManagement.widgets.TextViewPlusBold
+                        android:id="@+id/tv_offer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/alert_dialog_txt_part1"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <ImageView
+                        android:id="@+id/offer_dilog_promotion"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_70sdp"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/dp10"
+                        android:contentDescription="@string/app_name" />
+
+
+                    <TextView
+                        android:id="@+id/participate"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="@dimen/_24sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="@dimen/dp12"
+                        android:layout_marginTop="@dimen/dp12"
+                        android:background="@drawable/edt_box_gradient_bg"
+                        android:gravity="center"
+                        android:text="@string/participate"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/_12sdp" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

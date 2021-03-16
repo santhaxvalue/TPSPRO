@@ -1,0 +1,4 @@
+<factorypath>
+    <factorypathentry kind="WKSPJAR" id="/facebook/libs/androidannotations-2.2.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/facebook/libs/androidannotations-2.2-api.jar" enabled="true" runInBatchMode="false"/>
+</factorypath>

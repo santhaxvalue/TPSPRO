@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Arabic
+    <string name="txt_redemption_request">تم معالجة طلب استرداد</string>
+    //added by niyaj
+    <string name="txt_points_processed_successfully">نقطة بنجاح.</string>
+    //added by niyaj
+    <string name="txt_profile_successfully_updated">"تم تحديث ملفك الشخصي بنجاح"</string>
+    <string name="txt_mandatory">"إلزامي"</string>
+    <string name="userlogin">"دخول المستخدم"</string>
+    <string name="isvalidbamarket">"محطة لوحة غير مؤهلة للحصول على"</string>
+    <string name="hint_dob_select">"اختر تاريخ الميلاد"</string>
+    <string name="text_OR">"أو"</string>
+    <string name="signin_facebook">"قم بتسجيل الدخول باستخدام الفيسبوك"</string>
+    <string name="signin_signinpage_google">"تسجيل الدخول باستخدام Google+"</string>
+    <string name="error_terms_conditions">""الرجاء قبول شروطنا وشروطنا""</string>
+    <string name="profiler">"صفحة منشئ ملفات التعريف"</string>
+    <string name="personal_info">"معلومات شخصية"</string>
+    <string name="text_welcome">"أهلا بك"</string>
+    <string name="profilecompleted">"ملفك الشخصي اكتمل بنسبة 100٪"</string>
+    <string name="txt_start">"بداية"</string>
+    <string name="text_edit">"تصحيح"</string>
+    <string name="thanks_smiley_msg">"شكرًا لك على تحديث ملف التعريف الخاص بك؛ سوف تستلم قريبًا المزيد من الدراسات الاستقصائية المجدية حسب اهتمامك. "</string>
+    <string name="empty_message_update_profile">"حدِّث ملفك التعريفي للحصول على استبيان من دائرة اهتماماتك"</string>
+    <string name="empty_message_receive_survey">"سوف تتلقى قريبا استطلاع مشوق"</string>
+    <string name="txt_complete_profile_point_1">"يمكنك أن تربح * %d نقطة عند استكمال ملف التعريف الخاص بك"</string>
+
+    <string name="action_settings">إعدادات</string>
+    <string name="dialog_login">ارجوك انتظر…</string>
+    <string name="txt_email">عنوان الايميل</string>
+    <string name="txt_password">كلمه السر</string>
+    <string name="txt_submit">إرسال</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="twitter">TWITTER</string>
+    <string name="google">GOOGLE</string>
+    <string name="txt_cancel">إلغاء</string>
+    <string name="login_title">Panel Station</string>
+
+    <string name="forgotPassword_title">نسيت كلمة المرور</string>
+    <string name="txt_rememberme">تذكرنى</string>
+    <string name="txt_login">تسجيل الدخول</string>
+    <string name="txt_no_survey">لا توجد دراسات استقصائية متاحة</string>
+    <string name="txt_no_rewards"> لا توجد مكافآت متاحة</string>
+    <string name="txt_no_redemption">لا يوجد استرداد متاح.</string>
+    <string name="txt_info">انقر على مسح المتاحة ل إطلاقها في المتصفح.\n\nسحب أسفل القائمة لتحديث الدراسات الاستقصائية.\n\nزيارة <a href="www.thepanelstation.com">www.thepanelstation.com</a> للحصول على تفاصيل حسابك والدعم.</string>
+    <string name="ptr_pull_to_refresh"></string>
+    <string name="ptr_release_to_refresh"></string>
+    <string name="ptr_refreshing"></string>
+    <string name="ptr_last_updated"></string>
+    <string name="lbl_privacy_policy_url">http://www.informatemi.com/tps/pp.php</string>
+    <string name="lbl_terms_cond_url">http://www.informatemi.com/tps/tandc.php</string>
+    <string name="lbl_privacy_policy">نص الخصوصية</string>
+    <string name="lbl_terms_cond"> الشروط والبنود</string>
+    <string name="lbl_allowdata">أسمح باستخدام بياناتي بشكل مجهول لأغراض البحث.</string>
+
+    <!-- Signup implementation Strings -->
+    <string name="SignUp">التسجيل</string>
+    <string name="SignIn">تسجيل الدخول</string>
+    <string name="signupcomplete_thanks">شكرا لكم. لقد تم تسجيلك بنجاح.</string>
+    <string name="signupcomplete_logincred">تم إرسال بيانات تسجيل الدخول الخاصة بك إلى معرف البريد الإلكتروني المسجل الخاص بك.</string>
+    <string name="signupcomplete_note">ملاحظة: احذف مجلد الرسائل غير المرغوب فيها والرسائل الترويجية للبريد الإلكتروني إذا لم تجده في بريدك الوارد.</string>
+    <string name="lbl_laststage">هذا كل شئ حتى الان! سوف نتصل بك في بعض الوقت</string>
+    <string name="checkmail">تحقق من البريد</string>
+    <string name="emailSignupMesage">أو سجِّل باستخدام البريد الإلكتروني</string>
+    <string name="loginInfo">معلومات تسجيل الدخول :</string>
+
+    <string name="hint_email">البريد الإلكتروني</string>
+    <string name="hint_confirm_email">تأكيد البريد الإلكتروني</string>
+    <string name="hint_phoneno">رقم الهاتف</string>
+    <string name="contact_info">معلومات جهة الاتصال</string>
+    <string name="hint_firstname">الاسم الأول</string>
+    <string name="hint_lastname">الاسم الأخير</string>
+    <string name="hint_country">البلد</string>
+    <string name="hint_city">المدينة</string>
+    <string name="hint_zip">الرمز البريدي</string>
+
+    <string name="hint_gender">النوع</string>
+    <string name="hint_dob">تاريخ الميلاد</string>
+    <string name="hint_address">العنوان</string>
+    <string name="SIgnUp_Submit">ترسل أي</string>
+    <string name="panel_copyrights">\@Copyrights 2015 thepanelstation.All rights reserved.</string>
+    <string name="agreedTermsandCondition">الموافقة على الشروط والأحكام وبيان الخصوصية</string>
+    <string name="startearning">بدء الربح</string>
+    <string name="month">الشهر</string>
+    <string name="day">اليوم</string>
+    <string name="year">السنة</string>
+    <string name="next">التالي</string>
+    <string name="contact_info_descriptions">خصوصيتك. ومع ذلك، نطلب منك إدخال معلوماتك الشخصية أدناه لتأكيد مشاركتك في اليانصيب أو العروض الترويجية الخاصة. نستخدم المعلومات الشخصية التي تقدمها لمعالجة عملية الشراء والمدخلات لليانصيب، ولتقديم المنتجات والجوائز لكنحن ملتزمون بضمان!</string>
+    <string name="select_country">اختر الدولة</string>
+    <string name="async_task_error">الرجاء التحقق من اتصال الإنترنت</string>
+    <string name="login_email">يرجى إدخال معرف البريد الإلكتروني</string>
+    <string name="txt_send">إرسال</string>
+    <string name="msg_login_connprob">قد لا يكون الاتصال كافياً لتسجيل الدخول في هذا الوقت. الرجاء معاودة المحاولة في وقت لاحق.</string>
+    <string name="msg_invalid_login_creditional">"معرف البريد الإلكتروني أو كلمة المرور غير صالحة."</string>
+    <string name="msg_enter_pass">يرجى إدخال كلمة المرور</string>
+    <string name="msg_login_session_expire">انتهت صلاحية جلستك بسبب تسجيل الدخول من جهاز / بوابة أخرى.</string>
+    <string name="msg_unregister_email">الرجاء إدخال معرف البريد الإلكتروني المسجل</string>
+    <string name="msg_valid_email">يُرجى تقديم معرّف بريد إلكتروني صحيح</string>
+    <string name="txt_survey">"الاستبيان"</string>
+    <string name="empty_msg_you_haven_t_redeemed_yet">لم تستردها بعد</string>
+
+    <string name="txt_reward_point">"نقاط المكافآت"</string>
+    <string name="txt_earned_point">"النقاط المكتسبة"</string>
+    <string name="txt_redeemed_point"> "نقاط افتدى"</string>
+    <string name="txt_aval_point">"النقاط المتاحة"</string>
+    <string name="txt_redemption">"الاسترداد"</string>
+    <string name="msg_refreshing">تحديث قائمة المسح</string>
+    <string name="msg_open_survey">"هل تريد فتح استطلاع رأي؟"</string>
+    <string name="msg_logout">"هل أنت متأكد أنك تريد الخروج ؟"</string>
+    <string name="txt_yes">"نعم فعلا"</string>
+    <string name="txt_no">"لا"</string>
+    <string name="msg_logoff_connec_lost">"الاتصال قد لا تكون كافية ل خروج في هذا الوقت . الرجاء معاودة المحاولة في وقت لاحق."</string>
+    <string name="msg_timeout">"تم تطبيق تواجه صعوبات في استرجاع المعلومات . الرجاء معاودة المحاولة في وقت لاحق."</string>
+    <string name="msg_low_conn">"قد يكون الاتصال غير كافٍ لتسجيل الدخول في هذا الوقت. يُرجى المحاولة مرة أخرى لاحقًا."</string>
+    <string name="msg_survy_info">"انقر على مسح المتاحة ل إطلاقها في المتصفح. سحب أسفل القائمة لتحديث الدراسات الاستقصائية. \n\n يمكنك اختيار لغتك المفضلة من إعدادات الشاشة. \n\nزيارة www.thepanelstation.com للحصول على تفاصيل حسابك."</string>
+    <string name="txt_language">اللغة</string>
+    <string name="txt_takeby">الأخذ من خلال</string>
+    <string name="txt_earn">"كسب"</string>
+    <string name="Points_Ticket">"النقاط/رقم التذكرة"</string>
+    <string name="txt_points">"نقاط"</string>
+    <string name="txt_earned">"النقاط المكتسبة"</string>
+    <string name="txt_voucher_code">"رمز القسيمة"</string>
+    <string name="txt_redeemed">"المستردة"</string>
+    <string name="txt_status">"الحالة"</string>
+    <string name="txt_done">"فعله"</string>
+    <string name="txt_valid_till">"صالحة حتى"</string>
+    <string name="txt_month_jan">"يناير"</string>
+    <string name="txt_month_feb">"فبراير"</string>
+    <string name="txt_month_march">"مارس"</string>
+    <string name="txt_month_apr">"أبريل"</string>
+    <string name="txt_month_may">"قد"</string>
+    <string name="txt_month_jun">"يونيو"</string>
+    <string name="txt_month_july">"يوليو"</string>
+    <string name="txt_month_aug">"أغسطس"</string>
+    <string name="txt_month_sept">"سبتمبر"</string>
+    <string name="txt_month_oct">"أكتوبر"</string>
+    <string name="txt_month_nov">"نوفمبر"</string>
+    <string name="txt_month_dec">"ديسمبر"</string>
+    <string name="txt_iaggree">"اوافق"</string>
+    <string name="txt_and_text">" و "</string>
+    <string name="txt_allowing_text">أسمح لي البيانات لاستخدامها مجهول لغرض الأبحاث.</string>
+    <string name="txt_visit">"زيارة"</string>
+    <string name="signup_facebook">تسجيل الدخول إلى Facebook</string>
+    <string name="signout_facebook">تسجيل الخروج مع الفيسبوك</string>
+    <string name="signup_google">تسجيل الدخول إلى Google+</string>
+    <string name="signout_google">"تسجيل الخروج ب Google+"</string>
+    <string name="userexist">العضو موجودة بالفعل ، الرجاء الدخول</string>
+    <string name="async_task_not_responding">غير قادر على معالجة طلبك، يرجى المحاولة لاحقا .</string>
+    <string name="msg_confirm_open">هل تريد فتح المسح ؟</string>
+    <string name="Ok">"موافق"</string>
+    <string name="unsubscribe_text1">يحزننا أنك لم تعد مهتما باستبياناتنا</string>
+    <string name="unsubscribe_text2"> سنشتاق إليك، وسنكون ممتنين إذا \n قمت بإرسال تقييمك للتجربة \n لنتمكن من تطوير خدماتنا </string>
+    <string name="unsubscribe_text3">الرجاء الاختيار من الأسباب أدناه:</string>
+    <!-- Manoj pop up Strings -->
+    <string name="error">"خطأ"</string>
+    <string name="error_fn">"لا يمكن أن يكون الاسم الأول فارغًا"</string>
+    <string name="error_ln">"لا يمكن أن يكون الاسم الأخير فارغًا."</string>
+    <string name="error_gender">"يُرجى تحديد النوع"</string>
+    <string name="error_dob">"يُرجى إدخال تاريخ ميلادك."</string>
+    <string name="error_select_country">"يُرجى تحديد بلدك"</string>
+    <string name="error_phone_empty">"لا يمكن أن يكون رقم الهاتف الجوّال فارغًا"</string>
+    <string name="error_city">"يُرجى تحديد مدينتك"</string>
+    <string name="error_zipcode">"الرقم البريدي لا يمكن أن يكون فارغًا"</string>
+
+    <!-- Added more for length validations -->
+    <string name="error_phone_length">"يُرجى إدخال رقم صحيح للهاتف المحمول"</string>
+    <string name="error_zipcode_length">"الرجاء إدخال الرمز البريدي صالح"</string>
+    <string name="message_sel_country">"الرجاء اختيار بلدك"</string>
+    <string name="message_city">"اختر مدينة"</string>
+    <string name="message_panel_intake_1">و تهنئة ، كنت مجرد خطوة بعيدا عن المكافآت كسب .  </string>
+    <string name="message_panel_intake_2">يرجى تأكيد تسجيلك من خلال التحقق من هوية بريدك الإلكتروني.</string>
+    <string name="allowdatausage">"تحتاج Panel Station إلى الإذن للدخول إلى بيانات تطبيقك. يُرجى السماح بوصول الاستخدام إلى PanelStation"</string>
+    <string name="registrationfails">"فشل التسجيل."</string>
+    <string name="hint_search">"بحث"</string>
+    <string name="mat_addid">174926</string>
+    <string name="mat_onversionkey">f9217ab0bd684aee398cfc950547d6e6</string>
+    <string name="msg_valid_password">"الرجاء إدخال كلمة السر الصحيحة"</string>
+    <string name="survey_not_found">"لم يتم العثور على المسح."</string>
+    <string name="alert_dialog_txt_part1">"تحتاج إلى أكثر من %d نقطة إضافية لاسترداد الأموال بشكل عام. ومع ذلك ، يمكنك المشاركة دائمًا في السحب الشهري على الجوائز للفوز بجوائز مثيرة. "</string>
+    <string name="alert_dialog_txt_part2">"  تحتاج إلى "</string>
+    <string name="thanks_dialog_txt">شكرا لك على الكتابة لنا! نحن سوف نعود اليكم في وقت قريب.</string>
+    <string name="setting">"الإعدادات"</string>
+    <string name="webpage_being_loaded">"صفحة على شبكة الإنترنت تحميل"</string>
+    <string name="async_task_error_timeout">"مهلا، نحن غير قادر على التعامل مع طلبك في هذا الوقت . يرجى المحاولة لاحقا ."</string>
+
+    <!-- Added By saurabh -->
+    <string name="surveys">صفحة الدراسات الاستقصائية </string>
+    <string name="rewards">صفحة المكافآت</string>
+    <string name="txt_Reward">"المكافآت"</string>
+    <string name="txt_Redeem">"خلص"</string>
+    <string name="txt_msg_pinsent">"رقم التعريف الشخصي تم إرساله بنجاح!"</string>
+    <string name="txt_RedeemHist">"تاريخ الاسترداد"</string>
+    <string name="txt_RewardHist">"تاريخ المكافآت"</string>
+    <string name="ChangeLang">تغيير اللغة</string>
+    <string name="PrivacyPol">نص الخصوصية</string>
+    <string name="Terms">الشروط والأحكام</string>
+    <string name="ContactUs">اتصل بنا</string>
+    <string name="press_again_close">"اضغط مرة أخرى ل إغلاق !"</string>
+    <string name="txt_donot_enter_code">"ملاحظة: الرجاء عدم إدخال رمز البلد"</string>
+    <string name="general_rewards">"المكافآت العامة"</string>
+    <string name="sweepstakes">"يا نصيب"</string>
+    <string name="txt_each_ticket_part1">"كل تذكرة تكاليف %d نقطة "</string>
+    <string name="txt_each_ticket_part2">" تبلغ تكلفة كل تذكرة "</string>
+    <string name="txt_balance_points">"نقاط الرصيد"</string>
+    <string name="txt_tickets_in_cart_part1">" تذاكر في عربت "</string>
+    <string name="txt_tickets_in_cart_part2">" لديك"</string>
+    <string name="txt_select_quantity">"حدد الكمية"</string>
+    <string name="txt_points_number">"نقاط"</string>
+    <string name="txt_BUY">"يشترى"</string>
+    <string name="txt_buy_btn_agreeing">"بالنقر على زر "شراء" ، فإنك توافق على جميع بنود وشروط "محطة الفريق"</string>
+    <string name="txt_mobile_verification">"التحقق المحمول"</string>
+    <string name="txt_mobile_number_verify">"تحتاج إلى التحقق من رقم هاتفك المحمول من أجل الحصول على هدية الاسترداد"</string>
+    <string name="txt_pin">"رمز دبوس"</string>
+    <string name="txt_thanks">"شكر! "</string>
+    <string name="txt_receive_email_shortly">" سوف تتلقى رسالة بريد إلكتروني قريبا مع جميع المعلومات حول القرعة"</string>
+    <string name="txt_puchased_ticket_part1">لقد قمت بشراء %s تذكرة (ق).</string>
+    <string name="txt_puchased_ticket_part2">لقد اشتريت </string>
+    <string name="txt_mobilenumber">"رقم الهاتف الجوّال"</string>
+    <string name="btn_verify">"التحقق"</string>
+    <string name="hint_mobile_number">رقم الهاتف المحمول</string>
+
+    <string name="txt_contactus">"اتصل بنا"</string>
+    <string name="txt_raise_request">رفع الطلب</string>
+    <string name="txt_msg_subject">"الموضوع"</string>
+    <string name="txt_tell_us_more">الرسالة</string>
+    <string name="btn_send">إرسال</string>
+    <string name="btn_cancel">إلغاء</string>
+    <string name="txt_option">"اختيار"</string>
+    <string name="txt_description">"وصف"</string>
+    <string name="txt_select">"تحديد"</string>
+    <string name="txt_enter_points_redeem">"أدخل النقاط التي تريد استردادها"</string>
+    <string name="btn_next">"التالي"</string>
+    <string name="txt_takenby">"الأخذ من خلال "</string>
+    <string name="txt_surveyrewardMSG">"خذ استطلاعات."</string>
+    <string name="txt_surveyanytime">"في اي وقت وفي اي مكان."</string>
+    <string name="txt_opinion">"رأيك منتجات الشكل والخدمات التي تقدمها الشركات العالمية"</string>
+    <string name="txt_expired">"ينتهي بتاريخ"</string>
+    <string name="alert_dialog_txt_part3">"نأسف ، نحتاج إلى %d نقطة أخرى لاستردادها "</string>
+    <string name="alert_dialog_txt_part4">"  المزيد من النقاط لتخليص."</string>
+    <string name="txt_save">"حفظ"</string>
+    <string name="txt_forgot_password">"نسيت كلمة المرور"</string>
+    <string name="txt_social_link">حلقة الوصل</string>
+    <string name="txt_tickets_buyMax">"يمكنك شراء أقصى × تذكرة (تذاكر)"</string>
+    <string name="txt_tickets">"تذكرة "</string>
+    <string name="txt_wait_for_questions">"يُرجى الانتظار لحين تجهيز الاستبيان لك "</string>
+    <string name="txt_imnew">"انا جديدة"</string>
+    <string name="msg_serverdown">"الخادم هو أسفل أو تحت صيانة . الرجاء معاودة المحاولة في وقت لاحق."</string>
+    <string name="msg_citynotfound">"غير قادر على معالجة الطلب، نظرا ل صعوبة في العثور على المدن أعضاء الفريق من بلدك ."</string>
+    <string name="unabletoverifypin">"قادر على التحقق من رقم التعريف الشخصي  الخاص بك، يرجى إدخال الرقم السري  الصحيح"</string>
+    <string name="msg_subject">"يرجى إدخال الموضوع"</string>
+    <string name="msg_message">"يرجى إدخال الرسالة"</string>
+    <string name="msg_select_any_coupoun">" يرجى تحديد أي خيار"</string>
+    <string name="pointexpired">"نقطة منتهية الصلاحية"</string>
+    <string name="open">"فتح"</string>
+
+    <!-- New Changes Strings -->
+    <string name="ui_activationcode">"رمز التحقق من المستخدم "</string>
+    <string name="ui_msg_checkemail">
+<![CDATA[
+                        <p>يرجى التحقق من البريد الإلكتروني الوارد الخاص بك لرمز تفعيل "Station Panel"</p>
+                    ]]>
+    </string>
+    <string name="ui_msg_checkemail_spam">"يُرجى مراجعة مجلدي الدعاية والبريد العشوائي لتجد رسالة البريد الإلكتروني الخاصة  برمز التفعيل من موقع The Panel Station إذا لم تعثر عليها في صندوق الوارد."</string>
+    <string name="hint_activationcode">"أدخِل رمز التفعيل الخاص بك هنا"</string>
+    <string name="ui_termsandcondition">
+<![CDATA[
+                        <p>أوافق على الشروط والأحكام وسياسة الخصوصية </p>
+                    ]]>
+    </string>
+    <string name="ui_textSignIn">انقر هنا لتسجيل الدخول إلى الصفحة</string>
+    <string name="signupsocial">سجّل الآن في موقع <b>The Panel Station</b></string>
+    <string name="signupsocial_appends">بطريقة سليمة وآمنة</string>
+    <string name="msgcheckemailforotp"> تم إرسال كود التفعيل إلى معرّف بريدك الإلكتروني ، ويُرجى التأكد والتحقق للتفعيل </string>
+    <string name="congratulation_header"> تهانينا!</string>
+    <string name="congratulation_msg">أنت الآن أحد أعضاء أكبر منصات الأبحاث عبر الإنترنت. يُرجى النقر فوق "ابدأ الربح" للانتقال إلى قسم الدراسات الاستقصائية بالتطبيق.</string>
+    <string name="lbl_privacy_statement">بيان الخصوصية</string>
+
+    <!-- sudhir changes -->
+    <string name="text_existing_member">"عضو حالي"</string>
+    <string name="resendactivationcode">"أعِد إرسال كود التفعيل في "</string>
+    <string name="clickhere">"لم تستلم الكود بعد؟ انقر هنا"</string>
+    <string name="min">"دقيقة"</string>
+    <string name="sec">"ثانية"</string>
+    <string name="alredy_otp">"هل لديك كلمة مرور لمرة واحدة بالفعل؟"</string>
+    <string name="otp_email">يُرجى إدخال معرّف بريدك الإلكتروني المُسجَّل</string>
+    <string name="resend_otp">إعادة إرسال OTP؟</string>
+    <string name="when_you_refer_a_friend"> عندما تحيل صديق</string>
+    <string name="msg_first_time_500_earn">1. سوف تربح 500 نقطة مقابل الترشيح (فقط بعد أن يقوم الشخص بالإجابة على أول استفتاء له)</string>
+    <string name="your_friend_earns_500_joining_points">2. سيربح صديقك 500 نقطة مقابل الانضمام</string>
+    <string name="_3_you_can_refer_a_maximum_of_5_friends_in_a_month">3. يمكنك القيام بالترشيح بحد أقصى ل5 أصدقاء بالشهر</string>
+    <string name="the_more_the_merrier">كلما قمت بالأمر أكثر ربحت أكثر</string>
+    <string name="so_get_your_going_in_now">لذلك استعد الآن</string>
+    <string name="match_the_puzzle_to_fetch_a_survey">حلّ اللغز للوصول إلى الاستبيان</string>
+    <string name="and_each_time_500_referral_points">وفي كل مرة تفعل ، يمكنك كسب 500 نقطة إحالة!</string>
+    <string name="friends_make_life_better">الأصدقاء يجعلون الحياة أفضل ويجب الاحتفال بها! مع هذا الاعتقاد ، أنشأنا برنامج Refer-A-Friend لمكافأة جميع أصدقائك هناك</string>
+    <string name="for_more_details">لمزيد من التفاصيل</string>
+    <string name="click_here">انقر هنا</string>
+    <string name="consent_form">نموذج الموافقة</string>
+    <string name="consent_form_p_tc_1">تعد The Panel Station منتجًا مملوكًا لـ Borderless Access Panels بالإضافة إلى جميع علاماتها التجارية والرسومات التوضيحية والصور والرسومات والملفات والتصاميم والترتيبات. يجب استخدام محتويات هذا الموقع فقط وفقًا للبنود والشروط وسياسة الخصوصية المرفقة هنا .</string>
+    <string name="disclaimer">تنازل</string>
+    <string name="before_we_proceed">قبل المضي قدمًا ، يُرجى تخصيص بضع دقائق لتزويدنا بمعلومات عنك و موافقتك التي أصبحت ملزمة وفقًا لقوانين خصوصية البيانات الجديدة.</string>
+    <string name="are_you_citizen_of_eu">هل أنت مواطن في الاتحاد الأوروبي؟</string>
+    <string name="are_you_in_eu_region">"هل أنت حاليا في الاتحاد الأوروبي؟ "</string>
+    <string name="in_accordance_big_1">وفقًا لقوانين خصوصية البيانات الجديدة في الاتحاد الأوروبي (GDPR) ، نطلب منك قراءة النموذج أدناه بعناية وتقديم موافقتك على الاستمرار في أن تكون جزءًا من مجتمع TPS.</string>
+    <string name="here_at_the_big_2">هنا في The Panel Station ، نأخذ خصوصيتك على محمل الجد ولن تستخدم سوى معلوماتك الشخصية لإدارة حسابك ولتقديم المنتجات والخدمات التي طلبتها منا.</string>
+    <string name="you_understand_big_text_3">أنت تدرك وتوافق على أنه باختيار الخيار \"نعم\" ، قد نرسل إليك الإشعارات المناسبة من خلال رسائل البريد الإلكتروني والرسائل النصية القصيرة والتي تشكل جزءًا من الخدمات التي يتم تقديمها لك.</string>
+    <string name="if_at_any_point">إذا كان قررت في أي وقت بعد التسجيل سحب موافقتك ، فيمكنك القيام بذلك عن طريق إرسال طلبك لنا على [insert e-mail address]. سنرد على رسائلك في غضون ثلاثة أيام من استلامها.</string>
+    <string name="if_at_any_point_custom">إذا كان قررت في أي وقت بعد التسجيل سحب موافقتك ، فيمكنك القيام بذلك عن طريق إرسال طلبك لنا على %s. سنرد على رسائلك في غضون ثلاثة أيام من استلامها.</string>
+    <string name="do_you_wish">هل ترغب في الموافقة على أن تكون جزءًا من مجتمع The Panel Station للمشاركة في الأبحاث المقدمة منها؟</string>
+    <string name="yes_i_agree">" نعم ، أوافق"</string>
+    <string name="no_i_dont_agree">" لا ، أنا لا أوافق"</string>
+    <string name="consent_disclaimer_1">تعد The Panel Station منتجًا مملوكًا لـ Borderless Access Panels بالإضافة إلى جميع علاماتها التجارية والرسومات التوضيحية والصور والرسومات والملفات والتصاميم والترتيبات. يجب استخدام محتويات هذا الموقع فقط وفقًا</string>
+    <string name="consent_disclaimer_2">فقة هنا .</string>
+    <string name="in_case_you_delete">إذا كنت ترغب في حذف معلوماتك المسجلة معنا ، يرجى مراسلتنا على Dataprotectionofficer01@borderlessaccess.com</string>
+    <string name="rejoin_panel_email">في أي وقت ، إذا كنت ترغب في إعادة الانضمام إلى فريقنا ، يمكنك القيام بذلك عن طريق التسجيل معنا. للتسجيل يرجى الضغط على الرابط التالي</string>
+    <string name="title_msg_succeess_unsubscribe">لقد ألغيت اشتراكك معنا بنجاح.</string>
+    <string name="msg_eu_region_decline_consent_form">ذَكَرت أنك من أوروبا/أحد مواطني أوروبا، لذا نطلب منك قبول نموذج الموافقة لمتابعة التسجيل.</string>
+    <string name="swipe_up">مرِّر لأعلى للاشتراك</string>
+    <string name="swipe_down">مرِّر لأعلى لتسجيل الدخول</string>
+
+    <string name="refer_2_more">قم بدعوة صديق أو اثنين أو ثلاثة أو أكثر</string>
+    <string name="refer_code_not_avaliable">كود الإحالة غير صالح</string>
+
+    <string name="select_optional">الرجاء اختيار ملف (اختياري)</string>
+
+    <string name="connect_your_accounts">اربط حسابك</string>
+    <string name="reset">إعادة تعيين</string>
+
+
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="unsubscribe">إلغاء الاشتراك</string>
+
+
+    <string name="refer_frnd">دعوة صديق </string>
+    <string name="title_contact_us">تواصل معنا</string>
+
+    <string name="my_rewards">الجوائز الخاصة بي</string>
+    <string name="my_profile">الملف الشخصي</string>
+    <string name="my_surveys">الدراسات الخاصة بي</string>
+    <string name="contact_us">تواصل معنا</string>
+    <string name="fanpage">بلوق</string>
+    <string name="invite">دعوة</string>
+    <string name="faq">الأسئلة الشائعة</string>
+    <string name="settings">الاعدادات</string>
+
+    <string name="update_profile">تحديث الملف التعريفي</string>
+    <string-array name="home">
+        <item> الجوائز الخاصة بي</item>
+        <item>الملف الشخصي</item>
+        <item>الدراسات الخاصة بي</item>
+        <item>تواصل معنا</item>
+        <item>بلوق</item>
+        <item>شارات</item>
+        <item>دعوة</item>
+        <item>الأسئلة الشائعة</item>
+        <item>الاعدادات</item>
+    </string-array>
+    <string name="unsubscribe_lowercase">إلغاء الاشتراك
+</string>
+
+    <string name="user_msg">"تم تسجيل حسابك في الحسابات غير النشطة؛ لذا يُرجى التواصل مع فريق الدعم بموقعنا على البريد الإلكتروني mobile@thepanelstationsurveys3.com لمزيد من المساعدة."
+</string>
+
+    <string name="error_valid_referral_code">يرجى إدخال رمز إحالة صحيح
+</string>
+    <string name="apply_referral_code">تطبيق</string>
+
+    <string name="api_msg_90days">"يمكنك إجراء المسح مرة واحدة خلال 90 يومًا فقط."</string>
+    <string name="api_nosurveyavailable">"لا يوجد استطلاع متاح لك في الوقت الحاضر. الرجاء معاودة المحاولة في وقت لاحق!"</string>
+    <string name="api_tps_account_linked">"يرتبط حساب TPS بوسائط التواصل الاجتماعي"</string>
+    <string name="api_profiler_unavailable">"منشئ ملفات التعريف غير متوفر حالياً"</string>
+    <string name="api_recently_updated">"يبدو أنك قمت مؤخرًا بتحديث الملف الشخصي ، لن يكون متاحًا إلا بعد 90 يومًا من التحديث الأخير."</string>
+    <string name="api_email_registered">"البريد الإلكتروني الخاص بك مسجل بالفعل"</string>
+    <string name="api_device_registered">"جهازك مسجل بالفعل لخدمتنا"</string>
+    <string name="api_email_device_registered">"تم تسجيل EmailId والجهاز الخاص بك بالفعل لخدمتنا"</string>
+    <string name="api_facebook_credentials">"ارتبطت بالفعل بيانات اعتماد Facebook."</string>
+    <string name="api_associated_tps_account">"هل لديك أي حساب في TPS للربط مع Facebook؟"</string>
+    <string name="api_enter_valid_pin">"الرجاء إدخال دبوس صالح"</string>
+    <string name="api_network_connection_unavailbale">"اتصال الشبكة غير متوفر"</string>
+    <string name="api_subject_here">"أدخل الموضوع هنا"</string>
+    <string name="api_fill_all_answers">"يرجى ملء جميع الإجابات على هذه الصفحة"</string>
+
+    <string name="surveyList_title">الاستبيان المتاح
+</string>
+
+    <string name="subject">موضوع
+</string>
+    <string name="profile_settings">إعدادات الحساب
+</string>
+    <string name="invite_your_friends">قم بدعوة أصدقائك
+</string>
+    <string name="txt_redeem_points">حدد النقاط التي تريد استردادها
+</string>
+    <string name="particitpate_and_luck">شارك واحصل على الحظ
+</string>
+    <string name="tv_redemption_history">تاريخ الاسترداد
+ تاريخ</string>
+    <string name="tv_rewards_history">"تاريخ المكافآت"</string>
+
+    <string name="available_count">الاستبيان المتاح -
+    </string>
+    <string name="enter_paytm_id">يرجى إدخال معرف Paytm الخاص بك</string>
+    <string name="add_photo">أضف صورة</string>
+    <string name="take_photo">قم بالتقاط صورة</string>
+    <string name="choose_from_gallery">اختر من الاستوديو</string>
+    <string name="remove_photo">قم بازالة الصورة</string>
+    <string name="profile_update_success">تم تحديث صورة ملفك الشخصي بنجاح</string>
+    <string name="delete_profile_picture">تمت إزالة صورة ملفك الشخصي بنجاح</string>
+    <string name="enter_confirm_password">أدخل كلمة مرور تأكيد</string>
+    <string name="current_password">إدخل كلمة السر الحالية</string>
+    <string name="new_password">أدخل كلمة المرور الجديدة</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="please_select_reason">يُرجى تحديد السبب/الأسباب</string>
+    <string name="others_cannot_be_blank">لا يمكن أن يكون خيار "سبب آخر/أسباب أخرى" فارغًا</string>
+    <string name="badges">شارات</string>
+    <string name="badge_increase">تم ترقية الشارة ل%1$s. تم الحصول على %2$s نقطة.</string>
+    <string name="at">في الساعة</string>
+    <string name="old_password">* كلمة المرور القديمة :</string>
+    <string name="confirm_password">* تأكيد كلمة المرور:</string>
+    <string name="newpassword">* كلمة المرور الجديدة:</string>
+    <string name="password_comapre_mismatch">كلمة المرور الجديدة وتأكيد عدم تطابق كلمة المرور.</string>
+    <string name="new_password_length">يجب أن يكون طول كلمة المرور الجديدة بين الحرفين 6 و 16.</string>
+    <string name="need_more_points">يلزمك %1$d نقطة إضافية لاسترداد قيمة %2$s من قسائم الشراء، ومع ذلك يمكنك تحديد خيارات أخرى للاسترداد.</string>
+    <string name="password_expiry_message">نفدت صلاحية كلمة مرورك. لذا؛ يُرجى تغييرها الآن لتسجيل دخولك إلى لوحة البيانات</string>
+    <string name="please_change_your_password">يُرجى تغيير كلمة مرورك</string>
+    <string name="new_old_password_match_error">لا ينبغي أن تتطابق كلمة المرور الجديدة والقديمة</string>
+    <string name="rationale_location">يُرجى النقر فوق زر "اقبل" في المربع الحواري التالي</string>
+    <string name="register_here">سجِّل هنا</string>
+    <string name="communication_preferences">تفضيلات التواصل</string>
+    <string name="poll_result">النتائج</string>
+    <string name="quick_poll">استطلاع رأي سريع</string>
+    <string name="result">النتائج</string>
+    <string name="notification">الإخطارات</string>
+    <string name="no_notifications">لا يوجد إشعارات</string>
+    <string name="activity">سجل النشاط</string>
+    <string name="last_log_in">آخر تسجيل دخول</string>
+    <string name="last_log_out">آخر تسجيل خروج</string>
+    <string name="resubscribe">إعادة الاشتراك</string>
+    <string name="resubscribe_msg">لقد نجحت في إلغاء اشتراكك من مجتمعنا، لكننا سنرحب بعودتك مجددًا، عندئذ يرجى النقر فوق \"إعادة الاشتراك\"</string>
+    <string name="successfully_resubscribed">تمت إعادة الاشتراك بنجاح</string>
+    <string name="subscribe_success_msg">تهانينا! مرحبًا بك في مجتمعنا مجددًا! هيا نعبِّر عن آرائنا لنضمن غد أفضل.</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="no_quick_poll">لا تتوفر استطلاعات سريعة.</string>
+    <string name="comm_pref_email">البريد الإلكتروني</string>
+    <string name="comm_pref_mobile_sms">الرسائل النصية القصيرة بالهاتف المحمول</string>
+    <string name="comm_pref_mobile_push_notification">الإخطارات المباشرة على الهاتف المحمول</string>
+    <string name="comm_pref_desktop_notification">إخطارات سطح المكتب</string>
+    <string name="comm_pref_save_success">تم حفظ مفضلات التواصل بنجاح.</string>
+    <string name="error_msg_for_invalid_redeem_points">يُرجى إدخال نقاط سارية لاسترداد قيمتها</string>
+    <string name="redeem_instantly">استرد قيمة النقاط فورا</string>
+    <string name="legend">أسطورة</string>
+    <string name="grand_master">كبير أساتذة</string>
+    <string name="master">أستاذ</string>
+    <string name="sensei">مدرب</string>
+    <string name="newbei">مبتدئ</string>
+    <string name="unsubscribe_delete_confirmation">سيتم إلغاء اشتراكك من موقعنا، وسيتم حذف جميع بياناتك السابقة. يُرجى النقر على "موافق" إذا أردت الاستمرار.</string>
+    <string name="unsubscribe_delete_successful">لقد نجحت في إلغاء اشتراكك من موقعنا. وسيتم حذف جميع بياناتك السابقة من على أجهزتنا في غضون 2 إلى 3 أيام عمل.</string>
+    <string name="unsubscribe_delete">إلغاء الاشتراك وحذف</string>
+
+
+</resources>

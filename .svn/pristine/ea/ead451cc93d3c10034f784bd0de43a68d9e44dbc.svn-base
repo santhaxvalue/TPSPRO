@@ -1,0 +1,68 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/dp16"
+    android:background="@color/white"
+    android:foregroundGravity="center"
+    android:padding="@dimen/dp8"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/dp12"
+    app:cardElevation="@dimen/dp4"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dp30"
+            android:paddingTop="@dimen/dp30">
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp10"
+                android:textColor="@color/black"
+                android:text="@string/successfully_resubscribed"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@android:style/TextAppearance.Small"
+                android:layout_marginEnd="@dimen/dp16"
+                android:layout_marginStart="@dimen/dp16"
+                android:lineSpacingExtra="@dimen/_4sdp"
+                android:gravity="center"
+                android:text="@string/subscribe_success_msg"
+                android:textColor="@color/link_black"
+                android:textSize="@dimen/sp20" />
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:id="@+id/btn_sign_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp10"
+                android:textColor="@color/link_blue"
+                android:text="@string/SignIn"
+
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

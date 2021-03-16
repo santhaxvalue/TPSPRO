@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/header_points_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--<android.support.v7.widget.CardView
+       android:layout_width="wrap_content"
+       android:layout_height="68dp"
+       android:orientation="vertical"
+       app:cardBackgroundColor="@color/white"
+       app:cardCornerRadius="34dp"
+       app:elevation="@dimen/cardview_default_elevation">-->
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/dp8"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/dp6"
+            app:elevation="@dimen/cardview_default_elevation">
+        <RelativeLayout
+            android:id="@+id/ptsRedeemed1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/dp6"
+            android:paddingRight="@dimen/dp20">
+
+            <ImageView
+                android:id="@+id/img_redeem_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp5"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pointsavailable" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toEndOf="@id/img_redeem_points"
+                android:layout_toRightOf="@id/img_redeem_points"
+                android:orientation="vertical"
+                android:padding="@dimen/dp2"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txt_points_available"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:padding="@dimen/dp2"
+                    android:text="@string/txt_aval_point"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/sp14" />
+
+                <TextView
+                    android:id="@+id/txt_points_redeemed_available"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:ellipsize="end"
+                    android:padding="@dimen/dp1"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp14"
+                    android:textStyle="bold"
+                    tools:text="1000" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/dp8"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="@dimen/dp6"
+                app:elevation="@dimen/cardview_default_elevation">
+                <RelativeLayout
+                    android:id="@+id/pirLayout1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:paddingLeft="@dimen/dp12"
+                    android:paddingRight="@dimen/dp12"><!--dp32-->
+
+                    <ImageView
+                        android:id="@+id/img_point_in_review"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:padding="@dimen/dp8"
+                        android:layout_centerVertical="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/warning" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_toEndOf="@id/img_point_in_review"
+                        android:layout_toRightOf="@id/img_point_in_review"
+                        android:orientation="vertical"
+                        android:padding="@dimen/dp2"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:id="@+id/txt_pointin_revw"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:padding="@dimen/dp2"
+                            android:text="@string/txt_points_in_review"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/sp14" />
+
+                        <TextView
+                            android:id="@+id/txt_points_inreview_available"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:ellipsize="end"
+                            android:padding="@dimen/dp1"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/sp14"
+                            android:textStyle="bold"
+                            android:text="200"
+                            tools:text="1000" />
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+   <!-- <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_redeem_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/_40sdp"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:orientation="vertical">
+
+            <include layout="@layout/shimmer_redeem_points" />
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>-->
+
+</RelativeLayout>
+
+

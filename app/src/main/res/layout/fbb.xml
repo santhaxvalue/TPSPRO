@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_grid_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/dp40"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:orientation="vertical">
+
+        <GridView
+            android:id="@+id/fab_grid_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_rect_grey"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            />
+
+        <View
+            android:id="@+id/tv_triangle"
+            android:layout_width="@dimen/dp24"
+            android:layout_height="@dimen/dp24"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/traingle" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_fab_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <View
+            android:id="@+id/bottm_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp36"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_btn_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/margin_view"
+            android:layout_centerHorizontal="true"
+            android:contentDescription=""
+            android:src="@drawable/ic_action_done"
+            app:elevation="@dimen/dp2"
+            app:fabSize="mini" />
+
+        <Space
+            android:id="@+id/margin_view"
+            android:layout_width="@dimen/dp32"
+            android:layout_height="@dimen/dp18"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/transparent" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/home_img_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp36"
+        android:layout_gravity="end|bottom"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Home Button"
+        android:padding="@dimen/dp8"
+        android:src="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/left_arrow_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp36"
+        android:layout_gravity="bottom|start"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Left Arrow"
+        android:padding="@dimen/dp8"
+        android:src="@drawable/left_arrow" />
+</android.support.design.widget.CoordinatorLayout>

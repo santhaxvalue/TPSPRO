@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notfication_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_icon_notification"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/calender"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/title_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/img_icon_notification"
+        android:text="Title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/img_icon_notification" />
+
+    <TextView
+        android:id="@+id/message_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_notification"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/img_icon_notification"
+        android:alpha=".87"
+        android:text="Text"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/img_icon_notification" />
+</RelativeLayout>

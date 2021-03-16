@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyt_quick_poll_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:layout_marginEnd="@dimen/_15sdp"
+    android:layout_marginTop="@dimen/dp16"
+    android:visibility="gone"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/next_question"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/dp16"
+        android:background="@drawable/next_click" />
+
+    <ImageView
+        android:id="@+id/prev_question"
+        android:layout_width="40dp"
+        android:layout_height="@dimen/dp36"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/dp16"
+        android:background="@drawable/previous" />
+
+    <com.panelManagement.widgets.TextViewPlusBold
+        android:id="@+id/tv_frag_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp16"
+        android:gravity="center"
+        android:text="@string/quick_poll"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp20"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionView"
+        android:overScrollMode="never"
+        android:layout_above="@+id/btn_layout"
+        android:layout_below="@id/tv_frag_heading"
+        android:visibility="visible"
+        android:layout_marginTop="@dimen/dp10">
+
+        <include
+            layout="@layout/lyt_question_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp10"
+            android:visibility="visible" />
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pollResultView"
+        android:overScrollMode="never"
+        android:layout_above="@+id/btn_layout"
+        android:layout_below="@id/tv_frag_heading"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/dp10">
+
+        <include layout="@layout/lyt_quick_poll_result"
+            android:visibility="visible"
+            android:layout_marginTop="@dimen/dp10"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@id/btn_layout"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_result"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@color/save_red"
+            android:gravity="center"
+            android:text="@string/result"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_save_choice"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@color/save_red"
+            android:gravity="center"
+            android:text="@string/txt_submit"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</RelativeLayout>

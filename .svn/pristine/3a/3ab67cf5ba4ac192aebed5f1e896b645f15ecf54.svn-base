@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Turkish
+
+    <string name="txt_redemption_request">Için geri ödeme isteği</string>
+    //added by niyaj
+    <string name="txt_points_processed_successfully">puan başarıyla işlendi.</string>
+    //added by niyaj
+    <string name="txt_profile_successfully_updated">"Profiliniz başarıyla güncellendi"</string>
+    <string name="txt_mandatory">"Zorunlu"</string>
+    <string name="userlogin">"Kullanıcı Girişi "</string>
+    <string name="isvalidbamarket">"Panel İstasyonu uygun değil"</string>
+    <string name="hint_dob_select">"Doğum Tarihini Seçin"</string>
+    <string name="text_OR">"veya"</string>
+    <string name="signin_facebook">"Facebook ile giriş"</string>
+    <string name="signin_signinpage_google">"Google+ ile giriş yapın"</string>
+    <string name="error_terms_conditions">""Lütfen şartlarımızı ve koşullarımızı kabul et""</string>
+    <string name="profiler">"Profiler sayfası"</string>
+    <string name="personal_info">"KİŞİSEL BİLGİ"</string>
+    <string name="text_welcome">"Hoşgeldiniz"</string>
+    <string name="profilecompleted">"Profiliniz% 100 tamamlandı"</string>
+    <string name="txt_complete_profile_point_1">"Profilinizi tamamlayarak * %d puan kazanabilirsiniz"</string>
+    <string name="txt_start">"başla"</string>
+    <string name="text_edit">"Düzenle"</string>
+    <string name="thanks_smiley_msg">"Profilinizi güncellediğiniz için teşekkür ederiz; yakında ilgi alanlarınızla ilgili daha fazla ödül veren anketler alacaksınız."</string>
+    <string name="empty_message_update_profile">"ilgi alanlarınızla ilgili anket almak için profilinizi güncelleyin"</string>
+    <string name="empty_message_receive_survey">"Yakında ilginç bir anket alacaksınız"</string>
+    <string name="txt_Reward">"Ödüller"</string>
+    <string name="txt_Redeem">"kurtarmak"</string>
+    <string name="txt_msg_pinsent">"PIN başarıyla gönderildi!"</string>
+    <string name="txt_RedeemHist">"Kefaret Tarihi"</string>
+    <string name="txt_RewardHist">"Puan Geçmişi"</string>
+    <string name="txt_mobile_verification">"Mobil doğrulama"</string>
+    <string name="txt_mobile_number_verify">"Kefaret hediyesini almak için cep telefonu numaranızı doğrulamanız gerekir."</string>
+    <string name="txt_mobilenumber">"cep telefonu numarası"</string>
+    <string name="txt_donot_enter_code">"Not: Lütfen ülke kodunu girmeyin"</string>
+    <string name="txt_pin">"Toplu iğne"</string>
+    <string name="btn_verify">"DOĞRULAYIN"</string>
+    <string name="txt_submit">"TESLİM ET"</string>
+    <string name="general_rewards">"Genel ödüller"</string>
+    <string name="txt_option">"seçenek"</string>
+    <string name="txt_description">"Açıklama"</string>
+    <string name="txt_select">"seçmek"</string>
+    <string name="txt_enter_points_redeem">"Kullanmak istediğiniz puanları girin"</string>
+    <string name="sweepstakes">"çekiliş"</string>
+    <string name="txt_each_ticket_part1">"Her bilette %d puan maliyeti"</string>
+    <string name="txt_tickets">"Bilet"</string>
+    <string name="txt_balance_points">"Bakiye puanları"</string>
+    <string name="txt_select_quantity">"Sepetinizde X biletiniz var"</string>
+    <string name="txt_points_number">"makas"</string>
+    <string name="txt_BUY">"satın almak"</string>
+    <string name="txt_buy_btn_agreeing">"Satın al düğmesine tıklayarak Panel İstasyonunun tüm şartlarını ve koşullarını kabul etmiş olursunuz."</string>
+    <string name="alert_dialog_txt_part3">"Üzgünüz, kullanabilmek için %d daha fazla puana ihtiyacınız var."</string>
+    <string name="alert_dialog_txt_part1">"Genel ödeme için %d daha fazla puana ihtiyacınız var. Ancak heyecan verici ödüller kazanmak için her zaman Aylık Ödül Çekilişimize katılabilirsiniz."</string>
+    <string name="txt_thanks">"Teşekkürler! "</string>
+    <string name="txt_puchased_ticket_part1">"%s Bilet (ler) satın aldınız."</string>
+    <string name="txt_receive_email_shortly">Çekiliş ile ilgili tüm bilgileri kısa bir süre içinde bir e-posta alacaksınız</string>
+    <string name="setting">"Ayarlar"</string>
+    <string name="ChangeLang">"Dili Değiştir"</string>
+    <string name="lbl_privacy_policy">"Gizlilik Bildirimi"</string>
+    <string name="Terms">"Hükümler ve Koşullar"</string>
+    <string name="txt_contactus">"İletişim"</string>
+    <string name="txt_language">"Dil"</string>
+    <string name="txt_raise_request">"Bir istek oluştur"</string>
+    <string name="txt_msg_subject">"Konu"</string>
+    <string name="btn_send">"göndermek"</string>
+    <string name="btn_cancel">"İptal etmek"</string>
+    <string name="thanks_dialog_txt">"Bize yazdığınız için teşekkür ederiz! Sana kısa zamanda geri dönüş yapacağız."</string>
+
+    <string name="api_msg_90days">"Sadece 90 günde bir ankete katılabilirsiniz."</string>
+    <string name="api_nosurveyavailable">"Şu anda sizin için bir anket yok. Lütfen daha sonra tekrar deneyiniz!"</string>
+    <string name="api_tps_account_linked">"TPS hesabı Sosyal medya ile bağlantılı"</string>
+    <string name="api_profiler_unavailable">"Profiler şu anda kullanılamıyor"</string>
+    <string name="api_recently_updated">"Profili yakın zamanda güncellemiş görünüyorsun, sadece son güncellemenden 90 gün sonra kullanılabilir olacak."</string>
+    <string name="api_email_registered">"EmailId'niz zaten kayıtlı"</string>
+    <string name="api_device_registered">"Cihazınız servisimiz için zaten kayıtlı"</string>
+    <string name="api_email_device_registered">"EmailId ve Cihazınız servisimiz için zaten kayıtlı"</string>
+    <string name="api_facebook_credentials">Facebook kimlik bilgileri zaten ilişkilendirilmiş.</string>
+    <string name="api_associated_tps_account">"Facebook ile ilişkilendirmek için TPS'de hesabınız var mı?"</string>
+    <string name="api_enter_valid_pin">"Lütfen geçerli bir pin girin"</string>
+    <string name="api_network_connection_unavailbale">"Ağ bağlantısı kullanılamıyor"</string>
+    <string name="api_subject_here">"Konuyu buraya girin"</string>
+    <string name="api_fill_all_answers">"Lütfen bu sayfadaki tüm cevapları doldurun"</string>
+
+    <string name="api_verification_pin_message">"Doğrulama kodunuz XXX. Hesabınızı doğrulamak için lütfen aynısını girin."</string>
+    <string name="txt_surveyrewardMSG">"Anketlere katılın."</string>
+    <string name="txt_surveyanytime">"Her Zaman, Her Yerde."</string>
+    <string name="txt_opinion">"Sizce küresel şirketler tarafından sunulan ürün ve hizmetleri şekillendiriyor"</string>
+    <string name="txt_save">"Kayıt etmek"</string>
+    <string name="msg_select_any_coupoun">"Lütfen herhangi bir seçenek seçin"</string>
+    <string name="txt_tickets_buyMax">"Maksimum %d Bilet satın alabilirsiniz."</string>
+    <string name="signupcomplete_logincred">"Giriş bilgileriniz kayıtlı e-posta kimliğinize gönderildi."</string>
+    <string name="msg_message">"Lütfen mesaj giriniz"</string>
+    <string name="msg_subject">"Lütfen konu giriniz"</string>
+    <string name="action_settings">"ayarlar"</string>
+    <string name="dialog_login">"Lütfen bekle…"</string>
+    <string name="txt_email">"Email kimliği"</string>
+    <string name="txt_password">"parola"</string>
+    <string name="txt_cancel">"İptal Et"</string>
+    <string name="login_title">Panel Station</string>
+    <string name="surveyList_title">Mevcut Anketler</string>
+    <string name="forgotPassword_title">"Şifremi Unuttum"</string>
+    <string name="txt_rememberme">beni Hatırla</string>
+    <string name="txt_login">"Oturum aç"</string>
+    <string name="txt_no_survey">"Kullanılabilecek anket yok"</string>
+    <string name="txt_no_rewards">"Kullanılabilecek ödül yok"</string>
+    <string name="txt_no_redemption">"Kullanılabilecek dönüştürme yok"</string>
+    <string name="txt_info">Tarayıcıda bunları başlatmak için kullanılabilir anket tıklayın.\n\nAnketler yenilemek için listeyi aşağı doğru çekin.\n\nZiyaret <a href="www.thepanelstation.com">www.thepanelstation.com</a> Hesabınız bilgi ve destek için. </string>
+    <string name="lbl_terms_cond">" Şartlar ve koşullar "</string>
+    <string name="lbl_allowdata">Verilerimin araştırma amacıyla adsız olarak kullanılmasına izin veriyorum.</string>
+
+    <!-- Signup implementation Strings -->
+    <string name="SignUp">"Kayıt Ol"</string>
+    <string name="SignIn">"Oturum aç"</string>
+    <string name="signupcomplete_thanks">Teşekkür ederim. Başarıyla kaydedildi.</string>
+    <string name="signupcomplete_note">Not: Gelen kutunuzda bulamazsanız, e-postamız için spam ve promosyonlar klasörüne bakın.</string>
+    <string name="lbl_laststage">Şimdilik bu kadar! Bir süre sonra sizinle iletişim kuracağız</string>
+    <string name="checkmail">"Postayı Kontrol Edin"</string>
+    <string name="emailSignupMesage">"Ya da Email kullanarak Kayıt Olun"</string>
+    <string name="loginInfo">Oturum Aç Bilgileri :</string>
+    <string name="hint_email">"E-posta Adres"</string>
+    <string name="hint_confirm_email">"E-postayı Doğrulayın"</string>
+    <string name="hint_phoneno">"Telefon Numarası"</string>
+    <string name="contact_info">"İLETİŞİM BİLGİLERİ"</string>
+    <string name="hint_firstname">"Ad "</string>
+    <string name="hint_lastname">"Soyad"</string>
+    <string name="hint_country">"Ülke"</string>
+    <string name="hint_city">"şehir"</string>
+    <string name="hint_zip">"posta kodu"</string>
+    <string name="hint_gender">"Cinsiyet"</string>
+    <string name="hint_dob">"D.T."</string>
+    <string name="hint_address">"Adres"</string>
+    <string name="SIgnUp_Submit">"Teslim et"</string>
+    <string name="panel_copyrights">\@Copyrights 2015 thepanelstation.All rights reserved.</string>
+    <string name="agreedTermsandCondition">"hükümler ve koşullar ile gizlilik politikasını kabul et."</string>
+    <string name="startearning">"Kazanmaya Başlayın"</string>
+    <string name="month">"Ay"</string>
+    <string name="day">"Gün"</string>
+    <string name="year">"Yıl"</string>
+    <string name="next">"İleri"</string>
+    <string name="contact_info_descriptions">"Gizliliğinizi korumayı taahhüt ederiz. Fakat, çekilişlere ya da özel promosyonlara katılımınızı sağlamak için sizden aşağıdaki kişisel bilgilerinizi girmenizi istiyoruz. Sağladığınız kişisel bilgileri, çekilişler için alımları ve girdileri işlemek, ürünleri ve ödülleri size ulaştırmak için kullanıyoruz."</string>
+    <string name="select_country">"Ülke"</string>
+    <string name="async_task_error">"Ağ bağlantısı kesilmiş görünüyor. Lütfen daha sonra yeniden deneyin."</string>
+    <string name="login_email">"Lütfen e-posta adresini giriniz"</string>
+    <string name="txt_send">"Gönder"</string>
+    <string name="msg_login_connprob">"Bağlantı şu anda giriş yapmak için yeterli olmayabilir. Lütfen daha sonra tekrar deneyiniz."</string>
+    <string name="msg_invalid_login_creditional">"Geçersiz e-posta kimliği veya şifre."</string>
+    <string name="msg_enter_pass">"Lütfen şifre giriniz"</string>
+    <string name="msg_login_session_expire">"Diğer cihaz / portaldan giriş yaptığınız için oturumunuzun süresi doldu."</string>
+    <string name="msg_unregister_email">"Lütfen kayıtlı e-posta kimliğinizi girin"</string>
+    <string name="msg_valid_email">"Lütfen geçerli e-posta adresi girin"</string>
+    <string name="txt_survey">"Anket"</string>
+    <string name="txt_reward_point">"Ödül Puanlar"</string>
+    <string name="txt_earned_point">"Kazanılan Puan"</string>
+    <string name="txt_redeemed_point"> "puan kazanıldı"</string>
+    <string name="txt_aval_point">"mevcut puanlar"</string>
+    <string name="txt_redemption">"Dönüştürme"</string>
+    <string name="msg_refreshing">"Anket listesi yenileniyor"</string>
+    <string name="msg_open_survey">"Anket açmak ister misiniz?"</string>
+    <string name="msg_logout">"Çıkmak istediğinizden emin misiniz?"</string>
+    <string name="txt_yes">"Evet"</string>
+    <string name="msg_logoff_connec_lost">"Bağlantı şimdi çıkış yapmanız için yeterli olmayabilir. Lütfen daha sonra yeniden deneyin"</string>
+    <string name="msg_timeout">"Uygulama bilgileri almada zorluklar yaşıyor. Lütfen daha sonra yeniden deneyin."</string>
+    <string name="msg_low_conn">"Bağlantı şimdi istek almak için yeterli olmayabilir. Lütfen daha sonra yeniden deneyin."</string>
+    <string name="msg_survy_info">"Tarayıcıda başlatmak için kullanılabilir anketi tıklayın. Anketleri yenilemek için listeyi aşağı çekin.\n\nAyarlar bölümünden tercih ettiğiniz dili seçebilirsiniz\n\nHesap ayrıntıları için <a href="www.thepanelstation.com">www.thepanelstation.com</a> adresini ziyaret edin."</string>
+    <string name="txt_takeby">"Al"</string>
+    <string name="empty_msg_you_haven_t_redeemed_yet">Henüz kullanmadın</string>
+
+    <string name="txt_earn">"Kazan"</string>
+    <string name="Points_Ticket">"Puan/Bilet No"</string>
+    <string name="txt_points">"makas"</string>
+    <string name="txt_earned">"Kazanılan"</string>
+    <string name="txt_voucher_code">"Çek Kodu"</string>
+    <string name="txt_redeemed">"Dönüştürülen"</string>
+    <string name="txt_status">"Durum"</string>
+    <string name="txt_done">"Bitmiş"</string>
+    <string name="txt_valid_till">"Geçerlilik Tarihi"</string>
+    <string name="txt_month_jan">"Ocak"</string>
+    <string name="txt_month_feb">"Şubat"</string>
+    <string name="txt_month_march">"Mar"</string>
+    <string name="txt_month_apr">"Nisan"</string>
+    <string name="txt_month_may">"Mayıs ayı"</string>
+    <string name="txt_month_jun">"Haziran"</string>
+    <string name="txt_month_july">"Temmuz"</string>
+    <string name="txt_month_aug">"Ağustos"</string>
+    <string name="txt_month_sept">"Eylül"</string>
+    <string name="txt_month_oct">"Ekim"</string>
+    <string name="txt_month_nov">"Kasım"</string>
+    <string name="txt_month_dec">"Aralık"</string>
+    <string name="txt_iaggree">"Katılıyorum"</string>
+    <string name="txt_and_text">" ve "</string>
+    <string name="txt_allowing_text">"Verilerimin anonim olarak araştırma amacıyla kullanılmasına izin veriyorum."</string>
+    <string name="txt_visit">"ziyaret"</string>
+    <string name="signup_facebook">Facebook ile Kayıt Olun</string>
+    <string name="signout_facebook">Facebook ile Oturumu</string>
+    <string name="signup_google">Google+ ile Kayıt Olun</string>
+    <string name="signout_google">Google+ ile Oturumu</string>
+    <string name="userexist">Kullanıcı zaten mevcut , giriş yapınız</string>
+    <string name="async_task_not_responding">İsteğinizi işlenemiyor , daha sonra deneyin.</string>
+    <string name="msg_confirm_open">Eğer bir anket açmak istiyor musunuz?</string>
+    <string name="Ok"> Tamam</string>
+    <string name="unsubscribe_text1">Artık anketlerimiz ile ilgilenmediğinizi duyduğumuzdan dolayı üzgünüz.</string>
+    <string name="unsubscribe_text2">Sizi özleyeceğiz \n ve hizmetlerimizi geliştirebilmemiz için geri dönüşünüzü \n bizimle paylaşırsanız minnettar kalırız.</string>
+    <string name="unsubscribe_text3">Lütfen aşağıdan neden(ler) seçiniz:</string>
+    <string name="error">"Hata"</string>
+    <string name="error_fn">"ad boş olamaz"</string>
+    <string name="error_ln">"soyad boş olamaz"</string>
+    <string name="error_gender">Lütfen cinsiyetinizi seçin.</string>
+    <string name="error_dob">"Lütfen Doğum Tarihinizi Girin"</string>
+    <string name="error_select_country">"Lütfen ülkenizi Seçin"</string>
+    <string name="error_phone_empty">"cep telefonu boş olamaz"</string>
+    <string name="error_city">"Lütfen şehrinizi Seçin"</string>
+    <string name="error_zipcode">"Posta Kodu boş olamaz"</string>
+    <string name="hint_mobile_number">Cep numarası</string>
+
+    <!-- Added more for length validations -->
+    <string name="error_phone_length">"lütfen geçerli bir cep numarası girin"</string>
+    <string name="error_zipcode_length">"lütfen geçerli bir Posta Kodu girin"</string>
+    <string name="message_city">"Şehri seçin"</string>
+    <string name="message_panel_intake_1">Tebrikler, ödüller kazanmak yalnızca bir adım uzağınızda.  </string>
+    <string name="message_panel_intake_2">Lütfen e-posta adresinizi doğrulayarak kaydınızı onaylayın.</string>
+    <string name="allowdatausage">"PanelStation'ın, uygulamalarınızın verilerine erişim için izine ihtiyacı vardır. Lütfen PanelStation'ın kullanım erişimine izin verin."</string>
+    <string name="registrationfails">"Kayıt Başarısız"</string>
+    <string name="hint_search">"arama"</string>
+    <string name="txt_each_ticket_part2">"Puan"</string>
+    <string name="txt_tickets_in_cart_part1">"Sepetinizde X biletiniz var"</string>
+    <string name="txt_tickets_in_cart_part2">""</string>
+    <string name="press_again_close">"Tekrar basın kapatmak için !"</string>
+    <string name="surveys">anket</string>
+    <string name="rewards">Ödüller</string>
+    <string name="msg_valid_password">"Geçerli bir parola girin"</string>
+    <string name="survey_not_found">"Anket bulunamadı."</string>
+    <string name="webpage_being_loaded">"Web Sayfası Yükleniyor"</string>
+    <string name="PrivacyPol">"Gizlilik Bildirimi"</string>
+    <string name="ContactUs">"Bize Ulaşın"</string>
+    <string name="txt_takenby">"tarafından al "</string>
+    <string name="txt_expired">"süre bitimi"</string>
+
+    <!-- sudhir append strings -->
+    <string name="txt_no">"hayır"</string>
+    <string name="txt_puchased_ticket_part2">" Bilet ( ler)."</string>
+    <string name="txt_tell_us_more">"Daha fazla sorun hakkında bize"</string>
+
+    <string name="btn_next">"ileri"</string>
+    <string name="txt_forgot_password">"Şifremi Unuttum"</string>
+    <string name="txt_social_link">bağlantı</string>
+    <string name="txt_wait_for_questions">"Lütfen sizin için anket kurulumunu bekleyin "</string>
+    <string name="txt_imnew">"yeniyim"</string>
+    <string name="msg_serverdown">"Sunucu aşağı ya da bakımı altındadır. Lütfen daha sonra tekrar deneyin."</string>
+    <string name="msg_citynotfound">"Nedeniyle ülkenin panalist şehirler bulmakta zorluk , isteğinizi işleme koyamıyoruz ."</string>
+    <string name="unabletoverifypin">"Senin pin doğrulanamadı , lütfen giriş doğru pin numarası"</string>
+    <!-- sudhir end append strings -->
+    <string name="pointexpired">"nokta Süresi Doldu"</string>
+    <string name="open">"Açık"</string>
+
+    <!-- New Changes Strings -->
+    <string name="ui_activationcode">"Kullanıcı Doğrulama Kodu"</string>
+    <string name="ui_msg_checkemail">
+<![CDATA[
+                        <p>Lütfen <B>\"Panel İstasyonu\"</B> etkinleştirme kodu için e-posta gelen kutunuzu kontrol edin</p>
+                    ]]>
+    </string>
+    <string name="ui_msg_checkemail_spam">"Gelen Kutunuzda bulamazsanız, The Panel Station'dan etkinleştirme kodu e-postası için lütfen Promosyon ve Önemsiz e-posta Klasörünüzü kontrol edin."</string>
+    <string name="hint_activationcode">"Buraya etkinleştirme kodu girin"</string>
+    <string name="ui_termsandcondition">
+<![CDATA[
+                        <p>Hükümler ve koşullar ile Gizlilik politikasını kabul ediyorum </u>"</p>
+                    ]]>
+    </string>
+    <string name="ui_textSignIn">Giriş Sayfası için Buraya Tıklayın</string>
+    <string name="signupsocial">Şimdi <b>The Panel Station</b> ile kayıt olun </string>
+    <string name="signupsocial_appends">Güvenli ve emniyetli bir şekilde</string>
+    <string name="msgcheckemailforotp"> %s e-posta adresinize Etkinleştirme Kodu gönderilmiştir, Lütfen etkinleştirmek için kontrol edin ve doğrulayın. </string>
+    <string name="congratulation_header"> Tebrikler! </string>
+    <string name="congratulation_msg">Şimdi, en büyük online araştırma Panellerinden birinin üyesisiniz. Uygulamanın Anketler Bölümü\'ne gitmek için lütfen "Kazanmaya Başlayın"ı tıklayın.</string>
+
+    <!-- sud changes -->
+    <string name="text_existing_member">"Mevcut Üye"</string>
+    <string name="resendactivationcode">"Etkinleştirme Kodunu Yeniden Gönder  "</string>
+    <string name="clickhere">"Kodu daha almadınız mı? Buraya tıklayın"</string>
+    <string name="min">"dk "</string>
+    <string name="sec">"Sn"</string>
+
+    <string name="alredy_otp">Doğrulama için Tek Kullanımlık Şifreniz (TKŞ) var mı?</string>
+    <string name="otp_email">Kayıtlı e-posta adresinizi girin.</string>
+    <string name="resend_otp">OTP\'yi tekrar gönder?</string>
+    <string name="when_you_refer_a_friend">Bir arkadaşına önerdiğinde</string>
+    <string name="msg_first_time_500_earn">1. 500 önerme puanı kazanacaksınız (Sadece ilk anketlerini tamamlamaları halinde).</string>
+    <string name="your_friend_earns_500_joining_points">2. Arkadaşınız 500 puan kazanır.</string>
+    <string name="_3_you_can_refer_a_maximum_of_5_friends_in_a_month">3. Bir ay içerisinde maksimum 5 arkadaş önerebilirsiniz.</string>
+    <string name="the_more_the_merrier">Ne kadar çok o kadar iyi!</string>
+    <string name="so_get_your_going_in_now">Öyleyse başlayın, şimdi!</string>
+    <string name="match_the_puzzle_to_fetch_a_survey">Anket almak için bulmacayı eşleştirin</string>
+    <string name="and_each_time_500_referral_points">Her yaptığınızda, 500 tavsiye puanı kazanın!</string>
+    <string name="friends_make_life_better">Arkadaşlar hayatı daha iyi hale getirir ve kutlanmalıdır! Bu inançla, arkadaşlarınızı ödüllendirmek için Arkadaşına Öner programını oluşturduk</string>
+    <string name="for_more_details">Daha fazla ayrıntı için</string>
+    <string name="click_here">Buraya TIKLAYIN</string>
+    <string name="consent_form">ONAY FORMU</string>
+    <string name="consent_form_p_tc_1">\"Tüm metni ticari markalar, resimler, fotoğraflar, grafikler, dosyalar, tasarımlar ve düzenlemeler ile birlikte The Panel Station, Borderless Access Panels\'in tescilli bir ürünüdür. Bu web sitesinin içeriği sadece buraya eklenmiş olan şartlar ve koşullar ve gizlilik politikasına uygun olarak kullanılabilir.\"</string>
+    <string name="disclaimer">Sorumluluk reddi:</string>
+    <string name="before_we_proceed">İlerlemeden önce lütfen yeni verii gizliliği yasaları gereğince alınması gereken bilgilerinizi ve onayınızı bize sağlamak için bir kaç dakikanızı ayırın.</string>
+    <string name="are_you_citizen_of_eu">"Avrupa Birliği vatandaşı mısınız? "</string>
+    <string name="are_you_in_eu_region">Şu anda Avrupa Birliğinde misiniz?</string>
+    <string name="in_accordance_big_1">Avrupa Birliği\'ndeki yeni veri gizliliği yasaları GDPR (Avrupa Birliği Genel Veri Koruma Yönergesi) uyarınca sizden aşağıdaki formu dikkatlice okumanızı ve TPS Topluluğunun bir parçası olmaya devam etmek için onayınızı vermenizi talep etmekteyiz.</string>
+    <string name="here_at_the_big_2">Burada The Panel Station\'de gizliliğinizi ciddiye alıyoruz ve kişisel bilgilerinizi sadece hesabınızı yönetmekte ve bizden talep etmiş olduğunuz hizmet ve ürünleri sağlamak için kullanmaktayız.</string>
+    <string name="you_understand_big_text_3">\"Evet\" seçeneğini seçerek size sunulan hizmetlerin bir parçası olarak  e-posta ve SMS yoluyla uygun bildirimleri gönderebileceğimizi anlamış ve kabul etmiş oluyorsunuz.</string>
+    <string name="if_at_any_point">Kayıtan sonra herhangi bir zamanda eğer onayınızı geri almaya karar verirseniz bunu %s adresinden bize talep ederek yapabilirsiniz.</string>
+    <string name="if_at_any_point_custom">Kayıtan sonra herhangi bir zamanda eğer onayınızı geri almaya karar verirseniz bunu %s adresinden bize talep ederek yapabilirsiniz.</string>
+    <string name="do_you_wish">The Panel Station topluluğunun bir parçası olarak araştırma tekliflerine katılmak için onayınızı vermek istiyor musunuz?</string>
+    <string name="yes_i_agree">Evet, onaylıyorum</string>
+    <string name="no_i_dont_agree">" Hayır, onaylamıyorum"</string>
+    <string name="consent_disclaimer_1">"\"Tüm metni ticari markalar, resimler, fotoğraflar, grafikler, dosyalar, tasarımlar ve düzenlemeler ile birlikte The Panel Station, Borderless Access Panels'in tescilli bir ürünüdür. Bu web sitesinin içeriği sadece buraya eklenmiş olan "</string>
+    <string name="consent_disclaimer_2">uygun olarak kullanılabilir.\"</string>
+    <string name="in_case_you_delete">Bizdeki kayıtlı bilgilerinizin silinmesini istemeniz halinde lütfen Dataprotectionofficer01@borderlessaccess.com adresinden bize yazın.</string>
+    <string name="rejoin_panel_email">Herhangi bir zaman eğer panelimize tekrar katılmak isterseniz bunu bize kaydolarak yapabilirsiniz. Kaydolmak için lütfen aşağıdaki bağlantıya tıklayın</string>
+    <string name="title_msg_succeess_unsubscribe">Topluluğumuzdan başarılı bir şekilde çıktınız.</string>
+    <string name="if_at_any_point_2">E-postanızı aldıktan sonra üç gün içerisinde size cevap vereceğiz.</string>
+    <string name="msg_eu_region_decline_consent_form">Avrupa’dan/Avrupa vatandaşı olduğunuzdan bahsettiniz, dolayısıyla kayda devam etmek için rıza formunu kabul etmenizi rica ediyoruz.</string>
+    <string name="lbl_privacy_statement">Gizlilik Bildirimi</string>
+    <string name="swipe_up">Kayıt olmak için yukarı kaydırın</string>
+    <string name="swipe_down">Giriş yapmak için aşağı kaydırın</string>
+
+
+    <string name="refer_2_more">Bir, 2 veya 3\'ten fazla arkadaşınıza tavsiye edin </string>
+    <string name="invite_your_friends">Arkadaşlarınızı davet edin</string>
+    <string name="refer_code_not_avaliable">Referans kodu mevcut değil</string>
+    <string name="select_optional">Lütfen bir dosya seçin (isteğe bağlı)</string>
+    <string name="connect_your_accounts">Hesaplarınızı bağlayın</string>
+    <string name="profile_settings">Profil Ayarları</string>
+
+    <string name="facebook">FACEBOOK</string>
+    <string name="twitter">TWITTER</string>
+    <string name="google">GOOGLE</string>
+    <string name="change_password">Parolayı Değiştir</string>
+    <string name="unsubscribe">Abonelikten Çık</string>
+
+
+    <string name="refer_frnd">Bir Arkadaş Tavsiye Et</string>
+    <string name="title_contact_us">İletişim</string>
+
+    <string name="my_rewards">Ödüllerim</string>
+    <string name="my_profile">Profilim</string>
+    <string name="my_surveys">Anketlerim</string>
+    <string name="contact_us">İletişim</string>
+    <string name="fanpage">Blogar</string>
+    <string name="invite">Davet</string>
+    <string name="faq">SSS (Sıkça Sorulan Sorular)</string>
+    <string name="settings">Ayarlar</string>
+
+    <string name="reset">SIFIRLA</string>
+
+    <string name="update_profile">PROFİLİ GÜNCELLE</string>
+    <string-array
+        name="home">
+        <item>@string/my_rewards</item>
+        <item>@string/my_profile</item>
+        <item>@string/my_surveys</item>
+        <item>@string/contact_us</item>
+        <item>@string/fanpage</item>
+        <item>@string/invite</item>
+        <item>@string/badges</item>
+        <item>@string/faq</item>
+        <item>@string/settings</item>
+
+    </string-array>
+    <string name="unsubscribe_lowercase">Abonelikten Çık</string>
+
+    <string name="user_msg">“Hesabınız kullanılmayan olarak işaretlenmiştir, daha fazla yardım için lütfen mobile@thepanelstationsurveys3.com adresinden destek ekibimize ulaşın.”</string>
+    <string name="error_valid_referral_code">Lütfen geçerli bir referans kodu girin
+
+</string>
+    <string name="apply_referral_code">GEÇERLİ</string>
+
+    <string name="subject">konu
+</string>
+
+    <string name="txt_redeem_points">Kullanmak istediğiniz noktaları seçin
+
+</string>
+    <string name="particitpate_and_luck">Katıl ve şanslı ol
+
+</string>
+
+    <string name="tv_redemption_history">Kefaret Tarihi
+</string>
+    <string name="tv_rewards_history">Ödüller Tarihçe
+</string>
+    <string name="available_count">Mevcut Anketler -</string>
+    <string name="enter_paytm_id">Lütfen Paytm ID\'nizi giriniz</string>
+    <string name="add_photo">Fotoğraf Ekle</string>
+    <string name="take_photo">Fotoğraf Çek</string>
+    <string name="choose_from_gallery">Galeriden Seç</string>
+    <string name="remove_photo">Fotoğrafı Kaldır</string>
+    <string name="profile_update_success">Profil fotoğrafınız başarılı bir şekilde güncellendi</string>
+    <string name="delete_profile_picture">Profil fotoğrafınız başarılı bir şekilde kaldırıldı</string>
+    <string name="enter_confirm_password">parolayı onayla</string>
+    <string name="current_password">güncel şifrenizi giriniz</string>
+    <string name="new_password">yeni şifre gir</string>
+    <string name="retry">Tekrar dene</string>
+    <string name="please_select_reason">Lütfen neden(ler) seçin</string>
+    <string name="others_cannot_be_blank">Başka neden / nedenler boş olamaz</string>
+    <string name="badges">Rozetler</string>
+    <string name="badge_increase">Her ay %2$s veya daha fazla anketi tamamladığınız için %1$s aldınız.</string>
+    <string name="at">at</string>
+    <string name="old_password">* Eski Şifre:</string>
+    <string name="confirm_password">* Şifreyi Doğrula:</string>
+    <string name="newpassword">* Yeni Şifre:</string>
+    <string name="password_comapre_mismatch">yeni şifre ve şifre uyumsuzluğunu onaylayın.</string>
+    <string name="new_password_length">yeni parola uzunluğu 6 ile 16 karakter arasında olmalıdır.</string>
+    <string name="need_more_points">%2$s çeklerine dönüştürmek için %1$d puana daha ihtiyacınız var ama dönüştürme için başka seçenek seçebilirsiniz.</string>
+    <string name="password_expiry_message">Şifrenizin süresi doldu, kumanda paneline giriş yapmak için lütfen şifrenizi şimdi değiştirin</string>
+    <string name="please_change_your_password">Lütfen Şifrenizi Değiştirin</string>
+    <string name="new_old_password_match_error">Yeni Şifre ve Eski Şifre aynı olmamalıdır</string>
+    <string name="rationale_location">Lütfen sonraki iletişim kutusunda İzin Ver düğmesini tıklayın</string>
+    <string name="register_here">Buradan kayıt olun</string>
+    <string name="communication_preferences">İletişim Tercihleri</string>
+    <string name="poll_result">Sonuçlar</string>
+    <string name="quick_poll">Hızlı Oylama</string>
+    <string name="result">Sonuçlar</string>
+    <string name="notification">Bildirimler</string>
+    <string name="no_notifications">Bildirim Yok</string>
+    <string name="activity">Etkinlik Günlüğü</string>
+    <string name="last_log_in">En Son Giriş</string>
+    <string name="last_log_out">En Son Çıkış</string>
+    <string name="resubscribe">Yeniden Abone Ol</string>
+    <string name="resubscribe_msg">Topluluğumuz aboneliğinden başarıyla çıkmışsınız ama sizi geri kazanmaktan memnuniyet duyacağız, yalnızca \"Yeniden Abone Ol\" üzerine tıklayın</string>
+    <string name="successfully_resubscribed">Başarıyla Yeniden Abone Oldu</string>
+    <string name="subscribe_success_msg">Tebrikler! Yerinizi aldınız! Haydi daha iyi bir yarın sağlamak için görüşlerimizi dile getirelim</string>
+    <string name="logout">ÇIKIŞ YAP</string>
+    <string name="no_quick_poll">Kullanılabilecek Hızlıanket yok.</string>
+    <string name="comm_pref_email">E-posta</string>
+    <string name="comm_pref_mobile_sms">Cep Telefonu SMS</string>
+    <string name="comm_pref_mobile_push_notification">Cep Telefonu Anlık Bildirim</string>
+    <string name="comm_pref_desktop_notification">Masa Üstü Bildirim</string>
+    <string name="comm_pref_save_success">İletişim Tercihleri başarılı bir şekilde kaydedildi.</string>
+    <string name="error_msg_for_invalid_redeem_points">Lütfen dönüştürmek için geçerli puan girin</string>
+    <string name="redeem_instantly">Hemen Dönüştür</string>
+    <string name="legend">Lejant</string>
+    <string name="grand_master">Büyük Üstat</string>
+    <string name="master">Üstat</string>
+    <string name="sensei">Hoca</string>
+    <string name="newbei">Acemi</string>
+    <string name="unsubscribe_delete_confirmation">Topluluğumuzdan çıkacaksınız ve tüm geçmiş verileriniz silinecek. Devam etmek istiyorsanız Tamam\'ı tıklayın</string>
+    <string name="unsubscribe_delete_successful">Topluluğumuz aboneliğinden başarıyla çıktınız. Geçmiş verilerinizi 2 ila 3 iş günü içinde sistemlerimizden sileceğiz.</string>
+    <string name="unsubscribe_delete">Abonelikten Çık ve Sil</string>
+</resources>

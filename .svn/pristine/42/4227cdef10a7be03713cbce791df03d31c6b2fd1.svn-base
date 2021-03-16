@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/_20sdp"
+    android:id="@+id/lyt_comm_pref"
+    android:layout_marginBottom="@dimen/_20sdp"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:layout_marginEnd="@dimen/_15sdp"
+    android:background="@color/white"
+    >
+
+    <com.panelManagement.widgets.TextViewPlusBold
+        android:id="@+id/tv_commPref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp16"
+        android:text="@string/communication_preferences"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textSize="@dimen/sp20"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/commPrefQlist"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_below="@id/tv_commPref"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_save_pref"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@color/save_red"
+        android:text="@string/txt_save"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

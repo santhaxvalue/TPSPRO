@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/myreward_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_35sdp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/rewardBtnRedeem"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_75sdp"
+                android:layout_margin="@dimen/dp8"
+                android:clipToPadding="false"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="@dimen/dp8"
+                app:cardElevation="@dimen/card_default_elevation">
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:clipToPadding="false"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/redeem_text"
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/txt_Redeem"
+                        android:textColor="@color/gray_txt"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/_16sdp" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/redeem_view" />
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/rewardBtnredemtion"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_75sdp"
+                android:layout_margin="@dimen/dp8"
+                android:clipToPadding="false"
+                app:cardCornerRadius="@dimen/dp8"
+                app:cardElevation="@dimen/card_default_elevation">
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:clipToPadding="false"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp16">
+
+                    <TextView
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:textAllCaps="true"
+                        android:gravity="center"
+                        android:text="@string/txt_RedeemHist"
+                        android:textAlignment="center"
+                        android:textColor="@color/gray_txt"
+                        android:textSize="@dimen/_16sdp" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/redeem_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/redeemption_history_view" />
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/rewardBtnhistory"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_75sdp"
+                android:layout_margin="@dimen/dp8"
+                android:clipToPadding="false"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="@dimen/dp8"
+                app:cardElevation="@dimen/card_default_elevation">
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp16">
+
+                    <TextView
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAllCaps="true"
+                        android:text="@string/txt_RewardHist"
+                        android:textColor="@color/gray_txt"
+                        android:textSize="@dimen/_16sdp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/reward_history_view" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/pointsinreviewCard"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_75sdp"
+                android:layout_margin="@dimen/dp8"
+                android:clipToPadding="false"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="@dimen/dp8"
+                app:cardElevation="@dimen/card_default_elevation">
+
+
+                <LinearLayout
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp16">
+
+                    <TextView
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textAllCaps="true"
+                        android:text="@string/txt_points_in_review"
+                        android:textColor="@color/gray_txt"
+                        android:textSize="@dimen/_16sdp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/points_in_review_yellow" />
+
+            </android.support.v7.widget.CardView>
+
+            <Button
+                android:id="@+id/btn_invite"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp30"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/bg_btn_reference"
+                android:paddingLeft="@dimen/_30sdp"
+                android:paddingRight="@dimen/_30sdp"
+                android:textAllCaps="false"
+                android:text="@string/refer_frnd"
+                android:textColor="@color/white_gray"
+                android:textSize="@dimen/_13sdp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
+

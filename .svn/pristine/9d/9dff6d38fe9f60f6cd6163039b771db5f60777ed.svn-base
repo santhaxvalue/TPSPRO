@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dp8">
+
+    <TextView
+        android:id="@+id/lblListHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/spinnerdropdown"
+        android:drawableRight="@drawable/spinnerdropdown"
+        android:layoutDirection="rtl"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/sp16"
+        tools:targetApi="jelly_bean_mr1" />
+
+</LinearLayout>

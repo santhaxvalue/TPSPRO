@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_topView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_points_earned"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp8"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="@dimen/dp10"
+        app:cardElevation="@dimen/card_default_elevation">
+
+        <LinearLayout
+            android:id="@+id/ptsEarned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:padding="@dimen/dp10">
+
+            <TextView
+                android:id="@+id/tv_pointsEarned"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:maxEms="4"
+                android:padding="@dimen/dp2"
+                android:text="@string/txt_earned_point"
+                android:textSize="@dimen/_13sdp" />
+
+            <TextView
+                android:id="@+id/txt_points_earned"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_points_earned"
+                android:drawableStart="@drawable/ic_points_earned"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                tools:text="18800" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_points_redeemed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp8"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="@dimen/dp10"
+        app:cardElevation="@dimen/card_default_elevation">
+
+        <LinearLayout
+            android:id="@+id/ptsRedeemed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:padding="@dimen/dp10">
+
+            <TextView
+                android:id="@+id/tv_pointsReedemed"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:maxEms="6"
+                android:padding="@dimen/dp2"
+                android:text="@string/txt_redeemed_point"
+                android:textSize="@dimen/_13sdp" />
+
+            <TextView
+                android:id="@+id/txt_points_redeemed"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:drawableLeft="@drawable/ic_points_redeemed"
+                android:drawableStart="@drawable/ic_points_redeemed"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_10sdp"
+                tools:text="1000" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_points_available"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp8"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="@dimen/dp10"
+        app:cardElevation="@dimen/card_default_elevation">
+
+        <LinearLayout
+            android:id="@+id/ptsAvailable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:padding="@dimen/dp10">
+
+            <TextView
+                android:id="@+id/tv_pointsAvailable"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:maxEms="6"
+                android:padding="@dimen/dp2"
+                android:text="@string/txt_aval_point"
+                android:textSize="@dimen/_13sdp" />
+
+            <TextView
+                android:id="@+id/txt_points_available"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:drawableLeft="@drawable/ic_points_available"
+                android:drawableStart="@drawable/ic_points_available"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                tools:text="1000" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    </LinearLayout>

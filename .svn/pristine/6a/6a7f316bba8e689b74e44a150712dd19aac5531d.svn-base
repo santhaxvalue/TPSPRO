@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/TPS_LIVE_9094.iml" filepath="$PROJECT_DIR$/.idea/TPS_LIVE_9094.iml" group="TPS_LIVE_9094" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="TPS_LIVE_9094/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/coverflowand/coverflowand.iml" filepath="$PROJECT_DIR$/.idea/modules/coverflowand/coverflowand.iml" group="TPS_LIVE_9094/coverflowand" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/imi-odmm-1.53/imi-odmm-1.53.iml" filepath="$PROJECT_DIR$/.idea/modules/imi-odmm-1.53/imi-odmm-1.53.iml" group="TPS_LIVE_9094/imi-odmm-1.53" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/imiodm-sdk3.4_tps/imiodm-sdk3.4_tps.iml" filepath="$PROJECT_DIR$/.idea/modules/imiodm-sdk3.4_tps/imiodm-sdk3.4_tps.iml" group="TPS_LIVE_9094/imiodm-sdk3.4_tps" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/imiodm-tps_1.63/imiodm-tps_1.63.iml" filepath="$PROJECT_DIR$/.idea/modules/imiodm-tps_1.63/imiodm-tps_1.63.iml" group="TPS_LIVE_9094/imiodm-tps_1.63" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/release-sdk2.6_tps/release-sdk2.6_tps.iml" filepath="$PROJECT_DIR$/.idea/modules/release-sdk2.6_tps/release-sdk2.6_tps.iml" group="TPS_LIVE_9094/release-sdk2.6_tps" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tracker-3.4.2/tracker-3.4.2.iml" filepath="$PROJECT_DIR$/.idea/modules/tracker-3.4.2/tracker-3.4.2.iml" group="TPS_LIVE_9094/tracker-3.4.2" />
+    </modules>
+  </component>
+</project>

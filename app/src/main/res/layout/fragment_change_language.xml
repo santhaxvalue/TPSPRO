@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_light"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+
+    <com.panelManagement.widgets.TextViewPlusBold
+        android:id="@+id/tv_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp16"
+        android:text="@string/txt_language"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp24"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lv_survey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true" />
+
+
+    <!--  <com.panelManagement.adapter.ControlFooterView
+         android:id="@+id/ic_footer_view"
+         android:layout_width="fill_parent"
+         android:layout_height="@dimen/footer_tab_height"
+         android:layout_alignParentBottom="true" /> -->
+
+</RelativeLayout>

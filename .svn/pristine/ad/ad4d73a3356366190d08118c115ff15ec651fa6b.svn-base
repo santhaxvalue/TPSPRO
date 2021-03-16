@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--My Rewards-->
+    <include
+        android:id="@+id/header_my_rewards"
+        layout="@layout/header_points"
+        android:visibility="gone" />
+
+    <!--Available Survey and Rewards fragment-->
+    <include
+        android:id="@+id/header_survey_and_redeem"
+        layout="@layout/header_redeem_points"
+        android:visibility="gone" />
+
+    <!--Redemption History-->
+    <include
+        android:id="@+id/header_redemption_history"
+        layout="@layout/header_redemption_history"
+        android:visibility="gone" />
+
+    <!--Reward History-->
+    <include
+        android:id="@+id/header_reward_history"
+        layout="@layout/header_reward_history"
+        android:visibility="gone" />
+
+    <!--pointsinreview-->
+    <include
+        android:id="@+id/header_pointsinreview"
+        layout="@layout/header_pointsinreview"
+        android:visibility="gone" />
+</FrameLayout>

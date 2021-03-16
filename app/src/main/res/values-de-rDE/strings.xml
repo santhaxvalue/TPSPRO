@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- created by Centura 23-08-2017-->
+
+<resources>
+
+        //Germany
+    <string name="lbl_privacy_statement">Datenschutzerklärung</string>
+
+    <string name="txt_points_in_review">"Punkte in Überprüfung"</string>
+    <string name="txt_pointin_review">"Punkte in Überprüfung"</string>
+
+    <string name="txt_redemption_request">Einlösungsanforderung von</string>
+    //added by niyaj
+    <string name="txt_points_processed_successfully"> Punkten erfolgreich bearbeitet.</string>
+    //added by niyaj
+    <string name="txt_profile_successfully_updated">"Dein Profil wurde erfolgreich aktualisiert"</string>
+    <string name="txt_mandatory">"Verpflichtend"</string>
+    <string name="userlogin">"Benutzer-Anmeldung "</string>
+    <string name="isvalidbamarket">"Panel Station ist nicht berechtigt"</string>
+    <string name="hint_dob_select">"Geburtsdatum auswählen"</string>
+    <string name="text_OR">"oder"</string>
+    <string name="signin_facebook">"Mit Facebook anmelden"</string>
+    <string name="signin_signinpage_google">"Mit Google+ anmelden"</string>
+    <string name="error_terms_conditions">""Bitte akzeptieren Sie unsere Allgemeinen Geschäftsbedingungen""</string>
+    <string name="profiler">"Profiler-Seite"</string>
+    <string name="personal_info">"PERSÖNLICHE INFORMATIONEN"</string>
+    <string name="text_welcome">"Herzlich willkommen:"</string>
+    <string name="profilecompleted">"Ihr Profil ist zu 100% vollständig"</string>
+    <string name="txt_complete_profile_point_1">"Sie können %d Punkte verdienen, indem Sie Ihr Profil vervollständigen"</string>
+    <string name="txt_start">"Start"</string>
+    <string name="text_edit">"bearbeiten"</string>
+    <string name="thanks_smiley_msg">"Vielen Dank für die Aktualisierung Ihres Profils; Sie erhalten bald mehr lohnende Umfragen von Ihrem Interesse.  "</string>
+    <string name="empty_message_update_profile">"aktualisieren Sie Ihr Profil, um eine Umfrage zu Ihrem Interessensgebiet zu erhalten."</string>
+    <string name="empty_message_receive_survey">"Sie erhalten in Kürze eine interessante Umfrage"</string>
+    <string name="txt_Reward">"Belohnt"</string>
+    <string name="txt_Redeem">"Einlösen"</string>
+    <string name="txt_msg_pinsent">"PIN erfolgreich gesendet!"</string>
+    <string name="txt_RedeemHist">"Erlösungsgeschichte"</string>
+    <string name="txt_RewardHist">"Belohnungsverlauf"</string>
+    <string name="txt_mobile_verification">"Mobile Überprüfung"</string>
+    <string name="txt_mobile_number_verify">"Sie müssen Ihre Handynummer verifizieren, um das Einlösungsgeschenk zu erhalten"</string>
+    <string name="txt_mobilenumber">"Handynummer"</string>
+    <string name="txt_donot_enter_code">"Hinweis: Bitte geben Sie keinen Ländercode ein"</string>
+    <string name="txt_pin">"Stift"</string>
+    <string name="btn_verify">"ÜBERPRÜFEN"</string>
+    <string name="txt_submit">"ABSENDEN"</string>
+    <string name="general_rewards">"Allgemeine Belohnungen"</string>
+    <string name="txt_option">"Möglichkeit"</string>
+    <string name="txt_description">"Beschreibung"</string>
+    <string name="txt_select">"Wählen"</string>
+    <string name="txt_enter_points_redeem">"Geben Sie die Punkte ein, die Sie einlösen möchten"</string>
+    <string name="sweepstakes">"Gewinnspiel"</string>
+    <string name="txt_each_ticket_part1">"Jedes Ticket kostet %d Punkte"</string>
+    <string name="txt_tickets">"Fahrkarte"</string>
+    <string name="txt_balance_points">"Punkte balancieren"</string>
+    <string name="txt_select_quantity">"Wählen Sie die Menge"</string>
+    <string name="txt_points_number">"Punkte: "</string>
+    <string name="txt_BUY">"Kaufen"</string>
+    <string name="txt_buy_btn_agreeing">"Durch Klicken auf die Schaltfläche "Kaufen" stimmen Sie allen Bedingungen und Bedingungen der The Panel Station zu"</string>
+    <string name="alert_dialog_txt_part3">"Es tut uns leid, dass Sie %d Punkte mehr einlösen müssen"</string>
+    <string name="alert_dialog_txt_part1">"Sie benötigen %d mehr Punkte für die allgemeine Einlösung. Sie können jedoch jederzeit an unserem monatlichen Gewinnspiel teilnehmen, um aufregende Preise zu gewinnen."</string>
+    <string name="txt_thanks">"Vielen Dank! "</string>
+    <string name="txt_puchased_ticket_part1">"Sie haben %s-Ticket (s) gekauft."</string>
+    <string name="txt_receive_email_shortly">" Sie erhalten in Kürze eine E-Mail mit allen Informationen zur Auslosung"</string>
+    <string name="setting">"Einstellungen"</string>
+    <string name="ChangeLang">"Sprache ändern"</string>
+    <string name="lbl_privacy_policy">"Datenschutzerklärung"</string>
+    <string name="Terms">"Geschäftsbedingungen"</string>
+    <string name="txt_contactus">"Kontakt"</string>
+    <string name="txt_language">"Sprache"</string>
+    <string name="txt_raise_request">"Fordern Sie eine Anfrage an"</string>
+    <string name="txt_msg_subject">"Betreff"</string>
+    <string name="btn_send">"Senden"</string>
+    <string name="btn_cancel">"Stornieren"</string>
+    <string name="thanks_dialog_txt">"Wir danken Ihnen, dass Sie uns geschrieben haben! Wir melden uns so schnell wie möglich bei Ihnen!"</string>
+
+    <string name="api_msg_90days">"Sie können nur einmal in 90 Tagen eine Umfrage durchführen."</string>
+    <string name="api_nosurveyavailable">"Derzeit ist keine Umfrage für Sie verfügbar. Bitte versuchen Sie es später erneut."</string>
+    <string name="api_tps_account_linked">"TPS-Konto ist mit Social Media verknüpft"</string>
+    <string name="api_profiler_unavailable">"Der Profiler ist derzeit nicht verfügbar"</string>
+    <string name="api_recently_updated">"Es scheint, dass Sie das Profil kürzlich aktualisiert haben. Es wird erst 90 Tage nach Ihrer letzten Aktualisierung verfügbar sein."</string>
+    <string name="api_email_registered">"Ihre EmailId ist bereits registriert"</string>
+    <string name="api_device_registered">"Ihr Gerät ist bereits für unseren Service registriert"</string>
+    <string name="api_email_device_registered">"Ihre EmailId und Ihr Gerät sind bereits für unseren Service registriert"</string>
+    <string name="api_facebook_credentials">Facebook-Anmeldeinformationen sind bereits verknüpft.</string>
+    <string name="api_associated_tps_account">"Hast du ein Konto bei TPS, das du mit Facebook verknüpfen kannst?"</string>
+    <string name="api_enter_valid_pin">"Bitte geben Sie eine gültige PIN ein"</string>
+    <string name="api_network_connection_unavailbale">"Netzwerkverbindung nicht verfügbar"</string>
+    <string name="api_subject_here">"Geben Sie hier den Betreff ein"</string>
+    <string name="api_fill_all_answers">"Bitte füllen Sie alle Antworten auf dieser Seite aus"</string>
+
+    <string name="txt_surveyrewardMSG">Nehmen Sie an Umfragen teil.</string>
+    <string name="txt_surveyanytime">"Jederzeit und überall."</string>
+    <string name="txt_opinion">"Ihre Meinung prägen die Produkte und Dienstleistungen globaler Unternehmen"</string>
+    <string name="txt_save">"sparen"</string>
+    <string name="msg_select_any_coupoun">"Bitte wählen Sie eine beliebige Option"</string>
+    <string name="txt_tickets_buyMax">"Sie können maximal %d Tickets kaufen."</string>
+    <string name="signupcomplete_logincred">"Ihre Anmeldeinformationen wurden an Ihre registrierte E-Mail-ID gesendet."</string>
+    <string name="msg_message">"Bitte geben Sie eine Nachricht ein"</string>
+    <string name="msg_subject">"Bitte geben Sie einen Betreff ein"</string>
+
+    <!-- resolved tranlations issues -->
+    <string name="app_name">The Panel Station</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="dialog_login">Warten Sie mal…</string>
+    <string name="txt_email">E-Mail-ID</string>
+    <string name="txt_password">Passwort</string>
+    <string name="txt_cancel">Abbrechen</string>
+    <string name="login_title">Panel Station</string>
+    <string name="surveyList_title">Verfügbare Umfrage</string>
+    <string name="forgotPassword_title"> Passwort vergessen</string>
+    <string name="txt_rememberme">Erinnere dich an mich</string>
+    <string name="txt_login">Anmeldung</string>
+    <string name="txt_no_survey">Keine Umfragen verfügbar</string>
+    <string name="txt_no_rewards">Keine Belohnungen verfügbar</string>
+    <string name="txt_no_redemption"> Keine Einlösung verfügbar.</string>
+    <string name="txt_info"> Klicken Sie auf die verfügbaren Umfragen, um sie im Browser zu starten. Klappen Sie die Liste aus, um die Umfragen zu aktualisieren.\n\nVisit <a href="www.thepanelstation.com">www.thepanelstation.com</a> für Ihre Kontodaten und Support.</string>
+    <string name="ptr_pull_to_refresh"></string>
+    <string name="ptr_release_to_refresh"></string>
+    <string name="ptr_refreshing"></string>
+    <string name="ptr_last_updated"></string>
+    <string name="lbl_privacy_policy_url">http://www.informatemi.com/tps/pp.php</string>
+    <string name="lbl_terms_cond_url">http://www.informatemi.com/tps/tandc.php</string>
+    <string name="lbl_terms_cond">Geschäftsbedingungen</string>
+    <string name="lbl_allowdata">Ich gestatte, dass meine Daten anonym für Forschungszwecke verwendet werden.</string>
+
+    <!-- Signup implementation Strings -->
+    <string name="SignUp">Anmeldung</string>
+    <string name="SignIn">Einloggen</string>
+    <string name="signupcomplete_thanks">Vielen Dank. \nSie wurden erfolgreich registriert.</string>
+    <string name="signupcomplete_note">Hinweis: Verweisen Sie auf Spam und Promotionsordner für unsere E-Mail, wenn Sie sie nicht in Ihrem Posteingang finden.</string>
+    <string name="lbl_laststage">Das ist alles für jetzt! Wir werden uns in Kürze mit Ihnen in Verbindung setzen</string>
+    <string name="checkmail">E-Mail überprüfen</string>
+    <string name="emailSignupMesage">Oder melden Sie sich per E-Mail an</string>
+    <string name="loginInfo">Login Info:</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_confirm_email">Bestätigungs-E-Mail</string>
+    <string name="hint_phoneno">Telefon-Nr.</string>
+    <string name="contact_info">KONTAKTINFORMATION</string>
+    <string name="hint_firstname">Vorname</string>
+
+    <string name="hint_lastname">Familienname, Nachname</string>
+    <string name="hint_country">Land</string>
+    <string name="hint_city">Stadt</string>
+    <string name="hint_zip">Postleitzahl</string>
+    <string name="hint_gender">Geschlecht</string>
+    <string name="hint_dob">Geburtsdatum</string>
+    <string name="hint_education">Bildung</string>
+    <string name="hint_annualHighSAl">Jährliches Haushaltseinkommen</string>
+    <string name="hint_maritalStatus">Familienstand</string>
+    <string name="hint_ethnicity">Ethnie</string>
+    <string name="hint_employment_status">Arbeitsverhältnis</string>
+    <string name="hint_industry">Industrie</string>
+    <string name="hint_address">Adresse</string>
+    <string name="SIgnUp_Submit">Einloggen</string>
+    <!-- <string name="fbapp_id">872503272868996</string> --><!-- pankaj id -->
+    <!--<string name="fbapp_id">1311050882301521</string>-->  <!--Rahul U id-->
+    <string name="fb_login_protocol_scheme">fb1311050882301521</string>
+    <string name="panel_copyrights">"Copyright © 2015 thepanelstation. Alle Rechte vorbehalten."</string>
+    <string name="agreedTermsandCondition"> den Allgemeinen Geschäftsbedingungen und der Datenschutzerklärung zustimmen </string>
+    <string name="startearning">Anfangen zu gewinnen</string>
+    <string name="month">Geburtsdatum auswählen</string>
+    <string name="day">Tag</string>
+    <string name="year">Jahr</string>
+    <string name="next">Nächster</string>
+    <string name="contact_info_descriptions">Wir verpflichten uns, Ihre Privatsphäre zu schützen. Wir bitten Sie jedoch, Ihre persönlichen Daten unten einzugeben, um Ihre Teilnahme an Gewinnspielen oder Sonderaktionen zu bestätigen. Wir verwenden die personenbezogenen Daten, die Sie zur Verfügung stellen, um Einkäufe und die Teilnahme an Gewinnspielen zu bearbeiten und um Ihnen Produkte und Preise zu liefern!</string>
+    <string name="select_country">Land auswählen</string>
+    <string name="async_task_error">Bitte überprüfen Sie die Internet-Verbindung</string>
+    <string name="login_email">"Bitte geben Sie die E-Mail-ID ein"</string>
+    <string name="txt_send">"Senden"</string>
+    <string name="msg_login_connprob">"Die Verbindung reicht möglicherweise nicht aus, um sich zu diesem Zeitpunkt anzumelden. Bitte versuchen Sie es später erneut."</string>
+    <string name="msg_invalid_login_creditional">"Ungültige E-Mail-ID oder ungültiges Passwort"</string>
+    <string name="msg_enter_pass">"Bitte Passwort eingeben"</string>
+    <string name="msg_login_session_expire">"Ihre Sitzung ist aufgrund der Anmeldung von einem anderen Gerät / Portal abgelaufen."</string>
+    <string name="msg_unregister_email">"Bitte geben Sie eine registrierte E-Mail-ID ein"</string>
+    <string name="msg_valid_email">"Bitte geben Sie eine gültige E-Mail-ID ein"</string>
+    <string name="txt_survey">"Umfrage"</string>
+    <string name="empty_msg_you_haven_t_redeemed_yet">Du bist noch nicht eingelöst</string>
+
+    <string name="txt_reward_point">"Belohnungspunkte"</string>
+    <string name="txt_earned_point">"Gewonnene Punkte"</string>
+    <string name="txt_redeemed_point"> " Punkte eingelöst"</string>
+    <string name="txt_aval_point">"Punkte verfügbar"</string>
+    <string name="txt_redemption">"Einlösung:"</string>
+    <string name="msg_refreshing">"Erfrischungsübersicht"</string>
+    <string name="msg_open_survey">"Möchten Sie eine Umfrage eröffnen?"</string>
+    <string name="msg_logout">"Sind Sie sicher, dass Sie sich ausloggen möchten?"</string>
+    <string name="txt_yes">"Ja"</string>
+    <string name="txt_no">"Nein"</string>
+    <string name="msg_logoff_connec_lost">"Die Verbindung ist möglicherweise zu diesem Zeitpunkt nicht ausreichend. Bitte versuchen Sie es später noch einmal."</string>
+    <string name="msg_timeout">" Die Anwendung hat Schwierigkeiten beim Abrufen von Daten. Bitte versuchen Sie es später noch einmal."</string>
+    <string name="msg_low_conn">"Die Verbindung ist möglicherweise zu diesem Zeitpunkt für diese Anfrage nicht ausreichend. Bitte versuchen Sie es später noch einmal."</string>
+    <string name="msg_survy_info">"Klicken Sie auf die verfügbaren Umfragen, um sie im Browser zu starten. Klappen Sie die Liste aus, um die Umfragen zu aktualisieren.\n\nSie können Ihre bevorzugte Sprache über den Einstellungsbildschirm auswählen \n\nBesuchen Sie www.thepanelstation.com für Ihre Kontodaten."</string>
+    <string name="txt_takeby">"Bis teilnehmen"</string>
+    <string name="txt_earn">"Gewinnen"</string>
+    <string name="Points_Ticket">"Punkte/Ticket Nr."</string>
+    <string name="txt_points">"Punkte"</string>
+    <string name="txt_earned">"Verdient"</string>
+    <string name="txt_voucher_code">"Coupon-Code"</string>
+    <string name="txt_redeemed">"Eingelöst"</string>
+    <string name="txt_status">"Status"</string>
+    <string name="txt_done">"Erledigt"</string>
+    <string name="txt_valid_till">"Gültig bis"</string>
+    <string name="txt_month_jan">"Jan"</string>
+    <string name="txt_month_feb">"Feb."</string>
+    <string name="txt_month_march">"Beschädigen"</string>
+    <string name="txt_month_apr">"April"</string>
+    <string name="txt_month_may">"Kann"</string>
+    <string name="txt_month_jun">"Jun"</string>
+    <string name="txt_month_july">"Juli"</string>
+    <string name="txt_month_aug">"Aug"</string>
+    <string name="txt_month_sept">"Sep"</string>
+    <string name="txt_month_oct">"Okt"</string>
+    <string name="txt_month_nov">"Nov"</string>
+    <string name="txt_month_dec">"Dez"</string>
+    <string name="txt_iaggree">"Ich stimme zu"</string>
+    <string name="hint_mobile_number">Handynummer</string>
+
+    <string name="txt_and_text">" und "</string>
+    <string name="txt_allowing_text">Ich erlaube, dass meine Daten anonym für Forschungszwecke verwendet werden.</string>
+    <string name="txt_visit">"Besuch"</string>
+    <string name="signup_facebook">Mit Facebook anmelden</string>
+    <string name="signout_facebook">Mit Facebook anmelden</string>
+    <string name="signup_google">Mit Google+ anmelden</string>
+    <string name="signout_google"> Mit Google+ anmelden</string>
+    <string name="userexist">Der Benutzer ist bereits vorhanden. Bitte loggen Sie sich ein</string>
+    <string name="async_task_not_responding">Wir können Ihre Anfrage nicht bearbeiten. Bitte versuchen Sie es später noch einmal.</string>
+    <string name="msg_confirm_open">Möchten Sie eine Umfrage öffnen?</string>
+    <string name="Ok"> Ok</string>
+    <string name="unsubscribe_text1">Es ist für uns traurig zu hören, dass Sie an unseren Umfragen nicht mehr interessiert sind.</string>
+    <string name="unsubscribe_text2">Wir werden Sie vermissen und würden uns \n freuen, wenn Sie uns Ihr Feedback mitteilen \n würden, damit wir unsere Dienstleistungen verbessern können</string>
+    <string name="unsubscribe_text3">Bitte wählen Sie die Gründe unten aus:</string>
+
+    <!-- Manoj pop up Strings -->
+    <string name="error">"Fehler:"</string>
+    <string name="error_fn">"Vorname darf nicht leer sein"</string>
+    <string name="error_ln">"Nachname darf nicht leer sein"</string>
+    <string name="error_gender">"Bitte wählen Sie Ihr Geschlecht aus"</string>
+    <string name="error_dob">"Bitte geben Sie Ihr Geburtsdatum ein"</string>
+    <string name="error_select_country">"Bitte wählen Sie Ihr Land aus"</string>
+    <string name="error_phone_empty">"Handynummer darf nicht leer sein"</string>
+    <string name="error_city">"Bitte wählen Sie Ihre Stadt aus"</string>
+    <string name="error_zipcode">"Postleitzahl kann nicht leer sein"</string>
+
+    <!-- Added more for length validations -->
+    <string name="error_phone_length">"Bitte geben Sie eine gültige Handy-Nr. ein"</string>
+    <string name="error_zipcode_length">"Bitte geben Sie eine Gültige PLZ ein"</string>
+    <string name="message_sel_country">"Bitte wählen Sie Ihr Land aus"</string>
+    <string name="message_city">"Stadt auswählen"</string>
+    <string name="message_panel_intake_1">Herzlichen Glückwunsch, Sie sind nur einen Schritt weg von der Möglichkeit, Belohnungen zu gewinnen. </string>
+    <string name="message_panel_intake_2">Bitte bestätigen Sie Ihre Registrierung, indem Sie Ihre E-Mail-ID bestätigen</string>
+    <string name="registrationfails">"Registrierung scheitert."</string>
+    <string name="hint_search">"Suchen"</string>
+    <string name="mat_addid">174926</string>
+    <string name="mat_onversionkey">f9217ab0bd684aee398cfc950547d6e6</string>
+    <string name="msg_valid_password">"Bitte geben Sie ein gültiges Passwort ein"</string>
+    <string name="survey_not_found">"Umfrage nicht gefunden"</string>
+    <string name="alert_dialog_txt_part2">"  Sie benötigen %d mehr Punkte für eine allgemeine Einlösung. Sie können trotzdem immer an unserer monatlichen Auslosung teilnehmen, um spannende Preise zu gewinnen."</string>
+    <string name="alert_dialog_txt_part4">"  Es tut uns leid, Sie brauchen %d mehr Punkte zum Einlösen"</string>
+    <string name="webpage_being_loaded">"Webseite wird geladen"</string>
+
+    <!-- Added By saurabh -->
+    <string name="surveys">Umfrage</string>
+    <string name="rewards">Belohnungen</string>
+    <string name="PrivacyPol">"Datenschutzerklärung"</string>
+    <string name="ContactUs">"Kontakt"</string>
+    <string name="press_again_close">"Nochmals klicken um zu schließen"</string>
+    <string name="txt_each_ticket_part2">" Punkte"</string>
+    <string name="txt_tickets_in_cart_part1">"Sie haben "</string>
+    <string name="txt_tickets_in_cart_part2">" Tickets im Warenkorb"</string>
+    <string name="txt_tell_us_more">"Sagen Sie uns mehr über das Problem"</string>
+    <string name="btn_next">"weiter"</string>
+    <string name="txt_forgot_password">" Passwort vergessen"</string>
+    <string name="txt_social_link">Verknüpfung</string>
+
+    <!-- parser app authentication -->
+
+    <string name="parser_appid">"5Tl7X8lvmLU`HJiHOh5m3zGq2L8UWCqhNy78AMse"</string>
+    <string name="parser_clientkey">"kIKn4rBV0MhGYYn0uxCKaDBVBEJf0rsvLSNIR1Dj"</string>
+    <string name="txt_wait_for_questions">"Bitte warten Sie, bis der Fragebogen für Sie eingerichtet wurde "</string>
+    <string name="txt_imnew">"Ich bin neu"</string>
+    <string name="txt_takenby">"Bis teilnehmen "</string>
+    <string name="txt_expired">"Verfällt am"</string>
+    <string name="msg_serverdown">"Der Server ist down oder wird instandgehalten. Bitte versuchen Sie es später noch einmal."</string>
+    <string name="msg_citynotfound">"Unmöglich die Anfrage zu bearbeiten, da es schwierig ist, Panellist-Städte deines Landes zu finden."</string>
+    <string name="unabletoverifypin">"Unmöglich Ihre Pin zu bestätigen, bitte geben Sie eine gültige Pin ein"</string>
+    <string name="pointexpired">"Punkt abgelaufen"</string>
+    <string name="open">"Öffnen"</string>
+    <string name="allowdatausage">"PanelStation benötigt Erlaubnis zum Zugriff auf Ihre Anwendungsdaten. Bitte erlauben Sie PanelStation den Zugang"</string>
+    <string name="lbl_appusagepermission">"Wichtiger Schritt: \n Panel Station App Benutzungszugriff aktivieren.\nGehen Sie zu Einstellungen-> Sicherheit-> Apps mit Benutzungszugriff."</string>
+
+    <!-- New Changes Strings -->
+    <string name="ui_activationcode"><b>Benutzer-Aktivierungscode</b></string>
+    <string name="ui_msg_checkemail">
+<![CDATA[
+                        <p>Bitte überprüfen Sie Ihren E-Mail-Posteingang auf den Aktivierungscode <B>\"The Panel Station\"</B></p>
+                    ]]>
+    </string>
+    <string name="ui_msg_checkemail_spam">"Bitte überprüfen Sie Ihre Spam- &amp; Werbungsordner, wenn Sie ih nicht in der Inbox finden."</string>
+    <string name="hint_activationcode">"Bitte geben Sie den Aktivierungscode ein!"</string>
+    <string name="ui_termsandcondition">
+<![CDATA[
+                        <p>Durch Anklicken von Absenden, akzeptieren Sie unsere<a href=\'"http://www.informatemi.com/tps/tandc.php"\'><u>Geschäftsbedingungen</u></a> and <a href=\'"http://www.informatemi.com/tps/pp.php"\'><u><u>Datenschutzerklärung</u></a>"</p>
+                    ]]>
+    </string>
+    <string name="ui_textSignIn">Hier klicken für die Loginseite</string>
+    <string name="signupsocial">Sich jetzt mit <b>\"The Panel Station\"</b> anmelden </string>
+    <string name="signupsocial_appends">in sicherer Weise</string>
+    <string name="msgcheckemailforotp"> Einmalpasswort wurde an Ihre %s E-Mail-ID geschickt. Bitte überprüfen und bestätigen, um zu aktivieren. </string>
+    <string name="congratulation_header"> Herzliche Glückwünsche! </string>
+    <string name="congratulation_msg">Sie sind jetzt eines der größten Online-Forschungspanels. Klicken Sie auf "Start Earning", um zum Bereich "Umfragen" der App zu gelangen.</string>
+    <string name="text_existing_member">"Bestehendes Mitglied"</string>
+    <string name="resendactivationcode">"Aktivierungscode in nochmals senden "</string>
+    <string name="clickhere">"Den Code noch nicht erhalten? Hier klicken"</string>
+    <string name="min">"Min"</string>
+    <string name="sec">"Sek"</string>
+    <string name="error_enter_otp">"Bitte geben Sie den Aktivierungscode ein!"</string>
+    <string name="alredy_otp">Haben Sie bereits ein OTP zu überprüfen?</string>
+    <string name="otp_email"> Geben Sie Ihre registrierte E-Mail-Adresse ein</string>
+    <string name="_0">0%</string>
+    <string name="profile_name">name</string>
+    <string name="profile">Profiler</string>
+    <string name="maxicano">Maxicano</string>
+    <string name="data_plan">Dies ist das Angebot, um kostenlos auf freeCharge aufzuladen. Bitte installieren Sie die App und erhalten Sie das Angebot für Ihren Datenplan.</string>
+    <string name="points">3000</string>
+    <string name="resend_otp">OTP erneut senden?</string>
+    <string name="when_you_refer_a_friend">Wenn Sie einen Freund empfehlen</string>
+    <string name="msg_first_time_500_earn">1. Erhalten Sie 500 Referenzpunkte (nur nach Abschluss der ersten Umfrage).</string>
+    <string name="your_friend_earns_500_joining_points">2. Ihr Freund erhält 500 Punkte.</string>
+    <string name="_3_you_can_refer_a_maximum_of_5_friends_in_a_month">3. Sie können maximal 5 Freunde in einem Monat empfehlen.</string>
+    <string name="the_more_the_merrier">Je mehr, desto besser!</string>
+    <string name="so_get_your_going_in_now">Also, los, und zwar sofort!</string>
+    <string name="match_the_puzzle_to_fetch_a_survey">Kombinieren Sie das Puzzle, um eine Umfrage zu erhalten</string>
+    <string name="and_each_time_500_referral_points">Und verdienen Sie jedes Mal 500 Empfehlungspunkte!</string>
+    <string name="friends_make_life_better">Freunde machen das Leben besser und sollten gefeiert werden! Mit diesem Glauben haben wir das Refer-A-Friend-Programm entwickelt, um alle Ihre Freunde dort zu belohnen</string>
+    <string name="for_more_details">Für mehr Details</string>
+    <string name="click_here">Klick hier</string>
+
+    <string name="consent_form">EINVERSTÄNDNISERKLÄRUNG</string>
+    <string name="consent_form_p_tc_1">„The Panel Station ist ein urheberrechtlich geschütztes Produkt von Borderless Access Panels zusammen mit allen seinen Marken, Illustrationen, Fotos, Grafiken, Dateien, Designs und Layouts. Der Inhalt dieser Website darf nur in Übereinstimmung mit den hier aufgeführten Bedingungen und der Datenschutzerklärung genutzt werden.“</string>
+    <string name="disclaimer">Haftungsausschluss:</string>
+    <string name="before_we_proceed">Bevor Sie fortfahren, nehmen Sie sich bitte ein paar Minuten Zeit, um uns Ihre Informationen und Ihre Einwilligung mitzuteilen, die gemäß den neuen Datenschutzgesetzen eingeholt werden müssen.</string>
+    <string name="are_you_citizen_of_eu">"Sind Sie ein Bürger der Europäischen Union? "</string>
+    <string name="are_you_in_eu_region">Sind Sie derzeit in der Europäischen Union?</string>
+    <string name="in_accordance_big_1">Gemäß den neuen Datenschutzgesetzen in der Europäischen Union (DSGVO) bitten wir Sie, das folgende Formular sorgfältig zu lesen und Ihre Zustimmung zu erteilen, weiterhin Teil der TPS-Gemeinschaft zu sein.</string>
+    <string name="here_at_the_big_2">Hier bei The Panel Station nehmen wir Ihre Privatsphäre ernst und verwenden Ihre persönlichen Informationen nur zur Verwaltung Ihres Kontos und zur Bereitstellung der von Ihnen angeforderten Produkte und Dienstleistungen.</string>
+    <string name="you_understand_big_text_3">"Sie verstehen und stimmen zu, dass wir Ihnen mit der Option „Ja“ entsprechende Benachrichtigungen über E-Mails und SMS senden können, die ein Teil der Ihnen angebotenen Dienste sein sollen. "</string>
+    <string name="if_at_any_point">"Sollten Sie zu irgendeinem Zeitpunkt nach der Anmeldung sich entscheiden, Ihre Zustimmung zu widerrufen, können Sie dies tun, indem Sie uns Ihre Anfrage an [E-Mail-Adresse einfügen] senden. Wir werden innerhalb von drei Tagen nach Erhalt Ihrer Emails antworten. "</string>
+    <string name="if_at_any_point_custom">"Sollten Sie zu irgendeinem Zeitpunkt nach der Anmeldung sich entscheiden, Ihre Zustimmung zu widerrufen, können Sie dies tun, indem Sie uns Ihre Anfrage an %s senden. Wir werden innerhalb von drei Tagen nach Erhalt Ihrer Emails antworten. "</string>
+    <string name="do_you_wish">Möchten Sie Ihre Teilnahme an der The Panel Station-Gemeinschaft zustimmen, um an dessen Forschungsangeboten teilzunehmen?</string>
+    <string name="yes_i_agree">" Ja, ich stimme zu"</string>
+    <string name="no_i_dont_agree">Nein, ich stimme nicht zu</string>
+    <string name="consent_disclaimer_1">"„The Panel Station ist ein urheberrechtlich geschütztes Produkt von Borderless Access Panels zusammen mit allen seinen Marken, Illustrationen, Fotos, Grafiken, Dateien, Designs und Layouts. Der Inhalt dieser Website darf nur in Übereinstimmung mit den hier aufgeführten "</string>
+    <string name="consent_disclaimer_2">nakalakip dito.\"</string>
+    <string name="in_case_you_delete">Falls Sie alle Ihre bei uns gespeicherte Informationen löschen wollen, schreiben Sie uns bitte an Dataprotectionofficer01@borderlessaccess.com</string>
+    <string name="rejoin_panel_email">"Wenn Sie sich erneut unserem Panel anschließen möchten, können Sie dies jederzeit tun, indem Sie sich bei uns anmelden. Um sich anzumelden, klicken Sie bitte auf den folgenden Link "</string>
+    <string name="title_msg_succeess_unsubscribe">"Sie haben sich erfolgreich bei unserer Gemeinschaft abgemeldet.  "</string>
+    <string name="msg_eu_region_decline_consent_form">Sie haben erwähnt, dass Sie aus Europa/Bürger Europas kommen, daher bitten wir Sie, die Einverständniserklärung für die weitere Registrierung zu akzeptieren.</string>
+    <string name="swipe_up">Scrolle nach oben, um dich anzumelden</string>
+    <string name="swipe_down">Scrolle nach unten, um dich einzuloggen</string>
+
+    <string name="refer_2_more">Einen Freund oder 2 oder 3 oder mehr empfehlen</string>
+    <string name="invite_your_friends">Laden Sie Ihre Freunde ein</string>
+    <string name="refer_code_not_avaliable">Empfehlungscode ist nicht verfügbar</string>
+    <string name="select_optional">Bitte wählen Sie eine Datei aus (optional)</string>
+    <string name="connect_your_accounts">Verbinden Sie Ihre Konten</string>
+
+    <string name="change_password">Passwort ändern</string>
+    <string name="reset">ZURÜCKSETZEN</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="twitter">TWITTER</string>
+    <string name="google">GOOGLE</string>
+
+    <string name="unsubscribe">Abmelden</string>
+    <string name="refer_frnd">Empfehlen Sie einen Freund</string>
+    <string name="title_contact_us">Uns kontaktieren</string>
+
+    <string name="my_rewards">Meine Belohnungen</string>
+    <string name="my_profile">Mein Profil</string>
+    <string name="my_surveys">Meine Umfragen</string>
+    <string name="contact_us">Kontaktiere uns</string>
+    <string name="fanpage">Blog</string>
+    <string name="invite">Einladen</string>
+    <string name="faq">FAQ\'s</string>
+    <string name="settings">die Einstellungen</string>
+
+    <string name="unsubscribe_lowercase">Abmelden
+
+</string>
+
+    <string-array
+        name="home">
+        <item>Meine Belohnungen</item>
+        <item>Mein Profil</item>
+        <item>Meine Umfragen</item>
+        <item>Kontaktiere uns</item>
+        <item>Blog</item>
+        <item>Einladen</item>
+        <item>Abzeichen</item>
+        <item>FAQ</item>
+        <item>die Einstellungen</item>
+    </string-array>
+
+    <string name="update_profile">PROFIL AKTUALISIEREN</string>
+
+    <string name="user_msg">Ihr Konto wurde als inaktiv markiert, kontaktieren Sie bitte unser Support-Team unter mobile@thepanelstationsurveys3.com für weitere Unterstützung.</string>
+
+    <string name="error_valid_referral_code">Bitte geben Sie einen gültigen Empfehlungscode ein
+</string>
+    <string name="apply_referral_code">SICH BEWERBEN
+</string>
+    <string name="subject">Betreff</string>
+    <string name="profile_settings">Profileinstellungen
+</string>
+    <string name="txt_redeem_points">Wählen Sie die Punkte aus, die Sie einlösen möchten
+</string>
+    <string name="particitpate_and_luck">Mitmachen und Glück haben
+</string>
+
+    <string name="tv_redemption_history">Erlösungsgeschichte</string>
+    <string name="tv_rewards_history">"Belohnungen Geschichte
+
+"</string>
+    <string name="available_count">Verfügbare Umfrage -
+</string>
+    <string name="enter_paytm_id">Bitte geben Sie Ihre Paytm ID ein</string>
+    <string name="add_photo">Foto hinzufügen</string>
+    <string name="take_photo">Foto machen</string>
+    <string name="choose_from_gallery">Wählen Sie aus der Galerie</string>
+    <string name="remove_photo">Foto entfernen</string>
+    <string name="profile_update_success">Ihr Profilbild wurde erfolgreich aktualisiert</string>
+    <string name="delete_profile_picture">Ihr Profilbild wurde erfolgreich entfernt</string>
+    <string name="enter_confirm_password">Passwort bestätigen</string>
+    <string name="current_password">aktuelles Passwort eingeben</string>
+    <string name="new_password">neues Passwort eingeben</string>
+    <string name="retry">Wiederholen</string>
+    <string name="please_select_reason">Bitte wählen Sie den Grund/die Gründe aus</string>
+    <string name="others_cannot_be_blank">Grund für Sonstiges / Sonstige kann nicht leer sein</string>
+    <string name="badges">Abzeichen</string>
+    <string name="badge_increase">Ausweis auf %1$s aktualisiert. %2$s Punkte gutgeschrieben.</string>
+    <string name="at">um</string>
+    <string name="old_password">* Altes Passwort:</string>
+    <string name="confirm_password">* Passwort bestätigen:</string>
+    <string name="newpassword">* Neues Passwort:</string>
+    <string name="password_comapre_mismatch">neues Passwort und Passwortübereinstimmung bestätigen.</string>
+    <string name="new_password_length">Die neue Passwortlänge sollte zwischen 6 und 16 Zeichen liegen.</string>
+    <string name="need_more_points">Sie benötigen %1$d mehr Punkte, um diese gegen %2$s-Gutscheine einzulösen, Sie können aber auch eine andere Option zum Einlösen wählen.</string>
+    <string name="password_expiry_message">Ihr Passwort ist abgelaufen. Bitte ändern Sie Ihr Passwort jetzt, um sich in Ihr Dashboard einzuloggen.</string>
+    <string name="please_change_your_password">Bitte ändern Sie Ihr Passwort.</string>
+    <string name="new_old_password_match_error">Neues Passwort und altes Passwort sollten nicht identisch sein.</string>
+    <string name="rationale_location">Bitte klicken Sie in dem nächsten Dialogfeld auf die Schaltfläche Zulassen</string>
+    <string name="register_here">Registrieren Sie sich hier</string>
+    <string name="communication_preferences">Kommunikationseinstellungen</string>
+    <string name="poll_result">Ergebnisse</string>
+    <string name="quick_poll">Schnelle Umfrage</string>
+    <string name="result">Result</string>
+    <string name="notification">Benachrichtigungen</string>
+    <string name="no_notifications">Keine Benachrichtigungen</string>
+    <string name="activity">Aktivitätsprotokolle</string>
+    <string name="last_log_in">Letzte Anmeldung</string>
+    <string name="last_log_out">Letzte Abmeldung</string>
+    <string name="resubscribe">Wieder anmelden</string>
+    <string name="resubscribe_msg">Sie haben sich erfolgreich von unserer Community abgemeldet, aber wir würden uns freuen, wenn Sie wiederkommen würden, klicken Sie einfach auf \"Resubscribe\".</string>
+    <string name="successfully_resubscribed">Erfolgreich wieder angemeldet</string>
+    <string name="subscribe_success_msg">Herzlichen Glückwunsch! Sie sind wieder an Bord! Lassen Sie uns unsere Meinung äußern, um ein besseres Morgen zu gewährleisten.</string>
+    <string name="logout">Letzte</string>
+    <string name="no_quick_poll">Keine Quickpolls verfügbar.</string>
+    <string name="comm_pref_email">Email</string>
+    <string name="comm_pref_mobile_sms">Mobile SMS</string>
+    <string name="comm_pref_mobile_push_notification">Mobile Push-Benachrichtigungen</string>
+    <string name="comm_pref_desktop_notification">Desktop-Benachrichtigungen</string>
+    <string name="comm_pref_save_success">Kommunikationseinstellungen erfolgreich gespeichert.</string>
+    <string name="error_msg_for_invalid_redeem_points">Bitte geben Sie gültige Punkte ein, um sie einzulösen</string>
+    <string name="redeem_instantly">Sofort einlösen</string>
+    <string name="legend">Legende</string>
+    <string name="grand_master">Großmeister</string>
+    <string name="master">Meister</string>
+    <string name="sensei">Sensei</string>
+    <string name="newbei">Neuling</string>
+    <string name="unsubscribe_delete_confirmation">Sie werden von unserer Community abgemeldet und alle Ihre historischen Daten werden gelöscht. Klicken Sie auf OK, wenn Sie fortfahren möchten.</string>
+    <string name="unsubscribe_delete_successful">Sie wurden erfolgreich von unserer Community abgemeldet. Wir werden Ihre historischen Daten innerhalb von 2 bis 3 Werktagen aus unseren Systemen löschen.</string>
+    <string name="unsubscribe_delete">Abmelden und Löschen</string>
+    <string name="your_VoucherCode" translatable="false">"Ihr Gutscheincode ist "</string>
+    <string name="redemptionRevoke">Eine einmal getätigte Einlösung kann nicht rückgängig gemacht/widerrufen werden</string>
+    <string name="click_yes">Click Yes to confirm your voucher selection. Please note that you will not be allowed to change the selection once made.</string>
+</resources>

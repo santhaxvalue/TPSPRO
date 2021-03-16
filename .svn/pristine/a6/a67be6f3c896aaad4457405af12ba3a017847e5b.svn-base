@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- view background color -->
+    <solid android:color="@color/crop__button_bar"/>
+
+    <!--view border color and width -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/coupon_gray"/>
+
+    <!-- If you want to add some padding -->
+    <padding
+        android:left="4dp"
+        android:right="4dp"/>
+
+    <!-- Here is the corner radius -->
+    <corners android:radius="4dp"/>
+
+</shape>

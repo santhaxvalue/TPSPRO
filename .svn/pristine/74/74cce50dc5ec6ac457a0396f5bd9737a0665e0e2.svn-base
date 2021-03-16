@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary_">#17ead9</color>
+    <color name="colorPrimaryDark_">#6078ea</color>
+    <color name="colorAccent_">#ff7676</color>
+
+    <color name="surveys_bg">#DBDBDB</color>
+    <color name="text_selected">#000000</color>
+    <color name="text_unselected">#9d9f8c</color>
+    <color name="login_bg">#dbdbdb</color>
+    <color name="settings_textcolor">#BDBDBD</color>
+    <color name="aqua_light">#C7ECFC</color>
+    <color name="aqua_light_2">#F2F2F2</color>
+    <color name="aqua">#47C0E4</color>
+    <color name="aqua_hover">#2B7389</color>
+    <color name="aqua_dark">#00B5E0</color>
+    <color name="white">#ffffff</color>
+    <color name="pink_light">#AFA0C5</color>
+    <color name="white_gray">#F1EDF5</color>
+    <color name="black">#000000</color>
+    <color name="crop__button_bar">#dbdbdb</color>
+    <color name="gray_opacity">#808080</color>
+    <color name="gray">#808080</color>
+    <color name="normal_gray">#cacaca</color>
+    <color name="gray_txt">#636363</color>
+    <color name="gray_light">#ececec</color>
+    <color name="future_gray">#454545</color>
+    <color name="walletreader_bgcolor">#F2F3F7</color>
+    <color name="passbgcolor">#E3E0E0</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#DC4454</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="useridcolor">#0092df</color>
+    <color name="registrationblue">#354884</color>
+    <color name="insertfieldbg">#FBFBFD</color>
+    <color name="transparent">#00000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="status_bar_color">#FF000000</color>
+    <color name="layout_border_color">#FF111111</color>
+    <color name="row_background">#ff00ffff</color>
+    <color name="my_msg_background">#FF494949</color>
+    <color name="in_msg_background">#FF0D4C63</color>
+    <color name="template_blue">#0092DF</color>
+    <color name="coupon_gray">#96999c</color>
+    <color name="devicesix">#666</color>
+    <color name="deviceff">#fff</color>
+    <color name="orange">#FFC61C</color>
+    <color name="wallet_li">#fb693f</color>
+    <color name="whiteSmoke">#F5F5F5</color>
+    <color name="list_background">#fff</color>
+    <color name="list_background_pressed">#6DB9F6</color>
+    <color name="list_divider">#272727</color>
+    <color name="row_bgcolor">#363A43</color>
+    <color name="progress_gray">#FFD8D8D8</color>
+    <color name="progress_gray_dark">#FF383838</color>
+    <color name="textview_gray">#4C4C4C</color>
+    <color name="text_gray">#8C8C8C</color>
+    <color name="top_bar_seperater">#8fff</color>
+    <color name="app_color">#FF696E</color>
+    <color name="gray_dark">#FF707070</color>
+    <color name="gray_mid_light">#FFBFBFBF</color>
+    <color name="red">#FF0000</color>
+    <color name="red_light">#FFFC6C69</color>
+    <color name="yellow">#ffff00</color>
+    <color name="yellow_dark">#aaaa00</color>
+    <color name="list_seperater">#DFDFDF</color>
+    <color name="setting_list_bg_light">#F0F0F0</color>
+    <color name="setting_list_bg_dark">#DBDBDB</color>
+    <color name="light_green">#B9D921</color>
+    <color name="titlebar_header">#313131</color>
+    <color name="redeem_view">#2cbea1</color>
+    <color name="redeemption_history_view">#4b86ba</color>
+    <color name="reward_history_view">#7269b7</color>
+    <color name="off_white">#EEEEEE</color>
+    <color name="btn_submit_bg_color">#E5C87F</color>
+    <color name="tractor_blue">#304D6D</color>
+    <color name="color_979797">#979797</color>
+
+    <item name="darkblue" type="color">#FF0099CC</item>
+    <item name="darkpurple" type="color">#FF9933CC</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+    <item name="btn_bg" type="color">#E4C87F</item>
+    <item name="link_blue" type="color">#2843DE</item>
+    <item name="link_black" type="color">#3E3E3E</item>
+    <item name="save_red" type="color">#EC3934</item>
+    <item name="points_in_review_yellow" type="color">#fec71c</item>
+
+    <item name="available_survey" type="color">#CC86E4E6</item>
+
+    <integer-array name="androidcolors">
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+    </integer-array>
+</resources>

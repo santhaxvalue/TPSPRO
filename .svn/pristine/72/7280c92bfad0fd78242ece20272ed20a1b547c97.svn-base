@@ -1,0 +1,256 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/available_survey_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="invisible"
+    tools:context="com.panelManagement.fragment.SurveyFloating">
+
+    <TextView
+        android:id="@+id/available_survey_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textColor="@color/gray_txt"
+        android:textSize="@dimen/sp18"
+        android:textStyle="bold"
+        android:text="Available surveys - 01" />
+
+    <FrameLayout
+        android:id="@+id/middle_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/available_survey_count">
+
+        <FrameLayout
+            android:id="@+id/frameEmptyview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp16"
+            android:background="@color/transparent"
+            android:foregroundGravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/fram_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="@string/msg_message"
+                android:textAlignment="center" />
+
+        </FrameLayout>
+
+        <ScrollView
+            android:id="@+id/survey_sv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:scrollbars="none"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/lv_survey_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:scrollbars="none" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_puzzle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/dp16"
+            app:cardElevation="@dimen/dp12"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/dp8">
+
+                <RelativeLayout
+                    android:id="@+id/drag_drop_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp100"
+                    android:background="@drawable/puzzle_bg"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:id="@+id/drag_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/target_layout"
+                        android:layout_marginLeft="@dimen/dp8"
+                        android:layout_marginStart="@dimen/dp8">
+
+                        <ImageView
+                            android:id="@+id/drop_img"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/puzzle_src" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/target_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginEnd="@dimen/dp30"
+                        android:layout_marginRight="@dimen/dp30"
+                        android:tag="target_position">
+
+                        <ImageView
+                            android:id="@+id/target_img"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="end"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/puzzle_white" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dp8"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:text="@string/match_the_puzzle_to_fetch_a_survey"
+                    android:textSize="@dimen/sp18" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/update_profile_cv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp8"
+                android:paddingRight="@dimen/dp8"
+                android:visibility="visible"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/update_profile_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="@dimen/dp24"
+                    android:layout_marginRight="@dimen/dp24"
+                    android:layout_weight="2.4"
+                    android:gravity="center"
+                    android:padding="@dimen/dp16"
+                    android:paddingBottom="@dimen/dp8"
+                    android:text="@string/empty_message_update_profile"
+                    android:textSize="@dimen/sp22" />
+
+                <View
+                    android:id="@+id/devider"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginBottom="@dimen/dp4"
+                    android:layout_marginLeft="@dimen/dp8"
+                    android:layout_marginRight="@dimen/dp8"
+                    android:background="@color/normal_gray" />
+
+                <ImageButton
+                    android:id="@+id/update_profile_btn"
+                    android:layout_width="@dimen/dp50"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/dp8"
+                    android:layout_marginTop="@dimen/dp4"
+                    android:layout_weight=".6"
+                    android:background="@drawable/next_arrow_box"
+                    android:contentDescription="@string/app_name"
+                    android:padding="@dimen/dp4"
+                    android:src="@drawable/edit_white" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/survey_slider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp100"
+        android:layout_below="@+id/middle_container"
+        android:layout_marginLeft="@dimen/dp8"
+        android:layout_marginRight="@dimen/dp8"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/dp12"
+        app:cardElevation="@dimen/dp2"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/prev_img_btn"
+                android:layout_width="@dimen/dp0"
+                android:layout_height="@dimen/dp32"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".1"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/dp8"
+                android:scaleType="centerInside"
+                android:src="@drawable/previous" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/bottom_slider"
+                android:layout_width="@dimen/dp0"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/dp8"
+                android:layout_marginTop="@dimen/dp8"
+                android:layout_weight=".8" />
+
+            <ImageButton
+                android:id="@+id/next_img_btn"
+                android:layout_width="@dimen/dp0"
+                android:layout_height="@dimen/dp32"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".1"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/dp8"
+                android:scaleType="centerInside"
+                android:src="@drawable/next_click" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

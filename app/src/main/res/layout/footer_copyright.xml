@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.panelManagement.widgets.TextViewPlus
+        android:id="@+id/termss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_light"
+        android:gravity="center"
+        android:padding="@dimen/dp8"
+        android:text="@string/panel_copyrights"
+        android:textColor="#6A696B"
+        android:textSize="@dimen/sp18" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.instantapps:instantapps:1.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/instantapps-1.1.0.aar/2855fed1f3cba9606ee6b2a64ef06499/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/instantapps-1.1.0.aar/2855fed1f3cba9606ee6b2a64ef06499/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/instantapps-1.1.0.aar/2855fed1f3cba9606ee6b2a64ef06499/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/instantapps-1.1.0.aar/556f5a4a3263cd3b3cc12af5daa554a1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/instantapps-1.1.0.aar/556f5a4a3263cd3b3cc12af5daa554a1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/instantapps-1.1.0.aar/556f5a4a3263cd3b3cc12af5daa554a1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

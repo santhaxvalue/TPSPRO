@@ -1,0 +1,88 @@
+{
+  "cityList": [
+    {
+      "countryname": "China",
+      "shortCode": "CN"
+    },
+    {
+      "countryname": "Brazil",
+      "shortCode": "BR"
+    },
+    {
+      "countryname": "Russia",
+      "shortCode": "RU"
+    },
+    {
+      "countryname": "South Africa",
+      "shortCode": "ZA"
+    },
+    {
+      "countryname": "Argentina",
+      "shortCode": "AR"
+    },
+    {
+      "countryname": "Indonesia",
+      "shortCode": "ID"
+    },
+    {
+      "countryname": "Turkey",
+      "shortCode": "TR"
+    },
+    {
+      "countryname": "Korea, Democratic People's Republic of",
+      "shortCode": "KP"
+    },
+    {
+      "countryname": "South Korea",
+      "shortCode": "KR"
+    },
+    {
+      "countryname": "Poland",
+      "shortCode": "PL"
+    },
+    {
+      "countryname": "Philippines",
+      "shortCode": "PH"
+    },
+    {
+      "countryname": "India",
+      "shortCode": "IN"
+    },
+    {
+      "countryname": "Mexico",
+      "shortCode": "MX"
+    },
+    {
+      "countryname": "Chile",
+      "shortCode": "CL"
+    },
+    {
+      "countryname": "New Zealand",
+      "shortCode": "NZ"
+    },
+    {
+      "countryname": "Nigeria",
+      "shortCode": "NG"
+    },
+    {
+      "countryname": "Colombia",
+      "shortCode": "CO"
+    },
+    {
+      "countryname": "Australia",
+      "shortCode": "AU"
+    },
+    {
+      "countryname": "Singapore",
+      "shortCode": "SG"
+    },
+    {
+      "countryname": "Thailand",
+      "shortCode": "TH"
+    },
+    {
+      "countryname": "Taiwan",
+      "shortCode": "TW"
+    }
+  ]
+}

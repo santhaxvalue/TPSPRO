@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="@dimen/dp32"
+    android:layout_marginLeft="@dimen/dp16"
+    android:layout_marginRight="@dimen/dp16"
+    android:layout_marginTop="@dimen/dp32"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/dp8"
+    app:cardElevation="@dimen/dp2"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/close_dialog_otp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/dp8"
+            android:src="@drawable/ic_cross" />
+
+        <LinearLayout
+            android:id="@+id/parentMessages"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/close_dialog_otp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <com.panelManagement.widgets.TextViewPlus
+                android:id="@+id/otp_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/ui_activationcode"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp20"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <com.panelManagement.widgets.TextViewPlus
+                android:id="@+id/ic_textview_checkmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp16"
+                android:gravity="center_horizontal"
+                android:text="@string/ui_msg_checkemail"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp18" />
+
+            <com.panelManagement.widgets.TextViewPlus
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/ui_msg_checkemail_spam"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp18"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/parentMessages"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <EditText
+                    android:id="@+id/otp_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/dp16"
+                    android:layout_marginRight="@dimen/dp16"
+                    android:layout_marginTop="@dimen/dp16"
+                    android:background="@drawable/edtbox_rounded_corner"
+                    android:hint="@string/otp_email"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="@dimen/dp8"
+                    android:paddingRight="@dimen/dp8"
+                    android:singleLine="true"
+                    android:textColorHint="@color/aqua"
+                    android:visibility="gone" />
+
+                <com.panelManagement.widgets.OtpView
+                    android:id="@+id/edtOtp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/dp16"
+                    android:layout_marginRight="@dimen/dp16"
+                    android:inputType="numberPassword"
+                    android:theme="@style/AppTheme" />
+
+                <!--<EditText
+                    android:id="@+id/edtOtp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editText_height"
+                    android:layout_below="@id/otp_email"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="15dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_marginTop="15dp"
+                    android:hint="@string/hint_activationcode"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:paddingLeft="12dp"
+                    android:paddingStart="12dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/aqua" />-->
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/ic_signupContactTermscondition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtOtp"
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    android:text="@string/ui_termsandcondition"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp12"
+                    android:visibility="gone" />
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/txt_resend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtOtp"
+                    android:gravity="center_horizontal"
+                    android:padding="@dimen/dp8"
+                    android:text="@string/resend_otp"
+                    android:textColor="@color/aqua_dark"
+                    android:textSize="@dimen/sp14"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/ll23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_resend"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <com.panelManagement.widgets.TextViewPlus
+                        android:id="@+id/btn_otp_cancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp24"
+                        android:layout_marginRight="@dimen/dp24"
+                        android:background="@drawable/edt_box_corner_yellow"
+                        android:gravity="center"
+                        android:padding="@dimen/dp8"
+                        android:text="@string/btn_cancel"
+                        android:textColor="@color/aqua_dark"
+                        android:textSize="@dimen/sp18"
+                        android:visibility="gone" />
+
+                    <com.panelManagement.widgets.TextViewPlus
+                        android:id="@+id/btn_signup_submit"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp24"
+                        android:layout_marginRight="@dimen/dp24"
+                        android:layout_weight="1"
+                        android:background="@drawable/edt_box_corner_yellow"
+                        android:gravity="center"
+                        android:padding="@dimen/dp8"
+                        android:text="@string/SignUp"
+                        android:textColor="@color/aqua_dark"
+                        android:textSize="@dimen/sp20"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll23"
+                    android:layout_margin="@dimen/dp16"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp8">
+
+                    <com.panelManagement.widgets.TextViewPlus
+                        android:id="@+id/itimer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/resendactivationcode"
+                        android:textColor="@color/black"
+                        android:textStyle="italic" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

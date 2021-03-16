@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt_redemption_request">Redemption request of</string>
+    //added by niyaj
+    <string name="txt_points_processed_successfully">points processed successfully.</string>
+    //added by niyaj
+    <string name="txt_profile_successfully_updated">"Your profile has been successfully updated"</string>
+    //added by niyaj
+    <string name="action_settings">Settings</string>
+    <string name="dialog_login">Please Wait</string>
+    <string name="txt_email">Email id</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_submit">Submit</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="login_title">Panel Station</string>
+    <string name="surveyList_title">Available Surveys</string>
+    <string name="forgotPassword_title">Forgot Password</string>
+    <string name="txt_rememberme">Remember Me</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_no_survey">No surveys available</string>
+    <string name="txt_no_rewards">No rewards available</string>
+    <string name="txt_no_redemption">No redemption available</string>
+    <string name="txt_info">Click on the available survey to launch them in browser.\n\nPull down the list to refresh surveys.\n\nVisit <a href="www.thepanelstation.com">www.thepanelstation.com</a> for your account details and support.</string>
+    <string name="ptr_pull_to_refresh"></string>
+    <string name="ptr_release_to_refresh"></string>
+    <string name="ptr_refreshing"></string>
+    <string name="ptr_last_updated"></string>
+    <string name="lbl_privacy_policy_url">http://www.informatemi.com/tps/pp.php</string>
+    <string name="lbl_terms_cond_url">http://www.informatemi.com/tps/tandc.php</string>
+    <string name="lbl_privacy_policy">Privacy Policy</string>
+    <string name="lbl_terms_cond">Terms and Conditions</string>
+    <string name="lbl_allowdata">I allow my data to be used anonymously for research purpose.</string>
+    <string name="txt_pointin_review">"Points in Review"</string>
+    <string name="txt_points_in_review">"Points in Review"</string>
+
+    <!-- Signup implementation Strings -->
+    <string name="SignUp">SIGN UP</string>
+    <string name="SignIn">SIGN IN</string>
+
+    <string name="signupcomplete_thanks">Thank you.\nYou have been successfully Registered.</string>
+    <string name="signupcomplete_logincred">Your login credentials have been sent to your registered email id.</string>
+    <string name="signupcomplete_note">Note: Do refer spam and promotions folder for our email if you don’t find it in your inbox.</string>
+    <string name="lbl_laststage">That\'s all for now\! We will get in touch with you in a while</string>
+    <string name="checkmail">Check Mail</string>
+    <string name="loginInfo">Login Info :</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_confirm_email">Confirm Email</string>
+    <string name="hint_phoneno">Phone No</string>
+    <string name="contact_info">CONTACT INFO</string>
+    <string name="hint_firstname">First Name</string>
+    <string name="hint_lastname">Last Name</string>
+    <string name="hint_country">Country</string>
+    <string name="hint_city">City</string>
+    <string name="hint_zip">Zip Code</string>
+    <string name="personal_info">PERSONAL INFO</string>
+    <string name="hint_gender">Gender</string>
+    <string name="hint_dob">D.O.B.</string>
+    <string name="hint_education">Education</string>
+    <string name="hint_annualHighSAl">Annual HH.Income</string>
+    <string name="hint_maritalStatus">Marital Status</string>
+    <string name="hint_ethnicity">Ethnicity</string>
+    <string name="hint_employment_status">Employment Status</string>
+    <string name="hint_industry">Industry</string>
+    <string name="hint_address">Address</string>
+    <string name="SIgnUp_Submit">Sign-In</string>
+    <string name="panel_copyrights">"Copyright © 2015 thepanelstation. All rights reserved."</string>
+    <string name="agreedTermsandCondition">  I agree to the Terms &amp; Conditions and Privacy Policy.</string>
+    <string name="startearning">Start Earning</string>
+    <string name="month">Select DOB</string>
+    <string name="day">Day</string>
+    <string name="year">Year</string>
+    <string name="next">Next</string>
+    <string name="contact_info_descriptions">We are committed to ensuring your privacy. However we ask you to input your personal information below to confirm your participation in sweepstakes or special promotions. We use the personal information you provide to process purchases and entries for sweepstakes, to deliver products and prizes to you!</string>
+    <string name="select_country">Select Country</string>
+    <string name="async_task_error">Please check intenet connection</string>
+    <string name="login_email">"Please enter email Id"</string>
+    <string name="txt_send">"Send"</string>
+    <string name="msg_login_connprob">"Connection may not be sufficient to login at this time. Please try again later."</string>
+    <string name="msg_invalid_login_creditional">"Invalid email id or password."</string>
+    <string name="msg_enter_pass">"Please enter password"</string>
+    <string name="msg_login_session_expire">"Your session has been expired due to login from other device/portal."</string>
+    <string name="msg_unregister_email">"Please enter registered email id"</string>
+    <string name="msg_valid_email">"Please enter valid email id"</string>
+    <string name="txt_survey">"Survey"</string>
+    <string name="txt_reward_point">"Reward Points"</string>
+    <string name="txt_earned_point">"Points Earned"</string>
+    <string name="txt_redeemed_point"> "Points Redeemed"</string>
+    <string name="txt_aval_point">"Points Available"</string>
+    <string name="txt_redemption">"Redemption"</string>
+    <string name="msg_refreshing">"Refreshing survey list"</string>
+    <string name="msg_open_survey">"Do you want to open a survey?"</string>
+    <string name="msg_logout">"Are you sure you want to logout?"</string>
+    <string name="txt_yes">"Yes"</string>
+    <string name="txt_no">"No"</string>
+    <string name="msg_logoff_connec_lost">"Connection may not be sufficient to logout at this time. Please try again later."</string>
+    <string name="msg_timeout">"Application is facing difficulties in retrieving information. Please try again later."</string>
+    <string name="msg_low_conn">"Connection may not be sufficient at this time to receive request. Please try again later."</string>
+    <string name="msg_survy_info">"Click on the available survey to launch them in browser. Pull down the list to refresh surveys.\n\nYou can select your preferred language from Settings screen. \n\nVisit www.thepanelstation.com for your account details."</string>
+    <string name="txt_language">"Language"</string>
+    <string name="txt_takeby">"Take by"</string>
+    <string name="txt_earn">"Earn"</string>
+    <string name="Points_Ticket">"Points/Ticket No"</string>
+    <string name="txt_points">"Points"</string>
+    <string name="txt_earned">"Earned"</string>
+    <string name="txt_voucher_code">"Voucher Code"</string>
+    <string name="txt_redeemed">"Redeemed"</string>
+    <string name="txt_status">"Status"</string>
+    <string name="txt_done">"Done"</string>
+    <string name="txt_valid_till">"Valid Till"</string>
+    <string name="txt_month_jan">"Jan"</string>
+    <string name="txt_month_feb">""Feb"</string>
+    <string name="txt_month_march">"Mar"</string>
+    <string name="txt_month_apr">"Apr"</string>
+    <string name="txt_month_may">"May"</string>
+    <string name="txt_month_jun">"Jun"</string>
+    <string name="txt_month_july">"Jul"</string>
+    <string name="txt_month_aug">"Aug"</string>
+    <string name="txt_month_sept">"Sep"</string>
+    <string name="txt_month_oct">"Oct"</string>
+    <string name="txt_month_nov">"Nov"</string>
+    <string name="txt_month_dec">"Dec"</string>
+    <string name="txt_iaggree">"I agree"</string>
+    <string name="txt_and_text">" and "</string>
+    <string name="txt_allowing_text">I allow my data to be used anonymously for research purpose.</string>
+    <string name="txt_visit">"visit"</string>
+    <string name="signup_facebook">Sign-Up with Facebook</string>
+    <string name="signout_facebook">Sign-Up with Facebook</string>
+    <string name="signup_google">Sign-Up with Google+</string>
+    <string name="signout_google"> Sign-Up with Google+</string>
+    <string name="userexist">User already exist , Please login</string>
+    <string name="async_task_not_responding">Unable to process your request , Please try later.</string>
+    <string name="msg_confirm_open">Do you want to open a survey?</string>
+    <string name="Ok"> Ok</string>
+    <string name="unsubscribe_text1">We are sad to hear you are no longer interested in our surveys.</string>
+    <string name="unsubscribe_text2">We would miss you and would be grateful if \n you could share your feedback, for us to \n improve our services</string>
+    <string name="unsubscribe_text3">Please select from the reason(s) below:</string>
+    <string name="error">"Error:"</string>
+    <string name="error_fn">"First Name Cannot be empty."</string>
+    <string name="error_ln">"Last Name Cannot be empty."</string>
+    <string name="error_gender">"Please check any one of the Gender"</string>
+    <string name="error_dob">"Please Enter your Date of Birth."</string>
+    <string name="error_select_country">"Please Select your country"</string>
+    <string name="error_phone_empty">"Phone Number Cannot be empty."</string>
+    <string name="error_city">"Please Select your city"</string>
+    <string name="error_zipcode">"Zip Code cannot be empty"</string>
+    <string name="error_terms_conditions">"Please accept our terms and conditions"</string>
+
+    <!-- Added more for length validations -->
+    <string name="error_phone_length">"Please enter a valid mobile no"</string>
+    <string name="error_zipcode_length">"Please enter a valid Zip Code"</string>
+    <string name="message_city">"Select City"</string>
+    <string name="hint_dob_select">Select Birth Date</string>
+    <string name="message_panel_intake_1">Congratulation\'s, you are just a step away from earning rewards. </string>
+    <string name="message_panel_intake_2">Please confirm your registration by verifying your email id.</string>
+    <string name="allowdatausage">"PanelStation needs permission to access your applications data. Please allow usage access to PanelStation."</string>
+    <string name="registrationfails">"Registration Fails."</string>
+    <string name="hint_search">"Search"</string>
+
+    <!-- Added By saurabh -->
+    <string name="profiler">Profiler</string>
+    <string name="surveys">Survey</string>
+    <string name="rewards">Rewards</string>
+    <string name="userlogin">User Login</string>
+    <string name="msg_valid_password">"Please enter valid password"</string>
+    <string name="survey_not_found">"Survey not found."</string>
+    <string name="thanks_dialog_txt">"Thank You for writing to us! We will get back to you shortly."</string>
+    <string name="setting">"SETTINGS"</string>
+    <string name="webpage_being_loaded">"Web Page Loading"</string>
+    <string name="ChangeLang">CHANGE LANGUAGE</string>
+    <string name="PrivacyPol">"PRIVACY POLICY"</string>
+    <string name="Terms">"Terms and Conditions"</string>
+    <string name="ContactUs">"Contact us"</string>
+    <string name="txt_takenby">"Take by "</string>
+    <string name="txt_surveyrewardMSG">"Take Surveys,\nEarn Exciting Rewards!"</string>
+    <string name="txt_surveyanytime">"Anytime, Anywhere"</string>
+    <string name="txt_start">"Start"</string>
+    <string name="text_welcome">"Welcome:"</string>
+    <string name="txt_opinion">"Your opinion shape products and services offered by global companies."</string>
+    <string name="empty_message_update_profile">"Update your profile to receive surveys of your interest."</string>
+    <string name="empty_message_receive_survey">"You will soon receive an interesting survey."</string>
+    <string name="profilecompleted">"Your profile is completed."</string>
+    <string name="msg_subject">"Please enter subject"</string>
+    <string name="msg_message">"Please enter Message"</string>
+    <string name="msg_select_any_coupoun">"Please select any option to redeem."</string>
+    <string name="pointexpired">"Point Expired"</string>
+    <string name="open">"Open"</string>
+    <string name="unsupport_fb_details">"Please enter Facebook account details with email-id"</string>
+    <string name="alredy_otp">Already have an OTP to verify?</string>
+    <string name="otp_email">Enter your registered email-id</string>
+    <string name="resend_otp">Resend OTP?</string>
+    <string name="when_you_refer_a_friend">When you refer a friend</string>
+    <string name="msg_first_time_500_earn">1. You earn 500 referral points (Only upon completion of their first survey).</string>
+    <string name="consent_form">CONSENT FORM</string>
+    <string name="consent_form_p_tc_1">“The Panel Station is a proprietary product of Borderless Access Panels along with all its texts trademarks, illustrations, photos, graphics, files, designs, and arrangements. The contents of this website are to be used only in accordance with the terms and conditions and privacy policy appended herein.”</string>
+    <string name="disclaimer">Disclaimer:</string>
+    <string name="before_we_proceed">Before we proceed, please take out a few minutes to provide us with your information and consent which is required to be obtained in accordance with the new data privacy laws.</string>
+    <string name="are_you_citizen_of_eu">Are you a citizen of the European Union?</string>
+    <string name="are_you_in_eu_region">Are you currently in the European Union?</string>
+    <string name="in_accordance_big_1">In accordance with the new data privacy laws in the European Union (GDPR), we request you to read the below form carefully and provide your consent to continue being a part of the TPS Community.</string>
+    <string name="here_at_the_big_2">Here at The Panel Station, we take your privacy seriously and will only use your personal information to administer your account and to provide the products and services you have requested from us.</string>
+    <string name="you_understand_big_text_3">You understand and agree that by choosing the “Yes” option, we may send you appropriate notifications through e-mails and SMS’s which shall form a part of services that are being offered to you.</string>
+    <string name="if_at_any_point">If at any point of time after the registration should you decide to withdraw your consent, then you may do so by mailing your request to us on %s. We would respond to your mails within three days of receiving the same.</string>
+    <string name="if_at_any_point_custom">If at any point of time after the registration should you decide to withdraw your consent, then you may do so by mailing your request to us on %s. We would respond to your mails within three days of receiving the same.</string>
+    <string name="do_you_wish">Do you wish to consent yourself to be part of The Panel Station community to participate in its research offerings?</string>
+    <string name="yes_i_agree">Yes, I agree</string>
+    <string name="no_i_dont_agree">No, I don\'t agree</string>
+    <string name="consent_disclaimer_1">“The Panel Station is a proprietary product of Borderless Access Panels along with all its texts trademarks, illustrations, photos, graphics, files, designs, and arrangements. The contents of this website are to be used only in accordance with the</string>
+    <string name="consent_disclaimer_2"> appended herein.”</string>
+    <string name="in_case_you_delete">In case you wish to delete your recorded information with us, kindly write to us at Dataprotectionofficer01@borderlessaccess.com</string>
+    <string name="rejoin_panel_email">At any point in time, if you wish to re-join our panel, you can do so by registering with us. To register please click on the following link</string>
+    <string name="title_msg_succeess_unsubscribe">You have successfully unsubscribed from our community.</string>
+    <string name="msg_eu_region_decline_consent_form">You mentioned that you are from europe/citizen of europe, hence we request you to accept the consent form to proceed furtherwith the registration.</string>
+    <string name="enter_paytm_id">Please enter your Paytm ID</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="remove_photo">Remove Photo</string>
+    <string name="profile_update_success">Your profile picture has been updated successfully</string>
+    <string name="delete_profile_picture">Your profile picture has been removed successfully</string>
+    <string name="enter_confirm_password">Enter confirm password</string>
+    <string name="current_password">Enter Current Password</string>
+    <string name="new_password">Enter New Password</string>
+    <string name="retry">Retry</string>
+
+
+
+    <string name="my_rewards">My Rewards</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_surveys">My Surveys</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="fanpage">Blog</string>
+    <string name="invite">Invite</string>
+    <string name="faq">FAQ\'s</string>
+    <string name="settings">Settings</string>
+
+    <string-array
+        name="home">
+        <item>@string/my_rewards</item>
+        <item>@string/my_profile</item>
+        <item>@string/my_surveys</item>
+        <item>@string/contact_us</item>
+        <item>@string/fanpage</item>
+        <item>@string/invite</item>
+        <item>@string/badges</item>
+        <item>@string/faq</item>
+        <item>@string/settings</item>
+
+    </string-array>
+
+    <string name="available_count">Available Surveys - </string>
+    <string name="txt_complete_profile_point_1">"you can earn * %d points by completing your profile"</string>
+    <string name="api_recently_updated">"It seems that you have recently updated the profile, it will be available only after 90 days after your last update."</string>
+    <string name="please_select_reason">Please select reason(s)</string>
+    <string name="others_cannot_be_blank">Reason for other / others cannot be blank</string>
+    <string name="badges">Badges</string>
+    <string name="badge_increase">Badge upgraded to %s. Credited %s points.</string>
+    <string name="at">at</string>
+    <string name="old_password">* Old Password:</string>
+    <string name="confirm_password">* Confirm Password:</string>
+    <string name="newpassword">* New Password:</string>
+    <string name="password_comapre_mismatch">New Password and Confirm New Password Mismatch</string>
+    <string name="new_password_length">New Password length should be between 6 and 16 characters</string>
+    <string name="need_more_points">You need %1$d more points to redeem for %2$s vouchers, however you can select other option to redeem.</string>
+    <string name="password_expiry_message">Your password has expired, Please change your password now to login to your dashboard</string>
+    <string name="please_change_your_password">Please Change Your Password</string>
+    <string name="new_old_password_match_error">New Password and Old Password should not be the same</string>
+    <string name="rationale_location">Please click "allow" button on the next dialog box.</string>
+    <string name="register_here">Register Here</string>
+    <string name="communication_preferences">Communication Preferences</string>
+    <string name="poll_result">POLL RESULT</string>
+    <string name="quick_poll">QUICK POLL</string>
+    <string name="result">Result</string>
+    <string name="notification">Notifications</string>
+    <string name="no_notifications">No Notifications</string>
+    <string name="activity">Activity Logs</string>
+    <string name="last_log_in">Last Log-In</string>
+    <string name="last_log_out">Last Log-Out</string>
+    <string name="resubscribe">Resubscribe</string>
+    <string name="resubscribe_msg">You had successfully unsubscribed from our community but we would love to have you back, just click on   \"Resubscribe\"</string>
+    <string name="successfully_resubscribed">Successfully Resubscribed</string>
+    <string name="subscribe_success_msg">Congratulations! You are back on board! Let\'s voice our opinions to ensure a better tomorrow.</string>
+    <string name="logout">LOGOUT</string>
+    <string name="no_quick_poll">No Quickpolls available.</string>
+    <string name="comm_pref_email">Email</string>
+    <string name="comm_pref_mobile_sms">Mobile SMS</string>
+    <string name="comm_pref_mobile_push_notification">Mobile Push Notifications</string>
+    <string name="comm_pref_desktop_notification">Desktop Notifications</string>
+    <string name="comm_pref_save_success">Communication Preferences saved successfully</string>
+    <string name="error_msg_for_invalid_redeem_points">Please enter valid points to redeem</string>
+    <string name="redeem_instantly">Redeem Instantly</string>
+    <string name="legend">Legend</string>
+    <string name="grand_master">Grand Master</string>
+    <string name="master">Master</string>
+    <string name="sensei">Sensei</string>
+    <string name="newbei">Newbie</string>
+    <string name="unsubscribe_delete_confirmation">You will be unsubscribed from our community and all of your historical data will be deleted. Click OK if you wish to continue</string>
+    <string name="unsubscribe_delete_successful">You have successfully been unsubscribed from our community. We will delete your historical data from our systems in 2 to 3 business days.</string>
+    <string name="unsubscribe_delete">Unsubscribe and Delete</string>
+    <string name="your_VoucherCode" translatable="false">"Your VoucherCode is "</string>
+    <string name="redemptionRevoke">Redemption once made cannot be rolled back/revoked</string>
+    <string name="click_yes">Click Yes to confirm your voucher selection. Please note that you will not be allowed to change the selection once made.</string>
+</resources>

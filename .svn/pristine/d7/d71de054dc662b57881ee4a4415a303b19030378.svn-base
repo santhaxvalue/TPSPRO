@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:gravity="bottom">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/fab_card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fab_btn_dialog"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginLeft="@dimen/dp8"
+        android:layout_marginRight="@dimen/dp8"
+        app:cardBackgroundColor="@color/gray_light"
+        app:cardCornerRadius="@dimen/dp16"
+        app:cardElevation="@dimen/dp2"
+        app:cardUseCompatPadding="true">
+
+
+        <GridView
+            android:id="@+id/fab_grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_light"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth" />
+
+
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:id="@+id/bottm_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp36"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_light" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_btn_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/margin_view"
+        android:layout_centerHorizontal="true"
+        android:contentDescription=""
+        android:src="@drawable/ic_action_done"
+        app:elevation="@dimen/dp2"
+        app:fabSize="mini" />
+
+    <View
+        android:id="@+id/margin_view"
+        android:layout_width="@dimen/dp32"
+        android:layout_height="@dimen/dp18"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/transparent" />
+
+    <ImageView
+        android:id="@+id/home_img_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp36"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Home Button"
+        android:padding="@dimen/dp8"
+        android:src="@drawable/home" />
+
+</RelativeLayout>

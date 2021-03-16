@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/redemption_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/layout_topView_redeem_history"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp90"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true">
+
+        <include layout="@layout/header_redemption_history" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <com.panelManagement.widgets.TextViewPlusBold
+        android:id="@+id/head_red_hist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_topView_redeem_history"
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginStart="@dimen/dp10"
+        android:padding="@dimen/dp4"
+        android:text="@string/tv_redemption_history"
+        android:textSize="@dimen/sp16"
+        android:textStyle="bold" />
+
+    <com.panelManagement.widgets.TextViewPlus
+        android:id="@+id/txtNoRewardPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/empty_msg_you_haven_t_redeemed_yet"
+        android:textSize="@dimen/sp20"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lv_survey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head_red_hist"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true" />
+
+</RelativeLayout>

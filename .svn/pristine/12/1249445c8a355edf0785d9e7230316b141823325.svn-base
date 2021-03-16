@@ -1,0 +1,537 @@
+package com.panelManagement.fragment;
+
+import android.annotation.SuppressLint;
+import android.app.Dialog;
+import android.content.Context;
+import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.view.ViewCompat;
+import android.support.v4.view.ViewPager;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.text.Editable;
+import android.text.TextUtils;
+import android.text.TextWatcher;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.panelManagement.activity.HomeActivity;
+import com.panelManagement.activity.R;
+import com.panelManagement.adapter.RedeemPointsListAdapter;
+import com.panelManagement.model.GeneralRedeemModels;
+import com.panelManagement.model.RewardPointsModels;
+import com.panelManagement.utils.Constants;
+import com.panelManagement.utils.InformatePreferences;
+import com.panelManagement.utils.Utility;
+import com.panelManagement.view.MultiViewAdapter;
+import com.panelManagement.webservices.ParseJSonObject;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+
+import me.crosswall.lib.coverflow.CoverFlow;
+import me.crosswall.lib.coverflow.core.PagerContainer;
+
+import static com.panelManagement.activity.HomeActivity.GENERALBUYFRAGMENT;
+
+public class GeneralBuyFragment extends BaseFragment implements View.OnClickListener, ViewPager.OnPageChangeListener, RedeemPointsListAdapter.onRedeemPointsClickListener {
+
+    MultiViewAdapter multiViewAdapter;
+    ArrayList<GeneralRedeemModels> redeemarray = new ArrayList<>();
+    RewardPointsModels rewardPointsData;
+    String rewardPoints;
+    ViewPager carouselPicker;
+    RelativeLayout relativeLayout;
+    TextView tvPointAvailable;
+    private String rewardPrice = "0";
+    private GeneralRedeemModels mSelectedValue;
+    private Dialog payTmDialog;
+    private TabLayout tl_dots;
+    PagerContainer pagerContainer;
+    private RedeemPointsListAdapter mAdapter;
+    private RecyclerView mRedeemRecycler;
+    private EditText mRedeemPointsEdt;
+
+
+    public GeneralBuyFragment() {
+    }
+
+    public static GeneralBuyFragment newInstance(RewardPointsModels rewardPointsModels) {
+        GeneralBuyFragment fragment = new GeneralBuyFragment();
+        Bundle args = new Bundle();
+        args.putSerializable(RewardPointsFragment.KEYLIST, rewardPointsModels);
+        fragment.setArguments(args);
+        return fragment;
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if (getArguments() != null) {
+            rewardPointsData = (RewardPointsModels) getArguments().getSerializable(RewardPointsFragment.KEYLIST);
+            if (rewardPointsData != null)
+                //rewardPoints = rewardPointsData.getAvailablePoints();
+                rewardPoints = InformatePreferences.getStringPrefrence(getActivity(), Constants.PREF_AVAILABLEPOINTS_);
+        }
+    }
+
+    private void setRedeemPointsBtn() {
+
+        LinearLayoutManager layoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.HORIZONTAL, false);
+        mRedeemRecycler.setLayoutManager(layoutManager);
+        mAdapter = new RedeemPointsListAdapter(getContext(), mSelectedValue.getDenominations(), this);
+        mRedeemRecycler.setAdapter(mAdapter);
+        mAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = LayoutInflater.from(getContext()).inflate(R.layout.activity_redemption_general, container, false);
+
+//        ViewCompat.setElevation(view, 8.0f);
+        TextView btn_submit = view.findViewById(R.id.btn_submit);
+        carouselPicker = view.findViewById(R.id.carasol);
+        carouselPicker.addOnPageChangeListener(this);
+        pagerContainer = view.findViewById(R.id.pager_container);
+
+        mRedeemRecycler = view.findViewById(R.id.ll_points_layout);
+        mRedeemPointsEdt = view.findViewById(R.id.redeem_points);
+        mRedeemPointsEdt.addTextChangedListener(filterTextWatcher);
+
+        tl_dots = view.findViewById(R.id.tl_dots);
+        tl_dots.setupWithViewPager(carouselPicker);
+
+
+        tvPointAvailable = getActivity().findViewById(R.id.txt_points_redeemed_available);
+
+        btn_submit.setOnClickListener(this);
+
+        try {
+            if (Utility.isConnectedToInternet(getActivity())) {
+                showDialog(true, getString(R.string.dialog_login));
+                requestTypePost(Constants.API_GENERALREWARDS, new ParseJSonObject(getActivity()).getSessionObject(),
+                        Constants.REQUESTCODE_GENERALREWARDS);
+            } else {
+                showErrorAlert(" ", getString(R.string.msg_low_conn));
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        relativeLayout = view.findViewById(R.id.general_redeeem_layout);
+        Animation hide = AnimationUtils.loadAnimation(context, R.anim.slide_up);
+        hide.setDuration(1000);
+        relativeLayout.setAnimation(hide);
+
+        return view;
+    }
+
+    private TextWatcher filterTextWatcher = new TextWatcher() {
+
+        @Override
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+            if (s.length() == 1 && String.valueOf(s).contains("0")) {
+                mRedeemPointsEdt.setText("");
+            }
+        }
+
+        @Override
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+        }
+
+        @Override
+        public void afterTextChanged(Editable s) {
+
+        }
+    };
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+
+            case R.id.btn_submit:
+
+                try {
+                    if (Utility.isConnectedToInternet(getActivity())) {
+                        if (mSelectedValue != null) {
+                            if (mSelectedValue.isInstantRedemptionEnabled()) {
+                                if (!(TextUtils.isEmpty(mRedeemPointsEdt.getText().toString()))) {
+                                    int enteredRedeemPoints = Integer.parseInt(String.valueOf(mRedeemPointsEdt.getText()));
+                                    if (enteredRedeemPoints > 0 && enteredRedeemPoints <= Integer.parseInt(rewardPoints)) {
+                                        rewardPrice = mRedeemPointsEdt.getText().toString();
+                                        proceedToRedeem();
+                                    } else {
+                                        showErrorAlert("", getString(R.string.error_msg_for_invalid_redeem_points));
+                                    }
+                                } else {
+                                    showErrorAlert("", getString(R.string.error_msg_for_invalid_redeem_points));
+                                }
+                            } else
+                                proceedToRedeem();
+                        } else {
+                            showErrorAlert("", getString(R.string.msg_select_any_coupoun));
+                        }
+                    } else {
+                        showErrorAlert(" ", getString(R.string.msg_low_conn));
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                break;
+        }
+    }
+
+    private void proceedToRedeem() {
+        if (mSelectedValue.getPartnerName().toLowerCase().contains("paytm") || mSelectedValue.getPartnerName().toLowerCase().contains("paypal")) {
+            validatePaytm();
+        } else {
+            callGeneralRedeemApi();
+        }
+    }
+
+    private void callGeneralRedeemApi() {
+        showDialog(true, getString(R.string.dialog_login));
+        requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject(Integer.parseInt(rewardPrice),
+                Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName()), Constants.REQUESTCODE_GENERALREDEEM);
+    }
+
+    private void validatePaytm() {
+        showDialog(true, getString(R.string.dialog_login));
+        requestTypePost(Constants.API_GETPAYTMID_AND_PAYPAL_ID, new ParseJSonObject(context)
+                .getPaytmId(InformatePreferences.getStringPrefrence(context, Constants.PREF_ID)), Constants.REQUEST_VALIDATE_PAYTM);
+    }
+
+    @Override
+    public void vLayout(String res, int requestcode) {
+
+        switch (requestcode) {
+
+            case Constants.REQUESTCODE_GENERALREWARDS:
+
+                try {
+                    redeemarray = new ParseJSonObject(getActivity()).getRedeemData(new JSONObject(res));
+                    mSelectedValue = redeemarray.get(0);
+
+                        lap();
+
+                        //Take the reward from the editText based on the condition
+                        if (mSelectedValue.isInstantRedemptionEnabled()) {
+                            mRedeemPointsEdt.setVisibility(View.VISIBLE);
+                            mRedeemRecycler.setVisibility(View.GONE);
+                        } else {
+                            mRedeemPointsEdt.setVisibility(View.GONE);
+                            mRedeemRecycler.setVisibility(View.VISIBLE);
+
+                        rewardPrice = mSelectedValue.getDenominations().get(0);
+                        setRedeemPointsBtn();
+                    }
+
+                    //multiViewAdapter = new MultiViewAdapter(getChildFragmentManager(), getContext(), redeemarray);
+                    //carouselPicker.setAdapter(multiViewAdapter);
+                    //carouselPicker.setPageMargin(getResources().getDimensionPixelSize(R.dimen.dp660));
+                    //carouselPicker.setCurrentItem(1, true);
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                break;
+
+            case Constants.REQUESTCODE_GENERALREDEEM:
+                try {
+                    JSONObject object = new JSONObject(res);
+
+                    if (object.getBoolean("Status")) {
+                        showCustomAlertDialog(context, rewardPrice);
+                        for (int i = 0; i < redeemarray.size(); i++) {
+                            GeneralRedeemModels reversedData = redeemarray.get(i);
+                            if (reversedData.isCheck()) {
+                                reversedData.setCheck(false);
+                            }
+                        }
+                        mSelectedValue = null;
+                        rewardPrice = "";
+                    } else {
+
+                        if (object.getString("IsProfiler").equals("true")) {
+                            showErrorAlert("error", object.getString("Message"));
+                            launchProfilePage();
+                        }else {
+                            showErrorAlert("", object.getString("Message"));
+                        }
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+                break;
+
+            case Constants.REQUEST_SAVE_PAYTM:
+                try {
+                    JSONObject object = new JSONObject(res);
+                    if (object.getBoolean("Status")) {
+                        showDialog(true, getString(R.string.dialog_login));
+                        if (payTmDialog != null && payTmDialog.isShowing()) payTmDialog.dismiss();
+                        requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject(Integer.parseInt(rewardPrice),
+                                Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName()), Constants.REQUESTCODE_GENERALREDEEM);
+
+                    } else {
+                        showErrorAlert(" ", object.getString("Message"));
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+                break;
+
+            case Constants.REQUEST_VALIDATE_PAYTM:
+                try {
+                    JSONObject object = new JSONObject(res);
+                    if (object.getBoolean("Status")) {
+
+                        String paytmID = object.optString("PAYTMId");
+                        String paypalEmailId = object.optString("PayPalId");
+                        showPaytmAlertDialog(context, paypalEmailId, paytmID);
+                    } else {
+                        showErrorAlert(" ", object.getString("Message"));
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+                break;
+
+            case Constants.REQUEST_AVAILABLE_POINTS:
+                RewardPointsModels rewardsPointsData = null;
+                try {
+                    rewardsPointsData = new ParseJSonObject(getContext()).getRewardsPoints(new JSONObject(res));
+                    JSONObject jsonObject = new JSONObject(res);
+                    InformatePreferences.setStringPrefrence(getContext(), Constants.PREF_AVAILABLEPOINTS_, rewardsPointsData.getAvailablePoints());
+//                SurveyFloating.txt_points_redeemed.setText(rewardsPointsData.getAvailablePoints());
+                    tvPointAvailable.setText(rewardsPointsData.getAvailablePoints());
+
+                    int threshold = jsonObject.optInt("ThresholdPoints");
+                    int availablePoints = jsonObject.optInt("AvailablePoints");
+
+                    if (availablePoints >= threshold) {
+                        FragmentManager fm = getActivity().getSupportFragmentManager();
+                        fm.popBackStack(HomeActivity.REDEEMFRAGMENTKEY, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+                    } else {
+                        FragmentManager fm = getActivity().getSupportFragmentManager();
+                        fm.popBackStack(HomeActivity.REWARDSFRAGMENTKEY, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+                    }
+                    //getFragmentManager().popBackStack();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+                break;
+
+            default:
+                break;
+        }
+    }
+
+    @Override
+    public void rError(int requestcode) {
+
+    }
+
+    @Override
+    public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+    }
+
+    @Override
+    public void onPageSelected(int position) {
+        this.mSelectedValue = redeemarray.get(position);
+        mRedeemPointsEdt.setText("");
+
+        //Take the reward from the editText based on the condition
+        if (mSelectedValue.isInstantRedemptionEnabled()) {
+            mRedeemPointsEdt.setVisibility(View.VISIBLE);
+            mRedeemRecycler.setVisibility(View.GONE);
+        } else {
+            mRedeemRecycler.setVisibility(View.VISIBLE);
+            mRedeemPointsEdt.setVisibility(View.GONE);
+            rewardPrice = mSelectedValue.getDenominations().get(0);
+            setRedeemPointsBtn();
+            if (mAdapter != null) {
+                mAdapter.updateListItems(mSelectedValue.getDenominations());
+            }
+        }
+    }
+
+    @Override
+    public void onPageScrollStateChanged(int state) {
+
+    }
+
+    public void showCustomAlertDialog(Context context, String count) {
+        TextView rewards;
+        ImageView closeDialog;
+        final Dialog dialog = new Dialog(context, R.style.Theme_Dialog);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setCancelable(false);
+        dialog.setContentView(R.layout.dialog_general_reward);
+        dialog.setCanceledOnTouchOutside(false);
+        Window window = dialog.getWindow();
+        assert window != null;
+        WindowManager.LayoutParams wlp = window.getAttributes();
+        dialog.getWindow().setSoftInputMode(
+                WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
+        wlp.gravity = Gravity.CENTER;
+        wlp.flags = WindowManager.LayoutParams.FLAG_DIM_BEHIND;
+        wlp.dimAmount = .5f;
+        window.setAttributes(wlp);
+
+        rewards = dialog.findViewById(R.id.tv_reward_point_general);
+        rewards.setText(" " + count);
+        closeDialog = dialog.findViewById(R.id.close_dialog_general);
+
+        closeDialog.setOnClickListener((View v) -> {
+            dialog.dismiss();
+            requestUpdatePoints();
+//            FragmentManager fm = getActivity().getSupportFragmentManager();
+//            fm.popBackStack(HomeActivity.REDEEMFRAGMENTKEY, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+        });
+        dialog.show();
+    }
+
+
+    public void lap() {
+        pagerContainer.setOverlapEnabled(true);
+        ViewPager viewPager = pagerContainer.getViewPager();
+        MultiViewAdapter pagerAdapter = new MultiViewAdapter(getChildFragmentManager(), context, redeemarray);
+        viewPager.setOffscreenPageLimit(3);
+        viewPager.setAdapter(pagerAdapter);
+        pagerAdapter.notifyDataSetChanged();
+        new CoverFlow.Builder().with(viewPager)
+                .scale(0.3f)
+                .pagerMargin(getResources().getDimensionPixelSize(R.dimen.dpM90))
+                .build();
+        pagerContainer.onPageSelected(0);
+        viewPager.post(new Runnable() {
+            @Override
+            public void run() {
+                Fragment fragment = (Fragment) viewPager.getAdapter().instantiateItem(viewPager, 0);
+                if(fragment.getView() != null) {
+                    ViewCompat.setElevation(fragment.getView(), 8.0f);
+                }
+            }
+        });
+    }
+
+
+    @SuppressLint({"StringFormatInvalid", "SetTextI18n"})
+    public void showPaytmAlertDialog(Context context, String paypal, String paytm) {
+        TextView rewards, paytm_head;
+        EditText paytmId;
+        ImageView closeDialog;
+        Button buttonPaytmSubmit;
+        payTmDialog = new Dialog(context, R.style.Theme_Dialog);
+        payTmDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        payTmDialog.setCancelable(false);
+        payTmDialog.setContentView(R.layout.paytm_dialog);
+        payTmDialog.setCanceledOnTouchOutside(false);
+        Window window = payTmDialog.getWindow();
+        assert window != null;
+        WindowManager.LayoutParams wlp = window.getAttributes();
+        payTmDialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
+        wlp.gravity = Gravity.CENTER;
+        wlp.flags = WindowManager.LayoutParams.FLAG_DIM_BEHIND;
+        wlp.dimAmount = .5f;
+        window.setAttributes(wlp);
+        paytm_head = payTmDialog.findViewById(R.id.paytm_head);
+
+        paytmId = payTmDialog.findViewById(R.id.paytm_email_id);
+        payTmDialog.show();
+        if (mSelectedValue != null) {
+
+            if (mSelectedValue.getPartnerName().toLowerCase().contains("paytm")) {
+                paytm_head.setText(R.string.enter_paytm_id);
+                paytmId.setText(paytm);
+
+            } else if (mSelectedValue.getPartnerName().toLowerCase().contains("paypal")) {
+                paytm_head.setText(R.string.enter_paypal_id);
+                paytmId.setText(paypal);
+
+            }
+        }
+
+
+        buttonPaytmSubmit = payTmDialog.findViewById(R.id.btn_submit_paytm);
+        buttonPaytmSubmit.setOnClickListener((View v) -> {
+            if (!TextUtils.isEmpty(paytmId.getText().toString())) {
+                showDialog(true, getString(R.string.dialog_login));
+
+                String paytmID = "", payPalid = "",
+                        panellistid = InformatePreferences.getStringPrefrence(context, Constants.PREF_ID);
+                if (mSelectedValue != null) {
+
+
+                    if (mSelectedValue.getPartnerName().toLowerCase().contains("paytm")) {
+                        paytmID = paytmId.getText().toString();
+                        payPalid = paypal;
+                    } else if (mSelectedValue.getPartnerName().toLowerCase().contains("paypal")) {
+                        paytmID = paytm;
+                        payPalid = paytmId.getText().toString();
+                    }
+                }
+
+                requestTypePost(Constants.API_SAVEPAYTMID_AND_PAYPAL, new ParseJSonObject(context)
+                        .savePaytmId(panellistid, paytmID, payPalid), Constants.REQUEST_SAVE_PAYTM);
+                if (payTmDialog != null) {
+                    payTmDialog.dismiss();
+                }
+            } else {
+                paytmId.setError("Please enter your Paytm Id");
+                paytmId.requestFocus();
+            }
+        });
+        // rewards = payTmDialog.findViewById(R.id.tv_reward_point_general);
+        closeDialog = payTmDialog.findViewById(R.id.close_dialog_paytm);
+
+        closeDialog.setOnClickListener((View v) -> {
+            payTmDialog.dismiss();
+        });
+
+    }
+
+
+    @Override
+    public void onClickRedeemPoints(String points, int currentPosition) {
+        rewardPrice = points;
+        if (Float.parseFloat(rewardPoints) >= Float.parseFloat(points)) {
+            if (mAdapter != null) {
+                mAdapter.updateSelecedValue(currentPosition);
+            }
+        } else {
+            int bal = (int) (Float.parseFloat(points) - Float.parseFloat(rewardPoints));
+            showErrorAlert("", String.format(getString(R.string.need_more_points), bal, mSelectedValue.getPartnerName()));
+        }
+    }
+
+    private void launchProfilePage() {
+        ProfilerFragment nextFrag = new ProfilerFragment();
+        getActivity().getSupportFragmentManager().beginTransaction()
+                .replace(R.id.main_container_fragment, nextFrag)
+                .addToBackStack(GENERALBUYFRAGMENT)
+                .commit();
+    }
+
+}

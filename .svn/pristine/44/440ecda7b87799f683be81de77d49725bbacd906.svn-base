@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/ic_parentview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.panelManagement.widgets.TextViewPlusBold
+            android:id="@+id/ic_contact_profile_info"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/dp8"
+            android:text="@string/registration_signup"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp22"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/register_profile_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_profile" />
+
+        <EditText
+            android:id="@+id/edt_personal_info_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp16"
+            android:backgroundTint="@color/transparent"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:gravity="center"
+            android:hint="@string/hint_firstname"
+            android:inputType="textPersonName"
+            android:maxLength="55"
+            android:paddingLeft="@dimen/dp8"
+            android:paddingRight="@dimen/dp8"
+            android:singleLine="true"
+            android:typeface="sans"
+            tools:targetApi="lollipop" />
+
+        <EditText
+            android:id="@+id/edt_personal_info_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp16"
+            android:backgroundTint="@color/transparent"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:gravity="center"
+            android:hint="@string/hint_lastname"
+            android:inputType="textPersonName"
+            android:maxLength="55"
+            android:paddingLeft="@dimen/dp8"
+            android:paddingRight="@dimen/dp8"
+            android:singleLine="true"
+            android:typeface="sans"
+            tools:targetApi="lollipop" />
+
+        <com.panelManagement.widgets.TextViewPlus
+            android:id="@+id/lbl_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp16"
+            android:gravity="center"
+            android:hint="@string/hint_gender"
+            android:padding="@dimen/dp8"
+            android:textSize="@dimen/sp18"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/signupProfile_btn_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp16"
+            android:backgroundTint="@color/transparent"
+            android:clickable="false"
+            android:ems="10"
+            android:inputType="none"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="@string/hint_dob_select"
+            android:paddingLeft="@dimen/dp8"
+            android:paddingRight="@dimen/dp8"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:typeface="sans"
+            tools:targetApi="lollipop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp16"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dp8"
+            android:paddingRight="@dimen/dp8">
+
+            <EditText
+                android:id="@+id/isdcode"
+                android:layout_width="wrap_content"
+                android:text="+900"
+                android:layout_height="wrap_content"
+                tools:targetApi="lollipop"
+                android:backgroundTint="@color/transparent"
+                android:gravity="center"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:inputType="number"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/edt_phonenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/transparent"
+                android:hint="@string/hint_phoneno"
+                android:inputType="number"
+                android:maxLength="20"
+                android:singleLine="true"
+                tools:targetApi="lollipop" />
+        </LinearLayout>
+
+        <com.panelManagement.widgets.ButtonPlus
+            android:id="@+id/edtCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp6"
+            android:layout_marginRight="@dimen/dp16"
+            android:layout_marginTop="@dimen/dp16"
+            android:layout_weight="1"
+            android:background="@drawable/dropdown"
+            android:gravity="left|center_vertical"
+            android:hint="@string/hint_country"
+            android:paddingLeft="@dimen/dp10"
+            android:singleLine="true"
+            android:textColorHint="@color/aqua"
+            android:typeface="sans"
+            android:visibility="gone"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/edtCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp16"
+            android:backgroundTint="@color/transparent"
+            android:editable="false"
+            android:gravity="center"
+            android:hint="@string/hint_city"
+            android:paddingLeft="@dimen/dp8"
+            android:paddingRight="@dimen/dp8"
+            android:singleLine="true"
+            android:typeface="sans"
+            tools:targetApi="lollipop" />
+
+        <EditText
+            android:id="@+id/lbl_country_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp16"
+            android:backgroundTint="@color/transparent"
+            android:editable="false"
+            android:gravity="center"
+            android:hint="@string/language_signup"
+            android:clickable="true"
+            android:focusable="false"
+            android:paddingLeft="@dimen/dp8"
+            android:paddingRight="@dimen/dp8"
+            android:singleLine="true"
+            android:typeface="sans"
+            tools:targetApi="lollipop"  />
+
+        <EditText
+            android:id="@+id/edt_zipcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp16"
+            android:backgroundTint="@color/transparent"
+            android:gravity="center"
+            android:hint="@string/hint_zip"
+            android:inputType="number"
+            android:maxLength="6"
+            android:paddingLeft="@dimen/dp8"
+            android:paddingRight="@dimen/dp8"
+            android:singleLine="true"
+            tools:targetApi="lollipop" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp16"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/edt_refer_code"
+                android:layout_width="0dp"
+                android:layout_weight="1.6"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/transparent"
+                android:gravity="center"
+                android:hint="@string/refer_code_optional"
+                android:inputType="textWebEmailAddress"
+                android:maxLength="20"
+                android:paddingLeft="@dimen/dp8"
+                android:paddingRight="@dimen/dp8"
+                android:singleLine="true"
+                tools:targetApi="lollipop" />
+
+            <TextView
+                android:id="@+id/apply_referal"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/dp4"
+                android:layout_marginRight="@dimen/dp4"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp4"
+                android:paddingRight="@dimen/dp4"
+                android:text="@string/apply_referral_code"
+                android:textColor="@color/aqua_dark"
+                android:textSize="@dimen/sp14" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edt_address"
+            style="@style/editTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp180"
+            android:layout_marginLeft="@dimen/dp6"
+            android:layout_marginRight="@dimen/dp16"
+            android:layout_marginTop="@dimen/dp16"
+            android:layout_weight="1"
+            android:backgroundTint="@color/transparent"
+            android:gravity="top"
+            android:hint="@string/hint_address"
+            android:paddingLeft="@dimen/dp16"
+            android:paddingStart="@dimen/dp16"
+            android:paddingTop="@dimen/dp24"
+            android:visibility="gone"
+            tools:ignore="RtlSymmetry"
+            tools:targetApi="lollipop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp16"
+            android:button="@drawable/custom_checkbox"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+
+            <CheckBox
+                android:id="@+id/check_contact_info_agreement"
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/ic_signupContactTermscondition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp8"
+                android:layout_marginStart="@dimen/dp8"
+                android:textSize="11sp"
+                android:text="@string/agreedTermsandCondition"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <com.panelManagement.widgets.ButtonPlus
+            android:id="@+id/btn_reigster_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp8"
+            android:layout_marginLeft="@dimen/dp24"
+            android:layout_marginRight="@dimen/dp24"
+            android:layout_marginTop="@dimen/dp24"
+            android:background="@drawable/edt_box_corner_yellow"
+            android:gravity="center"
+            android:text="@string/btn_next"
+            android:textColor="@color/aqua_dark"
+            android:textSize="@dimen/sp20"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/existing_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp16"
+            android:gravity="center"
+            android:padding="@dimen/dp4"
+            android:text="@string/userexist"
+            android:textColor="@color/aqua_dark"
+            android:textSize="@dimen/sp14" />
+
+    </LinearLayout>
+
+</ScrollView>

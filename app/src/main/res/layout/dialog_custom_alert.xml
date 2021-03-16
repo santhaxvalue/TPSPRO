@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/dp16"
+    android:background="@color/white"
+    android:foregroundGravity="center"
+    android:padding="@dimen/dp8"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/dp12"
+    app:cardElevation="@dimen/dp4"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_close_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_alignParentTop="true"
+            android:padding="@dimen/dp8"
+            android:src="@drawable/ic_cross"
+            android:contentDescription="@string/app_name" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_close_error"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <com.panelManagement.widgets.TextViewPlusBold
+                    android:id="@+id/dialog_txt_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="@dimen/sp16"
+                    android:visibility="gone" />
+
+                <com.panelManagement.widgets.TextViewPlusBold
+                    android:id="@+id/dialog_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/dp95"
+                    android:paddingLeft="@dimen/dp65"
+                    android:paddingRight="@dimen/dp65"
+                    android:paddingTop="@dimen/dp65"
+                    tools:text="Hi I'm an error message"
+                    android:textSize="@dimen/tv_error_dialog_text_size" />
+
+                <!--android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:gravity="center"-->
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

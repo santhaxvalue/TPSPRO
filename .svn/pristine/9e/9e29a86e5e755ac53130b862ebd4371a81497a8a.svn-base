@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/signup_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ic_tabview_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:background="@color/transparent"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+    <com.gigamole.infinitecycleviewpager.VerticalInfiniteCycleViewPager
+        android:id="@+id/login_carasol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@color/transparent"
+        android:scrollbars="none"
+        app:icvp_center_page_scale_offset="@dimen/dp0"
+        app:icvp_max_page_scale=".85"
+        app:icvp_medium_scaled="false"
+        app:icvp_min_page_scale=".75"
+        app:icvp_min_page_scale_offset="-10dp" />
+
+    <include
+        android:id="@+id/footer"
+        layout="@layout/footer_copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

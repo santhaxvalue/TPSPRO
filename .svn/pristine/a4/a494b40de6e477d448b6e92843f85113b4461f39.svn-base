@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:paddingBottom="@dimen/dp14"
+    android:layout_height="wrap_content"
+   >
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/sp16"
+        android:textColor="@color/color_979797"
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp10" />
+
+    <RadioGroup
+        android:id="@+id/options_radiogroup"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_below="@id/questionText"
+        android:layout_marginLeft="@dimen/dp10" />
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/dp10"
+    tools:context="com.panelManagement.fragment.StaticPageContentFragment">
+
+        <WebView
+            android:id="@+id/terms_and_condition_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Terms and condition fragment"
+            android:textSize="@dimen/sp16"
+            android:layout_margin="@dimen/dp16"
+            android:textColor="@color/black"
+            android:paddingBottom="@dimen/dp40"/>
+
+</FrameLayout>

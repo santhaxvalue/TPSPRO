@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#2CB8CF"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/ic_progressbar"
+            android:layout_width="@dimen/dp30"
+            android:layout_height="@dimen/dp30"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginStart="@dimen/dp10" />
+
+        <com.panelManagement.widgets.TextViewPlusBold
+            android:id="@+id/ic_coutry_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/select_country"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <com.panelManagement.widgets.ButtonPlus
+            android:id="@+id/country_search_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp35"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:background="@drawable/drawable_rounded_aqua"
+            android:gravity="center"
+            android:minWidth="@dimen/margin_70"
+            android:text="@string/txt_cancel"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            tools:ignore="RelativeOverlap" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout"
+        android:background="#FFFFFF"
+        android:minWidth="@dimen/dp150">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#F2F6F7"
+            android:padding="@dimen/dp6">
+
+            <EditText
+                android:id="@+id/country_search_auto_complete_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginRight="@dimen/dp16"
+                android:background="@drawable/rounded_counar"
+                android:ems="10"
+                android:hint="@string/hint_search"
+                android:inputType="textNoSuggestions|text"
+                android:maxLength="25"
+                android:padding="@dimen/dp16"
+                android:singleLine="true"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/search_cross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/dp16"
+                android:layout_marginRight="@dimen/dp16"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/dp8"
+                android:src="@drawable/search_cross" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout2"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:minHeight="@dimen/dp150"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/country_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp16"
+                android:layout_marginRight="@dimen/dp16"
+                android:background="@color/white"
+                android:divider="#c4d0d5"
+                android:listSelector="@color/orange"
+                android:scrollbars="none" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

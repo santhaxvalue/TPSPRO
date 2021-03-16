@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+                    //Russian
+    <string name="txt_redemption_request">Запрос на обналичивание</string>
+    //added by niyaj
+    <string name="txt_points_processed_successfully">баллов обработан успешно</string>
+    //added by niyaj
+    <string name="txt_profile_successfully_updated">"Ваш профиль был успешно обновлен"</string>
+    <string name="txt_mandatory">"Обязательно"</string>
+    <string name="userlogin">"Логин пользователя"</string>
+    <string name="isvalidbamarket">"Panel Station не имеет права на"</string>
+    <string name="hint_dob_select">"Выберите дату рождения "</string>
+    <string name="text_OR">"или же"</string>
+    <string name="signin_facebook">"Авторизоваться с помощью Фэйсбука"</string>
+    <string name="signin_signinpage_google">"Войти через Google+"</string>
+    <string name="error_terms_conditions">""«Пожалуйста, примите наши условия»""</string>
+    <string name="profiler">"Страница профилировщика"</string>
+    <string name="personal_info">"ЛИЧНАЯ ИНФОРМАЦИЯ"</string>
+    <string name="text_welcome">"желанный"</string>
+    <string name="profilecompleted">"Ваш профиль заполнен на 100%"</string>
+    <string name="txt_complete_profile_point_1">"Вы можете заработать %d очки, заполнив свой профиль"</string>
+    <string name="txt_start">"Начните"</string>
+    <string name="text_edit">"редактировать"</string>
+    <string name="thanks_smiley_msg">"Спасибо за обновление вашего профиля; скоро вы получите больше оплачиваемых опросов по вашим интересам."</string>
+    <string name="empty_message_update_profile">"Обновите ваш профиль, чтобы получать опросы по вашим интересам"</string>
+    <string name="empty_message_receive_survey">"Вы скоро получите интересный опрос"</string>
+    <string name="txt_Reward">"Награды"</string>
+    <string name="txt_Redeem">"Выкупать"</string>
+    <string name="txt_msg_pinsent">"ПИН успешно отправлен!"</string>
+    <string name="txt_RedeemHist">"История погашения"</string>
+    <string name="txt_RewardHist">"История баллов"</string>
+    <string name="txt_mobile_verification">"Мобильная проверка"</string>
+    <string name="txt_mobile_number_verify">"Вам необходимо подтвердить свой номер мобильного телефона, чтобы получить подарок для выкупа "</string>
+    <string name="txt_mobilenumber">"мобильный номер"</string>
+    <string name="txt_donot_enter_code">"Примечание: пожалуйста, не вводите код страны"</string>
+    <string name="txt_pin">"Штырь"</string>
+    <string name="btn_verify">"ПРОВЕРКИ"</string>
+    <string name="txt_submit">"ПРЕДСТАВИТЬ"</string>
+    <string name="general_rewards">"Общие награды"</string>
+    <string name="txt_option">"вариант"</string>
+    <string name="txt_description">"Описание"</string>
+    <string name="txt_select">"Выбрать"</string>
+    <string name="txt_enter_points_redeem">"Введите баллы, которые вы хотите обменять"</string>
+    <string name="sweepstakes">"тотализатор"</string>
+    <string name="txt_each_ticket_part1">"Каждый билет стоит %d баллов"</string>
+    <string name="txt_tickets">"Билет"</string>
+    <string name="txt_balance_points">"Баланс очков"</string>
+    <string name="txt_select_quantity">"Выберите количество"</string>
+    <string name="txt_points_number">"точки"</string>
+    <string name="txt_BUY">"Спасибо!"</string>
+    <string name="txt_buy_btn_agreeing">"Нажимая кнопку покупки, вы соглашаетесь со всеми условиями и положениями Panel Station."</string>
+    <string name="alert_dialog_txt_part3">"Извините, вам нужно на %d больше очков, чтобы обменять"</string>
+    <string name="alert_dialog_txt_part1">"Вам нужно %d больше очков для общего выкупа. Однако вы всегда можете принять участие в нашем Ежемесячном розыгрыше призов, чтобы выиграть захватывающие призы."</string>
+    <string name="txt_thanks">"Спасибо!   "</string>
+    <string name="txt_puchased_ticket_part1">"Вы приобрели билет %s."</string>
+    <string name="txt_receive_email_shortly">"Вскоре вы получите письмо со всей информацией о розыгрыше"</string>
+    <string name="setting">"Настройки"</string>
+    <string name="ChangeLang">"Измените язык"</string>
+    <string name="lbl_privacy_policy">"Заявление о конфиденциальности"</string>
+    <string name="Terms">"Положения и условия"</string>
+    <string name="txt_contactus">"Свяжитесь с нами"</string>
+    <string name="txt_language">"Язык"</string>
+    <string name="txt_raise_request">"Подать заявку"</string>
+    <string name="txt_msg_subject">"Тема"</string>
+    <string name="btn_send">"послать"</string>
+    <string name="btn_cancel">"отменить"</string>
+    <string name="thanks_dialog_txt">"Спасибо, что написали нам! Мы скоро к тебе вернемся."</string>
+
+    <string name="txt_pointin_review">"Баллы на проверке"</string>
+    <string name="txt_points_in_review">"Баллы на проверке"</string>
+
+    <string name="api_msg_90days">"Вы можете пройти опрос только один раз за 90 дней."</string>
+    <string name="api_nosurveyavailable">"В настоящее время вам не доступен опрос. Пожалуйста, попробуйте позже!"</string>
+    <string name="api_tps_account_linked">"Аккаунт TPS связан с социальными сетями"</string>
+    <string name="api_profiler_unavailable">"Профилировщик в настоящее время недоступен"</string>
+    <string name="api_recently_updated">"Похоже, что вы недавно обновили профиль, он будет доступен только через 90 дней после вашего последнего обновления."</string>
+    <string name="api_email_registered">"Ваш EmailId уже зарегистрирован"</string>
+    <string name="api_device_registered">"Ваше устройство уже зарегистрировано для нашего сервиса "</string>
+    <string name="api_email_device_registered">"Ваш EmailId и устройство уже зарегистрированы для нашего сервиса"</string>
+    <string name="api_facebook_credentials">"Учетные данные Facebook уже связаны. "</string>
+    <string name="api_associated_tps_account">"У вас есть учетная запись в TPS для связи с Facebook?"</string>
+    <string name="api_enter_valid_pin">"Пожалуйста, введите правильный пин"</string>
+    <string name="api_network_connection_unavailbale">"Сетевое соединение недоступно"</string>
+    <string name="api_subject_here">"Введите тему здесь "</string>
+    <string name="api_fill_all_answers">"Пожалуйста, заполните все ответы на этой странице"</string>
+
+    <string name="api_verification_pin_message">"Ваш проверочный пин код -  XXX. Пожалуйста, введите код для проверки вашего счета"</string>
+    <string name="txt_surveyrewardMSG">"Принять участие в опросах"</string>
+    <string name="txt_surveyanytime">"В любое время в любом месте."</string>
+    <string name="txt_opinion">"Ваше мнение формирует продукты и услуги, предлагаемые мировыми компаниями"</string>
+    <string name="txt_save">"Сохранить"</string>
+    <string name="msg_select_any_coupoun">"Пожалуйста, выберите любой вариант"</string>
+    <string name="txt_tickets_buyMax">"Вы можете купить максимум %d Билетов"</string>
+    <string name="signupcomplete_logincred">"Ваши учетные данные были отправлены на ваш зарегистрированный адрес электронной почты."</string>
+    <string name="msg_message">"Пожалуйста, введите сообщение"</string>
+    <string name="msg_subject">"Пожалуйста, введите тему"</string>
+    <string name="action_settings">настройки</string>
+    <string name="dialog_login">Подождите пожалуйста…</string>
+    <string name="txt_email">"Email ID"</string>
+    <string name="txt_password">"пароль"</string>
+    <string name="txt_cancel">"Отменить"</string>
+    <string name="login_title">Panel Station</string>
+    <string name="surveyList_title">"Доступный опрос"</string>
+    <string name="forgotPassword_title">"Забыли пароль"</string>
+    <string name="txt_rememberme">"Запомни меня"</string>
+    <string name="txt_login">"Авторизоваться"</string>
+    <string name="txt_no_survey">"Нет доступных опросов"</string>
+    <string name="txt_no_rewards">"Нет доступных вознаграждений"</string>
+    <string name="txt_no_redemption">"Нет доступных выплат."</string>
+    <string name="txt_info">Нажмите на имеющейся опроса для запуска их в браузере .\n\nПотяните вниз чтобы обновить список обследований.\n\nПосещение <a href="www.thepanelstation.com">www.thepanelstation.com</a> подробнее аккаунта и поддержки.</string>
+    <string name="lbl_terms_cond">" Условия и положения "</string>
+    <string name="lbl_allowdata">Я разрешаю использовать мои данные анонимно для исследовательских целей.</string>
+    <string name="txt_expired">"Истекает"</string>
+
+    <!-- Signup implementation Strings -->
+    <string name="SignUp">"Подписаться"</string>
+    <string name="SignIn">"Войти в систему"</string>
+    <string name="signupcomplete_note">Примечание. Если вы не нашли его в своем почтовом ящике, отправьте нам по электронной почте папку для спама и рекламных акций.</string>
+    <string name="lbl_laststage">На этом пока все! Мы свяжемся с вами в ближайшее время</string>
+    <string name="checkmail">"Проверьте почту"</string>
+    <string name="emailSignupMesage">"Или зарегистрируйтесь по электронной почте"</string>
+    <string name="loginInfo">Login Info :</string>
+    <string name="hint_email">"эл. почта"</string>
+    <string name="hint_confirm_email">"Подтвердить эл. почту"</string>
+    <string name="hint_phoneno">"Номер телефона"</string>
+    <string name="contact_info">"КОНТАКТНЫЕ ДАННЫЕ"</string>
+    <string name="hint_firstname">"Имя"</string>
+    <string name="hint_lastname">"Фамилия"</string>
+    <string name="hint_country">"Страна"</string>
+    <string name="hint_city">"город"</string>
+    <string name="hint_zip">"почтовый индекс"</string>
+    <string name="hint_gender">"Пол"</string>
+    <string name="hint_dob">"Дата рождения"</string>
+    <string name="hint_education">Education</string>
+    <string name="hint_annualHighSAl">Annual HH.Income</string>
+    <string name="hint_maritalStatus">Marital Status</string>
+    <string name="hint_ethnicity">Ethnicity</string>
+    <string name="hint_employment_status">Employment Status</string>
+    <string name="hint_industry">Industry</string>
+    <string name="hint_address">"Адрес"</string>
+    <string name="SIgnUp_Submit">"Подать"</string>
+    <string name="panel_copyrights">\@Copyrights 2015 thepanelstation.All rights reserved.</string>
+    <string name="agreedTermsandCondition"> "согласен с положениями и условиями и заявлением о конфиденциальности."</string>
+    <string name="startearning">"Начните зарабатывать"</string>
+    <string name="month">"Месяц"</string>
+    <string name="day">"День"</string>
+    <string name="year">"Год"</string>
+    <string name="next">"Далее"</string>
+    <string name="contact_info_descriptions">"Мы гарантируем неприкосновенность вашей частной жизни. Однако, мы просим ввести вашу личную информацию, чтобы подтвердить ваше участие в  лотереях или специальных акциях. Мы используем личную информацию, которую вы предоставляете для обработки покупок и участия в лотереях, для отправки товаров и призов  вам!"</string>
+    <string name="select_country">"Страна"</string>
+    <string name="async_task_error">"Потеряно соединение, Попробуйте позже."</string>
+    <string name="login_email">"Пожалуйста, введите адрес электронной почты"</string>
+    <string name="txt_send">"Отправить"</string>
+    <string name="msg_login_connprob">"Соединение может быть недостаточным для входа в систему в данный момент. Пожалуйста, попробуйте позже."</string>
+    <string name="msg_invalid_login_creditional">"Неверный идентификатор электронной почты или пароль."</string>
+    <string name="msg_enter_pass">"Пожалуйста введите пароль"</string>
+    <string name="msg_login_session_expire">"Ваш сеанс истек из-за входа в систему с другого устройства / портала."</string>
+    <string name="msg_unregister_email">"Пожалуйста, введите зарегистрированный адрес электронной почты"</string>
+    <string name="msg_valid_email">"Пожалуйста, введите действительную эл. почту"</string>
+    <string name="txt_survey">"Опрос"</string>
+    <string name="txt_reward_point">"Вознаграждения, баллы"</string>
+    <string name="txt_earned_point">"Заработанные баллы"</string>
+    <string name="txt_redeemed_point"> "очки погашены"</string>
+    <string name="txt_aval_point">"очки доступны"</string>
+    <string name="txt_redemption">"Выплата"</string>
+    <string name="msg_refreshing">"Обновление списка опросов"</string>
+    <string name="msg_open_survey">"Хотите открыть опрос?"</string>
+    <string name="msg_logout">"Вы уверены, что хотите выйти?"</string>
+    <string name="txt_yes">"Да"</string>
+    <string name="txt_no">"Нет"</string>
+    <string name="empty_msg_you_haven_t_redeemed_yet">ты еще не выкупил</string>
+
+    <string name="msg_logoff_connec_lost">"Возможно, соединение не удовлетворительное для выхода. Попробуйте еще раз позже."</string>
+    <string name="msg_timeout">"Приложение столкнулось с трудностями при получении информации, Попробуйте позже."</string>
+    <string name="msg_low_conn">"В настоящее время соединение не удовлетворительно для получения запроса. Попробуйте позже."</string>
+    <string name="msg_survy_info">"Нажмите на доступные опросы для запуска в вашем браузере. Прокрутите вниз, чтобы обновить список опросов.\n\nВы можете выбрать предпочтительный язык в секции настроек.\n\nЗайдите на  <a href="www.thepanelstation.com">www.thepanelstation.com</a> чтобы получить информацию о вашей учетной записи."</string>
+    <string name="txt_takeby">"Взять"</string>
+    <string name="txt_earn">"Заработать"</string>
+    <string name="Points_Ticket">"Баллы/Билет №"</string>
+    <string name="txt_points">"точки"</string>
+    <string name="txt_earned">"Заработанные"</string>
+    <string name="txt_voucher_code">"Код ваучера"</string>
+    <string name="txt_redeemed">"Искупил"</string>
+    <string name="txt_status">"Статус"</string>
+    <string name="txt_done">"Договорились"</string>
+    <string name="txt_valid_till">"Действительно до"</string>
+    <string name="txt_month_jan">"январь"</string>
+    <string name="txt_month_feb">"февраль"</string>
+    <string name="txt_month_march">"март"</string>
+    <string name="txt_month_apr">"апрель"</string>
+    <string name="txt_month_may">"май"</string>
+    <string name="txt_month_jun">"июнь"</string>
+    <string name="txt_month_july">"Июл"</string>
+    <string name="txt_month_aug">"август"</string>
+    <string name="txt_month_sept">"Сен"</string>
+    <string name="txt_month_oct">"октябрь"</string>
+    <string name="txt_month_nov">"ноябрь"</string>
+    <string name="txt_month_dec">"декабрь"</string>
+    <string name="txt_iaggree">"Я согласен (а)"</string>
+    <string name="txt_and_text">" и "</string>
+    <string name="txt_allowing_text">"Я разрешаю использование моих персональных данных для целей исследования."</string>
+    <string name="txt_visit">"визит"</string>
+    <string name="signup_facebook">Зарегистрируйтесь через Facebook</string>
+    <string name="signout_facebook">Выход из Facebook с</string>
+    <string name="signup_google">Зарегистрируйтесь через Google+</string>
+    <string name="signout_google">Выход из Google+</string>
+    <string name="userexist">Пользователь уже существует , пожалуйста, войдите</string>
+    <string name="async_task_not_responding">Не удается обработать ваш запрос , пожалуйста, попробуйте позже .</string>
+    <string name="msg_confirm_open">Вы хотите , чтобы открыть опрос ?</string>
+    <string name="Ok"> ХОРОШО</string>
+    <string name="hint_mobile_number">Мобильный номер</string>
+
+    <string name="unsubscribe_text1">Нам жаль слышать, что наши опросы больше вас не интересуют.</string>
+    <string name="unsubscribe_text2">Мы будем скучать по вам и будем благодарны вам, если \n вы оставите свой отзыв, чтобы мы смогли \n улучшить наш сервис.</string>
+    <string name="unsubscribe_text3">Пожалуйста, выберите причину(-ы) из следующих:</string>
+    <string name="error">"Ошибка"</string>
+    <string name="error_fn">"имя не может быть пустым"</string>
+    <string name="error_ln">"фамилия не может быть пустым"</string>
+    <string name="error_gender">"Пожалуйста, выберите Ваш пол"</string>
+    <string name="error_dob">"Пожалуйста, введите дату вашего рождения."</string>
+    <string name="error_select_country">"Выберите страну проживания"</string>
+    <string name="error_phone_empty">"мобильный номер не может быть пустым"</string>
+    <string name="error_city">"Выберите ваш город"</string>
+    <string name="error_zipcode">"Поле индекса не может быть пустым"</string>
+
+    <!-- Added more for length validations -->
+    <string name="error_phone_length">"пожалуйста, введите правильный номер мобильного телефона"</string>
+    <string name="error_zipcode_length">"пожалуйста, введите правильный индекс"</string>
+    <string name="message_city">"Выберите город"</string>
+    <string name="message_panel_intake_1">Поздравляем вы только в одном шаге от получения наград.  </string>
+    <string name="message_panel_intake_2">Подтвердите вашу регистрацию подтвердив ваш адрес электронной почты.</string>
+    <string name="allowdatausage">"PanelStation нужно разрешение для доступа к вашим данным. Пожалуйста, разрешите использовать доступ к PanelStation."</string>
+    <string name="registrationfails">"Регистрация не удалась "</string>
+    <string name="hint_search">"поиск"</string>
+    <string name="txt_each_ticket_part2">"Баллы"</string>
+    <string name="txt_tickets_in_cart_part1">"У вас в корзине X билетов"</string>
+    <string name="txt_tickets_in_cart_part2">""</string>
+    <string name="surveys">"Опрос"</string>
+    <string name="rewards">"Награды"</string>
+    <string name="PrivacyPol">"Заявление о конфиденциальности"</string>
+    <string name="ContactUs">"Свяжитесь с нами"</string>
+    <string name="press_again_close">"Нажмите еще раз , чтобы закрыть!"</string>
+    <!-- sudhir append strings -->
+    <string name="msg_valid_password">"Пожалуйста, введите правильный пароль"</string>
+    <string name="survey_not_found">"Опрос не найден."</string>
+    <string name="alert_dialog_txt_part2">"  больше очков для общего выкупа . Однако вы всегда можете принять участие в нашем розыгрыше призов Ежемесячный чтобы выиграть отличные призы ."</string>
+    <string name="alert_dialog_txt_part4">"  больше очков , чтобы выкупить ."</string>
+    <string name="webpage_being_loaded">"Веб-страница Загрузка"</string>
+    <string name="txt_puchased_ticket_part2">" Билет"</string>
+    <string name="txt_tell_us_more">"Расскажите подробнее о проблеме"</string>
+    <string name="btn_next">"следующий"</string>
+    <string name="txt_forgot_password">"Забыли пароль"</string>
+    <string name="txt_social_link">Ссылка на сайт</string>
+    <string name="txt_wait_for_questions">"Пожалуйста, подождите настройки анкеты для вас "</string>
+    <string name="txt_imnew">"я новенький"</string>
+    <string name="txt_takenby">"Возьмите по"</string>
+    <string name="msg_serverdown">"Сервер вниз или под ОБСЛУЖИВАНИЕ . Пожалуйста, повторите попытку позже."</string>
+    <string name="msg_citynotfound">"Не удается обработать запрос из-за сложности в поиске panalist городов вашей страны ."</string>
+    <string name="unabletoverifypin">"Невозможно проверить свой ​​пин код , пожалуйста, введите правильный пин-код"</string>
+    <!-- sudhir end append strings -->
+    <string name="pointexpired">"Точка истек"</string>
+    <string name="open">"открыто"</string>
+
+    <!-- New Changes Strings -->
+    <string name="ui_activationcode">"Код проверки пользователя"</string>
+    <string name="ui_msg_checkemail">
+<![CDATA[
+                        <p>Пожалуйста, проверьте свой почтовый ящик на наличие кода активации <B>\"Panel Station\"</B></p>
+                    ]]>
+    </string>
+    <string name="ui_msg_checkemail_spam">"Если вы не нашли письмо в папке входящие, пожалуйста, проверьте вашу папку "Реклама и спам" , возможно там есть письмо с кодом активации."</string>
+    <string name="hint_activationcode">"Введите ваш  код активации  сюда"</string>
+    <string name="ui_termsandcondition">
+<![CDATA[
+                        <p>Я согласен с положениями и условиями и Политикой конфиденциальности.</p>
+                    ]]>
+    </string>
+    <string name="ui_textSignIn">Нажмите сюда, чтобы перейти на страницу входа</string>
+    <string name="signupsocial">Теперь зарегистрируйтесь в <b>The Panel Station</b></string>
+    <string name="signupsocial_appends">Безопасно и надежно </string>
+    <string name="msgcheckemailforotp">Код активации выслан на вашу %s почту, проверьте ящик и подтвердите для активации.</string>
+    <string name="congratulation_header"> Поздравляем! </string>
+    <string name="congratulation_msg">Теперь Вы член одного из самых больших сообществ онлайновых исследований рынка. Нажмите, пожалуйста, на "Начните зарабатывать" (“Start Earning”), чтобы перейти в раздел опросов в приложении.</string>
+    <string name="text_existing_member">"Существующий участник"</string>
+    <string name="resendactivationcode">"Код активации будет заново отправлен через "</string>
+    <string name="clickhere">"Не получили код активации? Нажмите сюда"</string>
+    <string name="min">"мин."</string>
+    <string name="sec">"сек."</string>
+
+    <string name="alredy_otp">Уже получили одноразовый пароль для проверки?</string>
+    <string name="otp_email">Введите ваш зарегистрированный адрес электронной почты.</string>
+    <string name="resend_otp">Повторно отправить OTP?</string>
+    <string name="when_you_refer_a_friend">Когда вы приглашаете друга</string>
+    <string name="msg_first_time_500_earn">1.Вы получите 500 баллов (Только после завершения ими первого опроса).</string>
+    <string name="your_friend_earns_500_joining_points">"2. Ваш друг получит 500 баллов за присоединение."</string>
+    <string name="_3_you_can_refer_a_maximum_of_5_friends_in_a_month">3. Вы можете привести максимум 5 друзей за месяц.</string>
+    <string name="the_more_the_merrier">Чем больше, тем веселее!</string>
+    <string name="so_get_your_going_in_now">Итак, заходите, сейчас!</string>
+    <string name="match_the_puzzle_to_fetch_a_survey">Сопоставьте головоломку, чтобы получить опрос</string>
+    <string name="and_each_time_500_referral_points">И каждый раз, когда вы делаете, зарабатывайте 500 реферальных баллов!</string>
+    <string name="friends_make_life_better">Друзья делают жизнь лучше и должны отмечаться! Исходя из этого, мы создали программу «Пригласи друга», чтобы вознаградить всех своих друзей.</string>
+    <string name="for_more_details">Больше подробностей</string>
+    <string name="click_here">кликните сюда</string>
+    <string name="consent_form">"ФОРМА СОГЛАСИЯ "</string>
+    <string name="consent_form_p_tc_1">«The Panel Station является патентованным продуктом компании Borderless Access Panels вместе со всеми его текстами, товарными знаками, иллюстрациями, фотографиями, графикой, файлами, дизайнами и механизмами. Материалы этого веб-сайта должны использоваться только в соответствии с условиями и политикой конфиденциальности, приведенными в настоящем документе».</string>
+    <string name="disclaimer">Отказ от ответственности:</string>
+    <string name="before_we_proceed">Прежде, чем мы продолжим, пожалуйста, уделите несколько минут, чтобы предоставить нам Вашу информацию и согласие, необходимые в соответствии с новыми законами о конфиденциальности данных.</string>
+    <string name="are_you_citizen_of_eu">"Являетесь ли Вы гражданином Европейского Союза? "</string>
+    <string name="are_you_in_eu_region">Находитесь ли Вы в настоящее время в Европейском Союзе?</string>
+    <string name="in_accordance_big_1">В соответствии с новыми законами Европейского Союза о конфиденциальности данных (Общий регламент по защите данных / GDPR), мы просим Вас внимательно ознакомиться с приведенной ниже формой и дать согласие на продолжение участия в Сообществе TPS.</string>
+    <string name="here_at_the_big_2">The Panel Station серьезно относится к Вашей конфиденциальности и будет использовать Вашу персональную информацию исключительно для администрирования Вашей учетной записи и предоставления продуктов и услуг, которые Вы запросили у нас.</string>
+    <string name="you_understand_big_text_3">Вы понимаете и соглашаетесь с тем, что, выбирая вариант «Да», Вы даете согласие на получение от нас соответствующих уведомлений посредством электронных писем и SMS, которые будут составлять часть предлагаемых Вам услуг.</string>
+    <string name="if_at_any_point">"Если в любой момент времени после регистрации Вы решите отозвать свое согласие, Вы можете сделать это, отправив нам письмо с запросом по адресу: "</string>
+    <string name="if_at_any_point_custom">Если в любой момент времени после регистрации Вы решите отозвать свое согласие, Вы можете сделать это, отправив нам письмо с запросом по адресу: %s. Мы ответим на Ваши письма в течение трех дней после их получения.</string>
+    <string name="do_you_wish">Соглашаетесь ли Вы быть частью сообщества The Panel Station для участия в его исследовательских предложениях?</string>
+    <string name="yes_i_agree">Да, я соглашаюсь</string>
+    <string name="no_i_dont_agree">Нет, я не соглашаюсь</string>
+    <string name="consent_disclaimer_1">"«The Panel Station является патентованным продуктом компании Borderless Access Panels вместе со всеми его текстами, товарными знаками, иллюстрациями, фотографиями, графикой, файлами, дизайнами и механизмами. Материалы этого веб-сайта должны использоваться только в "</string>
+    <string name="consent_disclaimer_2">приведенными в настоящем документе».</string>
+    <string name="in_case_you_delete">Если Вы хотите удалить свою информацию, сохраненную у нас, свяжитесь с нами по адресу: Dataprotectionofficer01@borderlessaccess.com</string>
+    <string name="rejoin_panel_email">Если в любой момент времени Вы захотите снова присоединиться к нашей панели, Вы можете сделать это, зарегистрировавшись у нас. Чтобы зарегистрироваться, нажмите на следующую ссылку</string>
+    <string name="title_msg_succeess_unsubscribe">Вы успешно отписались от нашего сообщества.</string>
+    <string name="if_at_any_point_2">Мы ответим на Ваши письма в течение трех дней после их получения.</string>
+    <string name="msg_eu_region_decline_consent_form">Вы упомянули, что вы из Европы/ гражданин Европы, поэтому мы просим вас дать согласие, чтобы продолжить регистрацию.</string>
+    <string name="lbl_privacy_statement">Заявление о конфиденциальности</string>
+    <string name="swipe_up">Листайте вверх для регистрации</string>
+    <string name="swipe_down">Листайте вниз для входа</string>
+
+    <string name="refer_2_more">Приведи друга или двух или трёх</string>
+    <string name="invite_your_friends">Пригласи друзей</string>
+    <string name="refer_code_not_avaliable">Код ссылки не доступен</string>
+    <string name="select_optional">Пожалуйста, выберите файл (необязательно)</string>
+    <string name="connect_your_accounts">Подключите свои учётные записи</string>
+    <string name="profile_settings">Настройки профиля</string>
+
+    <string name="change_password">Изменить пароль</string>
+    <string name="unsubscribe">Отписаться
+    </string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="twitter">TWITTER</string>
+    <string name="google">GOOGLE</string>
+
+    <string name="refer_frnd">Приведите друга</string>
+    <string name="title_contact_us">Связаться с нами</string>
+
+    <string name="my_rewards">Мои награды</string>
+    <string name="my_profile">Мой профиль</string>
+    <string name="my_surveys">Мои опросы</string>
+    <string name="contact_us">Связаться с нами</string>
+    <string name="fanpage">Блог</string>
+    <string name="invite">Пригласить</string>
+    <string name="reset">СБРОСИТЬ</string>
+
+    <string name="faq">Часто задаваемые вопросы</string>
+    <string name="settings">Настройки</string>
+    <string name="update_profile">ОБНОВИТЬ ПРОФИЛЬ</string>
+
+
+    <string-array
+        name="home">
+        <item>@string/my_rewards</item>
+        <item>@string/my_profile</item>
+        <item>@string/my_surveys</item>
+        <item>@string/contact_us</item>
+        <item>@string/fanpage</item>
+        <item>@string/invite</item>
+        <item>@string/badges</item>
+        <item>@string/faq</item>
+        <item>@string/settings</item>
+    </string-array>
+    <string name="unsubscribe_lowercase">Отписаться
+</string>
+    <string name="user_msg">Ваша учетная запись отмечена как неактивная, любезно обратитесь в нашу службу поддержки по адресу mobile@thepanelstationsurveys3.com для дальнейшей помощи</string>
+
+    <string name="error_valid_referral_code">Введите действительный реферальный код
+
+</string>
+    <string name="apply_referral_code">ОТНОСИТЬСЯ</string>
+
+    <string name="subject">предмет
+
+</string>
+
+    <string name="txt_redeem_points">Выберите точки, которые вы хотите обменять
+
+</string>
+    <string name="particitpate_and_luck">Участвуй и получай удачу
+
+</string>
+    <string name="tv_redemption_history">История погашения
+
+</string>
+    <string name="tv_rewards_history">Награды История
+
+</string>
+
+    <string name="available_count">Доступный опрос -
+
+</string>
+    <string name="signupcomplete_thanks">Спасибо. Вы были успешно зарегистрированы.</string>
+    <string name="enter_paytm_id">Пожалуйста, введите ваш Paytm ID</string>
+    <string name="add_photo">Добавить фото</string>
+    <string name="take_photo">Сделать фото</string>
+    <string name="choose_from_gallery">Выбрать из галереи</string>
+    <string name="remove_photo">Убрать фото</string>
+    <string name="profile_update_success">Фото вашего профиля было обновлено успешно</string>
+    <string name="delete_profile_picture">Фото вашего профиля было убрано успешно</string>
+    <string name="enter_confirm_password">введите подтвердить пароль</string>
+    <string name="current_password">введите текущий пароль</string>
+    <string name="new_password">Введите новый пароль</string>
+    <string name="retry">Retry</string>
+    <string name="please_select_reason">Пожалуйста, выберите причину (-ы)</string>
+    <string name="others_cannot_be_blank">Поле причины для прочее/прочих не может оставаться незаполненным</string>
+    <string name="badges">Жетоны</string>
+    <string name="badge_increase">Начислено %1$s баллов за выполнение %2$s или более опросов каждый месяц.</string>
+    <string name="at">в</string>
+    <string name="old_password">* Прежний Пароль:</string>
+    <string name="confirm_password">* Подтвердить Пароль:</string>
+    <string name="newpassword">* Новый Пароль:</string>
+    <string name="password_comapre_mismatch">новый пароль и подтвердите несоответствие пароля.</string>
+    <string name="new_password_length">длина нового пароля должна быть от 6 до 16 символов.</string>
+    <string name="need_more_points">Вам нужно еще %1$d баллов, чтобы обменять на %2$s ваучер(ров), либо вы можете выбрать другой вариант обмена баллов.</string>
+    <string name="password_expiry_message">Срок действия вашего пароля истек, Пожалуйста, смените ваш пароль прямо сейчас, чтобы войти в вашу панель управления</string>
+    <string name="please_change_your_password">Пожалуйста, смените ваш пароль</string>
+    <string name="new_old_password_match_error">Новый пароль и старый пароль не должны совпадать</string>
+    <string name="rationale_location">Пожалуйста, нажмите на все кнопке в следующем диалоговом окне</string>
+    <string name="register_here">Зарегистрируйтесь здесь</string>
+    <string name="communication_preferences">Предпочтения по связи</string>
+    <string name="poll_result">Результаты</string>
+    <string name="quick_poll">Быстрый опрос</string>
+    <string name="result">Результаты</string>
+    <string name="notification">Уведомления</string>
+    <string name="no_notifications">Нет уведомлений</string>
+    <string name="activity">Журналы активности</string>
+    <string name="last_log_in">Последний вход</string>
+    <string name="last_log_out">Последний выход</string>
+    <string name="resubscribe">Повторная подписка</string>
+    <string name="resubscribe_msg">Вы успешно отписаны от нашего сообщества, но будем рады вашему возвращению, просто нажмите на \"Resubscribe\" (повторная подписка)</string>
+    <string name="successfully_resubscribed">Успешно повторно подписаны</string>
+    <string name="subscribe_success_msg">Поздравляем! Вы снова с нами на борту! Высказывайте ваше мнение, и улучшайте завтрашний день</string>
+    <string name="logout">ВЫЙТИ</string>
+    <string name="no_quick_poll">Нет доступных быстрых опросов</string>
+    <string name="comm_pref_email">Электронный адрес</string>
+    <string name="comm_pref_mobile_sms">Мобильные SMS</string>
+    <string name="comm_pref_mobile_push_notification">Мобильные Push-уведомления</string>
+    <string name="comm_pref_desktop_notification">Уведомления на рабочем столе</string>
+    <string name="comm_pref_save_success">Настройки связи успешно сохранены.</string>
+    <string name="error_msg_for_invalid_redeem_points">Пожалуйста, введите правильную сумму баллов для вывода</string>
+    <string name="redeem_instantly">Мгновенные выплаты</string>
+    <string name="legend">Легенда</string>
+    <string name="grand_master">Великий Мастер</string>
+    <string name="master">Мастер</string>
+    <string name="sensei">Сенсей</string>
+    <string name="newbei">Новичок</string>
+    <string name="unsubscribe_delete_confirmation">Вы будете отписаны от нашего сообщества и все ваши данные будут удалены. Нажмите  OK, если хотите продолжить</string>
+    <string name="unsubscribe_delete_successful">Вы успешно отписаны от нашего сообщества. Мы удалим ваши данные из нашей системы в течение от 2 до 3 рабочих дней.</string>
+    <string name="unsubscribe_delete">Отписаться и удалить</string>
+    <string name="your_VoucherCode" translatable="false">"Код вашего ваучера: "</string>
+    <string name="redemptionRevoke">После заказа выплаты ее нельзя отменить/ отозвать</string>
+</resources>

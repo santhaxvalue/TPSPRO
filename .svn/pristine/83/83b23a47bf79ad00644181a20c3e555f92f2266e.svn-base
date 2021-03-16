@@ -1,0 +1,13 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+    <dimen name="dob_btn_width">120dp</dimen>
+    <dimen name="socialprofileHW">170dp</dimen>
+    <dimen name="webview_header_height">55dip</dimen>
+    <dimen name="sp24">18sp</dimen>
+    <dimen name="dp110">110dp</dimen>
+    <dimen name="image_slider_height">130dp</dimen>
+</resources>
