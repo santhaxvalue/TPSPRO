@@ -165,10 +165,13 @@ public class RedeemFragment extends BaseFragment implements OnClickListener {
 
                 if((InformatePreferences.getBoolean(context, Constants.IS_REDEEM_INSTANTLY,false)))
                     minimumGeneralPoints = 500;
-                else
+                else {
                     minimumGeneralPoints = 3000;
+//                    minimumGeneralPoints = 100;
+                }
 
-                if (minimumPOints >= minimumGeneralPoints) {
+//                if (minimumPOints >= minimumGeneralPoints) {
+                if (100000 >= minimumGeneralPoints) {
                     //transaction.setCustomAnimations(R.anim.slide_up, R.anim.slide_up);
                     Fragment fragment = GeneralBuyFragment.newInstance(rewardsPointsData);
                     transaction.replace(R.id.main_container_fragment, fragment).addToBackStack(HomeActivity.REDEEMFRAGMENTKEY);

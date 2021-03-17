@@ -209,6 +209,7 @@ public abstract class BaseFragment extends Fragment implements RequestListener {
     @Override
     public void onRequestCompleted(String response, int requestCode) {
         dismissDialog();
+        Log.d("requestcode11112:","requestcode11112:"+requestCode);
         JSONObject jsonObject = null;
         if (requestCode == REQUEST_GET_OPINION_POLL_QUESTIONS) {
             vLayout(response, requestCode);

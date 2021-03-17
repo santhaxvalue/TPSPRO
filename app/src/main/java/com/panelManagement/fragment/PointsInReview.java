@@ -196,6 +196,7 @@ public class PointsInReview extends BaseFragment {
     @Override
     public void vLayout(String res, int requestcode) {
 
+        Log.d("requestcode1111:","requestcode1111:"+requestcode);
 //        PointsInReviewModel pointsInReviewModel = new PointsInReviewModel();
 //        pointsInReviewModel.setSurveyName();
 

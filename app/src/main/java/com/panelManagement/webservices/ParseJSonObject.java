@@ -472,6 +472,8 @@ public class ParseJSonObject extends BaseParser {
             put("ItemName", ItemName);
             //   put("LanguageCulture", InformatePreferences.getStringPrefrence(mContext,Constants.PREF_LOCALECODE));
 
+            put( "isEdenRed", true);
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
