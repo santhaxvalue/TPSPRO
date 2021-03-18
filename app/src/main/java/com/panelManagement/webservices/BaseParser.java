@@ -143,8 +143,10 @@ public class BaseParser {
 
         for (int i = 0; i < arrayEarnedPoints.length(); i++) {
             JSONObject innerObject = arrayEarnedPoints.getJSONObject(i);
+//            arrayEarnedPoint.add(new EarnedPointHistory(innerObject.getString("ProjectSource"), innerObject.getString("Name"),
+//                    innerObject.getString("TransactionDate"), innerObject.getString("Points"), innerObject.getString("CampSource")));
             arrayEarnedPoint.add(new EarnedPointHistory(innerObject.getString("ProjectSource"), innerObject.getString("Name"),
-                    innerObject.getString("TransactionDate"), innerObject.getString("Points"), innerObject.getString("CampSource")));
+                    innerObject.getString("TransactionDate"), innerObject.getString("Points"), innerObject.getString("CampSource"),innerObject.getString("Sourcestatus")));
         }
         JSONArray arrayRedeemPoints = jsonObject.getJSONArray("RedeemPointHistory");
         ArrayList<RedeemPointHistory> arrayRedeemPoint = new ArrayList<RedeemPointHistory>();

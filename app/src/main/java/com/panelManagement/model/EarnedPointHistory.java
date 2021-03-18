@@ -9,14 +9,16 @@ public class EarnedPointHistory implements Serializable {
     String transactionDate = "";
     String points = "";
     String campSource = "";
+    String sourcestatus = "";
 
-    public EarnedPointHistory(String projectSource, String name, String transactionDate, String points, String campSource) {
+    public EarnedPointHistory(String projectSource, String name, String transactionDate, String points, String campSource, String sourcestatus) {
         super();
         this.projectSource = projectSource;
         this.name = name;
         this.transactionDate = transactionDate;
         this.points = points;
         this.campSource = campSource;
+        this.sourcestatus = sourcestatus;
     }
 
     public String getProjectSource() {
@@ -38,6 +40,8 @@ public class EarnedPointHistory implements Serializable {
     public String getCampSource() {
         return campSource;
     }
+
+    public String getSourcestatus() { return sourcestatus; }
 
 }
 

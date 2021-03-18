@@ -61,6 +61,12 @@ public class PointsInReview extends BaseFragment {
     public ImageView img_earned_points,img_earned_warning;
     TextView emptyText;
 
+    ArrayList<String> surveyNameList = new ArrayList<>();
+    ArrayList<String> reviewPointsList = new ArrayList<>();
+    ArrayList<String> ticketList = new ArrayList<>();
+    ArrayList<String> surveyIdList = new ArrayList<>();
+    ArrayList<String> SurveyCompletionDateList = new ArrayList<>();
+
     public PointsInReview() {
         // TODO Auto-generated constructor stub
     }
@@ -93,13 +99,19 @@ public class PointsInReview extends BaseFragment {
         View view = inflater.inflate(R.layout.pointsinreview_header, container, false);
         try {
             JSONObject jsonObjectPIR = new JSONObject();
-            jsonObjectPIR.put("UserId", "2965968");
+            jsonObjectPIR.put("UserId", InformatePreferences.getStringPrefrence(context, Constants.PREF_ID));
+//            jsonObjectPIR.put("UserId", "2965968");
 //            jsonObjectPIR.put("UserId", InformatePreferences.getStringPrefrence(context, Constants.PREF_ID));
 //            jsonObjectPIR.put("UserId", "2967111");
+
+
 
             JSONObject jsonObject = new JSONObject();
             jsonObject.put("UserId", InformatePreferences.getStringPrefrence(context, Constants.PREF_ID));
             jsonObject.put("LanguageCulture", InformatePreferences.getStringPrefrence(context, Constants.PREF_LOCALECODE));
+
+            Log.d("userid1:","userid1:"+ InformatePreferences.getStringPrefrence(context, Constants.PREF_ID));
+            Log.d("userid11:","userid11:"+InformatePreferences.getStringPrefrence(context, Constants.PREF_LOCALECODE));
 
             requestTypePost(Constants.API_SURVEY_POINTS_REVIEW, jsonObjectPIR, Constants.REQUESTCODE_SURVEYPOINTSREVIEWS);
             requestTypePost(Constants.API_SURVEY_POINTS_REVIEW, jsonObject, Constants.REQUESTCODE_SURVEYPOINTSREVIEW);
@@ -265,11 +277,11 @@ public class PointsInReview extends BaseFragment {
     private void getPointsInReviewListValue(String res) {
         try {
             JSONArray jsonarray = new JSONArray(res);
-            ArrayList<String> surveyNameList = new ArrayList<>();
-            ArrayList<String> reviewPointsList = new ArrayList<>();
-            ArrayList<String> ticketList = new ArrayList<>();
-            ArrayList<String> surveyIdList = new ArrayList<>();
-            ArrayList<String> SurveyCompletionDateList = new ArrayList<>();
+//            ArrayList<String> surveyNameList = new ArrayList<>();
+//            ArrayList<String> reviewPointsList = new ArrayList<>();
+//            ArrayList<String> ticketList = new ArrayList<>();
+//            ArrayList<String> surveyIdList = new ArrayList<>();
+//            ArrayList<String> SurveyCompletionDateList = new ArrayList<>();
 
             for (int i = 0; i < jsonarray.length(); i++) {
                 JSONObject jsonobject = jsonarray.getJSONObject(i);

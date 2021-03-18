@@ -554,7 +554,7 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
             dialog.dismiss();
             showVoucherAlertDialog(context,voucherCode);
             // show in another pop up
-            //  callGetGeneralRewardsnewAPI();
+//              callGetGeneralRewardsnewAPI();
             // openWarningDialog(context);
         });
 
