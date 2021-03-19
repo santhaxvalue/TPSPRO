@@ -102,21 +102,66 @@ public class RewardHistoryListAdapter extends RecyclerView.Adapter<RewardHistory
             }
             Log.e("Earned", positionItem.getPoints());
 
-            if (!TextUtils.isEmpty(positionItem.getCampSource()) && !positionItem.getCampSource().equalsIgnoreCase("null"))
+//            Log.d("length:","length:"+positionItem.getSourcestatus().length());
+
+            if (!TextUtils.isEmpty(positionItem.getCampSource()) && !positionItem.getCampSource().equalsIgnoreCase("null")) {
+                //old code
 //                holder.txtHeader.setText(positionItem.getCampSource());
-                if(positionItem.getSourcestatus().equals("")) {
+                //old code
+
+                //new code
+                if (TextUtils.isEmpty(positionItem.getSourcestatus())) {
                     holder.txtHeader.setText(positionItem.getCampSource());
-                }else {
-                    holder.txtHeader.setText(positionItem.getCampSource()+" (Complete)");
+                } else {
+//                    holder.txtHeader.setText(positionItem.getCampSource()+" (Complete)");
+                    holder.txtHeader.setText(positionItem.getCampSource() + " (" + positionItem.getSourcestatus() + ")");
                 }
-            else if (!TextUtils.isEmpty(positionItem.getProjectSource()) && !positionItem.getProjectSource().equalsIgnoreCase("null")){
-                holder.txtHeader.setText(positionItem.getProjectSource());
+                //new code
+            } else if (!TextUtils.isEmpty(positionItem.getProjectSource()) && !positionItem.getProjectSource().equalsIgnoreCase("null")){
+                //old code
+//                holder.txtHeader.setText(positionItem.getProjectSource());
+                //old code
+
+                //new code
+                if (TextUtils.isEmpty(positionItem.getSourcestatus())) {
+                    holder.txtHeader.setText(positionItem.getProjectSource());
+                } else {
+//                    holder.txtHeader.setText(positionItem.getCampSource()+" (Complete)");
+                    holder.txtHeader.setText(positionItem.getProjectSource() + " (" + positionItem.getSourcestatus() + ")");
+                }
+                //new code
 
         }
-            else if (!TextUtils.isEmpty(positionItem.getName()) && !positionItem.getName().equalsIgnoreCase("null"))
-                holder.txtHeader.setText(positionItem.getName());
-            else
-                holder.txtHeader.setText(context.getResources().getString(R.string.txt_expired));
+            else if (!TextUtils.isEmpty(positionItem.getName()) && !positionItem.getName().equalsIgnoreCase("null")) {
+                //old code
+//                holder.txtHeader.setText(positionItem.getName());
+                //old code
+
+                //new code
+                if (TextUtils.isEmpty(positionItem.getSourcestatus())) {
+                    holder.txtHeader.setText(positionItem.getName());
+                } else {
+//                    holder.txtHeader.setText(positionItem.getCampSource()+" (Complete)");
+                    holder.txtHeader.setText(positionItem.getName() + " (" + positionItem.getSourcestatus() + ")");
+                }
+                //new code
+
+            }
+            else {
+                //old code
+//                holder.txtHeader.setText(context.getResources().getString(R.string.txt_expired));
+                //old code
+
+                //new code
+                if (TextUtils.isEmpty(positionItem.getSourcestatus())) {
+                    holder.txtHeader.setText(context.getResources().getString(R.string.txt_expired));
+                } else {
+//                    holder.txtHeader.setText(positionItem.getCampSource()+" (Complete)");
+                    holder.txtHeader.setText(context.getResources().getString(R.string.txt_expired) + " (" + positionItem.getSourcestatus() + ")");
+                }
+                //new code
+
+            }
 
             // holder.txtSurveyDate.setText(Utility.formateDateFromstring("yyyy-MM-dd'T'HH:mm:ss.SSS", "dd-MMM-yyyy HH:mm", positionItem.getTransactionDate()));
 
