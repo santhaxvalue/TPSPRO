@@ -153,13 +153,13 @@ public class PointsInReview extends BaseFragment {
             pp.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Toast.makeText(getActivity(), ",mfbdn,jfvdhfv", Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(getActivity(), ",mfbdn,jfvdhfv", Toast.LENGTH_SHORT).show();
                 }
             });
             getActivity().findViewById(R.id.img_i).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Toast.makeText(getActivity(), ",mfbdn,jfvdhfv", Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(getActivity(), ",mfbdn,jfvdhfv", Toast.LENGTH_SHORT).show();
                 }
             });
 

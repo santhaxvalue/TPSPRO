@@ -69,6 +69,20 @@
                         android:gravity="center"
                         android:textSize="@dimen/sp16" />
 
+                    <com.panelManagement.widgets.TextViewPlusBold
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:id="@+id/tv_getvoucherLink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="https://google.com"
+                        android:autoLink="web"
+                        android:linksClickable="true"
+                        android:textColor="@color/aqua"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:textSize="@dimen/sp16" />
+
+
                 </LinearLayout>
 
                <!-- <com.panelManagement.widgets.TextViewPlusBold

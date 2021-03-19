@@ -207,7 +207,10 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
         if (mSelectedValue.getPartnerName().toLowerCase().contains("paytm") || mSelectedValue.getPartnerName().toLowerCase().contains("paypal")) {
             validatePaytm();
         } else {
-            callGeneralRedeemApi();
+            //old code
+//            callGeneralRedeemApi();
+            //new code
+            showddAlertDialog(context,"voucherCode","voucherCodeAvailable");
         }
     }
 
@@ -219,6 +222,7 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
                     Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName(), mSelectedValue.isEdenRed()), Constants.REQUESTCODE_GENERALREDEEM);
 
         }else {
+
             requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject(Integer.parseInt(rewardPrice),
                     Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName()), Constants.REQUESTCODE_GENERALREDEEM);
         }
@@ -282,14 +286,31 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
                             String voucherCode=object.get("voucherCode").toString();
                             // String voucherCode=object.get("voucherCode").toString();
 
-                            showddAlertDialog(context,voucherCode);
+                            //old code
+//                            showddAlertDialog(context,voucherCode,"voucherCodeAvailable");
+
+                            //latest old code
+//                            if(voucherCode.equals("")){
+//                                String VoucherLink=object.get("VoucherLink").toString();
+//                                showddAlertDialog(context,VoucherLink,"voucherLinkAvailable");
+//                            }else {
+//                                showddAlertDialog(context,voucherCode,"voucherCodeAvailable");
+//                            }
+                            //latest old code
+
+                            // String voucherCode=object.get("voucherCode").toString();
+                            //old code
+
+                            //new code
+
                             if(voucherCode.equals("")){
                                 String VoucherLink=object.get("VoucherLink").toString();
-                                showddAlertDialog(context,VoucherLink);
+                                showVoucherAlertDialog(context,VoucherLink,"voucherLinkAvailable");
                             }else {
-                                showddAlertDialog(context,voucherCode);
+                                showVoucherAlertDialog(context,voucherCode,"voucherCodeAvailable");
                             }
-                            // String voucherCode=object.get("voucherCode").toString();
+
+                                    //new code
 
 
                         }else {
@@ -482,9 +503,9 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
     }
 
 
-    public void showVoucherAlertDialog(Context context,String voucherCode){
+    public void showVoucherAlertDialog(Context context,String voucherCode,String voucherStatus){
 
-        TextView tv_voucherCode,tv_okButton;
+        TextView tv_voucherCode,tv_getvoucherLink,tv_okButton;
         ImageView close_voucher_dialog_general;
         final Dialog dialog = new Dialog(context, R.style.Theme_Dialog);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -502,8 +523,26 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
         window.setAttributes(wlp);
 
         tv_voucherCode = dialog.findViewById(R.id.tv_getvoucherCode);
+
+        //new code
+        tv_getvoucherLink  = dialog.findViewById(R.id.tv_getvoucherLink);
+                //new code
+
         tv_okButton = dialog.findViewById(R.id.tv_btnVoucherOk);
-        tv_voucherCode.setText(voucherCode);
+        //old code
+//        tv_voucherCode.setText(voucherCode);
+        //old code
+
+        //new code
+        if(voucherStatus.equals("voucherCodeAvailable")){
+            tv_voucherCode.setText(voucherCode);
+            tv_getvoucherLink.setVisibility(View.GONE);
+        }else if(voucherCode.equals("voucherLinkAvailable")){
+            tv_voucherCode.setVisibility(View.GONE);
+            tv_getvoucherLink.setVisibility(View.VISIBLE);
+        }
+
+
         close_voucher_dialog_general = dialog.findViewById(R.id.close_voucher_dialog_general);
 
         close_voucher_dialog_general.setOnClickListener((View v) -> {
@@ -514,7 +553,10 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
             dialog.dismiss();
             // show in another pop up
             //  callGetGeneralRewardsnewAPI();
-            openWarningDialog(context);
+            //old code
+//            openWarningDialog(context);
+            //New code
+            callGetGeneralRewardsnewAPI();
         });
 
 
@@ -522,7 +564,7 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 
     }
 
-    public void showddAlertDialog(Context context,String voucherCode){
+    public void showddAlertDialog(Context context,String voucherCode,String voucherStatus){
 
         TextView tv_voucherCode,tv_okButton;
         ImageView close_voucher_dialog_general;
@@ -544,6 +586,8 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
         tv_voucherCode = dialog.findViewById(R.id.tv_getvoucherCode);
         tv_okButton = dialog.findViewById(R.id.tv_btnVoucherOk);
         tv_voucherCode.setText(voucherCode);
+
+
         close_voucher_dialog_general = dialog.findViewById(R.id.close_voucher_dialog_general);
 
         close_voucher_dialog_general.setOnClickListener((View v) -> {
@@ -552,10 +596,19 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 
         tv_okButton.setOnClickListener(v -> {
             dialog.dismiss();
-            showVoucherAlertDialog(context,voucherCode);
+            //old code
+//            showVoucherAlertDialog(context,voucherCode);
+
+            //old code
+
             // show in another pop up
 //              callGetGeneralRewardsnewAPI();
             // openWarningDialog(context);
+
+            //new Code
+            callGeneralRedeemApi();
+            //new code
+
         });
 
 

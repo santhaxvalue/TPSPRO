@@ -70,6 +70,8 @@
                         android:visibility="gone"
                         android:textSize="@dimen/sp16" />
 
+
+
 <!--                    voucher link show-->
 <!--                    <com.panelManagement.widgets.TextViewPlusBold-->
 <!--                        android:layout_marginTop="@dimen/_5sdp"-->
