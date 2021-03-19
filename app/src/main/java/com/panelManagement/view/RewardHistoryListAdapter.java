@@ -102,6 +102,7 @@ public class RewardHistoryListAdapter extends RecyclerView.Adapter<RewardHistory
             }
             Log.e("Earned", positionItem.getPoints());
 
+
 //            Log.d("length:","length:"+positionItem.getSourcestatus().length());
 
             if (!TextUtils.isEmpty(positionItem.getCampSource()) && !positionItem.getCampSource().equalsIgnoreCase("null")) {
