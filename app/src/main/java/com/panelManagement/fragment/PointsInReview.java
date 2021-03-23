@@ -160,6 +160,12 @@ public class PointsInReview extends BaseFragment {
                 @Override
                 public void onClick(View view) {
 //                    Toast.makeText(getActivity(), ",mfbdn,jfvdhfv", Toast.LENGTH_SHORT).show();
+                    mListView.setVisibility(View.GONE);
+                    head.setVisibility(View.GONE);
+                    pirCardView.setVisibility(View.VISIBLE);
+                    Animation hide = AnimationUtils.loadAnimation(context, R.anim.slide_up);
+                    hide.setDuration(1000);
+                    pirCardView.startAnimation(hide);
                 }
             });
 
@@ -174,7 +180,7 @@ public class PointsInReview extends BaseFragment {
                     pirCardView.startAnimation(hide);
                 }
             });
-           /* getActivity().findViewById(R.id.header_pointsinreview).setOnClickListener(new View.OnClickListener() {
+           getActivity().findViewById(R.id.header_pointsinreview).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     mListView.setVisibility(View.GONE);
@@ -185,7 +191,7 @@ public class PointsInReview extends BaseFragment {
                     pirCardView.startAnimation(hide);
 
                 }
-            });*/
+            });
             //lv_survey_list.setEm(emptyText);
             mListView.setLayoutManager(new LinearLayoutManager(context));
             if (rewardsarray != null || rewardsarray.size() != 0) {

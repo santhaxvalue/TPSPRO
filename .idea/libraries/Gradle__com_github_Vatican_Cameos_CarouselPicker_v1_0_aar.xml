@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.Vatican-Cameos:CarouselPicker:v1.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CarouselPicker-v1.0.aar/fc5acd1d26e74c1792a49ee91c090a18/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CarouselPicker-v1.0.aar/fc5acd1d26e74c1792a49ee91c090a18/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CarouselPicker-v1.0.aar/fc5acd1d26e74c1792a49ee91c090a18/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CarouselPicker-v1.0.aar/12e9aab256acecf2ff592a85a055f62b/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CarouselPicker-v1.0.aar/12e9aab256acecf2ff592a85a055f62b/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CarouselPicker-v1.0.aar/12e9aab256acecf2ff592a85a055f62b/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CarouselPicker-v1.0.aar/12e9aab256acecf2ff592a85a055f62b/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

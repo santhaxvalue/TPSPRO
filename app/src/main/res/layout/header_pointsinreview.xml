@@ -29,7 +29,7 @@
             android:layout_height="45dp"
             android:padding="10dp"
             android:layout_centerVertical="true"
-            android:visibility="gone"
+            android:visibility="visible"
             android:src="@drawable/warning"></ImageView>
 
         <LinearLayout

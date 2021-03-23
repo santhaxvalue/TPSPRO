@@ -279,11 +279,12 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 
                         Log.e("SizeList", redeemarray.size()+"");
 
-                        if (redeemarray.get(0).isEdenRed() == false){
+                        if (redeemarray.get(0).isEdenRed() == false || redeemarray.get(0).isEdenRed() == true){
                             // static value for testing  boolean istrue=true;
                             //if (istrue){
                             // String voucherCode="new Voucher code Z1R5G5C6FF88W789Ff";
                             String voucherCode=object.get("voucherCode").toString();
+                            Log.d("voucherCode:","voucherCode:"+voucherCode);
                             // String voucherCode=object.get("voucherCode").toString();
 
                             //old code
@@ -303,7 +304,7 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 
                             //new code
 
-                            if(voucherCode.equals("")){
+                            if(voucherCode.equals("") || voucherCode.equals("null")){
                                 String VoucherLink=object.get("VoucherLink").toString();
                                 showVoucherAlertDialog(context,VoucherLink,"voucherLinkAvailable");
                             }else {
@@ -537,9 +538,10 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
         if(voucherStatus.equals("voucherCodeAvailable")){
             tv_voucherCode.setText(voucherCode);
             tv_getvoucherLink.setVisibility(View.GONE);
-        }else if(voucherCode.equals("voucherLinkAvailable")){
+        }else if(voucherStatus.equals("voucherLinkAvailable")){
             tv_voucherCode.setVisibility(View.GONE);
             tv_getvoucherLink.setVisibility(View.VISIBLE);
+            tv_getvoucherLink.setText(voucherCode);
         }
 
 

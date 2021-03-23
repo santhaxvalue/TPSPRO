@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.crashlytics.sdk.android:crashlytics:2.9.5@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/a8ebcaa0fbdab31edcf194abfba7247a/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/a8ebcaa0fbdab31edcf194abfba7247a/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/a8ebcaa0fbdab31edcf194abfba7247a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/e5cc0d9bfb568cc7121be7c7ca1ca02c/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/e5cc0d9bfb568cc7121be7c7ca1ca02c/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/e5cc0d9bfb568cc7121be7c7ca1ca02c/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/e5cc0d9bfb568cc7121be7c7ca1ca02c/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

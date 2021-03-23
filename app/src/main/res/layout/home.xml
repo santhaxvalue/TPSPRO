@@ -67,14 +67,14 @@
                 android:paddingRight="@dimen/dp32"-->
                 <!--dp16-->
 
-<!--               <ImageView-->
-<!--                   android:id="@+id/img_iii"-->
-<!--                   android:layout_width="45dp"-->
-<!--                   android:layout_height="45dp"-->
-<!--                   android:padding="10dp"-->
-<!--                   android:layout_centerVertical="true"-->
-<!--                   android:visibility="gone"-->
-<!--                   android:src="@drawable/warning"></ImageView>-->
+               <ImageView
+                   android:id="@+id/img_iii"
+                   android:layout_width="45dp"
+                   android:layout_height="45dp"
+                   android:padding="10dp"
+                   android:layout_centerVertical="true"
+                   android:visibility="visible"
+                   android:src="@drawable/warning"></ImageView>
 
                 <ImageView
                     android:id="@+id/img_ii"

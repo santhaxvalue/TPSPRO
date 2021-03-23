@@ -113,9 +113,14 @@ public class PointInReviewAdapter extends RecyclerView.Adapter<PointInReviewAdap
                 holder.txtHeader.setText(strServeyname);
             }
 
-            if(!strticketList.equalsIgnoreCase("") && strticketList!=null){
-                holder.surveyEarn.setText("Points/Ticket No"+strticketList);
-            }
+            //old code
+//            if(!strticketList.equalsIgnoreCase("") && strticketList!=null){
+//                holder.surveyEarn.setText("Points/Ticket No"+strticketList);
+//            }
+        //new code
+        if(!strreviewPointsList.equalsIgnoreCase("") && strreviewPointsList!=null){
+            holder.surveyEarn.setText("Points/Ticket No: "+strreviewPointsList+ " Points");
+        }
 
             if(!strsurveyIdList.equalsIgnoreCase("") && strsurveyIdList!=null){
                 holder.tv_serveyID.setText("SURVEY ID : "+strsurveyIdList);

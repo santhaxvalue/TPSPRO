@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.devlight:infinitecycleviewpager:1.0.2@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/infinitecycleviewpager-1.0.2.aar/8ed20bd05cef370baab8eb11be731d47/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/infinitecycleviewpager-1.0.2.aar/8ed20bd05cef370baab8eb11be731d47/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/infinitecycleviewpager-1.0.2.aar/8ed20bd05cef370baab8eb11be731d47/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/infinitecycleviewpager-1.0.2.aar/a692cfe7cddc8d75f890c60c81a24981/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/infinitecycleviewpager-1.0.2.aar/a692cfe7cddc8d75f890c60c81a24981/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/infinitecycleviewpager-1.0.2.aar/a692cfe7cddc8d75f890c60c81a24981/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/infinitecycleviewpager-1.0.2.aar/a692cfe7cddc8d75f890c60c81a24981/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.ganfra:material-spinner:2.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-spinner-2.0.0.aar/3070e8e26c2595779e305e0579edfe7e/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-spinner-2.0.0.aar/3070e8e26c2595779e305e0579edfe7e/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-spinner-2.0.0.aar/3070e8e26c2595779e305e0579edfe7e/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-spinner-2.0.0.aar/0df002be1f1071052b90c008a248f64a/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-spinner-2.0.0.aar/0df002be1f1071052b90c008a248f64a/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-spinner-2.0.0.aar/0df002be1f1071052b90c008a248f64a/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-spinner-2.0.0.aar/0df002be1f1071052b90c008a248f64a/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

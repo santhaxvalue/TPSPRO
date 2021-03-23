@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.joooonho:selectableroundedimageview:1.0.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/selectableroundedimageview-1.0.1.aar/0c45c0dd7a8c87b506452240008e5c9e/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/selectableroundedimageview-1.0.1.aar/0c45c0dd7a8c87b506452240008e5c9e/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/selectableroundedimageview-1.0.1.aar/0c45c0dd7a8c87b506452240008e5c9e/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/selectableroundedimageview-1.0.1.aar/f5d65e606e9e47cafb8afd16a36ff614/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/selectableroundedimageview-1.0.1.aar/f5d65e606e9e47cafb8afd16a36ff614/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/selectableroundedimageview-1.0.1.aar/f5d65e606e9e47cafb8afd16a36ff614/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/selectableroundedimageview-1.0.1.aar/f5d65e606e9e47cafb8afd16a36ff614/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/selectableroundedimageview-1.0.1.aar/f5d65e606e9e47cafb8afd16a36ff614/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
