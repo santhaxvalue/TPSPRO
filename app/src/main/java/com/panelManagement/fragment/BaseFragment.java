@@ -210,11 +210,15 @@ public abstract class BaseFragment extends Fragment implements RequestListener {
     public void onRequestCompleted(String response, int requestCode) {
         dismissDialog();
         Log.d("requestcode11112:","requestcode11112:"+requestCode);
+        Log.d("response2222:","response2222:"+response);
         JSONObject jsonObject = null;
         if (requestCode == REQUEST_GET_OPINION_POLL_QUESTIONS) {
+            Log.d("nitest1:","nitest1"+response);
             vLayout(response, requestCode);
         } else {
+            Log.d("nitest2:","nitest2"+response);
             try {
+                Log.d("nitest3:","nitest3"+response);
                 jsonObject = new JSONObject(response);
                 try {
 
@@ -274,10 +278,12 @@ public abstract class BaseFragment extends Fragment implements RequestListener {
                         }
                     } else {
                         Log.e("TPS_HTTP", "res " + response);
+                        Log.d("nitest4:","nitest4"+response);
                         vLayout(response, requestCode);
                     }
                 } catch (Exception e) {
                     if (e.getMessage().equals("No value for IsUserActive")) {
+                        Log.d("nitest5:","nitest5"+response);
                         vLayout(response, requestCode);
                     }
                 }
@@ -285,15 +291,21 @@ public abstract class BaseFragment extends Fragment implements RequestListener {
             } catch (JSONException e) {
                 Integer pointsinreviewcount = Integer.parseInt(AvailableSurveyFragment.txt_points_inreview_available.getText().toString());
                 if (requestCode == 1234) {
+
+                    Log.d("nitest6:","nitest6"+response);
                     vLayout(response, requestCode);
                 }
                 else if (requestCode == 12345) {
+                    Log.d("nitest7:","nitest7"+response);
+
                     vLayout(response, requestCode);
                 } else if (pointsinreviewcount == 0){
+                    Log.d("nitest8:","nitest8"+response);
                     vLayout(response, requestCode);
                 }
 
                 if (e.getMessage().equals("No value for IsUserActive")) {
+                    Log.d("nitest9:","nitest9"+response);
                     vLayout(response, requestCode);
                 }
             }
@@ -536,6 +548,7 @@ public abstract class BaseFragment extends Fragment implements RequestListener {
 
 
     }
+
 
     public abstract void vLayout(String res, int requestcode);
 

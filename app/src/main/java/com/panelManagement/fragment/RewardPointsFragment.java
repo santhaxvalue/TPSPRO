@@ -471,6 +471,7 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
 //    }
 
     private void showRedemptionHistory() {
+
         if (rewardsPointsData != null) {
             //   ((HomeActivity) getActivity())._secondaryFragment(PointsRedeemed.newInstance(), HomeActivity.REWARDSFRAGMENTKEY);
             Fragment fragment = RedemptionHistoryFragment.newInstance(rewardsPointsData);

@@ -70,6 +70,8 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
     private RecyclerView mRedeemRecycler;
     private EditText mRedeemPointsEdt;
 
+    RewardPointsModels rewardsPointsData = null;
+
 
 
 
@@ -237,6 +239,8 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
     @Override
     public void vLayout(String res, int requestcode) {
 
+
+
         switch (requestcode) {
 
             case Constants.REQUESTCODE_GENERALREWARDS:
@@ -382,36 +386,46 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
                 break;
 
             case Constants.REQUEST_AVAILABLE_POINTS:
-                RewardPointsModels rewardsPointsData = null;
+//                RewardPointsModels rewardsPointsData = null;
+//                try {
+//                    Log.e("GetIncentGeneralBuy",res.toString());
+//                    rewardsPointsData = new ParseJSonObject(getContext()).getRewardsPoints(new JSONObject(res));
+//                    JSONObject jsonObject = new JSONObject(res);
+//                    InformatePreferences.setStringPrefrence(getContext(), Constants.PREF_AVAILABLEPOINTS_, rewardsPointsData.getAvailablePoints());
+////                SurveyFloating.txt_points_redeemed.setText(rewardsPointsData.getAvailablePoints());
+//                    tvPointAvailable.setText(rewardsPointsData.getAvailablePoints());
+//                    tvPointReview.setText(rewardsPointsData.getPointsReview());
+//
+//                    int threshold = jsonObject.optInt("ThresholdPoints");
+//                    int availablePoints = jsonObject.optInt("AvailablePoints");
+//
+//                    if (availablePoints >= threshold) {
+//                        FragmentManager fm = getActivity().getSupportFragmentManager();
+//                        fm.popBackStack(HomeActivity.REDEEMFRAGMENTKEY, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+//                    } else {
+//                        FragmentManager fm = getActivity().getSupportFragmentManager();
+//                        fm.popBackStack(HomeActivity.REWARDSFRAGMENTKEY, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+//                    }
+//                    //getFragmentManager().popBackStack();
+//                } catch (JSONException e) {
+//                    e.printStackTrace();
+//                }
+
                 try {
-                    Log.e("GetIncentGeneralBuy",res.toString());
                     rewardsPointsData = new ParseJSonObject(getContext()).getRewardsPoints(new JSONObject(res));
-                    JSONObject jsonObject = new JSONObject(res);
-                    InformatePreferences.setStringPrefrence(getContext(), Constants.PREF_AVAILABLEPOINTS_, rewardsPointsData.getAvailablePoints());
-//                SurveyFloating.txt_points_redeemed.setText(rewardsPointsData.getAvailablePoints());
-                    tvPointAvailable.setText(rewardsPointsData.getAvailablePoints());
-                    tvPointReview.setText(rewardsPointsData.getPointsReview());
-
-                    int threshold = jsonObject.optInt("ThresholdPoints");
-                    int availablePoints = jsonObject.optInt("AvailablePoints");
-
-                    if (availablePoints >= threshold) {
-                        FragmentManager fm = getActivity().getSupportFragmentManager();
-                        fm.popBackStack(HomeActivity.REDEEMFRAGMENTKEY, FragmentManager.POP_BACK_STACK_INCLUSIVE);
-                    } else {
-                        FragmentManager fm = getActivity().getSupportFragmentManager();
-                        fm.popBackStack(HomeActivity.REWARDSFRAGMENTKEY, FragmentManager.POP_BACK_STACK_INCLUSIVE);
-                    }
-                    //getFragmentManager().popBackStack();
-                } catch (JSONException e) {
+                }catch (Exception e){
                     e.printStackTrace();
                 }
+
+                showRedemptionHistory(rewardsPointsData);
 
                 break;
 
             case Constants.GETGENERALREWARDSNEW_CODE:
                 Log.e("GETGENERALREWARDSNEWAPi",res);
-                showRedemptionHistory();
+//                showRedemptionHistory();
+
+                requestTypePost(Constants.GETINCENTIVEDETAILSMOBILE, new ParseJSonObject(getActivity()).getSessionObject(), Constants.REQUEST_AVAILABLE_POINTS);
 
                 break;
 
@@ -420,10 +434,10 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
         }
     }
 
-    private void showRedemptionHistory() {
-        if (RewardPointsFragment.rewardsPointsData != null) {
+    private void showRedemptionHistory(RewardPointsModels rewardsPointsData) {
+        if (rewardsPointsData != null) {
             //   ((HomeActivity) getActivity())._secondaryFragment(PointsRedeemed.newInstance(), HomeActivity.REWARDSFRAGMENTKEY);
-            Fragment fragment = RedemptionHistoryFragment.newInstance(RewardPointsFragment.rewardsPointsData);
+            Fragment fragment = RedemptionHistoryFragment.newInstance(rewardsPointsData);
             getActivity().findViewById(R.id.header_my_rewards).setVisibility(View.GONE);
             getActivity().findViewById(R.id.header_survey_and_redeem).setVisibility(View.GONE);
             getActivity().findViewById(R.id.header_redemption_history).setVisibility(View.VISIBLE);

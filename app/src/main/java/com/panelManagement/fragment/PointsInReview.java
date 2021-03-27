@@ -215,6 +215,7 @@ public class PointsInReview extends BaseFragment {
     public void vLayout(String res, int requestcode) {
 
         Log.d("requestcode1111:","requestcode1111:"+requestcode);
+        Log.d("response4444:","response4444:"+res);
 //        PointsInReviewModel pointsInReviewModel = new PointsInReviewModel();
 //        pointsInReviewModel.setSurveyName();
 
@@ -289,6 +290,7 @@ public class PointsInReview extends BaseFragment {
 //            ArrayList<String> surveyIdList = new ArrayList<>();
 //            ArrayList<String> SurveyCompletionDateList = new ArrayList<>();
 
+
             for (int i = 0; i < jsonarray.length(); i++) {
                 JSONObject jsonobject = jsonarray.getJSONObject(i);
                 String SurveyName = jsonobject.getString("SurveyName");
@@ -309,6 +311,11 @@ public class PointsInReview extends BaseFragment {
                 surveyIdList.add(SurveyId);
                 SurveyCompletionDateList.add(strSurveyCompletionDate);
             }
+
+            for(int i=0;i<surveyNameList.size();i++){
+                Log.d("surveryName:","surveyName:"+surveyNameList.get(i));
+            }
+
             emptyText.setVisibility(View.GONE);
             mListView.setLayoutManager(new LinearLayoutManager(context));
             mListView.setAdapter(new PointInReviewAdapter(getActivity(), rewardsarray,surveyNameList,reviewPointsList,ticketList,surveyIdList,SurveyCompletionDateList));

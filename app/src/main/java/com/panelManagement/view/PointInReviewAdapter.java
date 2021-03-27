@@ -152,10 +152,12 @@ public class PointInReviewAdapter extends RecyclerView.Adapter<PointInReviewAdap
     }*/
     @Override
     public int getItemCount() {
-        if (surveyNameList != null) {
-            _sortArrayByLatest();
-            return surveyNameList.size();
-        } else return 0;
+//        if (surveyNameList != null) {
+//            _sortArrayByLatest();
+//            return surveyNameList.size();
+//        } else return 0;
+
+        return surveyNameList.size();
     }
 
     private void _sortArrayByLatest() {
