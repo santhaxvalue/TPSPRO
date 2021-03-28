@@ -125,13 +125,20 @@ public class SurveyViewActivity extends Activity implements Listener {
     public void onBackPressed() {
 //		if (!mWebView.onBackPressed()) { return; }
         // check if this intent was fired from notification or not; if yes, finish this intent and start HomeActivity, else, proceed normally
-        if (isIntentFromNotification) {
-            Intent intent = new Intent(this, HomeActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-            startActivity(intent);
-            finish();
-        } else
-            super.onBackPressed();
+        //old code
+//        if (isIntentFromNotification) {
+//            Intent intent = new Intent(this, HomeActivity.class);
+//            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+//            startActivity(intent);
+//            finish();
+//        } else
+//            super.onBackPressed();
+        //new code
+        Intent intent = new Intent(this, HomeActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+        finish();
+
     }
 
     @Override
