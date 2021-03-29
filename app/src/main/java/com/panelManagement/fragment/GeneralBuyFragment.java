@@ -174,23 +174,35 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 
             case R.id.btn_submit:
 
+               Log.d("mSelectedValue:","mSelectedValue:"+mSelectedValue);
+                Log.d("mSelectedValue:","mSelectedValue:"+mSelectedValue.isInstantRedemptionEnabled());
+
                 try {
                     if (Utility.isConnectedToInternet(getActivity())) {
                         if (mSelectedValue != null) {
-                            if (mSelectedValue.isInstantRedemptionEnabled()) {
-                                if (!(TextUtils.isEmpty(mRedeemPointsEdt.getText().toString()))) {
-                                    int enteredRedeemPoints = Integer.parseInt(String.valueOf(mRedeemPointsEdt.getText()));
-                                    if (enteredRedeemPoints > 0 && enteredRedeemPoints <= Integer.parseInt(rewardPoints)) {
-                                        rewardPrice = mRedeemPointsEdt.getText().toString();
-                                        proceedToRedeem();
+
+                            //new code
+                            if(mSelectedValue.getDenominations().get(0).equals("0")) {
+                                mRedeemRecycler.setVisibility(View.INVISIBLE);
+                            }else {
+                                //new code
+
+                                if (mSelectedValue.isInstantRedemptionEnabled()) {
+                                    if (!(TextUtils.isEmpty(mRedeemPointsEdt.getText().toString()))) {
+                                        int enteredRedeemPoints = Integer.parseInt(String.valueOf(mRedeemPointsEdt.getText()));
+                                        if (enteredRedeemPoints > 0 && enteredRedeemPoints <= Integer.parseInt(rewardPoints)) {
+                                            rewardPrice = mRedeemPointsEdt.getText().toString();
+                                            proceedToRedeem();
+                                        } else {
+                                            showErrorAlert("", getString(R.string.error_msg_for_invalid_redeem_points));
+                                        }
                                     } else {
                                         showErrorAlert("", getString(R.string.error_msg_for_invalid_redeem_points));
                                     }
                                 } else {
-                                    showErrorAlert("", getString(R.string.error_msg_for_invalid_redeem_points));
+                                    proceedToRedeem();
                                 }
-                            } else
-                                proceedToRedeem();
+                            }
                         } else {
                             showErrorAlert("", getString(R.string.msg_select_any_coupoun));
                         }
@@ -200,6 +212,7 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
+
 
                 break;
         }
@@ -252,17 +265,27 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 
                     lap();
 
-                    //Take the reward from the editText based on the condition
-                    if (mSelectedValue.isInstantRedemptionEnabled()) {
-                        mRedeemPointsEdt.setVisibility(View.VISIBLE);
-                        mRedeemRecycler.setVisibility(View.GONE);
-                    } else {
-                        mRedeemPointsEdt.setVisibility(View.GONE);
-                        mRedeemRecycler.setVisibility(View.VISIBLE);
+                    //new code
+                    if(mSelectedValue.getDenominations().get(0).equals("0")) {
+                        mRedeemRecycler.setVisibility(View.INVISIBLE);
+                    }else {
+                        //new code
 
-                        rewardPrice = mSelectedValue.getDenominations().get(0);
-                        setRedeemPointsBtn();
+
+                        //Take the reward from the editText based on the condition
+                        if (mSelectedValue.isInstantRedemptionEnabled()) {
+                            mRedeemPointsEdt.setVisibility(View.VISIBLE);
+                            mRedeemRecycler.setVisibility(View.GONE);
+                        } else {
+                            mRedeemPointsEdt.setVisibility(View.GONE);
+                            mRedeemRecycler.setVisibility(View.VISIBLE);
+
+                            rewardPrice = mSelectedValue.getDenominations().get(0);
+                            setRedeemPointsBtn();
+                        }
+                        //new code
                     }
+                    //new code
 
                     //multiViewAdapter = new MultiViewAdapter(getChildFragmentManager(), getContext(), redeemarray);
                     //carouselPicker.setAdapter(multiViewAdapter);
@@ -466,19 +489,28 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
         this.mSelectedValue = redeemarray.get(position);
         mRedeemPointsEdt.setText("");
 
-        //Take the reward from the editText based on the condition
-        if (mSelectedValue.isInstantRedemptionEnabled()) {
-            mRedeemPointsEdt.setVisibility(View.VISIBLE);
-            mRedeemRecycler.setVisibility(View.GONE);
-        } else {
-            mRedeemRecycler.setVisibility(View.VISIBLE);
-            mRedeemPointsEdt.setVisibility(View.GONE);
-            rewardPrice = mSelectedValue.getDenominations().get(0);
-            setRedeemPointsBtn();
-            if (mAdapter != null) {
-                mAdapter.updateListItems(mSelectedValue.getDenominations());
+        //new code
+        if(mSelectedValue.getDenominations().get(0).equals("0")) {
+            mRedeemRecycler.setVisibility(View.INVISIBLE);
+        }else {
+            //new code
+
+            //Take the reward from the editText based on the condition
+            if (mSelectedValue.isInstantRedemptionEnabled()) {
+                mRedeemPointsEdt.setVisibility(View.VISIBLE);
+                mRedeemRecycler.setVisibility(View.GONE);
+            } else {
+                mRedeemRecycler.setVisibility(View.VISIBLE);
+                mRedeemPointsEdt.setVisibility(View.GONE);
+                rewardPrice = mSelectedValue.getDenominations().get(0);
+                setRedeemPointsBtn();
+                if (mAdapter != null) {
+                    mAdapter.updateListItems(mSelectedValue.getDenominations());
+                }
             }
+            //new code
         }
+        //new code
     }
 
     @Override

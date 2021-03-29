@@ -8,6 +8,7 @@ import android.support.annotation.RequiresApi;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -161,7 +162,24 @@ public class RedeemFragment extends BaseFragment implements OnClickListener {
 
             case R.id.general_buy:
                 String minipoint_aftergenralbuy = InformatePreferences.getStringPrefrence(getActivity(), Constants.PREF_AVAILABLEPOINTS_);
-                minimumPOints = Integer.parseInt(minipoint_aftergenralbuy);
+
+                Log.d("strvalue1:","strvalue1:"+minipoint_aftergenralbuy);
+
+
+
+                //new code
+                if(minipoint_aftergenralbuy.contains(".")) {
+                    String[] strvalue = minipoint_aftergenralbuy.split(".");
+                    String strvalue1 = strvalue[0];
+                    minimumPOints = Integer.parseInt(strvalue1);
+
+                    Log.d("strvalue11:", "strvalue11:" + strvalue);
+                    Log.d("strvalue11:", "strvalue11:" + strvalue1);
+                }else {
+
+                    //old code
+                    minimumPOints = Integer.parseInt(minipoint_aftergenralbuy);
+                }
 
                 if((InformatePreferences.getBoolean(context, Constants.IS_REDEEM_INSTANTLY,false)))
                     minimumGeneralPoints = 500;
