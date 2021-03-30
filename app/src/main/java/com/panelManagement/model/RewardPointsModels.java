@@ -12,12 +12,14 @@ public class RewardPointsModels implements Serializable {
     String spentPoints = "";
     String availablePoints = "0";
     String PointsReview = "0";
+    String PointsRejected = "0";
     ArrayList<EarnedPointHistory> arrayEarnedPoint = null;
     ArrayList<RedeemPointHistory> arrayRedeemPoint = null;
 
     public RewardPointsModels(String earnedPoints, String spentPoints,
                               String availablePoints,
                               String PointsReview,
+                              String PointsRejected,
                               ArrayList<EarnedPointHistory> arrayEarnedPoint,
                               ArrayList<RedeemPointHistory> arrayRedeemPoint) {
         super();
@@ -25,6 +27,7 @@ public class RewardPointsModels implements Serializable {
         this.spentPoints = spentPoints;
         this.availablePoints = availablePoints;
         this.PointsReview = PointsReview;
+        this.PointsRejected = PointsRejected;
         this.arrayEarnedPoint = arrayEarnedPoint;
         this.arrayRedeemPoint = arrayRedeemPoint;
     }
@@ -51,6 +54,12 @@ public class RewardPointsModels implements Serializable {
         if (TextUtils.isEmpty(PointsReview))
             return "0";
         return String.valueOf((int) Double.parseDouble(PointsReview));
+    }
+
+    public String getPointsRejected() {
+        if (TextUtils.isEmpty(PointsRejected))
+            return "0";
+        return String.valueOf((int) Double.parseDouble(PointsRejected));
     }
 
 

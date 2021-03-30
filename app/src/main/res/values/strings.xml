@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="tv_points_in_reject_title">"POINTS REJECTED"</string>
+    
     <string name="txt_redemption_request">Redemption request of</string>
     //added by niyaj
     <string name="txt_points_processed_successfully">points processed successfully.</string>
@@ -33,6 +35,9 @@
     <string name="txt_PointsInReview">"   POINTS  \n  IN REVIEW"</string>
     <string name="tv_rewards_history">"REWARDS HISTORY"</string>
     <string name="tv_points_in_review">"SURVEYS PENDING FOR VERIFICATION"</string>
+
+
+
     <string name="txt_mobile_verification">"Mobile verification"</string>
     <string name="txt_mobile_number_verify">"You need to verify your mobile number in order to receive the redemption gift"</string>
     <string name="txt_mobilenumber">"Mobile number"</string>

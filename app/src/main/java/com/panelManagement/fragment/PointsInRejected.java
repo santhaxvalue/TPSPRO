@@ -137,8 +137,8 @@ public class PointsInRejected extends BaseFragment {
             //     txtValuePointAvailable = view.findViewById(R.id.txt_points_available);
 
             if (rewardsPointsData != null) {
-                txtValuePointEarned12.setText(rewardsPointsData.getEarnedPoints());
-                txt_points_earned_reward_history12.setText(rewardsPointsData.getEarnedPoints());
+                txtValuePointEarned12.setText(rewardsPointsData.getPointsRejected());
+                txt_points_earned_reward_history12.setText(rewardsPointsData.getPointsRejected());
 //            PointsEarned.txt_points_earned_reward_history.setText(rewardsPointsData.getEarnedPoints());
                 // txtValuePointRedeem.setText(rewardsPointsData.getSpentPoints());
                 //txtValuePointAvailable.setText(rewardsPointsData.getAvailablePoints().substring(0, rewardsPointsData.getAvailablePoints().indexOf(".")));
@@ -168,24 +168,24 @@ public class PointsInRejected extends BaseFragment {
                 @Override
                 public void onClick(View view) {
 //                    Toast.makeText(getActivity(), ",mfbdn,jfvdhfv", Toast.LENGTH_SHORT).show();
-                    mListView1.setVisibility(View.GONE);
-                    head1.setVisibility(View.GONE);
-                    pirCardView1.setVisibility(View.VISIBLE);
-                    Animation hide = AnimationUtils.loadAnimation(context, R.anim.slide_up);
-                    hide.setDuration(1000);
-                    pirCardView1.startAnimation(hide);
+//                    mListView1.setVisibility(View.GONE);
+//                    head1.setVisibility(View.GONE);
+//                    pirCardView1.setVisibility(View.VISIBLE);
+//                    Animation hide = AnimationUtils.loadAnimation(context, R.anim.slide_up);
+//                    hide.setDuration(1000);
+//                    pirCardView1.startAnimation(hide);
                 }
             });
 
             tt.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    mListView1.setVisibility(View.GONE);
-                    head1.setVisibility(View.GONE);
-                    pirCardView1.setVisibility(View.VISIBLE);
-                    Animation hide = AnimationUtils.loadAnimation(context, R.anim.slide_up);
-                    hide.setDuration(1000);
-                    pirCardView1.startAnimation(hide);
+//                    mListView1.setVisibility(View.GONE);
+//                    head1.setVisibility(View.GONE);
+//                    pirCardView1.setVisibility(View.VISIBLE);
+//                    Animation hide = AnimationUtils.loadAnimation(context, R.anim.slide_up);
+//                    hide.setDuration(1000);
+//                    pirCardView1.startAnimation(hide);
                 }
             });
 
@@ -193,12 +193,12 @@ public class PointsInRejected extends BaseFragment {
             getActivity().findViewById(R.id.header_pointsinrejected).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    mListView1.setVisibility(View.GONE);
-                    head1.setVisibility(View.GONE);
-                    pirCardView1.setVisibility(View.VISIBLE);
-                    Animation hide = AnimationUtils.loadAnimation(context, R.anim.slide_up);
-                    hide.setDuration(1000);
-                    pirCardView1.startAnimation(hide);
+//                    mListView1.setVisibility(View.GONE);
+//                    head1.setVisibility(View.GONE);
+//                    pirCardView1.setVisibility(View.VISIBLE);
+//                    Animation hide = AnimationUtils.loadAnimation(context, R.anim.slide_up);
+//                    hide.setDuration(1000);
+//                    pirCardView1.startAnimation(hide);
 
                 }
             });
@@ -258,10 +258,12 @@ public class PointsInRejected extends BaseFragment {
             head1.setVisibility(View.GONE);
             getActivity().findViewById(R.id.img_i1).setVisibility(View.GONE);
             getActivity().findViewById(R.id.img_ii1).setVisibility(View.VISIBLE);
+            emptyText1.setVisibility(View.VISIBLE);
         }else {
             getPointsInReviewListValue(res);
             head1.setVisibility(View.VISIBLE);
             getActivity().findViewById(R.id.img_ii1).setVisibility(View.GONE);
+            emptyText1.setVisibility(View.GONE);
         }
 
     }

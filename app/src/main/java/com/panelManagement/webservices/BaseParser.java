@@ -108,9 +108,9 @@ public class BaseParser {
         if (TextUtils.isEmpty(spentPoints) || spentPoints.equalsIgnoreCase("null"))
             spentPoints = "0";
 
-        String PointsReview = jsonObject.getString("PointsReview");
-        if (TextUtils.isEmpty(PointsReview) || PointsReview.equalsIgnoreCase("null"))
-            PointsReview = "0";
+//        String PointsReview = jsonObject.getString("PointsReview");
+//        if (TextUtils.isEmpty(PointsReview) || PointsReview.equalsIgnoreCase("null"))
+//            PointsReview = "0";
         String availablePoints = jsonObject.getString("AvailablePoints");
         if (TextUtils.isEmpty(availablePoints) || availablePoints.equalsIgnoreCase("null"))
             availablePoints = "0";
@@ -118,6 +118,10 @@ public class BaseParser {
         String PointsReviews = jsonObject.getString("PointsReview");
         if (TextUtils.isEmpty(PointsReviews) || PointsReviews.equalsIgnoreCase("null"))
             PointsReviews = "0";
+
+        String PointsRejected = jsonObject.getString("PointsReject");
+        if (TextUtils.isEmpty(PointsRejected) || PointsRejected.equalsIgnoreCase("null"))
+            PointsRejected = "0";
 
         boolean IsMobileVerified = jsonObject.getBoolean("IsMobileVerified");
 
@@ -170,7 +174,7 @@ public class BaseParser {
             arrayRedeemPoint.add(new RedeemPointHistory(innerObject.getString("Name"), innerObject.getString("TransactionDate"),
                     innerObject.getInt("Points"), voucherCode, RedemptionStatus, RedeemChoices, ExpiryDate, imageurl));
         }
-        return new RewardPointsModels(earnedPoints, spentPoints, availablePoints,PointsReviews, arrayEarnedPoint, arrayRedeemPoint);
+        return new RewardPointsModels(earnedPoints, spentPoints, availablePoints,PointsReviews,PointsRejected, arrayEarnedPoint, arrayRedeemPoint);
     }
 
     public ArrayList<ProfilerModels> getProfilerInfo(JSONObject jsonObject) throws JSONException {

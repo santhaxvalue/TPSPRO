@@ -296,8 +296,10 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
                 try {
                     JSONObject object = new JSONObject(res);
                     if (object.getBoolean("Status")) {
+                        Log.d("mobile122:","mobile122");
                         encrypted_mobile_number = object.getString("Message");
                     } else {
+                        Log.d("mobile123:","mobile123");
                         showErrorAlert(" ", object.getString("Message"));
                     }
                 } catch (JSONException e) {

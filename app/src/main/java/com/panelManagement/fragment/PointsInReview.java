@@ -138,10 +138,14 @@ public class PointsInReview extends BaseFragment {
             if (rewardsPointsData != null) {
                 txtValuePointEarned.setText(rewardsPointsData.getEarnedPoints());
                 txt_points_earned_reward_history.setText(rewardsPointsData.getEarnedPoints());
+
+
 //            PointsEarned.txt_points_earned_reward_history.setText(rewardsPointsData.getEarnedPoints());
                 // txtValuePointRedeem.setText(rewardsPointsData.getSpentPoints());
                 //txtValuePointAvailable.setText(rewardsPointsData.getAvailablePoints().substring(0, rewardsPointsData.getAvailablePoints().indexOf(".")));
             }
+
+
 
             mListView = view.findViewById(R.id.lv_survey);
             emptyText = view.findViewById(R.id.empty_text);
@@ -253,10 +257,12 @@ public class PointsInReview extends BaseFragment {
             head.setVisibility(View.GONE);
             getActivity().findViewById(R.id.img_i).setVisibility(View.GONE);
             getActivity().findViewById(R.id.img_ii).setVisibility(View.VISIBLE);
+            emptyText.setVisibility(View.VISIBLE);
         }else {
             getPointsInReviewListValue(res);
             head.setVisibility(View.VISIBLE);
             getActivity().findViewById(R.id.img_ii).setVisibility(View.GONE);
+            emptyText.setVisibility(View.GONE);
         }
 
     }

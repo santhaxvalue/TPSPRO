@@ -167,16 +167,12 @@ public class RedeemFragment extends BaseFragment implements OnClickListener {
 
                 Log.d("strvalue1:","strvalue1:"+minipoint_aftergenralbuy);
 
-
-
                 //new code
                 if(minipoint_aftergenralbuy.contains(".")) {
-                    String[] strvalue = minipoint_aftergenralbuy.split(".");
-                    String strvalue1 = strvalue[0];
-                    minimumPOints = Integer.parseInt(strvalue1);
+                   String strvalue = minipoint_aftergenralbuy.substring(0,minipoint_aftergenralbuy.indexOf("."));
+                    minimumPOints = Integer.parseInt(strvalue);
 
                     Log.d("strvalue11:", "strvalue11:" + strvalue);
-                    Log.d("strvalue11:", "strvalue11:" + strvalue1);
                 }else {
 
                     //old code
