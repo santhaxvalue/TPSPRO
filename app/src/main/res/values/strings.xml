@@ -181,7 +181,13 @@
     <string name="txt_redeemed_point"> "Points \n Redeemed"</string>
     <string name="txt_aval_point">"Points \n Available"</string>
     <string name="txt_points_in_review">"Points\n in Review"</string>
+
+    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+
     <string name="txt_pointin_review">"Points in Review"</string>
+
+    <string name="txt_pointin_rejected">"Points Rejected"</string>
+
     <string name="txt_redemption">"Redemption"</string>
     <string name="msg_refreshing">"Refreshing survey list"</string>
     <string name="msg_open_survey">"Do you want to open a survey?"</string>

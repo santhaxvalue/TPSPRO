@@ -29,6 +29,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.facebook.login.LoginManager;
+import com.google.gson.Gson;
 import com.panelManagement.activity.R;
 import com.panelManagement.activity.SignUpActivity;
 import com.panelManagement.activity.SplashScreenActivity;
@@ -301,6 +302,9 @@ public abstract class BaseFragment extends Fragment implements RequestListener {
                     vLayout(response, requestCode);
                 } else if (pointsinreviewcount == 0){
                     Log.d("nitest8:","nitest8"+response);
+                    vLayout(response, requestCode);
+                } else if(requestCode == 12340){
+                    Log.d("nitest34:","nitest34:"+response);
                     vLayout(response, requestCode);
                 }
 

@@ -66,6 +66,7 @@ public class NotificationLogFragment extends BaseFragment implements OnBackClick
         mActivity.findViewById(R.id.header_redemption_history).setVisibility(View.GONE);
         mActivity.findViewById(R.id.header_reward_history).setVisibility(View.GONE);
         mActivity.findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
+        mActivity.findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
         mParseJsonObject = new ParseJSonObject(getActivity());
 
         initViews(view);

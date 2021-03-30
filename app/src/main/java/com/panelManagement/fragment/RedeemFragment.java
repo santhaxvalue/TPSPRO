@@ -95,6 +95,8 @@ public class RedeemFragment extends BaseFragment implements OnClickListener {
         getActivity().findViewById(R.id.header_reward_history).setVisibility(View.GONE);
         getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
 
+        getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
+
         tvPointAvailable = getActivity().findViewById(R.id.txt_points_redeemed_available);
         String minipoints = InformatePreferences.getStringPrefrence(getActivity(), Constants.PREF_AVAILABLEPOINTS_);
         double minimum = Double.parseDouble(minipoints);

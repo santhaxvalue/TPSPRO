@@ -70,6 +70,10 @@
     <string name="txt_pointin_review">"Points à revoir"</string>
     <string name="txt_points_in_review">"Points à revoir"</string>
 
+    <string name="txt_pointin_rejected">"Points Rejected"</string>
+
+    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+
     <string name="api_msg_90days">Vous pouvez participer au sondage une fois tous les 90 jours.</string>
     <string name="api_nosurveyavailable">Aucun sondage n\'est disponible pour vous à l\'heure actuelle. Veuillez réessayer plus tard!</string>
     <string name="api_tps_account_linked">Le compte TPS est lié aux médias sociaux</string>

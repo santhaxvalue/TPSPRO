@@ -141,6 +141,7 @@ public class AvailableSurveyFragment extends BaseFragment implements View.OnClic
         getActivity().findViewById(R.id.header_redemption_history).setVisibility(View.GONE);
         getActivity().findViewById(R.id.header_reward_history).setVisibility(View.GONE);
         getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
+        getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
         getActivity().findViewById(R.id.iv_back_left_arrow).setClickable(true);
         FrameLayout layout = getActivity().findViewById(R.id.main_container_fragment);
         Utility.setMargins(context, layout, Utility.getDp(context, 36));

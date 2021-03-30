@@ -70,6 +70,10 @@
     <string name="txt_pointin_review">"İncelemedeki Puanlar"</string>
     <string name="txt_points_in_review">"İncelemedeki Puanlar"</string>
 
+    <string name="txt_pointin_rejected">"Points Rejected"</string>
+
+    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+
     <string name="api_msg_90days">"Sadece 90 günde bir ankete katılabilirsiniz."</string>
     <string name="api_nosurveyavailable">"Şu anda sizin için bir anket yok. Lütfen daha sonra tekrar deneyiniz!"</string>
     <string name="api_tps_account_linked">"TPS hesabı Sosyal medya ile bağlantılı"</string>

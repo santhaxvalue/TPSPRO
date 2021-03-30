@@ -69,6 +69,10 @@
     <string name="txt_pointin_review">" 核查中积分"</string>
     <string name="txt_points_in_review">" 核查中积分"</string>
 
+    <string name="txt_pointin_rejected">"Points Rejected"</string>
+
+    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+
     <string name="api_msg_90days">"您只能在90天内进行一次调查。"</string>
     <string name="api_nosurveyavailable">"目前没有针对您的调查。请稍后再试！"</string>
     <string name="api_tps_account_linked">"TPS帐户与社交媒体相关联"</string>

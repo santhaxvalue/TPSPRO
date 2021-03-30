@@ -301,6 +301,8 @@ public class QuickPollQuestionsFragment extends BaseFragment implements OnBackCl
         getActivity().findViewById(R.id.header_reward_history).setVisibility(View.GONE);
         getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
 
+        getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
+
         //Avoids overlap while navigated from FAQ's or ContactUs Page
         FrameLayout layout = getActivity().findViewById(R.id.main_container_fragment);
         ViewGroup.MarginLayoutParams params = (ViewGroup.MarginLayoutParams) layout.getLayoutParams();

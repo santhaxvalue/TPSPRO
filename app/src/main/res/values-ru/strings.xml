@@ -69,6 +69,10 @@
     <string name="txt_pointin_review">"Баллы на проверке"</string>
     <string name="txt_points_in_review">"Баллы на проверке"</string>
 
+    <string name="txt_pointin_rejected">"Points Rejected"</string>
+
+    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+
     <string name="api_msg_90days">"Вы можете пройти опрос только один раз за 90 дней."</string>
     <string name="api_nosurveyavailable">"В настоящее время вам не доступен опрос. Пожалуйста, попробуйте позже!"</string>
     <string name="api_tps_account_linked">"Аккаунт TPS связан с социальными сетями"</string>

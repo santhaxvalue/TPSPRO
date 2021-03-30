@@ -172,6 +172,7 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
         getActivity().findViewById(R.id.header_redemption_history).setVisibility(View.GONE);
         getActivity().findViewById(R.id.header_reward_history).setVisibility(View.GONE);
         getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
+        getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
         getActivity().findViewById(R.id.iv_back_left_arrow).setClickable(true);
         FrameLayout layout = getActivity().findViewById(R.id.main_container_fragment);
         Utility.setMargins(context, layout, Utility.getDp(context, 60));
@@ -179,6 +180,9 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
         view.findViewById(R.id.rewardBtnRedeem).setOnClickListener(this);
         view.findViewById(R.id.rewardBtnredemtion).setOnClickListener(this);
         view.findViewById(R.id.pointsinreviewCard).setOnClickListener(this);
+        //new code
+        view.findViewById(R.id.pointsinrerejectedCard).setOnClickListener(this);
+        //new code
         view.findViewById(R.id.btn_invite).setOnClickListener(this);
         HomeActivity.setRewardsBackground();
         txt_points_earned = getActivity().findViewById(R.id.txt_points_earned);
@@ -259,6 +263,9 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
             case R.id.pointsinreviewCard:
                 showPointsReview();
                 break;
+            case R.id.pointsinrerejectedCard:
+                showPointsRejected();
+                break;
         }
     }
 
@@ -291,6 +298,7 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
                     getActivity().findViewById(R.id.header_redemption_history).setVisibility(View.GONE);
                     getActivity().findViewById(R.id.header_reward_history).setVisibility(View.GONE);
                     getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
+                    getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
                     //  getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.second_container, SurveyFloating.newInstance(""), SECOND_CONTAINER).commit();
                     getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_container_fragment, fragment).addToBackStack(HomeActivity.REWARDSFRAGMENTKEY).commit();
 
@@ -480,6 +488,7 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
             getActivity().findViewById(R.id.header_redemption_history).setVisibility(View.VISIBLE);
             getActivity().findViewById(R.id.header_reward_history).setVisibility(View.GONE);
             getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
+            getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_container_fragment, fragment).addToBackStack(HomeActivity.REWARDSFRAGMENTKEY).commit();
         } else {
             showErrorAlert("", "Please earn points by attending surveys.");
@@ -494,6 +503,7 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
             getActivity().findViewById(R.id.header_survey_and_redeem).setVisibility(View.GONE);
             getActivity().findViewById(R.id.header_redemption_history).setVisibility(View.GONE);
             getActivity().findViewById(R.id.header_reward_history).setVisibility(View.VISIBLE);
+            getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
             Fragment fragment = RewardHistoryFragment.newInstance(rewardsPointsData);
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_container_fragment, fragment).addToBackStack(HomeActivity.REWARDSFRAGMENTKEY).commit();
         } else {
@@ -513,7 +523,28 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
 
             getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.VISIBLE);
 
+            getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
+
             Fragment fragment = PointsInReview.newInstance(rewardsPointsData);
+            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_container_fragment, fragment).addToBackStack(HomeActivity.REWARDSFRAGMENTKEY).commit();
+        } else {
+            showErrorAlert("", "Please earn points by attending surveys.");
+            Log.e("rewards history", "Empty");
+        }
+    }
+
+    private void showPointsRejected() {
+        if (rewardsPointsData != null) {
+            //    ((HomeActivity) getActivity())._secondaryFragment(PointsEarned.newInstance(), HomeActivity.REWARDSFRAGMENTKEY);
+            getActivity().findViewById(R.id.header_my_rewards).setVisibility(View.GONE);
+            getActivity().findViewById(R.id.header_survey_and_redeem).setVisibility(View.GONE);
+            getActivity().findViewById(R.id.header_redemption_history).setVisibility(View.GONE);
+            getActivity().findViewById(R.id.header_reward_history).setVisibility(View.GONE);
+            getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
+            getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.VISIBLE);
+
+
+            Fragment fragment = PointsInRejected.newInstance(rewardsPointsData);
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_container_fragment, fragment).addToBackStack(HomeActivity.REWARDSFRAGMENTKEY).commit();
         } else {
             showErrorAlert("", "Please earn points by attending surveys.");
@@ -700,6 +731,7 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
             getActivity().findViewById(R.id.header_redemption_history).setVisibility(View.GONE);
             getActivity().findViewById(R.id.header_reward_history).setVisibility(View.GONE);
             getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
+            getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
            // Fragment mFragment = RedeemFragment.newInstance(rewardsPointsData);
             FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
             FragmentTransaction transaction = fragmentManager.beginTransaction();

@@ -453,6 +453,11 @@
     <string name="your_VoucherCode" translatable="false">Kod Baucar anda ialah</string>
     <string name="redemptionRevoke">Setelah membuat penebusan, ia tidak boleh diputarkan kembali/dibatalkan</string>
     <string name="txt_points_in_review">Mata dalam Semakan</string>
+
+    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+
     <string name="click_yes">Click Yes to confirm your voucher selection. Please note that you will not be allowed to change the selection once made.</string>
     <string name="txt_pointin_review">Mata dalam Semakan</string>
+
+    <string name="txt_pointin_rejected">"Points Rejected"</string>
 </resources>

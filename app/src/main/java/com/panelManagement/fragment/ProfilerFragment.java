@@ -86,6 +86,8 @@ public class ProfilerFragment extends BaseFragment implements OnClickListener, O
             getActivity().findViewById(R.id.header_reward_history).setVisibility(View.GONE);
             getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
 
+            getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
+
             getActivity().findViewById(R.id.toolbar_main).setVisibility(View.VISIBLE);
             getActivity().findViewById(R.id.profile_image).setVisibility(View.VISIBLE);
             getActivity().findViewById(R.id.user_name).setVisibility(View.VISIBLE);

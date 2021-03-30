@@ -466,6 +466,7 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
             getActivity().findViewById(R.id.header_redemption_history).setVisibility(View.VISIBLE);
             getActivity().findViewById(R.id.header_reward_history).setVisibility(View.GONE);
             getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
+            getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_container_fragment, fragment).addToBackStack(HomeActivity.REWARDSFRAGMENTKEY).commit();
         } else {
             showErrorAlert("", "Please earn points by attending surveys.");

@@ -31,4 +31,10 @@
         android:id="@+id/header_pointsinreview"
         layout="@layout/header_pointsinreview"
         android:visibility="gone" />
+
+    <!--pointsinrejected-->
+    <include
+        android:id="@+id/header_pointsinrejected"
+        layout="@layout/header_pointsinrejected"
+        android:visibility="gone" />
 </FrameLayout>

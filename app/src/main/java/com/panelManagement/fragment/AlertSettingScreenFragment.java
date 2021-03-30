@@ -71,6 +71,7 @@ public class AlertSettingScreenFragment extends BaseFragment implements OnClickL
         mActivity.findViewById(R.id.header_redemption_history).setVisibility(View.GONE);
         mActivity.findViewById(R.id.header_reward_history).setVisibility(View.GONE);
         mActivity.findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
+        getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
         mActivity.findViewById(R.id.iv_back_left_arrow).setClickable(true);
         mActivity.findViewById(R.id.iv_back_left_arrow).setClickable(true);
         FrameLayout layout = getActivity().findViewById(R.id.main_container_fragment);

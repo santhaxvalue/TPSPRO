@@ -48,6 +48,7 @@ public class MatchThePuzzleWebViewFragment extends Fragment {
         getActivity().findViewById(R.id.header_redemption_history).setVisibility(View.GONE);
         getActivity().findViewById(R.id.header_reward_history).setVisibility(View.GONE);
         getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
+        getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
         browser = view.findViewById(R.id.webview);
         // browser.setWebViewClient(new AlertTnCFragment.MyBrowser());
         browser.loadUrl(url);

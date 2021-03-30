@@ -39,6 +39,10 @@
     <string name="txt_pointin_review">"Mata dalam Semakan"</string>
     <string name="txt_points_in_review">"Mata dalam Semakan"</string>
 
+    <string name="txt_pointin_rejected">"Points Rejected"</string>
+
+    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+
     <string name="signupcomplete_thanks">Terima kasih. \nAnda telah berjaya didaftarkan.</string>
     <string name="signupcomplete_logincred">Kelayakan log masuk anda telah dihantar ke id e-mel berdaftar anda.</string>
     <string name="signupcomplete_note">Nota: Lakukan merujuk folder spam dan promosi untuk e-mel kami jika anda tidak menjumpai peti masuk anda.</string>

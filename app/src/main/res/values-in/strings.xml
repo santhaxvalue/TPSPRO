@@ -478,5 +478,10 @@
     <string name="redemptionRevoke">Setelah membuat penebusan, ia tidak boleh diputarkan kembali/dibatalkan</string>
     <string name="txt_pointin_review">Poin dalam Peninjauan</string>
     <string name="txt_points_in_review">Poin dalam Peninjauan</string>
+
+    <string name="txt_pointin_rejected">"Points Rejected"</string>
+
+    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+
     <string name="click_yes">Click Yes to confirm your voucher selection. Please note that you will not be allowed to change the selection once made.</string>
 </resources>

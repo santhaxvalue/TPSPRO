@@ -115,6 +115,8 @@ public class Constants {
     public static final String API_STATIC_PAGE_CONTENT = BASEURL + "StaticPageContent";
     public static final String API_SURVEY_POINTS_REVIEW = BASEURL + "SurveyPointsReview";
 
+    public static final String API_SURVEY_POINTS_REJECTED = BASEURL + "SurveyPointsRejects";
+
     /**
      * Get the Content Type
      */
@@ -164,6 +166,7 @@ public class Constants {
     public static final int REQUESTCODE_PANELIST_SAVE = 98;
     public static final int REQUESTCODE_SAVEMOBILE = 14;
     public static final int REQUESTCODE_SURVEYPOINTSREVIEW = 1234;
+    public static final int REQUESTCODE_SURVEYPOINTSREJECTED = 12340;
     public static final int REQUESTCODE_SURVEYPOINTSREVIEWS = 12345;
     public static final int REQUESTCODE_ISVALIDUSER = 15;
     public static final int REQUESTCODE_SAVEPROFILER = 16;

@@ -8,7 +8,12 @@
     <string name="lbl_privacy_statement">Datenschutzerklärung</string>
 
     <string name="txt_points_in_review">"Punkte in Überprüfung"</string>
+
+    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+
     <string name="txt_pointin_review">"Punkte in Überprüfung"</string>
+
+    <string name="txt_pointin_rejected">"Points Rejected"</string>
 
     <string name="txt_redemption_request">Einlösungsanforderung von</string>
     //added by niyaj

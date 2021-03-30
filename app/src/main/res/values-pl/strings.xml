@@ -67,7 +67,11 @@
     <string name="thanks_dialog_txt">"Dziękujemy za wiadomość do nas! Wkrótce się z tobą skontaktujemy."</string>
 
     <string name="txt_pointin_review">"Punkty w trakcie weryfikacji"</string>
+
+    <string name="txt_pointin_rejected">"Points Rejected"</string>
     <string name="txt_points_in_review">"Punkty w trakcie weryfikacji"</string>
+
+    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
 
     <string name="api_msg_90days">"Ankietę możesz wypełnić tylko raz w ciągu 90 dni."</string>
     <string name="api_nosurveyavailable">"Obecnie nie masz dostępu do ankiety. Spróbuj ponownie później!"</string>

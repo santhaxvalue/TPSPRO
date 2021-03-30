@@ -34,6 +34,10 @@
     <string name="txt_pointin_review">"Points in Review"</string>
     <string name="txt_points_in_review">"Points in Review"</string>
 
+    <string name="txt_pointin_rejected">"Points Rejected"</string>
+
+    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+
     <!-- Signup implementation Strings -->
     <string name="SignUp">SIGN UP</string>
     <string name="SignIn">SIGN IN</string>

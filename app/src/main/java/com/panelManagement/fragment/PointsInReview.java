@@ -110,11 +110,18 @@ public class PointsInReview extends BaseFragment {
             jsonObject.put("UserId", InformatePreferences.getStringPrefrence(context, Constants.PREF_ID));
             jsonObject.put("LanguageCulture", InformatePreferences.getStringPrefrence(context, Constants.PREF_LOCALECODE));
 
+            JSONObject jsonObject1 = new JSONObject();
+            jsonObject1.put("Userid", InformatePreferences.getStringPrefrence(context, Constants.PREF_ID));
+            jsonObject1.put("LanguageCulture", InformatePreferences.getStringPrefrence(context, Constants.PREF_LOCALECODE));
+
             Log.d("userid1:","userid1:"+ InformatePreferences.getStringPrefrence(context, Constants.PREF_ID));
             Log.d("userid11:","userid11:"+InformatePreferences.getStringPrefrence(context, Constants.PREF_LOCALECODE));
 
             requestTypePost(Constants.API_SURVEY_POINTS_REVIEW, jsonObjectPIR, Constants.REQUESTCODE_SURVEYPOINTSREVIEWS);
             requestTypePost(Constants.API_SURVEY_POINTS_REVIEW, jsonObject, Constants.REQUESTCODE_SURVEYPOINTSREVIEW);
+
+            requestTypePost(Constants.API_SURVEY_POINTS_REJECTED, jsonObject1, Constants.REQUESTCODE_SURVEYPOINTSREJECTED);
+
             HomeActivity.setRewardsBackground();
             getActivity().findViewById(R.id.iv_back_left_arrow).setClickable(true);
             txt_points_earned_reward_history = getActivity().findViewById(R.id.txt_points_earned_reward_history);
@@ -192,6 +199,9 @@ public class PointsInReview extends BaseFragment {
 
                 }
             });
+
+
+
             //lv_survey_list.setEm(emptyText);
             mListView.setLayoutManager(new LinearLayoutManager(context));
             if (rewardsarray != null || rewardsarray.size() != 0) {

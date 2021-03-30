@@ -47,6 +47,7 @@ public class DynamicSurveyLinkFragment extends BaseFragment implements View.OnCl
             getActivity().findViewById(R.id.header_redemption_history).setVisibility(View.GONE);
             getActivity().findViewById(R.id.header_reward_history).setVisibility(View.GONE);
             getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
+            getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
             getActivity().findViewById(R.id.bottom_bar).setVisibility(View.GONE);
             getActivity().findViewById(R.id.fab_btn).setVisibility(View.GONE);
             //getActivity().findViewById(R.id.iv_back_left_arrow).setClickable(true);
