@@ -70,9 +70,9 @@
     <string name="txt_pointin_review">"Mga Puntos na Nirerebyu"</string>
     <string name="txt_points_in_review">"Mga Puntos na Nirerebyu"</string>
 
-    <string name="txt_pointin_rejected">"Points Rejected"</string>
+    <string name="txt_pointin_rejected">"Puntos rechazados"</string>
 
-    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+    <string name="txt_points_in_rejected">"Puntos \n rechazados"</string>
 
     <string name="api_msg_90days">"Maaari kang kumuha ng survey sa isang beses sa 90 araw lamang."</string>
     <string name="api_nosurveyavailable">"Walang Survey ay Magagamit para sa iyo sa kasalukuyan. Subukang muli mamaya!"</string>

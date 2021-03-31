@@ -162,9 +162,9 @@
     <string name="txt_pointin_review">"Punti in revisione"</string>
     <string name="txt_points_in_review">"Punti in revisione"</string>
 
-    <string name="txt_pointin_rejected">"Points Rejected"</string>
+    <string name="txt_pointin_rejected">"Punti rifiutati"</string>
 
-    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+    <string name="txt_points_in_rejected">"Punti\n rifiutati"</string>
 
     <!-- resolved tranlations issues -->
     <string name="app_name">The Panel Station</string>

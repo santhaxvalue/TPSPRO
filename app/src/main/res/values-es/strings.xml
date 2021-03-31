@@ -31,9 +31,9 @@
     <string name="txt_pointin_review">"Puntos en evaluación"</string>
     <string name="txt_points_in_review">"Puntos en evaluación"</string>
 
-    <string name="txt_pointin_rejected">"Points Rejected"</string>
+    <string name="txt_pointin_rejected">"Puntos rechazados"</string>
 
-    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+    <string name="txt_points_in_rejected">"Puntos \n rechazados"</string>
 
     <string name="txt_msg_pinsent">"PIN enviado con éxito!"</string>
     <string name="txt_RedeemHist">"Historia de la Redención"</string>

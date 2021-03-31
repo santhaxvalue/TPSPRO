@@ -61,7 +61,7 @@
                 android:ellipsize="end"
                 android:padding="@dimen/dp1"
                 android:singleLine="true"
-                android:text="200"
+                android:text="2000"
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp14"
                 android:textStyle="bold"

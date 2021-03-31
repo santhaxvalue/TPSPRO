@@ -312,6 +312,8 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
                             // String voucherCode="new Voucher code Z1R5G5C6FF88W789Ff";
                             String voucherCode=object.get("voucherCode").toString();
                             Log.d("voucherCode:","voucherCode:"+voucherCode);
+                            String voucherCodeNew = object.get("Vpassword").toString();
+
                             // String voucherCode=object.get("voucherCode").toString();
 
                             //old code
@@ -333,9 +335,9 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 
                             if(voucherCode.equals("") || voucherCode.equals("null")){
                                 String VoucherLink=object.get("VoucherLink").toString();
-                                showVoucherAlertDialog(context,VoucherLink,"voucherLinkAvailable");
+                                showVoucherAlertDialog(context,VoucherLink,"voucherLinkAvailable",voucherCodeNew);
                             }else {
-                                showVoucherAlertDialog(context,voucherCode,"voucherCodeAvailable");
+                                showVoucherAlertDialog(context,voucherCode,"voucherCodeAvailable",voucherCodeNew);
                             }
 
                                     //new code
@@ -551,9 +553,9 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
     }
 
 
-    public void showVoucherAlertDialog(Context context,String voucherCode,String voucherStatus){
+    public void showVoucherAlertDialog(Context context,String voucherCode,String voucherStatus,String voucherCodeNew){
 
-        TextView tv_voucherCode,tv_getvoucherLink,tv_okButton;
+        TextView tv_voucherCode,tv_getvoucherLink,tv_okButton,tv_voucherCodeNew;
         ImageView close_voucher_dialog_general;
         final Dialog dialog = new Dialog(context, R.style.Theme_Dialog);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -572,6 +574,8 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 
         tv_voucherCode = dialog.findViewById(R.id.tv_getvoucherCode);
 
+        tv_voucherCodeNew = dialog.findViewById(R.id.tv_getvoucherCodeNew);
+
         //new code
         tv_getvoucherLink  = dialog.findViewById(R.id.tv_getvoucherLink);
                 //new code
@@ -582,13 +586,32 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
         //old code
 
         //new code
+
+        tv_voucherCodeNew.setText("Voucher pin is " +voucherCodeNew);
+
+        Log.d("voucherpinis:","voucherpinis:"+voucherCodeNew);
+
         if(voucherStatus.equals("voucherCodeAvailable")){
             tv_voucherCode.setText(voucherCode);
             tv_getvoucherLink.setVisibility(View.GONE);
+
+            if(voucherCodeNew.equals("") || voucherCodeNew == null){
+                tv_voucherCodeNew.setVisibility(View.GONE);
+            }else {
+                tv_voucherCodeNew.setVisibility(View.VISIBLE);
+            }
+
         }else if(voucherStatus.equals("voucherLinkAvailable")){
             tv_voucherCode.setVisibility(View.GONE);
             tv_getvoucherLink.setVisibility(View.VISIBLE);
             tv_getvoucherLink.setText(voucherCode);
+
+            if(voucherCodeNew.equals("") || voucherCodeNew == null){
+                tv_voucherCodeNew.setVisibility(View.GONE);
+            }else {
+                tv_voucherCodeNew.setVisibility(View.VISIBLE);
+            }
+
         }
 
 

@@ -28,9 +28,9 @@
     <string name="txt_pointin_review">"Điểm đang được đánh giá"</string>
     <string name="txt_points_in_review">"Điểm đang được đánh giá"</string>
 
-    <string name="txt_pointin_rejected">"Points Rejected"</string>
+    <string name="txt_pointin_rejected">Số điểm bị từ chối"</string>
 
-    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+    <string name="txt_points_in_rejected">"Số điểm \n bị từ chối"</string>
 
     <string name="ptr_refreshing"></string>
     <string name="ptr_last_updated"></string>

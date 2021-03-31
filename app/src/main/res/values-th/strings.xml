@@ -71,9 +71,9 @@
     <string name="txt_pointin_review">"คะแนนอยู่ระหว่างการตรวจสอบ"</string>
     <string name="txt_points_in_review">"คะแนนอยู่ระหว่างการตรวจสอบ"</string>
 
-    <string name="txt_pointin_rejected">"Points Rejected"</string>
+    <string name="txt_pointin_rejected">"คะแนนถูกปฏิเสธ"</string>
 
-    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+    <string name="txt_points_in_rejected">"คะแนนถูกปฏิเสธ"</string>
 
     <string name="api_msg_90days">"คุณสามารถทำแบบสำรวจได้ครั้งเดียวใน 90 วันเท่านั้น"</string>
     <string name="api_nosurveyavailable">"ไม่มีแบบสำรวจให้คุณในปัจจุบัน กรุณาลองใหม่อีกครั้งในภายหลัง!"</string>

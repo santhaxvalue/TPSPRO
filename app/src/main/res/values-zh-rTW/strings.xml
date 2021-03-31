@@ -70,9 +70,9 @@
     <string name="txt_pointin_review">"審查中的積分"</string>
     <string name="txt_points_in_review">"審查中的積分"</string>
 
-    <string name="txt_pointin_rejected">"Points Rejected"</string>
+    <string name="txt_pointin_rejected">"积分被拒绝"</string>
 
-    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+    <string name="txt_points_in_rejected">"积分被拒绝"</string>
 
     <string name="api_msg_90days">"您只能在90天內進行一次調查。"</string>
     <string name="api_nosurveyavailable">"目前沒有針對您的調查。請稍後再試！"</string>

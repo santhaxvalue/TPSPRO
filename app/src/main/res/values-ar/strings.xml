@@ -27,9 +27,9 @@
     <string name="txt_pointin_review">"النقاط قيد المراجعة"</string>
     <string name="txt_points_in_review">"النقاط قيد المراجعة"</string>
 
-    <string name="txt_pointin_rejected">"Points Rejected"</string>
+    <string name="txt_pointin_rejected">"النقاط المرفوضة"</string>
 
-    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+    <string name="txt_points_in_rejected">"النقاط \nالمرفوضة"</string>
 
     <string name="action_settings">إعدادات</string>
     <string name="dialog_login">ارجوك انتظر…</string>

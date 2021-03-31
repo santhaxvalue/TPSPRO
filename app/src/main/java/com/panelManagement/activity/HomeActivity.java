@@ -817,6 +817,8 @@ public class HomeActivity extends AppCompatActivity implements LocaleChangeListe
         InformatePreferences.setStringPrefrence(HomeActivity.this), Constants.PREF_AVAILABLEPOINTS_, rewardsPointsData.getAvailablePoints());*/
         txt_points_earned_reward_history1.setText(AvailableSurveyFragment.txt_points_inreview_available.getText().toString());
 
+
+
         Integer n1 = Integer.parseInt(AvailableSurveyFragment.txt_points_inreview_available.getText().toString());
 
 
