@@ -186,7 +186,9 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
             case R.id.btn_verify: {
                 String phone = edt_mobileNumber.getText().toString();
 
-                if (phone.length() < minPhoneLength || edt_mobileNumber.getText().toString().equals(InformatePreferences.getStringPrefrence(getActivity(), Constants.PREF_MOBILENUMBER))) {
+//                if (phone.length() < minPhoneLength || edt_mobileNumber.getText().toString().equals(InformatePreferences.getStringPrefrence(getActivity(), Constants.PREF_MOBILENUMBER))) {
+                if (phone.length() < minPhoneLength) {
+
                     showErrorAlert(" ", getString(R.string.error_phone_length));
                     edt_mobileNumber.setText(null);
                 } else {
