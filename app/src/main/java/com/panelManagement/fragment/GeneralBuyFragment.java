@@ -436,7 +436,10 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 //                    e.printStackTrace();
 //                }
 
+
+
                 try {
+                    Log.d("GeneralVpassword",res);
                     rewardsPointsData = new ParseJSonObject(getContext()).getRewardsPoints(new JSONObject(res));
                 }catch (Exception e){
                     e.printStackTrace();
@@ -555,7 +558,7 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 
     public void showVoucherAlertDialog(Context context,String voucherCode,String voucherStatus,String voucherCodeNew){
 
-        TextView tv_voucherCode,tv_getvoucherLink,tv_okButton,tv_voucherCodeNew;
+        TextView tv_voucherCode,tv_getvoucherLink,tv_okButton,tv_voucherCodeNew,tv_voucherCodeNewText;
         ImageView close_voucher_dialog_general;
         final Dialog dialog = new Dialog(context, R.style.Theme_Dialog);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -576,6 +579,8 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 
         tv_voucherCodeNew = dialog.findViewById(R.id.tv_getvoucherCodeNew);
 
+        tv_voucherCodeNewText = dialog.findViewById(R.id.tv_getvoucherCodeNewText);
+
         //new code
         tv_getvoucherLink  = dialog.findViewById(R.id.tv_getvoucherLink);
                 //new code
@@ -587,7 +592,7 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 
         //new code
 
-        tv_voucherCodeNew.setText("Voucher pin is " +voucherCodeNew);
+        tv_voucherCodeNew.setText(voucherCodeNew);
 
         Log.d("voucherpinis:","voucherpinis:"+voucherCodeNew);
 
@@ -597,8 +602,10 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 
             if(voucherCodeNew.equals("") || voucherCodeNew == null){
                 tv_voucherCodeNew.setVisibility(View.GONE);
+                tv_voucherCodeNewText.setVisibility(View.GONE);
             }else {
                 tv_voucherCodeNew.setVisibility(View.VISIBLE);
+                tv_voucherCodeNewText.setVisibility(View.VISIBLE);
             }
 
         }else if(voucherStatus.equals("voucherLinkAvailable")){
@@ -608,8 +615,10 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 
             if(voucherCodeNew.equals("") || voucherCodeNew == null){
                 tv_voucherCodeNew.setVisibility(View.GONE);
+                tv_voucherCodeNewText.setVisibility(View.GONE);
             }else {
                 tv_voucherCodeNew.setVisibility(View.VISIBLE);
+                tv_voucherCodeNewText.setVisibility(View.VISIBLE);
             }
 
         }

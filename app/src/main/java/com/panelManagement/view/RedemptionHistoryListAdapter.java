@@ -10,6 +10,7 @@ import android.os.Build;
 import android.os.Handler;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -20,6 +21,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.panelManagement.activity.R;
@@ -139,6 +141,17 @@ public class RedemptionHistoryListAdapter extends RecyclerView.Adapter<Redemptio
             holder.txtDate.setText(profile.getVoucherCode());
         }
 
+        Log.d("vpasswordnew:","vpasswordnew:"+profile.getVpassword());
+
+        if((profile.getVpassword().equals("") && profile.getVpassword() == null) || profile.getVpassword().length() == 0){
+            holder.voucherpinlayout.setVisibility(View.GONE);
+        }else {
+            holder.voucherpinlayout.setVisibility(View.VISIBLE);
+            holder.voucherPinnew.setText(profile.getVpassword());
+        }
+
+
+
 
         holder.surveyEarn.setText("" + profile.getPoints() + " " + context.getResources().getString(R.string.txt_points));
         // viewWrapper.getSurveyDate().setText(getMydate(profile.getTransactionDate()));
@@ -253,6 +266,7 @@ public class RedemptionHistoryListAdapter extends RecyclerView.Adapter<Redemptio
     class ViewHolder extends RecyclerView.ViewHolder {
 
         TextView txtDate;
+        TextView voucherPinnew;
         TextView txtSurveyDate;
         TextView surveyEarn;
         TextView status;
@@ -262,12 +276,15 @@ public class RedemptionHistoryListAdapter extends RecyclerView.Adapter<Redemptio
         ImageView logo;
         ImageView statusIcon;
         private TextView venderName;
+        RelativeLayout voucherpinlayout;
 
         public ViewHolder(View itemView) {
             super(itemView);
 
             logo = itemView.findViewById(R.id.iv_vendorimg);
             txtDate = itemView.findViewById(R.id.tv_voucherCode);
+            voucherPinnew = itemView.findViewById(R.id.tv_voucherPin);
+            voucherpinlayout = itemView.findViewById(R.id.voucherpinlayout);
             txtSurveyDate = itemView.findViewById(R.id.tv_calendarDate);
             surveyEarn = itemView.findViewById(R.id.tv_earnPoint);
             status = itemView.findViewById(R.id.tv_donetxt);

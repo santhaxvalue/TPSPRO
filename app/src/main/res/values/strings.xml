@@ -209,6 +209,7 @@
     <string name="txt_points">"Points"</string>
     <string name="txt_earned">"Earned"</string>
     <string name="txt_voucher_code">"Voucher Code"</string>
+    <string name="txt_voucher_pin">"Voucher Pin"</string>
     <string name="txt_redeemed">"Redeemed"</string>
     <string name="txt_status">"Status"</string>
     <string name="txt_done">"Done"</string>
@@ -581,6 +582,7 @@
     <string name="unsubscribe_delete_successful">You have successfully been unsubscribed from our community. We will delete your historical data from our systems in 2 to 3 business days.</string>
     <string name="unsubscribe_delete">Unsubscribe and Delete</string>
     <string name="your_VoucherCode">Your VoucherCode is</string>
+    <string name="your_VoucherPinnew">Voucher pin is </string>
     <string name="redemptionRevoke">Redemption once made cannot be rolled back/revoked</string>
     <string name="click_yes">Click Yes to confirm your voucher selection. Please note that you will not be allowed to change the selection once made.</string>
 </resources>

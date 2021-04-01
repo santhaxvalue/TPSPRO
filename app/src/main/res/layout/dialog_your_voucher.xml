@@ -84,10 +84,22 @@
 
                     <com.panelManagement.widgets.TextViewPlusBold
                         android:layout_marginTop="@dimen/_5sdp"
+                        android:id="@+id/tv_getvoucherCodeNewText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/your_VoucherPinnew"
+                        android:gravity="center"
+                        android:textSize="@dimen/sp16"
+                        android:textStyle="bold"
+                        android:visibility="gone"/>
+
+                    <com.panelManagement.widgets.TextViewPlusBold
+                        android:layout_marginTop="@dimen/_5sdp"
                         android:id="@+id/tv_getvoucherCodeNew"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="11111111111111"
+                        android:textColor="@color/aqua"
                         android:gravity="center"
                         android:visibility="gone"
                         android:textSize="@dimen/sp16" />

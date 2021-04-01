@@ -123,6 +123,37 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/voucherpinlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <com.panelManagement.widgets.TextViewPlusBold
+                    android:id="@+id/tv_VoucherPinTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp6"
+                    android:padding="@dimen/dp2"
+                    android:text="@string/txt_voucher_pin"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp14"
+                    android:textStyle="bold" />
+
+                <com.panelManagement.widgets.TextViewPlus
+                    android:id="@+id/tv_voucherPin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tv_VoucherPinTxt"
+                    android:autoLink="web"
+                    android:linksClickable="true"
+                    android:textColor="@color/aqua"
+                    android:padding="@dimen/dp2"
+                    android:textSize="@dimen/sp14"
+                    android:singleLine="true"
+                    tools:text="GHiyytTGHieyuyuSHffd5542" />
+            </RelativeLayout>
+
+            <RelativeLayout
                 android:id="@+id/linear_sublayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">

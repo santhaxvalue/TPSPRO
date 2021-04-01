@@ -14,10 +14,11 @@ public class RedeemPointHistory implements Serializable {
     private String redeemChoices = "";
     private String expiryDate = "";
     private String imageUrl = "";
+    private String vpassword = "";
 
     public RedeemPointHistory(String name, String transactionDate, int points,
                               String voucherCode, String redemptionStatus, String redeemChoices,
-                              String expiryDate, String imageUrl) {
+                              String expiryDate, String imageUrl, String vpassword) {
         super();
         this.name = name;
         this.transactionDate = transactionDate;
@@ -27,6 +28,7 @@ public class RedeemPointHistory implements Serializable {
         this.redeemChoices = redeemChoices;
         this.expiryDate = expiryDate;
         this.imageUrl = imageUrl;
+        this.vpassword = vpassword;
     }
 
     public String getImageUrl() {
@@ -63,4 +65,11 @@ public class RedeemPointHistory implements Serializable {
         return expiryDate;
     }
 
+    public String getVpassword() {
+        return vpassword;
+    }
+
+    public void setVpassword(String vpassword) {
+        this.vpassword = vpassword;
+    }
 }

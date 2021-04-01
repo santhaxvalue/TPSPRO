@@ -171,8 +171,11 @@ public class BaseParser {
             String imageurl = "";
             if (innerObject.has("ImageUrl"))
                 imageurl = innerObject.getString("ImageUrl");
+            String vpassword = "";
+            if (innerObject.has("Vpassword"))
+                vpassword = innerObject.getString("Vpassword");
             arrayRedeemPoint.add(new RedeemPointHistory(innerObject.getString("Name"), innerObject.getString("TransactionDate"),
-                    innerObject.getInt("Points"), voucherCode, RedemptionStatus, RedeemChoices, ExpiryDate, imageurl));
+                    innerObject.getInt("Points"), voucherCode, RedemptionStatus, RedeemChoices, ExpiryDate, imageurl, vpassword));
         }
         return new RewardPointsModels(earnedPoints, spentPoints, availablePoints,PointsReviews,PointsRejected, arrayEarnedPoint, arrayRedeemPoint);
     }

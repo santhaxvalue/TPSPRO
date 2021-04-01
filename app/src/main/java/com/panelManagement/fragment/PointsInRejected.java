@@ -136,6 +136,9 @@ public class PointsInRejected extends BaseFragment {
             //       txtValuePointRedeem = view.findViewById(R.id.txt_points_redeemed);
             //     txtValuePointAvailable = view.findViewById(R.id.txt_points_available);
 
+            Log.d("pointsinreview_points1:","pointsinreview_points11:"+rewardsPointsData.getPointsRejected());
+
+
             if (rewardsPointsData != null) {
                 txtValuePointEarned12.setText(rewardsPointsData.getPointsRejected());
                 txt_points_earned_reward_history12.setText(rewardsPointsData.getPointsRejected());
@@ -250,10 +253,11 @@ public class PointsInRejected extends BaseFragment {
 // Retrieving the value using its keys the file name
 // must be same in both saving and retrieving the data
 
-        Integer pointsinreview = Integer.parseInt(AvailableSurveyFragment.txt_points_inreview_available.getText().toString());
-        Log.d("pointsinreview:","pointsinreview:"+pointsinreview);
+//        Integer pointsinreview = Integer.parseInt(AvailableSurveyFragment.txt_points_inreview_available.getText().toString());
+        Integer pointsinrejected = Integer.parseInt(rewardsPointsData.getPointsRejected());
+        Log.d("pointsinrejected:","pointsinrejected:"+pointsinrejected);
 
-        if (requestcode == 1234 || pointsinreview == 0) {
+        if (requestcode == 1234 || pointsinrejected == 0) {
 //            getPointsInReviewValue(res);
             head1.setVisibility(View.GONE);
             getActivity().findViewById(R.id.img_i1).setVisibility(View.GONE);
