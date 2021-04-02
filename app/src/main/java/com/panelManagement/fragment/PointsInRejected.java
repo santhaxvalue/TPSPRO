@@ -255,6 +255,8 @@ public class PointsInRejected extends BaseFragment {
 
 //        Integer pointsinreview = Integer.parseInt(AvailableSurveyFragment.txt_points_inreview_available.getText().toString());
         Integer pointsinrejected = Integer.parseInt(rewardsPointsData.getPointsRejected());
+
+
         Log.d("pointsinrejected:","pointsinrejected:"+pointsinrejected);
 
         if (requestcode == 1234 || pointsinrejected == 0) {
