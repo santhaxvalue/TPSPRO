@@ -265,6 +265,7 @@ public class PointsInRejected extends BaseFragment {
             getActivity().findViewById(R.id.img_i1).setVisibility(View.GONE);
             getActivity().findViewById(R.id.img_ii1).setVisibility(View.VISIBLE);
             emptyText1.setVisibility(View.VISIBLE);
+
         }else {
             getPointsInReviewListValue(res);
             head1.setVisibility(View.VISIBLE);
