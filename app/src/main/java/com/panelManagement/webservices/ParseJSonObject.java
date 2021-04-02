@@ -2,6 +2,7 @@ package com.panelManagement.webservices;
 
 import android.content.Context;
 import android.text.TextUtils;
+import android.util.Log;
 
 import com.panelManagement.database.DBAdapter;
 import com.panelManagement.model.AnswerChoiceModel;
@@ -447,6 +448,13 @@ public class ParseJSonObject extends BaseParser {
             put("sessionID", InformatePreferences.getStringPrefrence(mContext, Constants.PREF_SESSIONID));
             put("NumberofTickets", nooftickets);
             put("DrawMarketGroupID", drawmarketgroupid);
+
+            Log.d("cancan1:","cancan1-UserId:"+InformatePreferences.getStringPrefrence(mContext, Constants.PREF_ID));
+            Log.d("cancan1:","cancan1-sessionID:"+InformatePreferences.getStringPrefrence(mContext, Constants.PREF_SESSIONID));
+            Log.d("cancan1:","cancan1-NumberofTickets:"+nooftickets);
+            Log.d("cancan1:","cancan1-DrawMarketGroupID:"+drawmarketgroupid);
+
+
             //       put("LanguageCulture", InformatePreferences.getStringPrefrence(mContext,Constants.PREF_LOCALECODE));
 
         } catch (JSONException e) {

@@ -55,7 +55,8 @@ public class PointsInReview extends BaseFragment {
     Bundle extras;
     public TextViewPlusBold head;
     private RecyclerView mListView;
-    private TextView txt_points_earned_reward_history;
+//    private TextView txt_points_earned_reward_history;
+    TextView txt_points_earned_reward_historygo;
     TextView pirTitle, pirc1, pirc2, pirc3, pirc4, pirc5, pp;
     public static CardView pirCardView;
     public ImageView img_earned_points,img_earned_warning;
@@ -97,6 +98,10 @@ public class PointsInReview extends BaseFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.pointsinreview_header, container, false);
+
+        txt_points_earned_reward_historygo = getActivity().findViewById(R.id.txt_points_earned_reward_historygo);
+
+
         try {
             JSONObject jsonObjectPIR = new JSONObject();
             jsonObjectPIR.put("UserId", InformatePreferences.getStringPrefrence(context, Constants.PREF_ID));
@@ -124,20 +129,27 @@ public class PointsInReview extends BaseFragment {
 
             HomeActivity.setRewardsBackground();
             getActivity().findViewById(R.id.iv_back_left_arrow).setClickable(true);
-            txt_points_earned_reward_history = getActivity().findViewById(R.id.txt_points_earned_reward_history);
+//            txt_points_earned_reward_history = getActivity().findViewById(R.id.txt_points_earned_reward_history);
             head = view.findViewById(R.id.head);
             Spannable span2 = new SpannableString(head.getText());
             span2.setSpan(new RelativeSizeSpan(1.3f), 0, 1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
             head.setText(span2);
             //old code
 //            head.setVisibility(View.VISIBLE);
-            txtValuePointEarned = view.findViewById(R.id.txt_points_earned_reward_history);
+//            txtValuePointEarned = view.findViewById(R.id.txt_points_earned_reward_history);
             //       txtValuePointRedeem = view.findViewById(R.id.txt_points_redeemed);
             //     txtValuePointAvailable = view.findViewById(R.id.txt_points_available);
 
             if (rewardsPointsData != null) {
-                txtValuePointEarned.setText(rewardsPointsData.getEarnedPoints());
-                txt_points_earned_reward_history.setText(rewardsPointsData.getEarnedPoints());
+//                txtValuePointEarned.setText(rewardsPointsData.getEarnedPoints());
+//                txt_points_earned_reward_history.setText(rewardsPointsData.getEarnedPoints());
+
+//                txtValuePointEarned.setText(rewardsPointsData.getPointsReview());
+//                txt_points_earned_reward_history.setText(rewardsPointsData.getPointsReview());
+
+
+
+                txt_points_earned_reward_historygo.setText(rewardsPointsData.getPointsReview());
 
 
 //            PointsEarned.txt_points_earned_reward_history.setText(rewardsPointsData.getEarnedPoints());

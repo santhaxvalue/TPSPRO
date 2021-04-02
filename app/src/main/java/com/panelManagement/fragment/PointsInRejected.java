@@ -257,7 +257,7 @@ public class PointsInRejected extends BaseFragment {
         Integer pointsinrejected = Integer.parseInt(rewardsPointsData.getPointsRejected());
         Log.d("pointsinrejected:","pointsinrejected:"+pointsinrejected);
 
-        if (requestcode == 1234 || pointsinrejected == 0) {
+        if (requestcode == 1234) {
 //            getPointsInReviewValue(res);
             head1.setVisibility(View.GONE);
             getActivity().findViewById(R.id.img_i1).setVisibility(View.GONE);

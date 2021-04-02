@@ -186,8 +186,10 @@ public class RedeemFragment extends BaseFragment implements OnClickListener {
 //                    minimumGeneralPoints = 100;
                 }
 
-//                if (minimumPOints >= minimumGeneralPoints) {
-                if (100000 >= minimumGeneralPoints) {
+                if (minimumPOints >= minimumGeneralPoints) {
+                    //old code
+//                if (100000 >= minimumGeneralPoints) {
+                    //old code
                     //transaction.setCustomAnimations(R.anim.slide_up, R.anim.slide_up);
                     Fragment fragment = GeneralBuyFragment.newInstance(rewardsPointsData);
                     transaction.replace(R.id.main_container_fragment, fragment).addToBackStack(HomeActivity.REDEEMFRAGMENTKEY);
@@ -205,7 +207,11 @@ public class RedeemFragment extends BaseFragment implements OnClickListener {
                     ImageView iv_close_error = dialog.findViewById(R.id.close_dialog_general);
                     ImageView iv_offer = dialog.findViewById(R.id.offer_dilog_promotion);
                     offertext.setText(String.format(getResources().getString(R.string.alert_dialog_txt_part1), redeemValue));
+
                     iv_close_error.setOnClickListener(view -> dialog.dismiss());
+
+                    Log.d("imgurl:","imagurl:"+offerImageURL);
+
                     Picasso.get()
                             .load(offerImageURL) // jayesh; encoded the image_layout url ***
                             .memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE)
@@ -256,17 +262,30 @@ public class RedeemFragment extends BaseFragment implements OnClickListener {
         switch (requestcode) {
 
             case Constants.REQUEST_REDEEMFRAGMENT:
+
+                Log.d("resgoo:","resgoo:"+res);
+
                 try {
                     objectSweepstake = new JSONObject(res);
                     if (objectSweepstake.getBoolean("Status")) {
+
                         String imageUrl = objectSweepstake.getString("DrawImage").replaceAll("\\\\", "");
+
+                        Log.d("resgoo:","resgoo:"+imageUrl);
+
                         String finalUrl = null;
                         try {
                             finalUrl = URLEncoder.encode(imageUrl, "UTF-8").replaceAll("%3A", ":").replaceAll("%2F", "/").replaceAll("\\+", "%20");
+
+                            Log.d("resgoo:","resgoo:"+finalUrl);
+
                             offerImageURL = finalUrl;
                         } catch (UnsupportedEncodingException e) {
                             e.printStackTrace();
                         }
+
+                        Log.d("resgoo:","resgoo:"+offerImageURL);
+
 
                         Picasso.get()
                                 .load(offerImageURL) // jayesh; encoded the image_layout url ***

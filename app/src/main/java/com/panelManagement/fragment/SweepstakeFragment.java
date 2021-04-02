@@ -21,6 +21,7 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.panelManagement.activity.HomeActivity;
 import com.panelManagement.activity.R;
@@ -56,6 +57,7 @@ public class SweepstakeFragment extends BaseFragment implements View.OnClickList
         args.putString("jsonobject", jsonObject.toString());
         fragment.setArguments(args);
         return fragment;
+
     }
 
     @Override
@@ -91,6 +93,12 @@ public class SweepstakeFragment extends BaseFragment implements View.OnClickList
     //    tvPointAvailable = getActivity().findViewById(R.id.txt_points_redeemed_available);
         try {
             if (object != null) {
+
+                Log.d("valuenew1:","1:"+object.getLong("Status"));
+                Log.d("valuenew1:","1:"+object.getLong("AvailablePoints"));
+                Log.d("valuenew1:","1:"+object.getLong("TicketValue"));
+
+
                 if (object.getBoolean("Status")) {
                     availablePoints = object.getLong("AvailablePoints");
                 //    tvPointAvailable.setText(String.valueOf(availablePoints));
@@ -181,6 +189,9 @@ public class SweepstakeFragment extends BaseFragment implements View.OnClickList
         switch (requestcode) {
 
             case Constants.REQUESTCODE_BUYTICKET:
+
+                Log.d("oneoneresponse:","oneoneresponse:"+res);
+
                 try {
                     JSONObject object = new JSONObject(res);
                     if (object.getString("Status").equals("true")) {
