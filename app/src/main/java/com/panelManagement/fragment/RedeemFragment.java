@@ -216,7 +216,8 @@ public class RedeemFragment extends BaseFragment implements OnClickListener {
                             .load(offerImageURL) // jayesh; encoded the image_layout url ***
                             .memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE)
                             .networkPolicy(NetworkPolicy.NO_CACHE, NetworkPolicy.NO_STORE)
-                            .placeholder(R.drawable.placeholder)
+//                            .placeholder(R.drawable.placeholder)
+                            .placeholder(R.drawable.placeholdernew)
                             .into(iv_offer);
 
                     participate.setOnClickListener(new OnClickListener() {
@@ -291,7 +292,8 @@ public class RedeemFragment extends BaseFragment implements OnClickListener {
                                 .load(offerImageURL) // jayesh; encoded the image_layout url ***
                                 .memoryPolicy(MemoryPolicy.NO_CACHE, MemoryPolicy.NO_STORE)
                                 .networkPolicy(NetworkPolicy.NO_CACHE, NetworkPolicy.NO_STORE)
-                                .placeholder(R.drawable.placeholder)
+//                                .placeholder(R.drawable.placeholder)
+                                .placeholder(R.drawable.placeholdernew)
                                 .into(offerImage);
                     }
                 } catch (JSONException e) {
