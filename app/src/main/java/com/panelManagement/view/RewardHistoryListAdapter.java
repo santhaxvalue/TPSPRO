@@ -36,7 +36,7 @@ public class RewardHistoryListAdapter extends RecyclerView.Adapter<RewardHistory
     public RewardHistoryListAdapter(Context context, ArrayList<EarnedPointHistory> value) {
         this.items = value;
         this.context = context;
-        Log.e("ArrayList122", this.items.get(0).getPoints());
+//        Log.e("ArrayList122", this.items.get(0).getPoints());
     }
 
     @Override

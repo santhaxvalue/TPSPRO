@@ -40,6 +40,7 @@ public class RewardHistoryFragment extends BaseFragment {
     TextViewPlusBold head;
     private RecyclerView mListView;
     private TextView txt_points_earned_reward_history;
+    TextView emptyText;
 
     public RewardHistoryFragment() {
         // TODO Auto-generated constructor stub
@@ -63,7 +64,7 @@ public class RewardHistoryFragment extends BaseFragment {
         }
         if (rewardsPointsData != null) {
             rewardsarray = rewardsPointsData.getArrayEarnedPoint();
-            Log.e("ArrayList", rewardsarray.get(0).getPoints());
+//            Log.e("ArrayList", rewardsarray.get(0).getPoints());
         }
     }
 
@@ -90,14 +91,26 @@ public class RewardHistoryFragment extends BaseFragment {
         }
 
         mListView = view.findViewById(R.id.lv_survey);
-        TextView emptyText = view.findViewById(R.id.empty_text);
+        //old code
+//        TextView emptyText = view.findViewById(R.id.empty_text);
+        //new code
+        emptyText = view.findViewById(R.id.empty_text);
         //lv_survey_list.setEm(emptyText);
+
+        Log.d("rewardlist:","rewardlist:"+rewardsarray.size());
+
+
         mListView.setLayoutManager(new LinearLayoutManager(context));
-        if (rewardsarray != null || rewardsarray.size() != 0) {
+        //old code
+//        if (rewardsarray != null || rewardsarray.size() != 0) {
+
+        if (rewardsarray != null && rewardsarray.size() != 0) {
+            head.setVisibility(View.VISIBLE);
             emptyText.setVisibility(View.GONE);
             mListView.setAdapter(new RewardHistoryListAdapter(getActivity(), rewardsarray));
 //            Log.e("ArrayList1", rewardsarray.get(1).getPoints());
         } else {
+            head.setVisibility(View.GONE);
             emptyText.setVisibility(View.VISIBLE);
         }
         mListView.setEnabled(false);
