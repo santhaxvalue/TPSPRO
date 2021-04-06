@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="@dimen/_100sdp"
+            android:layout_marginTop="@dimen/_68sdp"
             android:layout_marginLeft="@dimen/_35sdp"
             android:layout_marginRight="@dimen/_35sdp"
             android:gravity="center"
@@ -54,7 +54,7 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:text="XXHDPI"
+                        android:text="@string/txt_Redeem"
                         android:textColor="@color/gray_txt"
                         android:textAllCaps="true"
                         android:textSize="@dimen/_16sdp" />
