@@ -471,16 +471,19 @@ public class ParseJSonObject extends BaseParser {
      * @param ItemName
      * @return json object for general redeem object
      */
-    public JSONObject getGeneralRedeemObject(int NumberofPoints, int RedeeempartnerID, String ItemName) {
+    public JSONObject getGeneralRedeemObject(int NumberofPoints, int RedeeempartnerID, String ItemName,int isEdenRedval) {
         try {
             put("UserId", InformatePreferences.getStringPrefrence(mContext, Constants.PREF_ID));
             put("sessionID", InformatePreferences.getStringPrefrence(mContext, Constants.PREF_SESSIONID));
             put("NumberofPoints", NumberofPoints);
             put("RedeeempartnerID", RedeeempartnerID);
             put("ItemName", ItemName);
-            //   put("LanguageCulture", InformatePreferences.getStringPrefrence(mContext,Constants.PREF_LOCALECODE));
+            //new code
+            put( "isEdenRed", isEdenRedval);
 
-            put( "isEdenRed", true);
+            //   put("LanguageCulture", InformatePreferences.getStringPrefrence(mContext,Constants.PREF_LOCALECODE));
+            //old code
+//            put( "isEdenRed", true);
 
         } catch (JSONException e) {
             e.printStackTrace();
@@ -488,7 +491,27 @@ public class ParseJSonObject extends BaseParser {
         return super.getObject();
     }
 
-    public JSONObject getGeneralRedeemObject1(int NumberofPoints, int RedeeempartnerID, String ItemName, boolean isEdenRed) {
+    //old code
+
+//    public JSONObject getGeneralRedeemObject1(int NumberofPoints, int RedeeempartnerID, String ItemName, boolean isEdenRed) {
+//        try {
+//            put("UserId", InformatePreferences.getStringPrefrence(mContext, Constants.PREF_ID));
+//            put("sessionID", InformatePreferences.getStringPrefrence(mContext, Constants.PREF_SESSIONID));
+//            put("NumberofPoints", NumberofPoints);
+//            put("RedeeempartnerID", RedeeempartnerID);
+//            put("ItemName", ItemName);
+//            put("isEdenRed", isEdenRed);
+//            //   put("LanguageCulture", InformatePreferences.getStringPrefrence(mContext,Constants.PREF_LOCALECODE));
+//
+//        } catch (JSONException e) {
+//            e.printStackTrace();
+//        }
+//        return super.getObject();
+//    }
+
+    //new code
+
+    public JSONObject getGeneralRedeemObject1(int NumberofPoints, int RedeeempartnerID, String ItemName, int isEdenRed) {
         try {
             put("UserId", InformatePreferences.getStringPrefrence(mContext, Constants.PREF_ID));
             put("sessionID", InformatePreferences.getStringPrefrence(mContext, Constants.PREF_SESSIONID));

@@ -91,12 +91,23 @@ public class SweepstakeFragment extends BaseFragment implements View.OnClickList
         TextView buyBtn = view.findViewById(R.id.buyBtn);
         buyBtn.setOnClickListener(this);
     //    tvPointAvailable = getActivity().findViewById(R.id.txt_points_redeemed_available);
+
+        try {
+            Log.d("valuenew1:","1:"+object.getBoolean("Status"));
+            Log.d("valuenew1:","1:"+object.getLong("AvailablePoints"));
+            Log.d("valuenew1:","1:"+object.getInt("TicketValue"));
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+
+
         try {
             if (object != null) {
 
-                Log.d("valuenew1:","1:"+object.getLong("Status"));
-                Log.d("valuenew1:","1:"+object.getLong("AvailablePoints"));
-                Log.d("valuenew1:","1:"+object.getLong("TicketValue"));
+                Log.d("valuenew11:","1:"+object.getBoolean("Status"));
+                Log.d("valuenew11:","1:"+object.getLong("AvailablePoints"));
+                Log.d("valuenew11:","1:"+object.getInt("TicketValue"));
 
 
                 if (object.getBoolean("Status")) {
@@ -109,6 +120,9 @@ public class SweepstakeFragment extends BaseFragment implements View.OnClickList
 
                     pointsNum.setText(String.valueOf(ticketValue));
                     drawMarketGropuID = object.getInt("DrawMarketGroupID");
+
+                    Log.d("drawMarketGroupID:","drawMarketGroupID:"+String.valueOf(drawMarketGropuID));
+
                 } else {
                     eachTicket.setText(String.format(getResources().getString(R.string.txt_each_ticket_part1), 0));
                     showErrorAlert("error", object.getString("Message"));
