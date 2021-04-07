@@ -126,6 +126,7 @@ public abstract class BaseDialogFragment extends DialogFragment implements Reque
     @Override
     public void onRequestError(Exception e, int requestCode) {
         mProgressDialog.dismiss();
+        Log.d("reqeusterror:1111","requesterror:"+e);
         showErrorAlert(" ", getString(R.string.msg_serverdown));
     }
 

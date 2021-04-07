@@ -320,6 +320,10 @@ public abstract class BaseFragment extends Fragment implements RequestListener {
 
     @Override
     public void onRequestError(Exception e, int requestCode) {
+
+        Log.d("reqeusterror:1","requesterror:"+e);
+        Log.d("reqeusterror:11","requesterror:"+requestCode);
+
         if (isAdded()) {
             dismissDialog();
             if (e != null) {
@@ -327,8 +331,10 @@ public abstract class BaseFragment extends Fragment implements RequestListener {
                 if (!TextUtils.isEmpty(message)) {
                     if (message.equals("UnknownHostException")) {
                         showErrorAlert(" ", "Please check your internet connection settings.");
-                    } else
+                    } else {
+                        Log.d("reqeusterror:111","requesterror:");
                         showErrorAlert(" ", getString(R.string.msg_serverdown));
+                    }
                 } else {
                     showErrorAlert(" ", "Please check your internet connection settings.");
                 }

@@ -267,13 +267,29 @@ public class PointsInReview extends BaseFragment {
         if (requestcode == 1234 || pointsinreview == 0) {
             getPointsInReviewValue(res);
             head.setVisibility(View.GONE);
-            getActivity().findViewById(R.id.img_i).setVisibility(View.GONE);
-            getActivity().findViewById(R.id.img_ii).setVisibility(View.VISIBLE);
+            //old code
+//            getActivity().findViewById(R.id.img_i).setVisibility(View.GONE);
+            //old code
+            //new code
+            img_earned_points.setVisibility(View.GONE);
+            //new code
+
+            //old code
+//            getActivity().findViewById(R.id.img_ii).setVisibility(View.VISIBLE);
+            //old code
+            //new code
+            img_earned_warning.setVisibility(View.VISIBLE);
+            //new code
             emptyText.setVisibility(View.VISIBLE);
         }else {
             getPointsInReviewListValue(res);
             head.setVisibility(View.VISIBLE);
-            getActivity().findViewById(R.id.img_ii).setVisibility(View.GONE);
+            //old code
+//            getActivity().findViewById(R.id.img_ii).setVisibility(View.GONE);
+            //old code
+            //new code
+            img_earned_warning.setVisibility(View.GONE);
+            //new code
             emptyText.setVisibility(View.GONE);
         }
 

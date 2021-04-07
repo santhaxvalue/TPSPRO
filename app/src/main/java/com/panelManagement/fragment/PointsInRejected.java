@@ -262,14 +262,22 @@ public class PointsInRejected extends BaseFragment {
         if (requestcode == 1234 || pointsinrejected == 0) {
 //            getPointsInReviewValue(res);
             head1.setVisibility(View.GONE);
-            getActivity().findViewById(R.id.img_i1).setVisibility(View.GONE);
-            getActivity().findViewById(R.id.img_ii1).setVisibility(View.VISIBLE);
+            //old code
+//            getActivity().findViewById(R.id.img_i1).setVisibility(View.GONE);
+//            getActivity().findViewById(R.id.img_ii1).setVisibility(View.VISIBLE);
+            //new code
+            img_earned_points1.setVisibility(View.GONE);
+            img_earned_warning1.setVisibility(View.VISIBLE);
+
             emptyText1.setVisibility(View.VISIBLE);
 
         }else {
             getPointsInReviewListValue(res);
             head1.setVisibility(View.VISIBLE);
-            getActivity().findViewById(R.id.img_ii1).setVisibility(View.GONE);
+            //old code
+//            getActivity().findViewById(R.id.img_ii1).setVisibility(View.GONE);
+            //new code
+            img_earned_warning1.setVisibility(View.GONE);
             emptyText1.setVisibility(View.GONE);
         }
 

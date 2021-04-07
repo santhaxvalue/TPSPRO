@@ -85,6 +85,7 @@ import com.facebook.accountkit.ui.LoginType;
 import com.facebook.appevents.AppEventsLogger;
 import com.facebook.login.LoginManager;
 import com.google.ads.conversiontracking.AdWordsConversionReporter;
+import com.google.gson.Gson;
 import com.kochava.base.Tracker;
 import com.panelManagement.fragment.AlertChangeLanguageFragment;
 import com.panelManagement.fragment.AlertContactUsFragment;
@@ -1519,6 +1520,11 @@ public class HomeActivity extends AppCompatActivity implements LocaleChangeListe
     }
 
     protected synchronized void requestTypePost(String url, JSONObject jsonobject, int requestCode) {
+
+        Log.d("requestCodekk1:","requestCodekk1:"+url);
+        Log.d("requestCodekk11:","requestCodekk11:"+ jsonobject.toString());
+        Log.d("requestCodekk111:","requestCodekk111:"+ requestCode);
+
         AsyncHttpRequest mAppRequest = new AsyncHttpRequest(this, url, jsonobject.toString(), requestCode, AsyncHttpRequest.Type.POST);
         mAppRequest.setRequestListener(this);
         mAppRequest.execute();
@@ -1527,6 +1533,8 @@ public class HomeActivity extends AppCompatActivity implements LocaleChangeListe
     @SuppressLint("SetJavaScriptEnabled")
     @Override
     public void onRequestCompleted(String response, int requestCode) {
+        Log.d("requestCodekk1111:","requestCodekk1111:"+requestCode);
+        Log.d("requestCodekk11111:","requestCodekk11111:"+response);
         dismissDialog();
         switch (requestCode) {
             case REQUEST_GET_OPINION_POLL_QUESTIONS:
