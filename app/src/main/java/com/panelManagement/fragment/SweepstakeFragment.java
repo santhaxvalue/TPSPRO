@@ -93,7 +93,7 @@ public class SweepstakeFragment extends BaseFragment implements View.OnClickList
     //    tvPointAvailable = getActivity().findViewById(R.id.txt_points_redeemed_available);
 
         try {
-            Log.d("valuenew1:","1:"+object.getBoolean("Status"));
+            Log.d(":","1:"+object.getBoolean("Status"));
             Log.d("valuenew1:","1:"+object.getLong("AvailablePoints"));
             Log.d("valuenew1:","1:"+object.getInt("TicketValue"));
         } catch (JSONException e) {

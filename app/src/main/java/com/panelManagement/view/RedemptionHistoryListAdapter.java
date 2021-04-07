@@ -131,15 +131,25 @@ public class RedemptionHistoryListAdapter extends RecyclerView.Adapter<Redemptio
 //            }
         }
 
-        if (profile.getVoucherCode().contains("https://") || profile.getVoucherCode().contains("http://")){
-            holder.txtDate.setText( context.getResources().getString(R.string.click_here));
-            holder.txtDate.setOnClickListener(v -> {
+        //new code
+        if(!profile.getVoucherCode().equals("") && profile.getVoucherCode() != null) {
+            holder.voucherCodelayout.setVisibility(View.VISIBLE);
+            //new code
+            if (profile.getVoucherCode().contains("https://") || profile.getVoucherCode().contains("http://")) {
+                holder.txtDate.setText(context.getResources().getString(R.string.click_here));
+                holder.txtDate.setOnClickListener(v -> {
 
-               voucherDialog(context,profile.getVoucherCode());
-            });
-        }else {
-            holder.txtDate.setText(profile.getVoucherCode());
+                    voucherDialog(context, profile.getVoucherCode());
+                });
+            } else {
+                holder.txtDate.setText(profile.getVoucherCode());
+            }
+
+            //new code
+        }else{
+            holder.voucherCodelayout.setVisibility(View.GONE);
         }
+        //new code
 
         Log.d("vpasswordnew:","vpasswordnew:"+profile.getVpassword());
 
@@ -277,6 +287,7 @@ public class RedemptionHistoryListAdapter extends RecyclerView.Adapter<Redemptio
         ImageView statusIcon;
         private TextView venderName;
         RelativeLayout voucherpinlayout;
+        RelativeLayout voucherCodelayout;
 
         public ViewHolder(View itemView) {
             super(itemView);
@@ -285,6 +296,7 @@ public class RedemptionHistoryListAdapter extends RecyclerView.Adapter<Redemptio
             txtDate = itemView.findViewById(R.id.tv_voucherCode);
             voucherPinnew = itemView.findViewById(R.id.tv_voucherPin);
             voucherpinlayout = itemView.findViewById(R.id.voucherpinlayout);
+            voucherCodelayout = itemView.findViewById(R.id.voucherCodelayout);
             txtSurveyDate = itemView.findViewById(R.id.tv_calendarDate);
             surveyEarn = itemView.findViewById(R.id.tv_earnPoint);
             status = itemView.findViewById(R.id.tv_donetxt);

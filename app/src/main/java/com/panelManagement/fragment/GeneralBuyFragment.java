@@ -225,7 +225,13 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
             //old code
 //            callGeneralRedeemApi();
             //new code
-            showddAlertDialog(context,"voucherCode","voucherCodeAvailable");
+
+            if(mSelectedValue.isEdenRed()) {
+
+                showddAlertDialog(context, "voucherCode", "voucherCodeAvailable");
+            }else {
+                callGeneralRedeemApi();
+            }
         }
     }
 
