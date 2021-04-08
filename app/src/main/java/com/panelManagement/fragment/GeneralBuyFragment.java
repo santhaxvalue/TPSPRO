@@ -240,37 +240,41 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
         //new code
         Log.d("isedenvalue:","isedenvalue:"+mSelectedValue.isEdenRed());
         if (mSelectedValue.isEdenRed()){
-            int edenvalue;
-            if(mSelectedValue.isEdenRed()){
-                edenvalue = 1;
-            }else {
-                edenvalue=0;
-            }
+//            int edenvalue;
+//            if(mSelectedValue.isEdenRed()){
+//                edenvalue = 1;
+//            }else {
+//                edenvalue=0;
+//            }
 //old code
-//            requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject1(Integer.parseInt(rewardPrice),
-//                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName(), mSelectedValue.isEdenRed()), Constants.REQUESTCODE_GENERALREDEEM);
+            requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject1(Integer.parseInt(rewardPrice),
+                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName(), mSelectedValue.isEdenRed()), Constants.REQUESTCODE_GENERALREDEEM);
 
             //new code
-            requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject1(Integer.parseInt(rewardPrice),
-                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName(), edenvalue), Constants.REQUESTCODE_GENERALREDEEM);
+//            requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject1(Integer.parseInt(rewardPrice),
+//                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName(), edenvalue), Constants.REQUESTCODE_GENERALREDEEM);
 
 
         }else {
 
-            int edenvalue;
-            if(mSelectedValue.isEdenRed()){
-                edenvalue = 1;
-            }else {
-                edenvalue=0;
-            }
+//            int edenvalue;
+//            if(mSelectedValue.isEdenRed()){
+//                edenvalue = 1;
+//            }else {
+//                edenvalue=0;
+//            }
 
             //old code
 //            requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject(Integer.parseInt(rewardPrice),
 //                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName()), Constants.REQUESTCODE_GENERALREDEEM);
 
             //new code
+//            requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject(Integer.parseInt(rewardPrice),
+//                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName(),edenvalue), Constants.REQUESTCODE_GENERALREDEEM);
+
+            //added isEdenRed value new code
             requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject(Integer.parseInt(rewardPrice),
-                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName(),edenvalue), Constants.REQUESTCODE_GENERALREDEEM);
+                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName(),mSelectedValue.isEdenRed()), Constants.REQUESTCODE_GENERALREDEEM);
         }
     }
 
@@ -291,7 +295,19 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 
                 try {
                     Log.e("GeneralRewardsNew",res);
+                    //old code
                     redeemarray = new ParseJSonObject(getActivity()).getRedeemData(new JSONObject(res));
+                    //old code
+                    //new code
+//                    redeemarray = new ParseJSonObject(getActivity()).getGeneralRedeemData(new JSONObject(res));
+                    Log.d("one:","one:"+redeemarray.size());
+                    Log.d("one:","one:"+redeemarray.get(0).getPartnerName());
+                    Log.d("one:","one:"+redeemarray.get(0).isEdenRed());
+                    Log.d("one:","one:"+redeemarray.get(1).getPartnerName());
+                    Log.d("one:","one:"+redeemarray.get(1).isEdenRed());
+                    Log.d("one:","one:"+redeemarray.get(2).getPartnerName());
+                    Log.d("one:","one:"+redeemarray.get(2).isEdenRed());
+
                     mSelectedValue = redeemarray.get(0);
 
                     lap();
@@ -335,12 +351,15 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
 
                     if (object.getBoolean("Status")) {
 
+
                         Log.e("SizeList", redeemarray.size()+"");
 
                         //old code
 //                        if (redeemarray.get(0).isEdenRed() == false || redeemarray.get(0).isEdenRed() == true){
                         //new code
-                        if (redeemarray.get(0).isEdenRed() == true){
+//                        if (redeemarray.get(0).isEdenRed() == true){
+                        //onemorenewcode
+                        if (mSelectedValue.isEdenRed() == true){
                             // static value for testing  boolean istrue=true;
                             //if (istrue){
                             // String voucherCode="new Voucher code Z1R5G5C6FF88W789Ff";
@@ -424,29 +443,29 @@ public class GeneralBuyFragment extends BaseFragment implements View.OnClickList
                         if (mSelectedValue.isEdenRed()) {
 
                             //old code
-//                            requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject1(Integer.parseInt(rewardPrice),
-//                                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName(), mSelectedValue.isEdenRed()), Constants.REQUESTCODE_GENERALREDEEM);
+                            requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject1(Integer.parseInt(rewardPrice),
+                                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName(), mSelectedValue.isEdenRed()), Constants.REQUESTCODE_GENERALREDEEM);
 
                             //new code
-                            requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject1(Integer.parseInt(rewardPrice),
-                                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName(), edenvalue), Constants.REQUESTCODE_GENERALREDEEM);
+//                            requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject1(Integer.parseInt(rewardPrice),
+//                                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName(), edenvalue), Constants.REQUESTCODE_GENERALREDEEM);
 
 
                         } else {
-
-                            if(mSelectedValue.isEdenRed()){
-                                edenvalue = 1;
-                            }else {
-                                edenvalue=0;
-                            }
+//
+//                            if(mSelectedValue.isEdenRed()){
+//                                edenvalue = 1;
+//                            }else {
+//                                edenvalue=0;
+//                            }
 
                             //old code
-//                            requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject(Integer.parseInt(rewardPrice),
-//                                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName()), Constants.REQUESTCODE_GENERALREDEEM);
+                            requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject(Integer.parseInt(rewardPrice),
+                                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName(),mSelectedValue.isEdenRed()), Constants.REQUESTCODE_GENERALREDEEM);
 
                             //new code
-                            requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject(Integer.parseInt(rewardPrice),
-                                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName(),edenvalue), Constants.REQUESTCODE_GENERALREDEEM);
+//                            requestTypePost(Constants.API_GENERALREDEEM, new ParseJSonObject(getActivity()).getGeneralRedeemObject(Integer.parseInt(rewardPrice),
+//                                    Integer.parseInt(mSelectedValue.getId()), mSelectedValue.getPartnerName(),edenvalue), Constants.REQUESTCODE_GENERALREDEEM);
 
                         }
                     } else {

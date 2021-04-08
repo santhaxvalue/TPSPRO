@@ -494,6 +494,52 @@ public class BaseParser {
         }
     }
 
+    //old code
+//    public ArrayList<GeneralRedeemModels> getGeneralRedeemData(JSONObject jsonObject) throws JSONException {
+//        ArrayList<GeneralRedeemModels> value = new ArrayList<GeneralRedeemModels>();
+//        JSONArray jsonarray = jsonObject.getJSONArray("lstRewardpartners");
+//        for (int i = 0; i < jsonarray.length(); i++) {
+//
+//            JSONObject object = jsonarray.getJSONObject(i);
+//
+//            String Id = "";
+//            String PartnerName = "";
+//            String Description = "";
+//            String ImageURL = "";
+//            boolean IsInstantRedemptionEnabled = false;
+//
+//            ArrayList<String> denominationList = new ArrayList<>();
+//
+//            if (object.has("Id"))
+//                Id = object.getString("Id");
+//            if (object.has("PartnerName"))
+//                PartnerName = object.getString("PartnerName");
+//            if (object.has("Description"))
+//                Description = object.getString("Description");
+//            if (object.has("ImageURL"))
+//                ImageURL = object.getString("ImageURL");
+//
+//            if (object.has("IsInstantRedemptionEnabled"))
+//                IsInstantRedemptionEnabled = object.getBoolean("IsInstantRedemptionEnabled");
+//
+//            if (object.has("denominations")){
+//                JSONArray denomination_array = object.getJSONArray("denominations");
+//
+//                for (int j = 0; j < denomination_array.length(); j++) {
+//                    denominationList.add(denomination_array.get(j).toString());
+//                }
+//            }
+//
+//            JSONArray jsonArray = null;
+//            if (object.has("denominations") && !object.isNull("denominations"))
+//                jsonArray = object.getJSONArray("denominations");
+//            value.add(new GeneralRedeemModels(Id, PartnerName, Description, ImageURL, IsInstantRedemptionEnabled, false,false, denominationList, jsonArray.toString()));
+//        }
+//        return value;
+//    }
+
+    //new code
+
     public ArrayList<GeneralRedeemModels> getGeneralRedeemData(JSONObject jsonObject) throws JSONException {
         ArrayList<GeneralRedeemModels> value = new ArrayList<GeneralRedeemModels>();
         JSONArray jsonarray = jsonObject.getJSONArray("lstRewardpartners");
@@ -506,6 +552,7 @@ public class BaseParser {
             String Description = "";
             String ImageURL = "";
             boolean IsInstantRedemptionEnabled = false;
+            boolean IsEdenRed = false;
 
             ArrayList<String> denominationList = new ArrayList<>();
 
@@ -529,10 +576,14 @@ public class BaseParser {
                 }
             }
 
+            if(object.has("isEdenRed")){
+                IsEdenRed = object.getBoolean("isEdenRed");
+            }
+
             JSONArray jsonArray = null;
             if (object.has("denominations") && !object.isNull("denominations"))
                 jsonArray = object.getJSONArray("denominations");
-            value.add(new GeneralRedeemModels(Id, PartnerName, Description, ImageURL, IsInstantRedemptionEnabled, false,false, denominationList, jsonArray.toString()));
+            value.add(new GeneralRedeemModels(Id, PartnerName, Description, ImageURL, IsInstantRedemptionEnabled, IsEdenRed,false, denominationList, jsonArray.toString()));
         }
         return value;
     }
