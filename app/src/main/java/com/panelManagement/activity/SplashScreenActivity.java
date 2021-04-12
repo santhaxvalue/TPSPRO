@@ -111,6 +111,16 @@ public class SplashScreenActivity extends Activity implements RequestListener {
         myBrowser.addJavascriptInterface(new MyJavaScriptInterface(this), "AndroidFunction");
         WebSettings webSettings = myBrowser.getSettings();
         webSettings.setJavaScriptEnabled(true);
+
+        //new code
+        webSettings.setAppCacheMaxSize(0);
+        webSettings.setAllowFileAccess(false);
+        webSettings.setAppCacheEnabled(false);
+
+        myBrowser.getSettings().setAppCacheMaxSize(0);
+        myBrowser.getSettings().setAppCacheEnabled(false);
+        myBrowser.getSettings().setAllowFileAccess(false);
+
         myBrowser.loadUrl("file:///android_asset/encript.html");
     }
 

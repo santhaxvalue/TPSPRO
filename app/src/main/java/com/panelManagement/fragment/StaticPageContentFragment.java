@@ -51,6 +51,14 @@ public class StaticPageContentFragment extends BaseFragment {
                     StaticPageContentModel content = mParseJsonObject.getStaticPageContent(new JSONObject(res));
                     if (content != null && !(TextUtils.isEmpty(content.getPageContent()))) {
                         mPageContentWebview.getSettings().setJavaScriptEnabled(true);
+
+
+                        //new code
+
+                        mPageContentWebview.getSettings().setAppCacheMaxSize(0);
+                        mPageContentWebview.getSettings().setAppCacheEnabled(false);
+                        mPageContentWebview.getSettings().setAllowFileAccess(false);
+
                         mPageContentWebview.loadDataWithBaseURL("", content.getPageContent(), "text/html", "UTF-8", "");
                     } else {
                         showErrorAlert("", "Content is unavailable");

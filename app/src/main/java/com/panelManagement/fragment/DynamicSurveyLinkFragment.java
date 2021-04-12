@@ -59,6 +59,17 @@ public class DynamicSurveyLinkFragment extends BaseFragment implements View.OnCl
             webView.setClickable(true);
             WebSettings wSettings = webView.getSettings();
             wSettings.setJavaScriptEnabled(true);
+
+            //new code
+
+            wSettings.setAppCacheMaxSize(0);
+            wSettings.setAppCacheEnabled(false);
+            wSettings.setAllowFileAccess(false);
+
+            webView.getSettings().setAppCacheMaxSize(0);
+            webView.getSettings().setAllowFileAccess(false);
+            webView.getSettings().setAppCacheEnabled(false);
+
             webView.getSettings().setBuiltInZoomControls(true);
             webView.getSettings().setUseWideViewPort(true);
             WebClientClass webViewClient = new WebClientClass();

@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.panelManagement.activity">
 
-    <uses-sdk tools:overrideLibrary="com.facebook,android.support.customtabs,com.google.android.gms.gass,in.goodiebag.carouselpicker" />
-    <!-- Permission added by manoj for gmail login -->
+    <uses-sdk tools:overrideLibrary="com.facebook,android.support.customtabs,com.google.android.gms.gass,in.goodiebag.carouselpicker" /><!-- Permission added by manoj for gmail login -->
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.NETWORK" />
@@ -268,6 +267,11 @@
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/FACEBOOK_APP_ID" /> <!-- FCM Service -->
+
+<!--        new code added for  -->
+        <meta-data android:name="android.webkit.WebView.EnableSafeBrowsing"
+            android:value="true" />
+
         <service
             android:name="com.panelManagement.fcm.FCMInstanceService"
             android:exported="false">

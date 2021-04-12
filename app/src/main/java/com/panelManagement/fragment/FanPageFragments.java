@@ -64,6 +64,17 @@ public class FanPageFragments extends BaseFragment implements OnClickListener {
             webView.setClickable(true);
             WebSettings wSettings = webView.getSettings();
             wSettings.setJavaScriptEnabled(true);
+
+            //new code
+            wSettings.setAppCacheMaxSize(0);
+            wSettings.setAllowFileAccess(false);
+            wSettings.setAppCacheEnabled(false);
+
+            webView.getSettings().setAppCacheMaxSize(0);
+            webView.getSettings().setAppCacheEnabled(false);
+            webView.getSettings().setAllowFileAccess(false);
+
+
             webView.getSettings().setBuiltInZoomControls(true);
             webView.getSettings().setUseWideViewPort(true);
             WebClientClass webViewClient = new WebClientClass();

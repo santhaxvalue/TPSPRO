@@ -44,6 +44,14 @@ public class SurveyViewActivity extends Activity implements Listener {
             mWebView.restoreState(savedInstanceState);
         mWebView.getSettings().setLoadWithOverviewMode(true);
         mWebView.getSettings().setJavaScriptEnabled(true);
+
+        //new code
+
+        mWebView.getSettings().setAppCacheMaxSize(0);
+        mWebView.getSettings().setAppCacheEnabled(false);
+        mWebView.getSettings().setAllowFileAccess(false);
+
+
 //        mWebView.getSettings().setDomStorageEnabled(true);
         mWebView.setListener(this, this);
 

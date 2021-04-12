@@ -297,6 +297,16 @@ public class LoginFragment extends BaseFragment implements OnClickListener, Conn
         myBrowser.addJavascriptInterface(new MyJavaScriptInterface(getActivity()), "AndroidFunction");
         WebSettings webSettings = myBrowser.getSettings();
         webSettings.setJavaScriptEnabled(true);
+
+        //new code
+        webSettings.setAppCacheMaxSize(0);
+        webSettings.setAllowFileAccess(false);
+        webSettings.setAppCacheEnabled(false);
+
+        myBrowser.getSettings().setAppCacheMaxSize(0);
+        myBrowser.getSettings().setAppCacheEnabled(false);
+        myBrowser.getSettings().setAllowFileAccess(false);
+
         myBrowser.loadUrl("file:///android_asset/encript.html");
 
         linearLayout = view.findViewById(R.id.ic_parentview_login);

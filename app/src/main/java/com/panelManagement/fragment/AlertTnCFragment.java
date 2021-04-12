@@ -55,6 +55,13 @@ public class AlertTnCFragment extends BaseFragment implements OnClickListener {
             browser.getSettings().setLoadsImagesAutomatically(true);
             browser.setVisibility(View.VISIBLE);
             browser.getSettings().setJavaScriptEnabled(true);
+
+            //new code
+
+            browser.getSettings().setAppCacheMaxSize(0);
+            browser.getSettings().setAppCacheEnabled(false);
+            browser.getSettings().setAllowFileAccess(false);
+
             browser.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
             browser.loadUrl(url);
         } else {
@@ -77,6 +84,13 @@ public class AlertTnCFragment extends BaseFragment implements OnClickListener {
         browser.setVisibility(View.VISIBLE);
         browser.getSettings().setLoadsImagesAutomatically(true);
         browser.getSettings().setJavaScriptEnabled(true);
+
+        //new code
+
+        browser.getSettings().setAppCacheMaxSize(0);
+        browser.getSettings().setAppCacheEnabled(false);
+        browser.getSettings().setAllowFileAccess(false);
+
         browser.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
         browser.loadUrl(url);
     }

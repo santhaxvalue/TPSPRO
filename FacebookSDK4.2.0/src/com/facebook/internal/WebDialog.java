@@ -394,6 +394,12 @@ public class WebDialog extends Dialog {
         webView.setHorizontalScrollBarEnabled(false);
         webView.setWebViewClient(new DialogWebViewClient());
         webView.getSettings().setJavaScriptEnabled(true);
+
+        //new code
+        webView.getSettings().setAppCacheMaxSize(0);
+        webView.getSettings().setAllowFileAccess(false);
+        webView.getSettings().setAppCacheEnabled(false);
+
         webView.loadUrl(url);
         webView.setLayoutParams(new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.MATCH_PARENT));

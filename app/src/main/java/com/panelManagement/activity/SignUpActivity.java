@@ -31,6 +31,7 @@ import android.widget.TextView;
 import com.gigamole.infinitecycleviewpager.OnInfiniteCyclePageTransformListener;
 import com.gigamole.infinitecycleviewpager.VerticalInfiniteCycleViewPager;
 import com.google.android.gcm.GCMRegistrar;
+import com.google.gson.Gson;
 import com.panelManagement.fragment.LoginFragment;
 import com.panelManagement.fragment.SignupProfileInfoFragment;
 import com.panelManagement.fragment.SocialSignupFragment;
@@ -146,6 +147,10 @@ public class SignUpActivity extends FragmentActivity implements OnClickAction, E
             try {
                 jsonObject.put("InstalledVersionCode", String.valueOf(BuildConfig.VERSION_CODE));
                 jsonObject.put("AppDeviceTypeID", "2");
+
+                Log.d("version_params:","version_params:"+jsonObject.toString());
+
+//                Log.d("version_params1:","version_params1:"+https://surveys-api.thepanelstation.com/api/psapi/TPSAppUpdate);
 
                 //appUpdate api call
                 AsyncHttpRequest mAppRequest = new AsyncHttpRequest(this, Constants.API_TPSAppUpdate, jsonObject.toString(), Constants.REQUEST_CHECK_VERSION_CODE, AsyncHttpRequest.Type.POST);
@@ -387,8 +392,11 @@ public class SignUpActivity extends FragmentActivity implements OnClickAction, E
         switch (requestCode) {
             case Constants.REQUEST_CHECK_VERSION_CODE:
                 try {
+
                     JSONObject jsonObject = new JSONObject(response);
                     boolean IsUserActive = jsonObject.optBoolean("IsUserActive");
+
+                    Log.d("response2323:","response2323:"+jsonObject.toString());
 
                     _checkIfUpdateRequired(jsonObject);
 
@@ -402,6 +410,9 @@ public class SignUpActivity extends FragmentActivity implements OnClickAction, E
 
         String installedVersion = jsonObject.optString("InstalledVersionCode");
         String playStoreVersion = jsonObject.optString("PlayStoreVersionCode");
+
+        Log.d("version1:","version1:"+installedVersion);
+        Log.d("version11:","version11:"+playStoreVersion);
 
         if (jsonObject.optString("UpdateTheApp").equalsIgnoreCase("true")) {
             String isMandatoryUpdate = jsonObject.optString("IsMandatory");
