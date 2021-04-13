@@ -148,7 +148,7 @@ public class SignUpActivity extends FragmentActivity implements OnClickAction, E
                 jsonObject.put("InstalledVersionCode", String.valueOf(BuildConfig.VERSION_CODE));
                 jsonObject.put("AppDeviceTypeID", "2");
 
-                Log.d("version_params:","version_params:"+jsonObject.toString());
+//                Log.d("version_params:","version_params:"+jsonObject.toString());
 
 //                Log.d("version_params1:","version_params1:"+https://surveys-api.thepanelstation.com/api/psapi/TPSAppUpdate);
 
@@ -396,7 +396,7 @@ public class SignUpActivity extends FragmentActivity implements OnClickAction, E
                     JSONObject jsonObject = new JSONObject(response);
                     boolean IsUserActive = jsonObject.optBoolean("IsUserActive");
 
-                    Log.d("response2323:","response2323:"+jsonObject.toString());
+//                    Log.d("response2323:","response2323:"+jsonObject.toString());
 
                     _checkIfUpdateRequired(jsonObject);
 
@@ -411,8 +411,8 @@ public class SignUpActivity extends FragmentActivity implements OnClickAction, E
         String installedVersion = jsonObject.optString("InstalledVersionCode");
         String playStoreVersion = jsonObject.optString("PlayStoreVersionCode");
 
-        Log.d("version1:","version1:"+installedVersion);
-        Log.d("version11:","version11:"+playStoreVersion);
+//        Log.d("version1:","version1:"+installedVersion);
+//        Log.d("version11:","version11:"+playStoreVersion);
 
         if (jsonObject.optString("UpdateTheApp").equalsIgnoreCase("true")) {
             String isMandatoryUpdate = jsonObject.optString("IsMandatory");
