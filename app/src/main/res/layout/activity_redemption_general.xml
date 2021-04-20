@@ -209,6 +209,20 @@
 <!--                            android:textSize="@dimen/_10sdp" />-->
 <!--                    </LinearLayout>-->
 
+<!--                    <TextView-->
+<!--                        android:id="@+id/btn_submit"-->
+<!--                        android:layout_width="@dimen/_100sdp"-->
+<!--                        android:layout_height="@dimen/_20sdp"-->
+<!--                        android:layout_below="@id/redeem_points"-->
+<!--                        android:layout_centerHorizontal="true"-->
+<!--                        android:layout_marginTop="@dimen/_10sdp"-->
+<!--                        android:layout_marginBottom="@dimen/dp10"-->
+<!--                        android:background="@color/btn_bg"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="@string/txt_submit"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="@dimen/_10sdp" />-->
+
                     <TextView
                         android:id="@+id/btn_submit"
                         android:layout_width="@dimen/_100sdp"
@@ -219,7 +233,7 @@
                         android:layout_marginBottom="@dimen/dp10"
                         android:background="@color/btn_bg"
                         android:gravity="center"
-                        android:text="@string/txt_submit"
+                        android:text="@string/txt_BUY"
                         android:textColor="@color/black"
                         android:textSize="@dimen/_10sdp" />
 

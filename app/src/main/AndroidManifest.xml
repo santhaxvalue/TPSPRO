@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.panelManagement.activity">
 
-    <uses-sdk tools:overrideLibrary="com.facebook,android.support.customtabs,com.google.android.gms.gass,in.goodiebag.carouselpicker" /><!-- Permission added by manoj for gmail login -->
+    <uses-sdk tools:overrideLibrary="com.facebook,android.support.customtabs,com.google.android.gms.gass,in.goodiebag.carouselpicker" />
+    <!-- Permission added by manoj for gmail login -->
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.NETWORK" />
@@ -13,8 +14,7 @@
 
     <permission
         android:name="${applicationId}.permission.C2D_MESSAGE"
-        android:protectionLevel="signature"/>
-
+        android:protectionLevel="signature" />
 
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Meter Permission -->
@@ -61,17 +61,13 @@
         android:required="false" />
     <uses-feature
         android:name="android.hardware.wifi.direct"
-        android:required="false" />
-
-    <!-- End Meter Permission -->
+        android:required="false" /> <!-- End Meter Permission -->
     <supports-screens
         android:anyDensity="true"
         android:largeScreens="true"
         android:normalScreens="true"
         android:smallScreens="true"
-        android:xlargeScreens="true" />
-
-    <!-- Neison permissions starts -->
+        android:xlargeScreens="true" /> <!-- Neison permissions starts -->
     <uses-permission android:name="com.nielsenaik.mobile_performance.permission.IPC" />
 
     <permission
@@ -82,7 +78,6 @@
         android:name="com.nielsenaik.mobile_performance.ClientAccess"
         android:label="CIQ Client Connection"
         android:protectionLevel="signature" />
-
 
     <application
         android:name=".TPSApplication"
@@ -96,12 +91,16 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:icon,android:supportsRtl,android:hardwareAccelerated,android:name,android:allowBackup">
+        <activity android:name=".DobCalendarActivity"></activity>
+
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
+
         <meta-data
             android:name="asset_statements"
             android:resource="@string/asset_statements" />
+
         <activity
             android:name=".UnSubscribeActivity"
             android:exported="true"
@@ -124,33 +123,29 @@
 
                 <!-- For production -->
                 <data
-                    android:scheme="https"
                     android:host="surveys.thepanelstation.com"
-                    android:path="//RejoinPassword.aspx"/>
-
+                    android:path="//RejoinPassword.aspx"
+                    android:scheme="https" />
                 <data
-                    android:scheme="http"
                     android:host="surveys.thepanelstation.com"
-                    android:path="//RejoinPassword.aspx"/>
+                    android:path="//RejoinPassword.aspx"
+                    android:scheme="http" />
 
                 <!-- For QA -->
                 <data
-                    android:scheme="http"
-                    android:host="qa.thepanelstation.com" />
-
+                    android:host="qa.thepanelstation.com"
+                    android:scheme="http" />
                 <data
-                    android:scheme="https"
-                    android:host="qa.thepanelstation.com" />
+                    android:host="qa.thepanelstation.com"
+                    android:scheme="https" />
 
                 <!-- For Staging -->
                 <data
-                    android:scheme="https"
-                    android:host="staging.thepanelstation.com" />
-
+                    android:host="staging.thepanelstation.com"
+                    android:scheme="https" />
                 <data
-                    android:scheme="http"
-                    android:host="staging.thepanelstation.com" />
-
+                    android:host="staging.thepanelstation.com"
+                    android:scheme="http" />
             </intent-filter>
         </activity>
 
@@ -267,9 +262,9 @@
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/FACEBOOK_APP_ID" /> <!-- FCM Service -->
-
-<!--        new code added for  -->
-        <meta-data android:name="android.webkit.WebView.EnableSafeBrowsing"
+        <!-- new code added for -->
+        <meta-data
+            android:name="android.webkit.WebView.EnableSafeBrowsing"
             android:value="true" />
 
         <service

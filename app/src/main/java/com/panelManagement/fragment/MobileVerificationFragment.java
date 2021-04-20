@@ -312,6 +312,16 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
             case Constants.REQUESTCODE_MOBILEVERIFICATIONPIN:
                 try {
                     JSONObject object = new JSONObject(res);
+
+//                    Boolean status = object.getBoolean("Status");
+//                    String infootpmsg = object.getString("OTPInfoMessage");
+//
+//                    Log.d("otpresponse:","otpresponse:"+status);
+//                    Log.d("otpresponse:1","otpresponse:1"+infootpmsg);
+
+                    Log.d("otpresponse:","otpresponse:"+res);
+
+
                     if (object.getBoolean("Status")) {
                         verify_Code = object.getString("Message");
                         listOfMessages.add(verify_Code);
@@ -326,11 +336,20 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
                         tv_pin.setVisibility(View.VISIBLE);
                         tv_pinSent.setVisibility(View.VISIBLE);
                         btn_new_submit.setVisibility(View.VISIBLE);
+                        //old code
                         tv_resend_otp.setVisibility(View.VISIBLE);
+                        //old code
+
                         //showErrorAlert("", getString(R.string.txt_msg_pinsent));
                     } else {
                         showErrorAlert(" ", object.getString("Message"));
                     }
+
+//                    else if(!object.getBoolean("Status") && (!object.getString("OTPInfoMessage").equals("") || object.getString("OTPInfoMessage") != null)) {
+//
+//                        showErrorAlert(" ", object.getString("OTPInfoMessage"));
+//
+//                    }
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }

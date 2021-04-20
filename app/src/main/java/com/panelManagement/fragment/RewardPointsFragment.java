@@ -2,11 +2,14 @@ package com.panelManagement.fragment;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.DatePickerDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -25,8 +28,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.Button;
-import android.widget.EditText;
+import android.widget.DatePicker;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -53,6 +55,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -86,6 +89,14 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
     private FragmentManager fragmentManager;
     private FragmentTransaction fragmentTransaction;
     private int maxPhoneLength;
+
+
+    private TextView mDisplayDate;
+    private DatePickerDialog.OnDateSetListener mDateSetListener;
+
+
+
+
     private int minPhoneLength;
     private boolean dontCallFronCreate;
     private BroadcastReceiver SmsListener = new BroadcastReceiver() {
@@ -164,6 +175,10 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
         int dpValue = -45; // margin in dips
         float d = context.getResources().getDisplayMetrics().density;
         int margin = (int) (dpValue * d); // margin in pixels
+
+
+
+
         getActivity().findViewById(R.id.cv_points_available).setVisibility(View.VISIBLE);
         getActivity().findViewById(R.id.cv_points_earned).setVisibility(View.VISIBLE);
         getActivity().findViewById(R.id.cv_points_redeemed).setVisibility(View.VISIBLE);
@@ -258,7 +273,12 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
                 break;
 
             case R.id.rewardBtnRedeem:
-                    redeemPoints();
+
+
+                dobDateGenerator();
+
+
+//                    redeemPoints();
                 break;
             case R.id.pointsinreviewCard:
                 showPointsReview();
@@ -268,6 +288,35 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
                 break;
         }
     }
+
+    private void dobDateGenerator() {
+
+        Calendar cal = Calendar.getInstance();
+        int year = cal.get(Calendar.YEAR);
+        int month = cal.get(Calendar.MONTH);
+        int day = cal.get(Calendar.DAY_OF_MONTH);
+
+        DatePickerDialog dialog = new DatePickerDialog(
+                getActivity(),
+                android.R.style.Theme_Holo_Light_Dialog_MinWidth,
+                mDateSetListener,
+                year,month,day);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        dialog.show();
+
+        mDateSetListener = new DatePickerDialog.OnDateSetListener() {
+            @Override
+            public void onDateSet(DatePicker datePicker, int year, int month, int day) {
+                month = month + 1;
+                Log.d("selecteddate:", "onDateSet: mm/dd/yyy: " + month + "/" + day + "/" + year);
+
+                String date = month + "/" + day + "/" + year;
+
+            }
+        };
+
+    }
+
 
     private void redeemPoints() {
 //        if(InformatePreferences.getBoolean(context, Constants.IS_REDEEM_INSTANTLY,false))

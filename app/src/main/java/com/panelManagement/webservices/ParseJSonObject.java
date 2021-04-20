@@ -90,6 +90,13 @@ public class ParseJSonObject extends BaseParser {
             put("ResendOTP", resendOTP);
             put("MobileNumber", mobileNumber);
             //    put("LanguageCulture", InformatePreferences.getStringPrefrence(mContext,Constants.PREF_LOCALECODE));
+
+
+            Log.d("otpparams:1","otpparams:"+InformatePreferences.getStringPrefrence(mContext, Constants.PREF_ID));
+            Log.d("otpparams:11","otpparams:"+resendOTP);
+            Log.d("otpparams:111","otpparams:"+mobileNumber);
+
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
