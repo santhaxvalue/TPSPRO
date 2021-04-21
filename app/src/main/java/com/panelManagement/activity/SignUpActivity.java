@@ -393,6 +393,8 @@ public class SignUpActivity extends FragmentActivity implements OnClickAction, E
             case Constants.REQUEST_CHECK_VERSION_CODE:
                 try {
 
+                    Log.d("tpsappupdate1:","tpsappupdate1"+response);
+
                     JSONObject jsonObject = new JSONObject(response);
                     boolean IsUserActive = jsonObject.optBoolean("IsUserActive");
 

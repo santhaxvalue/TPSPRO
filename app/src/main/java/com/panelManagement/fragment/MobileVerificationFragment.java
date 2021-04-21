@@ -24,6 +24,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.panelManagement.activity.HomeActivity;
 import com.panelManagement.activity.R;
@@ -53,7 +54,11 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
     private EditText edt_mobileNumber;
     private TextView tv_pin;
     private TextView tv_resend_otp;
+
+    private TextView infolink;
+
     private Button btn_verify;
+    private Button btn_verify_resend_otp;
     private Button btn_new_submit;
     private int maxPhoneLength;
     private int minPhoneLength;
@@ -147,11 +152,17 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
         btn_verify = view.findViewById(R.id.btn_verify);
         btn_verify.setOnClickListener(this);
 
+        btn_verify_resend_otp = view.findViewById(R.id.btn_verify_resend_otp);
+        btn_verify_resend_otp.setOnClickListener(this);
+
         btn_new_submit = view.findViewById(R.id.btn_new_submit);
         btn_new_submit.setOnClickListener(this);
 
         tv_resend_otp = view.findViewById(R.id.tv_resend_otp);
         tv_resend_otp.setOnClickListener(this);
+
+        infolink = view.findViewById(R.id.infolink);
+        infolink.setOnClickListener(this);
 
         maxPhoneLength = InformatePreferences.getMaxMobileLength(getActivity());
         minPhoneLength = InformatePreferences.getMinMobileLength(getActivity());
@@ -185,6 +196,8 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
         switch (v.getId()) {
             case R.id.btn_verify: {
                 String phone = edt_mobileNumber.getText().toString();
+
+                edt_mobileNumber.setFocusable(false);
 
 //                if (phone.length() < minPhoneLength || edt_mobileNumber.getText().toString().equals(InformatePreferences.getStringPrefrence(getActivity(), Constants.PREF_MOBILENUMBER))) {
                 if (phone.length() < minPhoneLength) {
@@ -247,6 +260,35 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
                 }, 45000);*/
 
                 checkForEncryptedMobileNumber(true);
+
+            }
+            break;
+
+            case R.id.btn_verify_resend_otp: {
+                tv_resend_otp.setEnabled(false);
+                tv_resend_otp.setTextColor(Color.RED);
+
+                /*tv_resend_otp.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        tv_resend_otp.setEnabled(true);
+                        tv_resend_otp.setTextColor(tv_resend_otp.getContext().getResources().getColor(R.color.aqua_dark));
+                    }
+                }, 45000);*/
+
+                checkForEncryptedMobileNumber(true);
+
+            }
+            break;
+
+
+
+
+            case R.id.infolink: {
+
+                showErrorAlert("", getString(R.string.info_link));
+
+
 
             }
             break;
@@ -327,7 +369,10 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
                         listOfMessages.add(verify_Code);
                         edt_mobileNumber.setEnabled(false);
                         edt_mobileNumber.setCursorVisible(false);
+                        //OLD CODE
                         btn_verify.setVisibility(View.GONE);
+                        //NEW CODE
+                        btn_verify_resend_otp.setVisibility(View.VISIBLE);
                        /* btn_verify.setId(btn_submit);
                         btn_verify.setText(getResources().getString(R.string.txt_submit));
                         btn_verify.setOnClickListener(this);*/
@@ -337,11 +382,24 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
                         tv_pinSent.setVisibility(View.VISIBLE);
                         btn_new_submit.setVisibility(View.VISIBLE);
                         //old code
-                        tv_resend_otp.setVisibility(View.VISIBLE);
+//                        tv_resend_otp.setVisibility(View.VISIBLE);
                         //old code
+
+                        //New Code
+                        tv_resend_otp.setVisibility(View.GONE);
+                        //New Code
+                        if(object.getBoolean("isOtpLimitExceeded")){
+                            infolink.setVisibility(View.VISIBLE);
+                        }
 
                         //showErrorAlert("", getString(R.string.txt_msg_pinsent));
                     } else {
+
+                        if(object.getBoolean("isOtpLimitExceeded")){
+                            infolink.setVisibility(View.VISIBLE);
+                        }
+
+
                         showErrorAlert(" ", object.getString("Message"));
                     }
 

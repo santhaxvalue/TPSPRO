@@ -32,6 +32,7 @@ import android.widget.DatePicker;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.facebook.accountkit.Account;
 import com.facebook.accountkit.AccountKit;
@@ -290,6 +291,13 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
     }
 
     private void dobDateGenerator() {
+
+        Toast toast= Toast.makeText(getActivity(),
+                R.string.enter_dob, Toast.LENGTH_LONG);
+        toast.setGravity(Gravity.BOTTOM, 0, 50);
+        View toastView = toast.getView();
+        toastView.setBackgroundResource(R.drawable.toast_drawable);
+        toast.show();
 
         Calendar cal = Calendar.getInstance();
         int year = cal.get(Calendar.YEAR);

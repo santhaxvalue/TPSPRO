@@ -1627,6 +1627,8 @@ public class HomeActivity extends AppCompatActivity implements LocaleChangeListe
                 break;
             case Constants.REQUEST_CHECK_VERSION_CODE:
                 try {
+                    Log.d("tpsappupdate11:","tpsappupdate11"+response);
+
                     JSONObject jsonObject = new JSONObject(response);
                     boolean IsUserActive = jsonObject.optBoolean("IsUserActive");
 

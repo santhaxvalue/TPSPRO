@@ -29,7 +29,8 @@
     <string name="empty_message_receive_survey">"You will soon receive an interesting survey "</string>
     <string name="txt_Reward">"Rewards"</string>
     <string name="txt_Redeem">"REDEEM"</string>
-    <string name="txt_msg_pinsent">"PIN sent successfully!"</string>
+<!--    <string name="txt_msg_pinsent">"PIN sent successfully!"</string>-->
+    <string name="txt_msg_pinsent">"OTP sent successfully!"</string>
     <string name="txt_RedeemHist">"REDEMPTION HISTORY"</string>
     <string name="txt_RewardHist">"   REWARDS  \n  HISTORY"</string>
     <string name="txt_PointsInReview">"   POINTS  \n  IN REVIEW"</string>
@@ -43,6 +44,7 @@
     <string name="txt_donot_enter_code">"Note :Please do not enter country code"</string>
     <string name="txt_pin">"Pin"</string>
     <string name="txt_pin_new">"Enter OTP"</string>
+    <string name="txt_info_new">"Info"</string>
 
     <string name="btn_verify">"Verify"</string>
     <string name="btn_verify_new">"OTP"</string>
@@ -372,6 +374,13 @@
     <string name="msg_serverdown">"Server is down or under maintenance . Please try again later."</string>
     <string name="msg_citynotfound">"Unable to process request , due to difficulty in finding panalist cities of your country."</string>
     <string name="unabletoverifypin">"Unable to verify your pin, please input correct pin number"</string>
+
+    <string name="info_link">" Please regenerate OTP after 24 hours.\n Please check your SMS settings or Blocked messages.\n SMS won't be delivered if you have activated DND services. \n Keep your mobile number recharged to receive SMS. \n If you still have issues please contact our helpdesk ID: tpsotp@thepanelstationsurveys3.com \n"</string>
+
+
+
+
+
     <string name="pointexpired">"Point Expired"</string>
     <string name="open">"Open"</string>
     <string name="allowdatausage">"On the next screen please allow usage access to Panel Station by turning it on.\nThis will complete your registration."</string>
@@ -458,6 +467,12 @@
     <string name="msg_update_app_2">You are using an older version of app, please update the app to the latest version for the seamless experience!</string>
     <string name="change_password">Change Password</string>
     <string name="unsubscribe">UNSUBSCRIBE</string>
+
+    <string name="enter_dob">Please enter your Date of Birth</string>
+
+
+
+
     <string name="reset">RESET</string>
     <string name="unsubscribe_lowercase">Unsubscribe</string>
     <string name="thank_you">Thank you</string>
