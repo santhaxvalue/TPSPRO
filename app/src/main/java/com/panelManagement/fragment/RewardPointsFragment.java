@@ -8,6 +8,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
@@ -95,6 +96,8 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
     private TextView mDisplayDate;
     private DatePickerDialog.OnDateSetListener mDateSetListener;
 
+    SharedPreferences sharedPreferences1;
+
 
 
 
@@ -165,6 +168,9 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_rewards, container, false);
+
+        sharedPreferences1 = context.getSharedPreferences("DATEOFBIRTH", Context.MODE_PRIVATE);
+
 
         //String isRedeemInstant = InformatePreferences.getStringPrefrence(context, Constants.IS_REDEEM_INSTANTLY);
         if(InformatePreferences.getBoolean(context, Constants.IS_REDEEM_INSTANTLY,false))
@@ -275,11 +281,11 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
 
             case R.id.rewardBtnRedeem:
 
-
+                //old code
+//                redeemPoints();
+                //new code
                 dobDateGenerator();
 
-
-//                    redeemPoints();
                 break;
             case R.id.pointsinreviewCard:
                 showPointsReview();
@@ -319,6 +325,49 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
                 Log.d("selecteddate:", "onDateSet: mm/dd/yyy: " + month + "/" + day + "/" + year);
 
                 String date = month + "/" + day + "/" + year;
+                int day_len = String.valueOf(day).length();
+                int month_len = String.valueOf(month).length();
+                String monthstr = "";
+                String daystr = "";
+                String formate_date = "";
+
+                if(day_len == 1 && month_len == 1 ){
+                   daystr = "0"+String.valueOf(day);
+                    monthstr = "0"+String.valueOf(month);
+                    formate_date = year + "-" + monthstr + "-" + daystr ;
+                } else if(day_len == 1 && month_len > 1){
+                    daystr = "0"+String.valueOf(day);
+                    formate_date = year + "-" + month + "-" + daystr ;
+                } else if(day_len > 1 && month_len == 1){
+                    monthstr = "0"+String.valueOf(month);
+                    formate_date = year + "-" + monthstr + "-" + day ;
+                } else {
+                    formate_date = year + "-" + month + "-" + day ;
+                }
+
+
+
+                String profile_dob = sharedPreferences1.getString("DOB", "");
+
+                Log.d("dobone1:","dobone1:"+formate_date);
+                Log.d("dobone11:","dobone11:"+profile_dob);
+
+
+                if(formate_date.equals(profile_dob)){
+
+                    redeemPoints();
+
+                }else {
+                    Toast.makeText(getActivity(), getString(R.string.enter_valid_dob), Toast.LENGTH_SHORT).show();
+//                    Toast toast= Toast.makeText(getActivity(),
+//                            R.string.enter_valid_dob, Toast.LENGTH_LONG);
+//                    toast.setGravity(Gravity.BOTTOM, 0, 50);
+//                    View toastView = toast.getView();
+//                    toastView.setBackgroundResource(R.drawable.toast_drawable);
+//                    toast.show();
+                }
+
+
 
             }
         };
@@ -339,7 +388,22 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
 //        else
             minimumRedeemPoints = InformatePreferences.getInt(getActivity(), Constants.PREF_THRESHHOLD);
             String availablePoints= InformatePreferences.getStringPrefrence(getActivity(), Constants.PREF_AVAILABLEPOINTS_);
-            int minimumPOints = Integer.parseInt(availablePoints);
+            //old code
+//            int minimumPOints  = Integer.parseInt(availablePoints);
+        //new code
+        int minimumPOints=0;
+            if(availablePoints.contains(".")) {
+                String strvalue = availablePoints.substring(0,availablePoints.indexOf("."));
+                 minimumPOints = Integer.parseInt(strvalue);
+
+                Log.d("strvalue112:", "strvalue112:" + strvalue);
+                Log.d("strvalue1122:", "strvalue1122:" + String.valueOf(minimumPOints));
+             }else {
+
+            //old code
+                minimumPOints = Integer.parseInt(availablePoints);
+                Log.d("strvalue11222:", "strvalue11222:" + String.valueOf(minimumPOints));
+            }
 
             if (rewardsPointsData != null) {
                 if (Float.parseFloat(rewardsPointsData.getAvailablePoints()) < RewardPointsFragment.minimumRedeemPoints &&  !(InformatePreferences.getBoolean(context, Constants.IS_REDEEM_INSTANTLY,false))) {

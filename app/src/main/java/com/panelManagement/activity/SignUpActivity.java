@@ -396,6 +396,15 @@ public class SignUpActivity extends FragmentActivity implements OnClickAction, E
                     Log.d("tpsappupdate1:","tpsappupdate1"+response);
 
                     JSONObject jsonObject = new JSONObject(response);
+
+                    String dobstr = jsonObject.getString("DOB");
+                    Log.d("dob:1","dob:1"+dobstr);
+                    SharedPreferences sharedPreferences1 = context.getSharedPreferences("DATEOFBIRTH", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor1 = sharedPreferences1.edit();
+                    editor1.putString("DOB", dobstr);
+                    editor1.commit();
+
+
                     boolean IsUserActive = jsonObject.optBoolean("IsUserActive");
 
 //                    Log.d("response2323:","response2323:"+jsonObject.toString());

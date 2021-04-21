@@ -179,6 +179,8 @@ public class HomeActivity extends AppCompatActivity implements LocaleChangeListe
     DBhelper db;
     protected LocationManager locationManager;
 
+    Context context;
+
     Bitmap rotatedBitmap = null;
 
     int[] imageId = {
@@ -239,6 +241,9 @@ public class HomeActivity extends AppCompatActivity implements LocaleChangeListe
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.home);
+
+        context = HomeActivity.this;
+
         findViewById(R.id.tt).setVisibility(View.GONE);
         db = new DBhelper(HomeActivity.this);
         AccountKit.initialize(getApplicationContext(), null);
@@ -1630,6 +1635,14 @@ public class HomeActivity extends AppCompatActivity implements LocaleChangeListe
                     Log.d("tpsappupdate11:","tpsappupdate11"+response);
 
                     JSONObject jsonObject = new JSONObject(response);
+
+                    String dobstr = jsonObject.getString("DOB");
+                    Log.d("dob:1","dob:1"+dobstr);
+                    SharedPreferences sharedPreferences1 = context.getSharedPreferences("DATEOFBIRTH", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor1 = sharedPreferences1.edit();
+                    editor1.putString("DOB", dobstr);
+                    editor1.commit();
+
                     boolean IsUserActive = jsonObject.optBoolean("IsUserActive");
 
                     InformatePreferences.putInt(getApplicationContext(), Constants.PREF_MARKET_ID, jsonObject.getInt("MarketId"));

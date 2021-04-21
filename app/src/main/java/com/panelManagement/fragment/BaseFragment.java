@@ -66,6 +66,8 @@ public abstract class BaseFragment extends Fragment implements RequestListener {
     private long lastBackPressTime;
     private FragmentActivity activity;
 
+    SharedPreferences sharedpreferences;
+
 
     public BaseFragment() {
         super();
@@ -91,6 +93,7 @@ public abstract class BaseFragment extends Fragment implements RequestListener {
         activity = getActivity();
         context = this.getContext();
     }
+
 
     protected void _checkConsentData() {
         //showDialog(true, getString(R.string.dialog_login));
@@ -212,6 +215,9 @@ public abstract class BaseFragment extends Fragment implements RequestListener {
         dismissDialog();
         Log.d("requestcode11112:","requestcode11112:"+requestCode);
         Log.d("response2222:","response2222:"+response);
+
+
+
         JSONObject jsonObject = null;
         if (requestCode == REQUEST_GET_OPINION_POLL_QUESTIONS) {
             Log.d("nitest1:","nitest1"+response);
@@ -221,11 +227,14 @@ public abstract class BaseFragment extends Fragment implements RequestListener {
             try {
                 Log.d("nitest3:","nitest3"+response);
                 jsonObject = new JSONObject(response);
+
                 try {
 
                     if (requestCode == Constants.REQUEST_AVAILABLE_POINTS) {
                         InformatePreferences.setStringPrefrence(getContext(), Constants.PREF_AVAILABLEPOINTS_, jsonObject.optString("AvailablePoints"));
                     }
+
+
 
                     if (jsonObject != null && jsonObject.has("LanguageCulture") && !TextUtils.isEmpty(jsonObject.getString("LanguageCulture"))) {
                         Utility.setLocaleLanguage(jsonObject.getString("LanguageCulture"), getActivity());
