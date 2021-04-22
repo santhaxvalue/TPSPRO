@@ -235,6 +235,10 @@ public class HomeActivity extends AppCompatActivity implements LocaleChangeListe
     private ImageView mQuickPollIcon;
     //private TextView log;
 
+    SharedPreferences sharedPreferences12;
+
+    CircleImageView edit_ph_number;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -243,6 +247,8 @@ public class HomeActivity extends AppCompatActivity implements LocaleChangeListe
         setContentView(R.layout.home);
 
         context = HomeActivity.this;
+
+
 
         findViewById(R.id.tt).setVisibility(View.GONE);
         db = new DBhelper(HomeActivity.this);
@@ -286,6 +292,8 @@ public class HomeActivity extends AppCompatActivity implements LocaleChangeListe
 
         getLatLong();
 
+
+
         fabButton = findViewById(R.id.fab_btn);
         txt_points_earned_reward_history1 = findViewById(R.id.txt_points_earned_reward_history1);
         ImageView iv_home = findViewById(R.id.iv_home);
@@ -322,7 +330,7 @@ public class HomeActivity extends AppCompatActivity implements LocaleChangeListe
             profileImage.setImageDrawable(getResources().getDrawable(R.drawable.ic_profile));
         }
 
-        CircleImageView edit_ph_number = findViewById(R.id.edit_ph_number);
+        edit_ph_number = findViewById(R.id.edit_ph_number);
         profileName = findViewById(R.id.user_name);
         //log = findViewById(R.id.logbox);
         email = findViewById(R.id.email_id);
@@ -333,6 +341,12 @@ public class HomeActivity extends AppCompatActivity implements LocaleChangeListe
         header_survey_and_redeem = findViewById(R.id.header_survey_and_redeem);
         ptsRedeemed = findViewById(R.id.ptsRedeemed1);
         pirLayout = findViewById(R.id.pirLayout1);
+
+
+
+
+
+
 
         edit_ph_number.setOnClickListener(this);
         iv_home.setOnClickListener(this);
@@ -1642,6 +1656,27 @@ public class HomeActivity extends AppCompatActivity implements LocaleChangeListe
                     SharedPreferences.Editor editor1 = sharedPreferences1.edit();
                     editor1.putString("DOB", dobstr);
                     editor1.commit();
+
+
+                    String mobilenoupdate = jsonObject.getString("MobileNoUpdate");
+                    Log.d("mobilenoupdate:1","mobilenoupdate:1"+mobilenoupdate);
+                    SharedPreferences sharedPreferences11 = context.getSharedPreferences("MOBILENOUPDATE", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor11 = sharedPreferences11.edit();
+                    editor11.putString("MOBILENOUPDATE", mobilenoupdate);
+                    editor11.commit();
+
+
+                    sharedPreferences12 = context.getSharedPreferences("MOBILENOUPDATE", Context.MODE_PRIVATE);
+
+                    String profile_mobienoupdate = sharedPreferences12.getString("MOBILENOUPDATE", "");
+
+                    Log.d("profile_mobilenoupdate:","profile_mobilenoupdate:"+profile_mobienoupdate);
+
+                    if(profile_mobienoupdate.equals("true")){
+                        edit_ph_number.setVisibility(View.VISIBLE);
+                    }else if(profile_mobienoupdate.equals("false")) {
+                        edit_ph_number.setVisibility(View.GONE);
+                    }
 
                     boolean IsUserActive = jsonObject.optBoolean("IsUserActive");
 
