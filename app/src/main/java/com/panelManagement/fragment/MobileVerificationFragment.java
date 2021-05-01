@@ -197,15 +197,25 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
             case R.id.btn_verify: {
                 String phone = edt_mobileNumber.getText().toString();
 
-                edt_mobileNumber.setFocusable(false);
+                Log.d("inputnumber:","inputnumbet:"+phone);
+
+                //old code
+//                edt_mobileNumber.setFocusable(false);
 
 //                if (phone.length() < minPhoneLength || edt_mobileNumber.getText().toString().equals(InformatePreferences.getStringPrefrence(getActivity(), Constants.PREF_MOBILENUMBER))) {
                 if (phone.length() < minPhoneLength) {
 
+                    edt_mobileNumber.getText().clear();
                     showErrorAlert(" ", getString(R.string.error_phone_length));
-                    edt_mobileNumber.setText(null);
-                } else {
-                    //edt_mobileNumber.setEnabled(false);
+
+//                    edt_mobileNumber.setText(null);
+                }else if(phone.equals("0000000000") || phone.equals("00000000000")||phone.equals("000000000000")||phone.equals("0000000000000")) {
+
+                    edt_mobileNumber.getText().clear();
+                    showErrorAlert(" ", getString(R.string.error_phone_length));
+
+                }else {
+                    edt_mobileNumber.setEnabled(false);
                     if ((edt_pinNumber.getVisibility() == View.INVISIBLE || edt_pinNumber.getVisibility() == View.GONE)
                             && TextUtils.isEmpty(edt_pinNumber.getText().toString())) {
 

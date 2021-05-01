@@ -317,10 +317,12 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
                 year,month,day);
         dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         dialog.show();
+        dialog.setCanceledOnTouchOutside(false);
 
         mDateSetListener = new DatePickerDialog.OnDateSetListener() {
             @Override
             public void onDateSet(DatePicker datePicker, int year, int month, int day) {
+
                 month = month + 1;
                 Log.d("selecteddate:", "onDateSet: mm/dd/yyy: " + month + "/" + day + "/" + year);
 
@@ -370,7 +372,13 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
 
 
             }
+
+
+
+
         };
+
+
 
     }
 
