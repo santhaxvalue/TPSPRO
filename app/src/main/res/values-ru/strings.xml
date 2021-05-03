@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
                     //Russian
+
+    <string name="enter_dob">Введите правильную дату рождения</string>
+
+    <string name="enter_valid_dob">Введите дату вашего рождения</string>
+
+
     <string name="txt_redemption_request">Запрос на обналичивание</string>
     //added by niyaj
     <string name="txt_points_processed_successfully">баллов обработан успешно</string>

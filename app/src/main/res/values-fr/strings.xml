@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 //France
+
+    <string name="enter_dob">Veuillez indiquer une date de naissance valide</string>
+
+    <string name="enter_valid_dob">Veuillez indiquer votre date de naissance</string>
+
+
     <string name="txt_redemption_request">Redemption request of</string>
     //added by niyaj
     <string name="txt_points_processed_successfully">points processed successfully.</string>

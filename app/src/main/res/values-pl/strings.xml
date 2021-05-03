@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
                     //Polish
+
+    <string name="enter_dob">Proszę wpisać prawidłową datę urodzenia</string>
+
+    <string name="enter_valid_dob">Proszę wpisać swoją datę urodzenia</string>
+
     <string name="txt_redemption_request">Wymiana</string>
     //added by niyaj
     <string name="txt_points_processed_successfully">punktów zakończona pomyślnie.</string>

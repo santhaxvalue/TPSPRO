@@ -2,6 +2,11 @@
 <resources>
 
     //Malasyia
+
+    <string name="enter_dob">Sila masukkan Tarikh Lahir yang sah</string>
+
+    <string name="enter_valid_dob">Sila masukkan Tarikh Lahir anda</string>
+
     <string name="txt_redemption_request">Permintaan penebusan</string>
     //added by niyaj
     <string name="txt_points_processed_successfully">mata telah berjaya diproses.</string>

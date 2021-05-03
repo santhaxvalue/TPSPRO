@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     //vietnam
+
+
+    <string name="enter_dob">Vui lòng nhập Ngày sinh hợp lệ</string>
+
+    <string name="enter_valid_dob">Xin vui lòng nhập Ngày sinh của bạn</string>
+
+
     <string name="txt_redemption_request">Yêu cầu lấy thưởng của</string>
     //added by niyaj
     <string name="txt_points_processed_successfully">điểm đã được xử lý thành công.</string>

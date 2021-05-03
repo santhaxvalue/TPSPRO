@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
                                 //Colombia
+
+
+    <string name="enter_dob">Por favor, ingrese su Fecha de Nacimiento</string>
+
+    <string name="enter_valid_dob">Por favor, ingrese una Fecha de Nacimiento válida</string>
+
+
     <string name="txt_redemption_request">Solicitud de canje de</string>
     //added by niyaj
     <string name="txt_points_processed_successfully">puntos procesada con éxito.</string>

@@ -4,6 +4,13 @@
     //Brazil
     //Potugese
 
+    <string name="enter_dob">Por favor, entre com a data de nascimento válida</string>
+
+    <string name="enter_valid_dob">Por favor, entre com a sua data de nascimento</string>
+
+
+
+
     <string name="txt_redemption_request">Pedido de resgate de</string>
     //added by niyaj
     <string name="txt_points_processed_successfully">pontos processado com sucesso.</string>

@@ -2,6 +2,10 @@
 <resources>
     //Turkish
 
+    <string name="enter_dob">Lütfen Doğum Tarihinizi girin</string>
+
+    <string name="enter_valid_dob">Lütfen geçerli bir Doğum Tarihi girin</string>
+
     <string name="txt_redemption_request">Için geri ödeme isteği</string>
     //added by niyaj
     <string name="txt_points_processed_successfully">puan başarıyla işlendi.</string>

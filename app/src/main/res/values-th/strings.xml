@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
 ///Thai
+
+    <string name="enter_dob">กรุณากรอกวันเดือนปีเกิดของคุณ</string>
+
+    <string name="enter_valid_dob">กรุณากรอกวันเดือนปีเกิดที่ถูกต้อง</string>
+
     <string name="txt_redemption_request">คำขอเพื่อการแลกของรางวัล ด้วยคะแนนสะสม</string>
     //added by niyaj
     <string name="txt_points_processed_successfully">คะแนน ประสบความสำเร็จในการดำเนินการ</string>

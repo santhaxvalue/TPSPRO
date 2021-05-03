@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>    //Tagalog
 
+
+
+
+    <string name="enter_dob">Pakilagay ang balidong Petsa ng Kapanganakan</string>
+
+    <string name="enter_valid_dob">Pakilagay ang iyong Petsa ng Kapanganakan</string>
+
+
+
+
+
+
     <string name="txt_redemption_request">Matagumpay na naproseso ang ang hiling ng pag-redeem sa</string>
     //added by niyaj
     <string name="txt_points_processed_successfully">puntos</string>

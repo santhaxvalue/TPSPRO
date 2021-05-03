@@ -31,6 +31,18 @@
 
     <string name="txt_points_in_rejected">"النقاط \nالمرفوضة"</string>
 
+
+
+
+
+    <string name="enter_dob">يُرجى إدخال تاريخ ميلاد صحيح</string>
+
+    <string name="enter_valid_dob">يُرجى إدخال تاريخ ميلادك</string>
+
+
+
+
+
     <string name="action_settings">إعدادات</string>
     <string name="dialog_login">ارجوك انتظر…</string>
     <string name="txt_email">عنوان الايميل</string>

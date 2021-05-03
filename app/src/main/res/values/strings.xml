@@ -112,7 +112,7 @@
     <!-- resolved tranlations issues -->
     <string name="app_name">The Panel Station</string>
 
-    <string name="enter_valid_dob">Please enter valid DOB</string>
+
 
 
 
@@ -474,6 +474,8 @@
     <string name="unsubscribe">UNSUBSCRIBE</string>
 
     <string name="enter_dob">Please enter your Date of Birth</string>
+
+    <string name="enter_valid_dob">Please enter valid DOB</string>
 
 
 

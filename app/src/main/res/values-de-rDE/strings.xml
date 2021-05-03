@@ -5,6 +5,17 @@
 <resources>
 
         //Germany
+
+
+    <string name="enter_dob">Bitte geben Sie ein gültiges Geburtsdatum ein</string>
+
+    <string name="enter_valid_dob">Bitte geben Sie Ihr Geburtsdatum ein</string>
+
+
+
+
+
+
     <string name="lbl_privacy_statement">Datenschutzerklärung</string>
 
     <string name="txt_points_in_review">"Punkte in Überprüfung"</string>

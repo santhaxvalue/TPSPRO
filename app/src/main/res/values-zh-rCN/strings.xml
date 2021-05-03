@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="enter_dob">请输入有效的出生日期</string>
+
+    <string name="enter_valid_dob">请输入您的出生日期</string>
+
     <string name="txt_redemption_request">已成功处理要求兑换</string>
     //added by niyaj
     <string name="txt_points_processed_successfully">点积分的请求。</string>
