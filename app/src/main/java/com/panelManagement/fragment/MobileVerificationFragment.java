@@ -57,6 +57,9 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
 
     private TextView infolink;
 
+    private TextView infolinkmsg;
+
+
     private Button btn_verify;
     private Button btn_verify_resend_otp;
     private Button btn_new_submit;
@@ -163,6 +166,8 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
 
         infolink = view.findViewById(R.id.infolink);
         infolink.setOnClickListener(this);
+
+        infolinkmsg = view.findViewById(R.id.infolinkmsg);
 
         maxPhoneLength = InformatePreferences.getMaxMobileLength(getActivity());
         minPhoneLength = InformatePreferences.getMinMobileLength(getActivity());
@@ -296,7 +301,9 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
 
             case R.id.infolink: {
 
-                showErrorAlert("", getString(R.string.info_link));
+//                showErrorAlert("", getString(R.string.info_link));
+                showErrorAlert("", infolinkmsg.getText().toString());
+
 
 
 
@@ -399,14 +406,35 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
                         tv_resend_otp.setVisibility(View.GONE);
                         //New Code
                         if(object.getBoolean("isOtpLimitExceeded")){
+                            String infostr = object.getString("OTPInfo");
+                            infolink.setText(infostr);
                             infolink.setVisibility(View.VISIBLE);
+
+                            String replace = object.getString("OTPInfoMessage").replaceAll("<ul>","");
+                            String replace1 = replace.replaceAll("\n","");
+                            String replace2 = replace1.replaceAll("\r","");
+                            String replace3 = replace2.replaceAll("<li>","");
+                            String replace4 = replace3.replaceAll("</li>","");
+                            String replace5 = replace4.replaceAll("</ul>","");
+                            infolinkmsg.setText(replace5);
                         }
 
                         //showErrorAlert("", getString(R.string.txt_msg_pinsent));
                     } else {
 
                         if(object.getBoolean("isOtpLimitExceeded")){
+                            String infostr = object.getString("OTPInfo");
+                            infolink.setText(infostr);
                             infolink.setVisibility(View.VISIBLE);
+
+                            String replace = object.getString("OTPInfoMessage").replaceAll("<ul>","");
+                            String replace1 = replace.replaceAll("\n","");
+                            String replace2 = replace1.replaceAll("\r","");
+                            String replace3 = replace2.replaceAll("<li>","");
+                            String replace4 = replace3.replaceAll("</li>","");
+                            String replace5 = replace4.replaceAll("</ul>","");
+                            infolinkmsg.setText(replace5);
+
                         }
 
 

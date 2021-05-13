@@ -63,7 +63,7 @@ import java.util.regex.Pattern;
 
 import static com.panelManagement.activity.HomeActivity.MYFRAGMENTKEY;
 
-public class RewardPointsFragment extends BaseFragment implements OnClickListener {
+public class RewardPointsFragment extends BaseFragment implements OnClickListener,DatePickerDialog.OnDateSetListener {
 
     public static final int REWARDHISTORY = 1;
     public static final int THANKS = 4;
@@ -97,6 +97,8 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
     private DatePickerDialog.OnDateSetListener mDateSetListener;
 
     SharedPreferences sharedPreferences1;
+
+    SharedPreferences sharedPreferences12;
 
 
 
@@ -282,9 +284,10 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
             case R.id.rewardBtnRedeem:
 
                 //old code
-//                redeemPoints();
+                redeemPoints();
                 //new code
-                dobDateGenerator();
+//                dobDateGenerator();
+//                dobDateGeneratornew();
 
                 break;
             case R.id.pointsinreviewCard:
@@ -296,13 +299,46 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
         }
     }
 
+    private void dobDateGeneratornew() {
+
+        //new code
+        Toast toast=Toast.makeText(getActivity(), R.string.enter_dob,Toast.LENGTH_LONG);
+        toast.setGravity(Gravity.TOP, 0, 50);
+        View view=toast.getView();
+        TextView  view1=(TextView)view.findViewById(android.R.id.message);
+        view1.setTextColor(Color.WHITE);
+        view.setBackgroundResource(R.drawable.blue_bg);
+        toast.show();
+
+        DatePickerDialog datePickerDialog = new DatePickerDialog(
+                getActivity(),
+                this,
+                Calendar.getInstance().get(Calendar.YEAR),
+                Calendar.getInstance().get(Calendar.MONTH),
+                Calendar.getInstance().get(Calendar.DAY_OF_MONTH)
+
+        );
+        datePickerDialog.show();
+
+    }
+
     private void dobDateGenerator() {
 
-        Toast toast= Toast.makeText(getActivity(),
-                R.string.enter_dob, Toast.LENGTH_LONG);
-        toast.setGravity(Gravity.BOTTOM, 0, 50);
-        View toastView = toast.getView();
-        toastView.setBackgroundResource(R.drawable.toast_drawable);
+        //old code
+//        Toast toast= Toast.makeText(getActivity(),
+//                R.string.enter_dob, Toast.LENGTH_LONG);
+//        toast.setGravity(Gravity.BOTTOM, 0, 50);
+//        View toastView = toast.getView();
+//        toastView.setBackgroundResource(R.drawable.toast_drawable);
+//        toast.show();
+
+        //new code
+        Toast toast=Toast.makeText(getActivity(), R.string.enter_dob,Toast.LENGTH_LONG);
+        toast.setGravity(Gravity.TOP, 0, 50);
+        View view=toast.getView();
+        TextView  view1=(TextView)view.findViewById(android.R.id.message);
+        view1.setTextColor(Color.WHITE);
+        view.setBackgroundResource(R.drawable.blue_bg);
         toast.show();
 
         Calendar cal = Calendar.getInstance();
@@ -373,18 +409,34 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
                     redeemPoints();
 
                 }else {
+                    //recent old code
                     Toast.makeText(getActivity(), getString(R.string.enter_valid_dob), Toast.LENGTH_SHORT).show();
+                    //old code
 //                    Toast toast= Toast.makeText(getActivity(),
 //                            R.string.enter_valid_dob, Toast.LENGTH_LONG);
 //                    toast.setGravity(Gravity.BOTTOM, 0, 50);
 //                    View toastView = toast.getView();
 //                    toastView.setBackgroundResource(R.drawable.toast_drawable);
 //                    toast.show();
+
+
+                    //new code
+                    Toast toast=Toast.makeText(getActivity(), getString(R.string.enter_valid_dob),Toast.LENGTH_LONG);
+                    toast.setGravity(Gravity.TOP, 0, 100);
+                    View view=toast.getView();
+                    TextView  view1=(TextView)view.findViewById(android.R.id.message);
+                    view1.setTextColor(Color.WHITE);
+                    view.setBackgroundResource(R.drawable.blue_bg);
+                    toast.show();
+
                 }
 
 
 
             }
+
+
+
 
 
 
@@ -426,44 +478,63 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
                 Log.d("strvalue11222:", "strvalue11222:" + String.valueOf(minimumPOints));
             }
 
+
+        int mobilenoupdate = minimumPOints;
+        Log.d("minimumPOintsone1:","minimumPOintsone1:"+String.valueOf(mobilenoupdate));
+        SharedPreferences sharedPreferences11 = context.getSharedPreferences("minimumPOints", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor11 = sharedPreferences11.edit();
+        editor11.putInt("minimumPOintsone", mobilenoupdate);
+        editor11.commit();
+
+
+
             if (rewardsPointsData != null) {
                 if (Float.parseFloat(rewardsPointsData.getAvailablePoints()) < RewardPointsFragment.minimumRedeemPoints &&  !(InformatePreferences.getBoolean(context, Constants.IS_REDEEM_INSTANTLY,false))) {
                     int redeemValue = (int) (RewardPointsFragment.minimumRedeemPoints - (Float.parseFloat(rewardsPointsData.getAvailablePoints())));
                     showErrorAlert("", String.format(getResources().getString(R.string.alert_dialog_txt_part3), redeemValue));
+                }else {
+                    //new code
+                    dobDateGeneratornew();
                 }
 
-                else if (InformatePreferences.getBoolean(getActivity(), Constants.PREF_MOBILENUMBERVERIFIED, false)) {
 
-                    Fragment fragment = RedeemFragment.newInstance(rewardsPointsData,minimumPOints);
-                    getActivity().findViewById(R.id.header_my_rewards).setVisibility(View.GONE);
-                    getActivity().findViewById(R.id.header_survey_and_redeem).setVisibility(View.VISIBLE);
-                    getActivity().findViewById(R.id.header_redemption_history).setVisibility(View.GONE);
-                    getActivity().findViewById(R.id.header_reward_history).setVisibility(View.GONE);
-                    getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
-                    getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
-                    //  getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.second_container, SurveyFloating.newInstance(""), SECOND_CONTAINER).commit();
-                    getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_container_fragment, fragment).addToBackStack(HomeActivity.REWARDSFRAGMENTKEY).commit();
-
-                } else {
-                    //showErrorAlert("", "Please earn points by attending surveys.");
-                    //showMobileVerification();
-                    //_phoneLogin();
-                    if (!(InformatePreferences.getBoolean(getContext(), Constants.PREF_MOBILENUMBERVERIFIED, false)))
-                    {
-                        HomeActivity.hideToolbar();
-                        getActivity().findViewById(R.id.cv_points_available).setVisibility(View.GONE);
-                        getActivity().findViewById(R.id.cv_points_earned).setVisibility(View.GONE);
-                        getActivity().findViewById(R.id.cv_points_redeemed).setVisibility(View.GONE);
-
-                        MobileVerificationFragment  fragment2 = new MobileVerificationFragment();
-                        Bundle bundleobj = new Bundle();
-                        bundleobj.putString("key", "Reward");
-                        fragment2.setArguments(bundleobj);
-                        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_container_fragment, fragment2).addToBackStack(HomeActivity.REWARDSFRAGMENTKEY).commit();
-                    }
-
-                    Log.e("redeemped points", "Empty");
-                }
+                //old code
+//                else if (InformatePreferences.getBoolean(getActivity(), Constants.PREF_MOBILENUMBERVERIFIED, false)) {
+//
+//                    //new code
+//                    dobDateGeneratornew();
+//                    //old code
+//                    Fragment fragment = RedeemFragment.newInstance(rewardsPointsData,minimumPOints);
+//                    getActivity().findViewById(R.id.header_my_rewards).setVisibility(View.GONE);
+//                    getActivity().findViewById(R.id.header_survey_and_redeem).setVisibility(View.VISIBLE);
+//                    getActivity().findViewById(R.id.header_redemption_history).setVisibility(View.GONE);
+//                    getActivity().findViewById(R.id.header_reward_history).setVisibility(View.GONE);
+//                    getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
+//                    getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
+//                    //  getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.second_container, SurveyFloating.newInstance(""), SECOND_CONTAINER).commit();
+//                    getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_container_fragment, fragment).addToBackStack(HomeActivity.REWARDSFRAGMENTKEY).commit();
+//
+//                } else {
+//                    //showErrorAlert("", "Please earn points by attending surveys.");
+//                    //showMobileVerification();
+//                    //_phoneLogin();
+//                    if (!(InformatePreferences.getBoolean(getContext(), Constants.PREF_MOBILENUMBERVERIFIED, false)))
+//                    {
+//                        HomeActivity.hideToolbar();
+//                        getActivity().findViewById(R.id.cv_points_available).setVisibility(View.GONE);
+//                        getActivity().findViewById(R.id.cv_points_earned).setVisibility(View.GONE);
+//                        getActivity().findViewById(R.id.cv_points_redeemed).setVisibility(View.GONE);
+//
+//                        MobileVerificationFragment  fragment2 = new MobileVerificationFragment();
+//                        Bundle bundleobj = new Bundle();
+//                        bundleobj.putString("key", "Reward");
+//                        fragment2.setArguments(bundleobj);
+//                        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_container_fragment, fragment2).addToBackStack(HomeActivity.REWARDSFRAGMENTKEY).commit();
+//                    }
+//
+//                    Log.e("redeemped points", "Empty");
+//                }
+                //old code
             } else {
                 Log.e("reward data", "null");
             }
@@ -900,5 +971,115 @@ public class RewardPointsFragment extends BaseFragment implements OnClickListene
             e.printStackTrace();
         }
         super.onDestroy();
+    }
+
+    @Override
+    public void onDateSet(DatePicker datePicker, int year, int month, int day) {
+
+
+        month = month + 1;
+        Log.d("selecteddate:", "onDateSet: mm/dd/yyy: " + month + "/" + day + "/" + year);
+
+        String date = month + "/" + day + "/" + year;
+        int day_len = String.valueOf(day).length();
+        int month_len = String.valueOf(month).length();
+        String monthstr = "";
+        String daystr = "";
+        String formate_date = "";
+
+        if(day_len == 1 && month_len == 1 ){
+            daystr = "0"+String.valueOf(day);
+            monthstr = "0"+String.valueOf(month);
+            formate_date = year + "-" + monthstr + "-" + daystr ;
+        } else if(day_len == 1 && month_len > 1){
+            daystr = "0"+String.valueOf(day);
+            formate_date = year + "-" + month + "-" + daystr ;
+        } else if(day_len > 1 && month_len == 1){
+            monthstr = "0"+String.valueOf(month);
+            formate_date = year + "-" + monthstr + "-" + day ;
+        } else {
+            formate_date = year + "-" + month + "-" + day ;
+        }
+
+
+
+        String profile_dob = sharedPreferences1.getString("DOB", "");
+
+        Log.d("dobone1:","dobone1:"+formate_date);
+        Log.d("dobone11:","dobone11:"+profile_dob);
+
+
+
+
+        if(formate_date.equals(profile_dob)){
+
+
+
+            //old code
+//            redeemPoints();
+            //new code
+            sharedPreferences12 = context.getSharedPreferences("minimumPOints", Context.MODE_PRIVATE);
+
+            int minipoints = sharedPreferences12.getInt("minimumPOintsone", 0);
+
+            Log.d("minimumPOintsone11:","minimumPOintsone11:"+String.valueOf(minipoints));
+
+            if (InformatePreferences.getBoolean(getActivity(), Constants.PREF_MOBILENUMBERVERIFIED, false)) {
+
+                Fragment fragment = RedeemFragment.newInstance(rewardsPointsData,minipoints);
+                getActivity().findViewById(R.id.header_my_rewards).setVisibility(View.GONE);
+                getActivity().findViewById(R.id.header_survey_and_redeem).setVisibility(View.VISIBLE);
+                getActivity().findViewById(R.id.header_redemption_history).setVisibility(View.GONE);
+                getActivity().findViewById(R.id.header_reward_history).setVisibility(View.GONE);
+                getActivity().findViewById(R.id.header_pointsinreview).setVisibility(View.GONE);
+                getActivity().findViewById(R.id.header_pointsinrejected).setVisibility(View.GONE);
+                //  getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.second_container, SurveyFloating.newInstance(""), SECOND_CONTAINER).commit();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_container_fragment, fragment).addToBackStack(HomeActivity.REWARDSFRAGMENTKEY).commit();
+
+            } else {
+                //showErrorAlert("", "Please earn points by attending surveys.");
+                //showMobileVerification();
+                //_phoneLogin();
+                if (!(InformatePreferences.getBoolean(getContext(), Constants.PREF_MOBILENUMBERVERIFIED, false)))
+                {
+                    HomeActivity.hideToolbar();
+                    getActivity().findViewById(R.id.cv_points_available).setVisibility(View.GONE);
+                    getActivity().findViewById(R.id.cv_points_earned).setVisibility(View.GONE);
+                    getActivity().findViewById(R.id.cv_points_redeemed).setVisibility(View.GONE);
+
+                    MobileVerificationFragment  fragment2 = new MobileVerificationFragment();
+                    Bundle bundleobj = new Bundle();
+                    bundleobj.putString("key", "Reward");
+                    fragment2.setArguments(bundleobj);
+                    getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.main_container_fragment, fragment2).addToBackStack(HomeActivity.REWARDSFRAGMENTKEY).commit();
+                }
+
+                Log.e("redeemped points", "Empty");
+            }
+
+
+        }else {
+            //recent old code
+            Toast.makeText(getActivity(), getString(R.string.enter_valid_dob), Toast.LENGTH_SHORT).show();
+            //old code
+//                    Toast toast= Toast.makeText(getActivity(),
+//                            R.string.enter_valid_dob, Toast.LENGTH_LONG);
+//                    toast.setGravity(Gravity.BOTTOM, 0, 50);
+//                    View toastView = toast.getView();
+//                    toastView.setBackgroundResource(R.drawable.toast_drawable);
+//                    toast.show();
+
+
+            //new code
+            Toast toast=Toast.makeText(getActivity(), getString(R.string.enter_valid_dob),Toast.LENGTH_LONG);
+            toast.setGravity(Gravity.TOP, 0, 100);
+            View view=toast.getView();
+            TextView  view1=(TextView)view.findViewById(android.R.id.message);
+            view1.setTextColor(getResources().getColor(R.color.encode_view));
+            view.setBackgroundResource(R.drawable.blue_bg);
+            toast.show();
+
+        }
+
     }
 }

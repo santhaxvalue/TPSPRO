@@ -3,9 +3,9 @@
     //vietnam
 
 
-    <string name="enter_dob">Vui lòng nhập Ngày sinh hợp lệ</string>
+    <string name="enter_valid_dob">Vui lòng nhập Ngày sinh hợp lệ</string>
 
-    <string name="enter_valid_dob">Xin vui lòng nhập Ngày sinh của bạn</string>
+    <string name="enter_dob">Xin vui lòng nhập Ngày sinh của bạn</string>
 
 
     <string name="txt_redemption_request">Yêu cầu lấy thưởng của</string>

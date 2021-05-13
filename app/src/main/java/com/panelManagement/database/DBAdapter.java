@@ -184,6 +184,10 @@ public class DBAdapter implements Serializable {
             WHERE = String.format("%s='%s'", CAMPAIGNINID, campaignid);
         else
             WHERE = null;
+        //new code
+        db = dbHelper.getWritableDatabase();
+//        open();
+        //new code
         Cursor cursor = db.query(DATABASE_TABLE_PAGES, new String[]{}, WHERE,
                 null, null, null, null);
         if (cursor.getCount() > 0) {

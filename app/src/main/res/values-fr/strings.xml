@@ -2,9 +2,9 @@
 <resources>
 //France
 
-    <string name="enter_dob">Veuillez indiquer une date de naissance valide</string>
+    <string name="enter_valid_dob">Veuillez indiquer une date de naissance valide</string>
 
-    <string name="enter_valid_dob">Veuillez indiquer votre date de naissance</string>
+    <string name="enter_dob">Veuillez indiquer votre date de naissance</string>
 
 
     <string name="txt_redemption_request">Redemption request of</string>

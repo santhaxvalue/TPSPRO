@@ -3,9 +3,9 @@
 
     //Italian
 
-    <string name="enter_dob">Per favore, inserisci una data di nascita valida</string>
+    <string name="enter_valid_dob">Per favore, inserisci una data di nascita valida</string>
 
-    <string name="enter_valid_dob">Inserisci la tua data di nascita</string>
+    <string name="enter_dob">Inserisci la tua data di nascita</string>
 
     <string name="txt_redemption_request">Richiesta di rimborso di
 </string>

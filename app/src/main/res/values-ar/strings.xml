@@ -35,9 +35,9 @@
 
 
 
-    <string name="enter_dob">يُرجى إدخال تاريخ ميلاد صحيح</string>
+    <string name="enter_valid_dob">يُرجى إدخال تاريخ ميلاد صحيح</string>
 
-    <string name="enter_valid_dob">يُرجى إدخال تاريخ ميلادك</string>
+    <string name="enter_dob">يُرجى إدخال تاريخ ميلادك</string>
 
 
 
