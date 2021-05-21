@@ -323,6 +323,12 @@ public class Utility {
             case "ar-EG":
                 myLocale = new Locale("ar");
                 break;
+            case "ar-MA":
+                myLocale = new Locale("ar");
+                break;
+            case "nl-NL":
+                myLocale = new Locale("nl","NL");
+                break;
             case "de-de":
                 myLocale = new Locale("de", "DE");
                 break;
@@ -386,9 +392,15 @@ public class Utility {
             case "zh-CHT":
                 myLocale = new Locale("zh", "CN");
                 break;
+                //OLD CODE
+//            case "es-ES":
+//                myLocale = new Locale("es", "MX");
+//                break;
+            //OLD CODE
             case "es-ES":
-                myLocale = new Locale("es", "MX");
+                myLocale = new Locale("es", "ES");
                 break;
+
             case "ar":
                 myLocale = new Locale("ar");
                 break;
@@ -533,6 +545,14 @@ public class Utility {
                 InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE, "ar-EG");
                 InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE_VALUE, "ar-EG");
                 break;
+            case "ar-MA":
+                InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE, "ar-MA");
+                InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE_VALUE, "ar-MA");
+                break;
+            case "nl-NL":
+                InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE, "nl-NL");
+                InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE_VALUE, "nl-NL");
+                break;
             case "de-de":
                 InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE, "de-de");
                 InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE_VALUE, "de-de");
@@ -597,10 +617,18 @@ public class Utility {
                 InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE, "zh-CHT");
                 InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE_VALUE, "zh-CHT");
                 break;
+                //old code
+//            case "es-MX":
+//                InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE, "es-ES");
+//                InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE_VALUE, "es-ES");
+//                break;
+            //old code
+            //new code
             case "es-MX":
-                InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE, "es-ES");
-                InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE_VALUE, "es-ES");
+                InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE, "es-MX");
+                InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE_VALUE, "es-MX");
                 break;
+                //new code
             case "es-ES":
                 InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE, "es-ES");
                 InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE_VALUE, "es-ES");

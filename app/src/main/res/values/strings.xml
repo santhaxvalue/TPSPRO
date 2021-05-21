@@ -294,6 +294,10 @@
         <item>"مصري (Arabic Egypt)"</item>
         <item>"français (French)"</item>
         <item>"italiano (Italian)"</item>
+        <item>"Arabic (Morocco)"</item>
+        <item>"Dutch (Netherlands)"</item>
+        <item>"spanish (Spain)"</item>
+
     </string-array>
     <string-array name="supported_lang_code">
         <item>"hi-IN"</item>
@@ -301,7 +305,10 @@
         <item>"ru-RU"</item>
         <item>"zh-CHS"</item>
         <item>"zh-CHT"</item>
-        <item>"es-ES"</item>
+<!--        old code-->
+<!--        <item>"es-ES"</item>-->
+<!--        old code-->
+        <item>"es-MX"</item>
         <item>"es-AR"</item>
         <item>"es-CO"</item>
         <item>"vi-VN"</item>
@@ -316,8 +323,11 @@
         <item>"ms-MY"</item>
         <item>"de-de"</item>
         <item>"ar-EG"</item>
-        <item>"fr-FR</item>
-        <item>"it-IT</item>
+        <item>"fr-FR"</item>
+        <item>"it-IT"</item>
+        <item>"ar-MA"</item>
+        <item>"nl-NL"</item>
+        <item>"es-ES"</item>
     </string-array>
     <string-array name="supported_language_identification">
         <item>101</item>
@@ -339,6 +349,9 @@
         <item>122</item>
         <item>123</item>
         <item>124</item>
+        <item>116</item>
+        <item>125</item>
+        <item>108</item>
     </string-array>
 
     <!-- Manoj pop up Strings -->

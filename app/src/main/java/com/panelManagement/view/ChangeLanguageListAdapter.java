@@ -5,6 +5,7 @@ import android.app.Dialog;
 import android.content.Context;
 import android.os.Handler;
 import android.support.annotation.NonNull;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -60,6 +61,10 @@ public class ChangeLanguageListAdapter extends ArrayAdapter<ChangeLanguageModel>
         }
 
         viewWrapper.getCountry().setText(profile.getName());
+
+        Log.d("languageone:","languageone:"+profile.getName());
+        Log.d("languageone:","languageone:"+profile.isChecked());
+
         if (profile.isChecked()) {
             viewWrapper.getCheckedBox().setBackgroundResource(R.drawable.ic_checkbox_blue);
         } else {

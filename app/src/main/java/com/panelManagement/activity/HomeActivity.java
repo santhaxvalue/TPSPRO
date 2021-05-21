@@ -1887,6 +1887,10 @@ public class HomeActivity extends AppCompatActivity implements LocaleChangeListe
     private void _checkIfUpdateRequired(JSONObject jsonObject) throws JSONException {
         if (jsonObject != null && !TextUtils.isEmpty(jsonObject.getString("LanguageCulture"))) {
             Utility.setLocaleLanguage(jsonObject.getString("LanguageCulture"), this);
+
+            Log.d("languageHOME:","languageHOME:"+jsonObject.getString("LanguageCulture"));
+
+
         }
         //TandCLink
         if (jsonObject != null && !TextUtils.isEmpty(jsonObject.getString("TandCLink"))) {

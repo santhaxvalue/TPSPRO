@@ -107,6 +107,7 @@ public class SplashScreenActivity extends Activity implements RequestListener {
         IsSurvey = true;
 
         Utility.setLocaleLanguage(InformatePreferences.getStringPrefrence(getApplicationContext(), Constants.PREF_LOCALECODE), this);
+
         myBrowser = findViewById(R.id.webview);
         myBrowser.addJavascriptInterface(new MyJavaScriptInterface(this), "AndroidFunction");
         WebSettings webSettings = myBrowser.getSettings();

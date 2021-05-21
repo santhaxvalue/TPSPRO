@@ -5,6 +5,7 @@ import android.app.Dialog;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.FragmentManager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -82,6 +83,8 @@ public class AlertChangeLanguageFragment extends BaseFragment implements LocaleC
         for (int i = 0; i < countryList.length; i++) {
 
             String localeId = InformatePreferences.getStringPrefrence(getActivity(), Constants.PREF_LOCALECODE_VALUE);
+
+            Log.d("newwelcomeone:","newwelcomeone:"+localeId);
 
             if (localeId.equalsIgnoreCase(localeCode[i])) {
                 langarray.add(new ChangeLanguageModel(countryList[i], true, localeCode[i]));
