@@ -3,12 +3,12 @@
 
     //Dutch
 
-    <string name="tv_points_in_reject_title">"POINTS REJECTED"</string>
+    <string name="tv_points_in_reject_title">"GEWEIGERDE PUNTEN"</string>
     <!--    <string name="enter_dob">Please enter your Date of Birth</string>-->
     <!--    <string name="enter_valid_dob">Please enter valid DOB</string>-->
-    <string name="txt_redemption_request">Redemption request of</string>
-    <string name="txt_points_processed_successfully">points processed successfully.</string>
-    <string name="txt_profile_successfully_updated">"your profile has been successfully updated"</string>
+    <string name="txt_redemption_request">Inwisselverzoek van</string>
+    <string name="txt_points_processed_successfully">punten is met succes verwerkt.</string>
+    <string name="txt_profile_successfully_updated">"Uw profiel is met succes bijgewerkt"</string>
     <string name="txt_mandatory">"Verplicht"</string>
     <!--    <string name="userlogin">"User Login "</string>-->
     <string name="isvalidbamarket">"Panel Station komt niet in aanmerking voor"</string>
@@ -24,18 +24,18 @@
     <string name="txt_complete_profile_point_1">"U kunt * %d punten verdienen door uw profiel te voltooien"</string>
     <string name="txt_start">"Beginnen"</string>
     <string name="text_edit">"bewerken"</string>
-    <string name="thanks_smiley_msg">"Thank you for updating you profile; you will soon receive more rewarding surveys of your interest. "</string>
+    <string name="thanks_smiley_msg">"Bedankt voor het bijwerken van uw profiel; binnenkort ontvangt u meer lonende enquêtes die voor u interessant zijn. "</string>
     <!--    <string name="empty_message_update_profile">"Update your profile to receive surveys of your interest."</string>-->
     <!--    <string name="empty_message_receive_survey">"You will soon receive an interesting survey "</string>-->
     <string name="txt_Reward">"Beloningen"</string>
     <string name="txt_Redeem">"Inwisselen"</string>
     <!--    <string name="txt_msg_pinsent">"PIN sent successfully!"</string>-->
-    <string name="txt_msg_pinsent">"OTP sent successfully!"</string>
+    <string name="txt_msg_pinsent">"OTP met succes verstuurd!"</string>
     <string name="txt_RedeemHist">"Inwisselingsgeschiedenis"</string>
     <string name="txt_RewardHist">"Beloningsgeschiedenis"</string>
-    <string name="txt_PointsInReview">"   POINTS  \n  IN REVIEW"</string>
+    <string name="txt_PointsInReview">"  PUNTEN \n IN BEHANDELINGEVIEW"</string>
     <string name="tv_rewards_history">"REWARDS HISTORY"</string>
-    <string name="tv_points_in_review">"SURVEYS PENDING FOR VERIFICATION"</string>
+    <string name="tv_points_in_review">"ENQUÊTES IN AFWACHTING VAN VERIFICATIE"</string>
 
 
     <string name="txt_mobile_verification">"Mobiele verificatie"</string>
@@ -43,7 +43,7 @@
     <string name="txt_mobilenumber">"Mobiele nummer"</string>
     <string name="txt_donot_enter_code">"Opmerking: voer geen landcode in"</string>
     <string name="txt_pin">"Pin"</string>
-    <string name="txt_pin_new">"Enter OTP"</string>
+    <string name="txt_pin_new">"Voer OTP in"</string>
     <string name="txt_info_new">"Info"</string>
 
     <string name="btn_verify">"Verifiëren"</string>
@@ -55,27 +55,27 @@
     <string name="txt_option">"option"</string>
     <string name="txt_description">"Omschrijving"</string>
     <string name="txt_select">"Selecteren"</string>
-    <string name="txt_enter_points_redeem">"Enter the points you want to Redeem"</string>
+    <string name="txt_enter_points_redeem">"Voer de punten in die u wilt inwisselen"</string>
     <string name="sweepstakes">"Sweepstakes"</string>
-    <string name="txt_each_ticket_part1">"Each ticket costs %d points"</string>
+    <string name="txt_each_ticket_part1">"Elk ticket kost %d punten"</string>
     <string name="txt_tickets">"Ticket"</string>
-    <string name="txt_balance_points">"BALANCE POINTS"</string>
-    <string name="txt_select_quantity">"SELECT QUANTITY"</string>
-    <string name="txt_points_number">"Points: "</string>
-    <string name="participate">"PARTICPATE"</string>
-    <string name="txt_BUY">"BUY"</string>
-    <string name="txt_buy_btn_agreeing">"By clicking the buy button you are agreeing to all the term &amp; conditions of The Panel Station"</string>
-    <string name="alert_dialog_txt_part3">"Sorry you need %d more points to redeem"</string>
+    <string name="txt_balance_points">"Puntensaldo"</string>
+    <string name="txt_select_quantity">"Selecteer aantal"</string>
+    <string name="txt_points_number">"Punten: "</string>
+    <string name="participate">"MEEDOEN"</string>
+    <string name="txt_BUY">"Kopen"</string>
+    <string name="txt_buy_btn_agreeing">"Door op de kopen knop te klikken, gaat u akkoord met alle algemene voorwaarden van The Panel Station"</string>
+    <string name="alert_dialog_txt_part3">"Helaas, u heeft nog %d punten nodig om in te wisselen"</string>
     <!--    old code-->
     <!--    <string name="alert_dialog_txt_part1">"You need %d more points for general redemption. Want to get lucky? participate in our Monthly Prize Draw."</string>-->
     <!--new code-->
-    <string name="alert_dialog_txt_part1">"You need %d more points for general redemption.However you can always participate in our Monthly Prize Draw to win exciting prizes"</string>
+    <string name="alert_dialog_txt_part1">"U heeft nog %d punten nodig voor algemene inwisseling. U kunt echter altijd meedoen met onze maandelijkse prijstrekking om leuke prijzen te winnen."</string>
 
-    <string name="txt_thanks">"Thanks! "</string>
-    <string name="txt_puchased_ticket_part1">"You have purchased %s Ticket(s)."</string>
-    <string name="txt_receive_email_shortly">" You will receive an email shortly with all the information about the draw"</string>
+    <string name="txt_thanks">"Bedankt! "</string>
+    <string name="txt_puchased_ticket_part1">"U heeft %s ticket(s) gekocht."</string>
+    <string name="txt_receive_email_shortly">"U ontvangt binnenkort een e-mail met alle informatie over de trekking"</string>
     <string name="setting">"Settings"</string>
-    <string name="ChangeLang">"CHANGE LANGUAGE"</string>
+    <string name="ChangeLang">"TAAL WIJZIGEN"</string>
     <string name="lbl_privacy_policy">"privacy beleid"</string>
     <string name="Terms">"algemene voorwaarden"</string>
     <string name="txt_contactus">"Contact us"</string>
@@ -85,29 +85,30 @@
     <string name="btn_send">"Versturen"</string>
     <string name="btn_cancel">"Annuleren"</string>
     <!--    <string name="thanks_dialog_txt">"Thank You for writing to us! We will get back to you shortly."</string>-->
-    <string name="api_msg_90days">"You can take survey once in 90 days only."</string>
-    <string name="api_nosurveyavailable">"No Survey is Available for you at present. Please try again later!"</string>
-    <string name="api_tps_account_linked">"TPS account is  linked with Social media"</string>
-    <string name="api_profiler_unavailable">"Profiler is unavailable Currently"</string>
-    <string name="api_recently_updated">"It seems that you have recently updated the profile, it will be available only after 90 days after your last update."</string>
-    <string name="api_email_registered">"Your EmailId is already registered"</string>
-    <string name="api_device_registered">"Your Device is already registered for our service"</string>
-    <string name="api_email_device_registered">"Your Email Id and Device are already registered for our service"</string>
-    <string name="api_facebook_credentials">"Facebook credentials are already associated."</string>
-    <string name="api_associated_tps_account">"Do you have any account in TPS to associate with Facebook?"</string>
-    <string name="api_enter_valid_pin">"Please enter valid pin"</string>
-    <string name="api_network_connection_unavailbale">"Network connection unavailable"</string>
-    <string name="api_subject_here">"Enter subject here"</string>
-    <string name="api_fill_all_answers">"Please fill all the answers on this page"</string>
+    <string name="api_msg_90days">"U kunt de enquête maar één keer in 90 dagen invullen."</string>
+    <string name="api_nosurveyavailable">"Er is momenteel geen enquête beschikbaar voor u. Probeer het later nogmaals!"</string>
+    <string name="api_tps_account_linked">"TPS account is gekoppeld met social media"</string>
+    <string name="api_profiler_unavailable">"Profiler is momenteel niet beschikbaar"</string>
+    <string name="api_recently_updated">"Het lijkt erop dat u onlangs uw profiel heeft bijgewerkt, het is pas 90 dagen na uw laatste update beschikbaar. "</string>
+    <string name="api_email_registered">"Uw e-mail ID is reeds geregistreerd"</string>
+    <string name="api_device_registered">"Uw apparaat is reeds geregistreerd voor onze dienst"</string>
+    <string name="api_email_device_registered">"Uw e-mail ID en apparaat zijn reeds geregistreerd voor onze dienst"</string>
+    <string name="api_facebook_credentials">"Facebook-inloggegevens zijn reeds gekoppeld. "</string>
+    <string name="api_associated_tps_account">"Heeft u een account in TPS om te koppelen met Facebook?"</string>
+    <string name="api_enter_valid_pin">"Voer een geldige pin in"</string>
+    <string name="api_network_connection_unavailbale">"Netwerkverbinding niet beschikbaar"</string>
+    <string name="api_subject_here">"Voer hier het onderwerp in"</string>
+    <string name="api_fill_all_answers">"Vul alle vragen op deze pagina in"</string>
     <!--    <string name="txt_surveyrewardMSG">"Take Surveys."</string>-->
-    <string name="txt_surveyanytime">"Anytime, Anywhere."</string>
+    <string name="txt_surveyanytime">"Wanneer u wilt, waar u wilt."</string>
     <!--    <string name="txt_opinion">"Your opinion shape products and services offered by global companies"</string>-->
-    <string name="txt_save">"Save"</string>
+    <string name="txt_save">"Opslaan"</string>
     <!--    <string name="msg_select_any_coupoun">"Please select any option"</string>-->
-    <string name="txt_tickets_buyMax">"You can buy maximum %d Ticket(s)"</string>
+
+    <string name="txt_tickets_buyMax">"U kunt maximaal %d ticket(s) kopen"</string>
     <!--    <string name="signupcomplete_logincred">"Your login credentials have been sent to your registered email id."</string>-->
-    <string name="msg_message">"Please enter message"</string>
-    <string name="msg_subject">"Please enter subject"</string>
+    <string name="msg_message">"Voer een bericht in"</string>
+    <string name="msg_subject">"Voer een onderwerp in"</string>
 
     <!-- resolved tranlations issues -->
     <string name="app_name">The Panel Station</string>
@@ -118,19 +119,19 @@
 
     <string name="action_settings">Settings</string>
     <!--    <string name="dialog_login">Please Wait…;</string>-->
-    <string name="dialog_login">Please Wait</string>
-    <string name="txt_email">Email id</string>
-    <string name="txt_password">Password</string>
+    <string name="dialog_login">Even wachten…</string>
+    <string name="txt_email">E-mail ID</string>
+    <string name="txt_password">wachtwoord</string>
     <!--    <string name="txt_submit">Submit</string>-->
-    <string name="txt_cancel">Cancel</string>
+    <string name="txt_cancel">Annuleren</string>
     <string name="login_title">Panel Station</string>
     <string name="surveyList_title">beschikbare enquête</string>
     <string name="forgotPassword_title">Wachtwoord vergeten?</string>
-    <string name="txt_rememberme">Remember Me</string>
-    <string name="txt_login">Login</string>
-    <string name="txt_no_survey">No surveys available</string>
-    <string name="txt_no_rewards">No rewards available</string>
-    <string name="txt_no_redemption">No redemption available</string>
+    <string name="txt_rememberme">onthoud me</string>
+    <string name="txt_login">Inloggen</string>
+    <string name="txt_no_survey">Geen enquêtes beschikbaar</string>
+    <string name="txt_no_rewards">Geen beloningen beschikbaar</string>
+    <string name="txt_no_redemption">Geen inwisseling beschikbaar</string>
     <string name="txt_info">Click on the available survey to launch them in browser.\n\nPull down the list to refresh surveys.\n\nVisit <a href="www.thepanelstation.com">www.thepanelstation.com</a> for your account details and support.</string>
     <string name="ptr_pull_to_refresh"></string>
     <string name="ptr_release_to_refresh"></string>
@@ -145,42 +146,42 @@
     <!--    <string name="txt_pointin_review">"Points in Review"</string>-->
     <!--    <string name="txt_points_in_review">"Points in Review"</string>-->
 
-    <string name="txt_pointin_rejected">"Points Rejected"</string>
+    <string name="txt_pointin_rejected">"Geweigerde punten"</string>
 
     <!--    <string name="txt_points_in_rejected">"Points \n Rejected"</string>-->
 
     <!-- Signup implementation Strings -->
     <string name="SignUp">SIGN UP</string>
-    <string name="SignIn">SIGN IN</string>
+    <string name="SignIn">Aanmelden</string>
     <string name="select_language">Select Language</string>
-    <string name="signupcomplete_thanks">Thank you.\nYou have been successfully Registered.</string>
-    <string name="signupcomplete_logincred">Your login credentials have been sent to your registered email id.</string>
-    <string name="signupcomplete_note">Note: Do refer spam and promotions folder for our email if you don’t find it in your inbox.</string>
-    <string name="lbl_laststage">That\'s all for now\! We will get in touch with you in a while</string>
-    <string name="checkmail">Check Mail</string>
+    <string name="signupcomplete_thanks">Bedankt.\nU heeft zich met succes geregistreerd.</string>
+    <string name="signupcomplete_logincred">Uw inloggegevens zijn naar uw geregistreerde e-mail ID gestuurd.</string>
+    <string name="signupcomplete_note">Opmerking: Controleer uw map voor spam en promoties voor onze e-mail als u deze niet in uw inbox kunt vinden.</string>
+    <string name="lbl_laststage"> Dat is het voor nu! We nemen zo spoedig mogelijk contact met u op</string>
+    <string name="checkmail">Mail controleren</string>
     <string name="emailSignupMesage">Of meld u aan via E-mail</string>
     <string name="loginInfo">Login Info :</string>
     <string name="hint_email">Email</string>
-    <string name="hint_confirm_email">Confirm Email</string>
-    <string name="hint_phoneno">Phone No</string>
-    <string name="contact_info">CONTACT INFO</string>
-    <string name="hint_firstname">First Name</string>
-    <string name="hint_lastname">Last Name</string>
-    <string name="hint_country">Country</string>
+    <string name="hint_confirm_email">E-mail bevestigen</string>
+    <string name="hint_phoneno">Telefoonnummer</string>
+    <string name="contact_info">CONTACTGEGEVENS</string>
+    <string name="hint_firstname">Voornaam</string>
+    <string name="hint_lastname">Achternaam</string>
+    <string name="hint_country">Land</string>
     <string name="hint_city">plaats</string>
     <string name="hint_zip">postcode</string>
     <string name="personal_info">PERSOONLIJKE GEGEVENS</string>
     <string name="hint_gender">Gender</string>
-    <string name="hint_dob">D.O.B.</string>
-    <string name="hint_education">Education</string>
-    <string name="hint_annualHighSAl">Annual HH.Income</string>
-    <string name="hint_maritalStatus">Marital Status</string>
-    <string name="hint_ethnicity">Ethnicity</string>
-    <string name="hint_employment_status">Employment Status</string>
-    <string name="hint_industry">Industry</string>
-    <string name="hint_address">Address</string>
+    <string name="hint_dob">Geboortedatum.</string>
+    <string name="hint_education">Opleiding</string>
+    <string name="hint_annualHighSAl">Jaarlijks huishoudelijk inkomen</string>
+    <string name="hint_maritalStatus">Burgerlijke staat</string>
+    <string name="hint_ethnicity">Etniciteit</string>
+    <string name="hint_employment_status">Status dienstverband</string>
+    <string name="hint_industry">Industrie</string>
+    <string name="hint_address">Adres</string>
     <!--    <string name="SIgnUp_Submit">SIGN IN</string>-->
-    <string name="SIgnUp_Submit">Sign-In</string>
+    <string name="SIgnUp_Submit">Aanmelden</string>
     <!-- <string name="fbapp_id">872503272868996</string> -->
     <!--<string name="fbapp_id">789115197884008</string> --><!-- pankaj id -->
     <!--  <string name="FACEBOOK_APP_ID">364129010721192</string>
@@ -190,76 +191,76 @@
     <string name="FACEBOOK_APP_ID">2214631975437544</string>
     <string name="fb_login_protocol_scheme">fb2214631975437544</string>
     <string name="ACCOUNT_KIT_CLIENT_TOKEN">663529e74794f870c76caa3c96dffc56</string>
-    <string name="panel_copyrights">"Copyright © 2015 thepanelstation. All rights reserved."</string>
-    <string name="agreedTermsandCondition">  I agree to the Terms &amp; Conditions and Privacy Policy.</string>
-    <string name="startearning">Start Earning</string>
-    <string name="month">Select DOB</string>
-    <string name="day">Day</string>
-    <string name="year">Year</string>
+    <string name="panel_copyrights">"Copyright © 2021 thepanelstation. Alle rechten voorbehouden"</string>
+    <string name="agreedTermsandCondition"> Ik ga akkoord met de Algemene &amp; Voorwaarden en Privacy Beleid..</string>
+    <string name="startearning">Begin met verdienen</string>
+    <string name="month">Geboortedatum selecteren</string>
+    <string name="day">Dag</string>
+    <string name="year">Jaar</string>
     <string name="next">Next</string>
-    <string name="contact_info_descriptions">We are committed to ensuring your privacy. However we ask you to input your personal information below to confirm your participation in sweepstakes or special promotions. We use the personal information you provide to process purchases and entries for sweepstakes, to deliver products and prizes to you!</string>
-    <string name="select_country">Select Country</string>
-    <string name="async_task_error">Please check intenet connection</string>
-    <string name="login_email">"Please enter email Id"</string>
-    <string name="txt_send">"Send"</string>
-    <string name="msg_login_connprob">"Connection may not be sufficient to login at this time. Please try again later."</string>
+    <string name="contact_info_descriptions">We doen er alles aan om uw privacy te waarborgen. We vragen u echter hieronder uw persoonlijke gegevens in te voeren om uw deelname aan sweepstakes of speciale promoties te bevestigen. We gebruiken de persoonlijke gegevens die u verstrekt om aankopen en inzendingen voor sweepstakes te verwerken, om producten en prijzen aan u te bezorgen! </string>
+    <string name="select_country">Land selecteren</string>
+    <string name="async_task_error">Controleer de internetverbinding</string>
+    <string name="login_email">"Voer e-mail ID in"</string>
+    <string name="txt_send">"Versturen"</string>
+    <string name="msg_login_connprob">"De verbinding is op dit moment mogelijk niet goed genoeg om in te loggen. Probeer het later nogmaals."</string>
     <!--    <string name="msg_invalid_login_creditional">"Ingrese una dirección de correo electrónico y una contraseña válidas para continuar."</string>-->
-    <string name="msg_invalid_login_creditional">"Invalid email id or password."</string>
-    <string name="msg_enter_pass">"Please enter password"</string>
-    <string name="msg_login_session_expire">"Your session has been expired due to login from other device/portal."</string>
+    <string name="msg_invalid_login_creditional">"Ongeldige e-mail ID of wachtwoord."</string>
+    <string name="msg_enter_pass">"Voer wachtwoord in"</string>
+    <string name="msg_login_session_expire">"Uw sessie is verlopen omdat u heeft ingelogd vanaf een ander apparaat/portaal."</string>
     <string name="msg_unregister_email">"Please enter registered email id"</string>
-    <string name="msg_valid_email">"Please enter valid email id"</string>
-    <string name="txt_survey">"Survey"</string>
-    <string name="txt_reward_point">"Reward Points"</string>
-    <string name="txt_earned_point">"Points \n Earned"</string>
-    <string name="txt_redeemed_point"> "Points \n Redeemed"</string>
+    <string name="msg_valid_email">"Voer geldige e-mail ID in"</string>
+    <string name="txt_survey">"Enquête "</string>
+    <string name="txt_reward_point">"Beloningspunten"</string>
+    <string name="txt_earned_point">"Verdiende \n punten"</string>
+    <string name="txt_redeemed_point">"ingewisselde \n punten"</string>
     <string name="txt_aval_point">"beschikbare \n punten"</string>
-    <string name="txt_points_in_review">"Points\n in Review"</string>
+    <string name="txt_points_in_review">"Punten\n in behandeling"</string>
 
-    <string name="txt_points_in_rejected">"Points \n Rejected"</string>
+    <string name="txt_points_in_rejected">"Punten \n Rejected"</string>
 
-    <string name="txt_pointin_review">"Points in Review"</string>
+    <string name="txt_pointin_review">"Punten \n in behandeling"</string>
 
     <!--    <string name="txt_pointin_rejected">"Points Rejected"</string>-->
 
-    <string name="txt_redemption">"Redemption"</string>
-    <string name="msg_refreshing">"Refreshing survey list"</string>
-    <string name="msg_open_survey">"Do you want to open a survey?"</string>
-    <string name="msg_logout">"Are you sure you want to logout?"</string>
-    <string name="txt_yes">"Yes"</string>
-    <string name="txt_no">"No"</string>
-    <string name="msg_logoff_connec_lost">"Connection may not be sufficient to logout at this time. Please try again later."</string>
+    <string name="txt_redemption">"Inwisseling"</string>
+    <string name="msg_refreshing">"Enquêtelijst vernieuwen"</string>
+    <string name="msg_open_survey">"Wilt u een enquête openen?"</string>
+    <string name="msg_logout">"Weet u zeker dat u wilt uitloggen?"</string>
+    <string name="txt_yes">"Ja"</string>
+    <string name="txt_no">"Nee"</string>
+    <string name="msg_logoff_connec_lost">"De verbinding is op dit moment mogelijk niet goed genoeg om uit te loggen. Probeer het later nogmaals."</string>
     <string name="msg_timeout">"Application is facing difficulties in retrieving information. Please try again later."</string>
-    <string name="c">"Connection may not be sufficient at this time to receive request. Please try again later."</string>
+    <string name="c">"De verbinding is op dit moment mogelijk niet goed genoeg om een verzoek te ontvangen. Probeer het later nogmaals."</string>
     <string name="msg_survy_info">"Click on the available survey to launch them in browser. Pull down the list to refresh surveys.\n\nYou can select your preferred language from Settings screen. \n\nVisit www.thepanelstation.com for your account details."</string>
     <string name="txt_language">"taal"</string>
-    <string name="txt_takeby">"Take by"</string>
+    <string name="txt_takeby">"Invullen voor"</string>
     <string name="txt_earn">"Earn"</string>
     <string name="Points_Ticket">"Points/Ticket No"</string>
-    <string name="txt_points">"Points"</string>
-    <string name="txt_earned">"Earned"</string>
-    <string name="txt_voucher_code">"Voucher Code"</string>
-    <string name="txt_voucher_pin">"Voucher Pin"</string>
+    <string name="txt_points">"Punten  "</string>
+    <string name="txt_earned">"Verdiend "</string>
+    <string name="txt_voucher_code">"Voucher code"</string>
+    <string name="txt_voucher_pin">"Tegoedbon"</string>
     <!--    <string name="msg_low_conn">"Connection may not be sufficient at this time to receive request. Please try again later."</string>-->
-    <string name="txt_redeemed">"Redeemed"</string>
-    <string name="txt_status">"Status"</string>
-    <string name="txt_done">"Done"</string>
+    <string name="txt_redeemed">"Ingewisseld"</string>
+    <string name="txt_status">"Toestand"</string>
+    <string name="txt_done">"Gedaan"</string>
     <string name="txt_valid_till">"Valid Till"</string>
     <string name="txt_month_jan">"Jan"</string>
-    <string name="txt_month_feb">""Feb"</string>
-    <string name="txt_month_march">"Mar"</string>
+    <string name="txt_month_feb">"Feb"</string>
+    <string name="txt_month_march">"Maa"</string>
     <string name="txt_month_apr">"Apr"</string>
-    <string name="txt_month_may">"May"</string>
+    <string name="txt_month_may">"Mei"</string>
     <string name="txt_month_jun">"Jun"</string>
     <string name="txt_month_july">"Jul"</string>
     <string name="txt_month_aug">"Aug"</string>
-    <string name="txt_month_sept">"Sep"</string>
-    <string name="txt_month_oct">"Oct"</string>
+    <string name="txt_month_sept">"Sept"</string>
+    <string name="txt_month_oct">"Okt"</string>
     <string name="txt_month_nov">"Nov"</string>
     <string name="txt_month_dec">"Dec"</string>
     <string name="txt_iaggree">"I agree"</string>
     <string name="txt_and_text">" and "</string>
-    <string name="txt_allowing_text">I allow my data to be used anonymously for research purpose.</string>
+    <string name="txt_allowing_text">Ik geef toestemming dat mijn gegevens anoniem gebruikt worden voor onderzoeksdoeleinden.</string>
     <string name="txt_visit">"visit"</string>
     <string name="signup_facebook">Sign-Up with Facebook</string>
     <string name="signout_facebook">Sign-Up with Facebook</string>
@@ -268,7 +269,7 @@
     <string name="userexist">User already exist , Please login</string>
     <string name="async_task_not_responding">Unable to process your request , Please try later.</string>
     <string name="msg_confirm_open">Do you want to open a survey?</string>
-    <string name="Ok">OK</string>
+    <string name="Ok">Oké</string>
     <string name="unsubscribe_text1">Het spijt ons te moeten horen dat u niet langer geïnteresseerd bent in onze enquêtes.</string>
     <string name="unsubscribe_text2">We zullen u missen en zouden het waarderen als \n u uw feedback zou willen delen zodat wij \n onze diensten kunnen verbeteren</string>
     <string name="unsubscribe_text3">Maak een keuze uit de onderstaande reden(en):</string>
@@ -310,7 +311,7 @@ Oké."</string>
 
     <!-- Added By saurabh -->
     <!--    <string name="profiler">Profiler</string>-->
-    <string name="surveys">Survey</string>
+    <string name="surveys">Enquête</string>
     <string name="rewards">Rewards</string>
     <!--    <string name="PrivacyPol">"Privacy Policy"</string>-->
 
@@ -327,8 +328,8 @@ Oké."</string>
     <string name="ContactUs">"Contact us"</string>
     <string name="press_again_close">"Press Again to Close!"</string>
     <string name="txt_each_ticket_part2">" punten"</string>
-    <string name="txt_tickets_in_cart_part1">"You have "</string>
-    <string name="txt_tickets_in_cart_part2">" Ticket(s) in cart"</string>
+    <string name="txt_tickets_in_cart_part1">"U heeft "</string>
+    <string name="txt_tickets_in_cart_part2">" tickets in uw winkelwagentje"</string>
     <string name="txt_tell_us_more">"Tell us more about the problem"</string>
     <string name="btn_next">"volgende"</string>
     <string name="txt_forgot_password">"Forgot Password"</string>
@@ -338,26 +339,26 @@ Oké."</string>
 
     <string name="parser_appid">"5Tl7X8lvmLUXHJiHOh5m3zGq2L8UWCqhNy78AMse"</string>
     <string name="parser_clientkey">"kIKn4rBV0MhGYYn0uxCKaDBVBEJf0rsvLSNIR1Dj"</string>
-    <string name="txt_wait_for_questions">"Please wait setting up questionnaire for you. "</string>
-    <string name="txt_imnew">"I'm new"</string>
-    <string name="txt_takenby">"Take by "</string>
+    <string name="txt_wait_for_questions">"Even wachten met het opzetten van een vragenlijst voor u. "</string>
+    <string name="txt_imnew">"Ik ben nieuw"</string>
+    <string name="txt_takenby">"Invullen voor "</string>
     <string name="msg_serverdown">"Server is down or under maintenance . Please try again later."</string>
     <string name="msg_citynotfound">"Unable to process request , due to difficulty in finding panalist cities of your country."</string>
     <string name="unabletoverifypin">"Unable to verify your pin, please input correct pin number"</string>
 
     <string name="info_link">" Please regenerate OTP after 24 hours.\n Please check your SMS settings or Blocked messages.\n SMS won't be delivered if you have activated DND services. \n Keep your mobile number recharged to receive SMS. \n If you still have issues please contact our helpdesk ID: tpsotp@thepanelstationsurveys3.com \n"</string>
 
-    <string name="txt_surveyrewardMSG">"Take Surveys,\nEarn Exciting Rewards!"</string>
+    <string name="txt_surveyrewardMSG">"Enquête invullen."</string>
     <!--    <string name="txt_surveyanytime">"Anytime, Anywhere"</string>-->
     <!--    <string name="txt_start">"Start"</string>-->
     <string name="text_welcome">"Welkom:"</string>
-    <string name="txt_opinion">"Your opinion shape products and services offered by global companies."</string>
+    <string name="txt_opinion">"Uw mening geeft vorm aan producten en diensten die worden aangeboden door internationale bedrijven "</string>
     <string name="empty_message_update_profile">"Werk uw profiel bij om enquêtes te ontvangen die voor u interessant zijn."</string>
-    <string name="empty_message_receive_survey">"You will soon receive an interesting survey."</string>
+    <string name="empty_message_receive_survey">"U ontvangt binnenkort een interessante enquête"</string>
     <string name="profilecompleted">"Voltooid"</string>
     <!--    <string name="msg_subject">"Please enter subject"</string>-->
     <!--    <string name="msg_message">"Please enter Message"</string>-->
-    <string name="msg_select_any_coupoun">"Please select any option to redeem."</string>
+    <string name="msg_select_any_coupoun">"Selecteer een optie"</string>
     <string name="unsupport_fb_details">"Please enter Facebook account details with email-id"</string>
 
     <string name="enter_paytm_id">Voer uw betalings-ID in</string>
@@ -376,20 +377,20 @@ Oké."</string>
 
     <string name="rationale_location">Please click "allow" button on the next dialog box.</string>
 
-    <string name="your_VoucherCode" translatable="false">"Your VoucherCode is "</string>
+    <string name="your_VoucherCode" translatable="false">"Uw VoucherCode is "</string>
 
 
 
 
 
-    <string name="pointexpired">"Point Expired"</string>
+    <string name="pointexpired">"Verlopen punten"</string>
     <string name="open">"Open"</string>
     <!--    <string name="allowdatausage">"On the next screen please allow usage access to Panel Station by turning it on.\nThis will complete your registration."</string>-->
     <string name="lbl_appusagepermission">"Important Step:\nTurn on Panel Station App Usage permission.\nGo to Settings->Security->Apps with usage access."</string>
 
     <!-- New Changes Strings -->
     <string name="ui_activationcode"><b>User Activation Code</b></string>
-    <string name="ui_msg_checkemail"><![CDATA[<p>Please check your Email inbox for <B>\"ThePanelStation\"</B> activation code</p>]]></string>
+    <string name="ui_msg_checkemail"><![CDATA[<p>Controleer uw e-mail inbox voor de <B>\"The Panel Station\"</B> activeringscode van</p>]]></string>
     <string name="ui_msg_checkemail_spam">"Please check your spam &amp; Promotional folders, if you don't find it in the inbox."</string>
     <string name="hint_activationcode">"Enter your activation code here"</string>
     <string name="ui_termsandcondition">
@@ -403,7 +404,7 @@ Oké."</string>
     <string name="msgcheckemailforotp"> OTP has been sent to your  </string>
     <string name="msgcheckemailforotp1">email id. Please check and verify to activate. </string>
 
-    <string name="congratulation_header"> CONGRATULATIONS! </string>
+    <string name="congratulation_header"> Gefeliciteerd! </string>
     <string name="congratulation_msg">You are, now a member of one of the biggest online research panel. Please click on \"Start Earning\" to go to Surveys section of the app.</string>
     <string name="text_existing_member">"Existing Member"</string>
     <string name="resendactivationcode">"Re-send Activation Code in "</string>
@@ -411,11 +412,11 @@ Oké."</string>
     <string name="min">"min"</string>
     <string name="sec">"sec"</string>
     <string name="error_enter_otp">"Please enter Activation code."</string>
-    <string name="alredy_otp">Already have an OTP to verify?</string>
-    <string name="otp_email">Enter your registered email-id</string>
+    <string name="alredy_otp">Heeft u al een OTP om te verifiëren?</string>
+    <string name="otp_email">Voer uw geregistreerde e-mail ID in</string>
     <string name="_0">0%</string>
     <string name="profile_name">Name</string>
-    <string name="profile">Profiler</string>
+    <string name="profile">Profiel</string>
     <string name="maxicano">Maxicano</string>
     <string name="data_plan">This is offer you to Recharge freely on freeCharge. Please Install the App and get Exiting offer for you data plan.</string>
     <string name="points">3000</string>
@@ -425,7 +426,7 @@ Oké."</string>
     <string name="_1">1</string>
     <string name="_0_0">0.0</string>
     <string name="date">date</string>
-    <string name="resend_otp">Resend OTP?</string>
+    <string name="resend_otp">OTP opnieuw versturen?</string>
     <string name="resend_otp_new">OTP</string>
 
     <string name="when_you_refer_a_friend">Wanneer u  een vriend verwijst</string>
@@ -434,7 +435,7 @@ Oké."</string>
     <string name="_3_you_can_refer_a_maximum_of_5_friends_in_a_month">3. U kunt maximaal 5 vrienden per maand verwijzen.</string>
     <string name="the_more_the_merrier">Hoe meer zielen hoe meer vreugd!</string>
     <string name="so_get_your_going_in_now">Dus, doe nu mee!</string>
-    <string name="match_the_puzzle_to_fetch_a_survey">Match the puzzle to fetch a survey</string>
+    <string name="match_the_puzzle_to_fetch_a_survey">Match de puzzel om een enquête op te halen</string>
     <string name="and_each_time_500_referral_points">En iedere keer als u meedoet, verdient u 500 verwijzingspunten!</string>
     <string name="friends_make_life_better">Vrienden maken het leven beter en dat moet gevierd worden! Vanuit deze overtuiging hebben we het Verwijs-een-vriend-programma gecreëerd om al uw vrienden te belonen</string>
     <string name="for_more_details">Voor meer gegevens</string>
@@ -451,27 +452,27 @@ Oké."</string>
     <string name="home">home</string>
     <string name="apply_referral_code">APPLY</string>
     <string name="error_valid_referral_code">Please enter a valid referral code</string>
-    <string name="tv_redemption_history">REDEMPTION HISTORY</string>
+    <string name="tv_redemption_history">Inwisselingsgeschiedenis</string>
 
 
     <string name="txt_redeem_points">Selecteer de punten die u wilt inwisselen</string>
     <string name="please_update_your_mobile_number">Please update your mobile number</string>
-    <string name="hint_mobile_number">Mobile Number</string>
+    <string name="hint_mobile_number">Mobiele nummer</string>
     <string name="btn_txt_update">Update</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_faq">FAQ\'s</string>
     <string name="title_contact_us">Contact Us</string>
-    <string name="update_profile">UPDATE PROFILE</string>
+    <string name="update_profile">PROFIEL BIJWERKEN</string>
     <string name="msg_update_available">New update available!</string>
     <string name="msg_update_app_2">You are using an older version of app, please update the app to the latest version for the seamless experience!</string>
     <string name="change_password">Bedankt dat u ons een bericht heeft gestuurd! We nemen binnenkort contact met u op.</string>
     <string name="unsubscribe">UNSUBSCRIBE</string>
 
-    <string name="enter_dob">Please enter your Date of Birth</string>
+    <string name="enter_dob">Voer uw geboortedatum in</string>
 
-    <string name="enter_valid_dob">Please enter valid DOB</string>
+    <string name="enter_valid_dob">Voer een geldige geboortedatum in</string>
 
 
 
@@ -479,7 +480,7 @@ Oké."</string>
     <string name="reset">RESETTEN</string>
     <string name="unsubscribe_lowercase">Afmelden</string>
     <string name="thank_you">Thank you</string>
-    <string name="empty_msg_you_haven_t_redeemed_yet">You haven\'t redeemed yet</string>
+    <string name="empty_msg_you_haven_t_redeemed_yet">U heeft nog niet ingewisseld</string>
     <string name="other_reason">Other Reason</string>
     <string name="consent_form">CONSENT FORM</string>
     <string name="consent_form_p_tc_1">“The Panel Station is a proprietary product of Borderless Access Panels along with all its texts trademarks, illustrations, photos, graphics, files, designs, and arrangements. The contents of this website are to be used only in accordance with the terms and conditions and privacy policy appended herein.”</string>
@@ -502,12 +503,12 @@ Oké."</string>
     <string name="title_msg_succeess_unsubscribe">You have successfully unsubscribed from our community.</string>
     <string name="msg_eu_region_decline_consent_form">You mentioned that you are from europe/citizen of europe, hence we request you to accept the consent form to proceed further with the registration.</string>
     <string name="if_at_any_point_2">We would respond to your mails within three days of receiving the same.</string>
-    <string name="lbl_privacy_statement">Privacy Statement</string>
-    <string name="subject">Subject</string>
+<!--    <string name="lbl_privacy_statement">Privacy Statement</string>-->
+    <string name="subject">Onderwerp</string>
     <string name="err_msg_invalid_phone_number">Invalid phone number</string>
     <string name="refer_frnd">Verwijs een vriend</string>
-    <string name="swipe_up">Swipe up to Sign In</string>
-    <string name="swipe_down">Swipe down to Sign Up</string>
+    <string name="swipe_up">Omhoog vegen om aan te melden</string>
+    <string name="swipe_down">Omlaag vegen om aan te melden</string>
     <string name="user_not_active">You are not a valid user</string>
     <string name="alert">Alert</string>
     <string name="refer_2_more">Verwijs een vriend of 2 of 3 meer</string>
@@ -526,9 +527,10 @@ Oké."</string>
     <string name="faq">Veelgestelde Vragen</string>
     <string name="settings">Instellingen</string>
     <string name="particitpate_and_luck">Doe mee en heb geluk</string>
+    <string name="txt_expired">"Verloopt op"</string>
 
-    <string name="user_msg">Your account has been marked as inactive, kindly reach out to our support team at mobile@thepanelstationsurveys3.com for further assistance.</string>
-    <string name="available_count">Available Surveys - </string>
+    <string name="user_msg">Uw account is gemarkeerd als inactief, neem contact op met ons supportteam via mobile@thepanelstationsurveys3.com voor verdere hulp.</string>
+    <string name="available_count">Beschikbare enquêtes - </string>
     <string name="registration_signup">Registration</string>
     <string name="language_signup">Language</string>
     <string name="refer_code_optional">Refer Code (optional)</string>
@@ -545,14 +547,14 @@ Oké."</string>
     <!--    <string name="new_password">Enter New Password</string>-->
     <!--    <string name="retry">Retry</string>-->
     <string name="please_select_reason">Please select reason(s)</string>
-    <string name="txt_expired">"Expires on"</string>
+<!--    <string name="txt_expired">"Expires on"</string>-->
     <string name="others_cannot_be_blank">Reason for other / others cannot be blank</string>
     <string name="badges">Badges</string>
     <string name="badge_increase">Badge upgraded to %1$s. Credited %2$s points.</string>
     <string name="at">at</string>
-    <string name="old_password">* Old Password:</string>
-    <string name="confirm_password">* Confirm Password:</string>
-    <string name="newpassword">* New Password:</string>
+    <string name="old_password">* Oud wachtwoord:</string>
+    <string name="confirm_password">* Wachtwoord bevestigen:</string>
+    <string name="newpassword">* Nieuw wachtwoord:</string>
     <string name="password_comapre_mismatch">New Password and Confirm New Password Mismatch</string>
     <string name="new_password_length">New Password length should be between 6 and 16 characters</string>
     <string name="need_more_points">You need %1$d more points to redeem for %2$s vouchers, however you can select other option to redeem.</string>
@@ -560,7 +562,9 @@ Oké."</string>
     <string name="please_change_your_password">Please Change Your Password</string>
     <string name="new_old_password_match_error">New Password and Old Password should not be the same</string>
     <string name="register_here">Register Here</string>
-    <string name="communication_preferences">Communication Preferences</string>
+    <string name="communication_preferences">COMMUNICATIE VOORKEUREN</string>
+    <string name="lbl_privacy_statement">PRIVACYVERKLARING</string>
+
     <string name="poll_result">POLL RESULT</string>
     <string name="quick_poll">QUICK POLL</string>
     <string name="result">Result</string>
@@ -573,10 +577,10 @@ Oké."</string>
     <string name="resubscribe_msg">You had successfully unsubscribed from our community but we would love to have you back, just click on   \"Resubscribe\"</string>
     <string name="successfully_resubscribed">Successfully Resubscribed</string>
     <string name="subscribe_success_msg">Congratulations! You are back on board! Let\'s voice our opinions to ensure a better tomorrow.</string>
-    <string name="logout">LOGOUT</string>
+    <string name="logout">UITLOGGEN</string>
     <string name="no_quick_poll">No Quickpolls available.</string>
 
-    <string name="your_voucherCode">Your VoucherCode is</string>
+    <string name="your_voucherCode">Uw VoucherCode is</string>
 
     <string-array name="home">
         <item>@string/my_rewards</item>
@@ -610,7 +614,7 @@ Oké."</string>
     <string name="unsubscribe_delete_successful">You have successfully been unsubscribed from our community. We will delete your historical data from our systems in 2 to 3 business days.</string>
     <string name="unsubscribe_delete">Unsubscribe and Delete</string>
     <!--    <string name="your_VoucherCode">Your VoucherCode is</string>-->
-    <string name="your_VoucherPinnew">Voucher pin is </string>
+    <string name="your_VoucherPinnew">Tegoedbon is </string>
     <string name="redemptionRevoke">Redemption once made cannot be rolled back/revoked</string>
     <string name="click_yes">Click Yes to confirm your voucher selection. Please note that you will not be allowed to change the selection once made.</string>
 </resources>
