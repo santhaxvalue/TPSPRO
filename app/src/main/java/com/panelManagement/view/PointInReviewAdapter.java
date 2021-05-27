@@ -120,10 +120,12 @@ public class PointInReviewAdapter extends RecyclerView.Adapter<PointInReviewAdap
         //new code
         if(!strreviewPointsList.equalsIgnoreCase("") && strreviewPointsList!=null){
             holder.surveyEarn.setText("Points/Ticket No: "+strreviewPointsList+ " Points");
+//            holder.surveyEarn.setText(R.string.points_and_ticketno +strreviewPointsList+ R.string.points_new);
         }
 
             if(!strsurveyIdList.equalsIgnoreCase("") && strsurveyIdList!=null){
                 holder.tv_serveyID.setText("SURVEY ID : "+strsurveyIdList);
+//                holder.tv_serveyID.setText(R.string.survey_id_new +strsurveyIdList);
             }
 
             // holder.txtSurveyDate.setText(Utility.formateDateFromstring("yyyy-MM-dd'T'HH:mm:ss.SSS", "dd-MMM-yyyy HH:mm", positionItem.getTransactionDate()));
