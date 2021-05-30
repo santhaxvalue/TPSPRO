@@ -4,6 +4,11 @@
 
 
 
+
+    <string name="async_task_error_timeout">"Oye, no podemos atender tu solicitud en este momento. Por favor, inténtelo de nuevo más tarde."</string>
+
+    <string name="txt_puchased_ticket_part2">yo compré</string>
+
     <string name="tv_points_in_reject_title">"PUNTOS RECHAZADOS"</string>
     <string name="points_and_ticketno">"Puntos / Ticket No: "</string>
     <string name="points_new">" Puntos"</string>
@@ -114,7 +119,6 @@ Pin de cupón"</string>
 
     <string name="hello_blank_fragment">Hola fragmento en blanco</string>
     <string name="title_faq">FAQ\'s</string>
-    <string name="title_contact_us">Contacta con nosotras</string>
     <string name="msg_update_available">¡Nueva actualización disponible!</string>
     <string name="msg_update_app_2">Está utilizando una versión anterior de la aplicación, actualice la aplicación a la última versión para una experiencia perfecta.</string>
 

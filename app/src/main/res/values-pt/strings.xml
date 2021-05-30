@@ -5,121 +5,127 @@
     //Potugese
 
 
-    <string name="tv_points_in_reject_title">"POINTS REJECTED"</string>
-    <string name="points_and_ticketno">"Points/Ticket No: "</string>
-    <string name="points_new">" Points"</string>
-    <string name="survey_id_new">" SURVEY ID :"</string>
-    <string name="points_rejected_new">" POINTS REJECTED:"</string>
-    <string name="tv_points_in_review">"SURVEYS PENDING FOR VERIFICATION"</string>
-    <string name="txt_voucher_pin">"Voucher Pin"</string>
+
+    <string name="async_task_error_timeout">"
+Ei, não podemos atender a sua solicitação no momento. Por favor, tente novamente mais tarde."</string>
+
+
+
+    <string name="tv_points_in_reject_title">"PONTOS REJEITADOS"</string>
+    <string name="points_and_ticketno">"Número de pontos / ingresso: "</string>
+    <string name="points_new">" Pontos"</string>
+    <string name="survey_id_new">" ID DA PESQUISA:"</string>
+    <string name="points_rejected_new">" PONTOS REJEITADOS:"</string>
+    <string name="tv_points_in_review">"PESQUISAS PENDENTES PARA VERIFICAÇÃO"</string>
+    <string name="txt_voucher_pin">"PIN do comprovante"</string>
 
 
 
 
 
-    <string name="txt_PointsInReview">"   POINTS  \n  IN REVIEW"</string>
+    <string name="txt_PointsInReview">"   PONTOS \ n EM ANÁLISE"</string>
 
-    <string name="txt_pin_new">"Enter OTP"</string>
-    <string name="txt_info_new">"Info"</string>
+    <string name="txt_pin_new">"Digite OTP"</string>
+    <string name="txt_info_new">"Informações"</string>
 
     <string name="btn_verify_new">"OTP"</string>
 
-    <string name="txt_submit_new">"Verify"</string>
+    <string name="txt_submit_new">"Verificar"</string>
 
 
-    <string name="participate">"PARTICPATE"</string>
+    <string name="participate">"PARTICIPAR"</string>
 
 
     <string name="app_name">The Panel Station</string>
 
-    <string name="select_language">Select Language</string>
+    <string name="select_language">Selecione o idioma</string>
 
 
     <string name="FACEBOOK_APP_ID">2214631975437544</string>
     <string name="fb_login_protocol_scheme">fb2214631975437544</string>
     <string name="ACCOUNT_KIT_CLIENT_TOKEN">663529e74794f870c76caa3c96dffc56</string>
 
-    <string name="c">"Connection may not be sufficient at this time to receive request. Please try again later."</string>
+    <string name="c">"A conexão pode não ser suficiente neste momento para receber a solicitação. Por favor, tente novamente mais tarde."</string>
 
-    <string name="message_sel_country">"Please Select your country"</string>
+    <string name="message_sel_country">"Por favor selecione seu país"</string>
 
     <string name="mat_addid">174926</string>
     <string name="mat_onversionkey">f9217ab0bd684aee398cfc950547d6e6</string>
 
 
-    <string name="webpage_being_loaded">"Web Page Loading"</string>
+    <string name="webpage_being_loaded">"Carregando página da web"</string>
 
 
 
     <string name="parser_appid">"5Tl7X8lvmLUXHJiHOh5m3zGq2L8UWCqhNy78AMse"</string>
     <string name="parser_clientkey">"kIKn4rBV0MhGYYn0uxCKaDBVBEJf0rsvLSNIR1Dj"</string>
 
-    <string name="info_link">" Please regenerate OTP after 24 hours.\n Please check your SMS settings or Blocked messages.\n SMS won't be delivered if you have activated DND services. \n Keep your mobile number recharged to receive SMS. \n If you still have issues please contact our helpdesk ID: tpsotp@thepanelstationsurveys3.com \n"</string>
+    <string name="info_link">" Regenere OTP após 24 horas. \ N Verifique suas configurações de SMS ou mensagens bloqueadas. \ N O SMS não será entregue se você tiver ativado os serviços DND. \ n Mantenha o número do seu celular recarregado para receber SMS. \ n Se você ainda tiver problemas, entre em contato com nosso helpdesk ID: tpsotp@thepanelstationsurveys3.com \n"</string>
 
 
-    <string name="unsupport_fb_details">"Please enter Facebook account details with email-id"</string>
+    <string name="unsupport_fb_details">"Por favor, insira os detalhes da conta do Facebook com e-mail-id"</string>
 
-    <string name="lbl_appusagepermission">"Important Step:\nTurn on Panel Station App Usage permission.\nGo to Settings->Security->Apps with usage access."</string>
-
-
-    <string name="msgcheckemailforotp1">email id. Please check and verify to activate. </string>
+    <string name="lbl_appusagepermission">"Etapa importante: \ nLigue a permissão de uso do aplicativo Panel Station. \ NVá para Configurações-> Segurança-> Aplicativos com acesso de uso."</string>
 
 
-    <string name="error_enter_otp">"Please enter Activation code."</string>
+    <string name="msgcheckemailforotp1">identificação do email. Por favor, verifique e verifique para ativar. </string>
+
+
+    <string name="error_enter_otp">"Por favor, insira o código de ativação."</string>
 
     <string name="_0">0%</string>
-    <string name="profile_name">Name</string>
+    <string name="profile_name">Nome</string>
     <string name="maxicano">Maxicano</string>
-    <string name="data_plan">This is offer you to Recharge freely on freeCharge. Please Install the App and get Exiting offer for you data plan.</string>
+    <string name="data_plan">Esta é uma oferta para recarregar gratuitamente no freeCharge. Instale o aplicativo e obtenha a oferta de saída para seu plano de dados.</string>
     <string name="points">3000</string>
     <string name="default_channel">tps_notification_channel</string>
 
     <string name="tps">TPS</string>
     <string name="_1">1</string>
     <string name="_0_0">0.0</string>
-    <string name="date">date</string>
+    <string name="date">data</string>
 
     <string name="resend_otp_new">OTP</string>
 
 
     <string name="title_activity_ff">FF</string>
-    <string name="notifications">Notifications</string>
+    <string name="notifications">Notificações</string>
 
 
-    <string name="menu_back">back</string>
-    <string name="home">home</string>
+    <string name="menu_back">voltar</string>
+    <string name="home">casa</string>
 
-    <string name="please_update_your_mobile_number">Please update your mobile number</string>
-    <string name="btn_txt_update">Update</string>
+    <string name="please_update_your_mobile_number">Por favor, atualize o seu número de celular</string>
+    <string name="btn_txt_update">Atualizar</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Olá fragmento em branco</string>
     <string name="title_faq">FAQ\'s</string>
 
-    <string name="msg_update_available">New update available!</string>
-    <string name="msg_update_app_2">You are using an older version of app, please update the app to the latest version for the seamless experience!</string>
+    <string name="msg_update_available">Nova atualização disponível!</string>
+    <string name="msg_update_app_2">Você está usando uma versão mais antiga do aplicativo, atualize-o para a versão mais recente para uma experiência perfeita!</string>
 
-    <string name="thank_you">Thank you</string>
-    <string name="other_reason">Other Reason</string>
-
-
-    <string name="err_msg_invalid_phone_number">Invalid phone number</string>
-
-    <string name="user_not_active">You are not a valid user</string>
-    <string name="alert">Alert</string>
+    <string name="thank_you">Obrigada</string>
+    <string name="other_reason">Outra razão</string>
 
 
-    <string name="registration_signup">Registration</string>
-    <string name="refer_code_optional">Refer Code (optional)</string>
-    <string name="enter_paypal_id">Please enter your PayPal ID</string>
+    <string name="err_msg_invalid_phone_number">Número de telefone inválido</string>
+
+    <string name="user_not_active">Você não é um usuário válido</string>
+    <string name="alert">Alerta</string>
 
 
-    <string name="your_voucherCode">Your VoucherCode is</string>
+    <string name="registration_signup">Cadastro</string>
+    <string name="refer_code_optional">Código de referência (opcional)</string>
+    <string name="enter_paypal_id">Por favor, insira seu ID do PayPal</string>
+
+
+    <string name="your_voucherCode">Seu VoucherCode é</string>
 
     <string name="comm_pref_mobile_whatsapp">WhatsApp</string>
 
-    <string name="your_VoucherPinnew">Voucher pin is </string>
+    <string name="your_VoucherPinnew">PIN do comprovante é </string>
 
-    <string name="nl">strings</string>
+    <string name="nl">cordas</string>
 
 
 

@@ -3,42 +3,25 @@
 
     //Dutch
 
-    <string name="tv_points_in_reject_title">"GEWEIGERDE PUNTEN"</string>
-
-    <string name="points_and_ticketno">"Points/Ticket No: "</string>
-    <string name="points_new">" Points"</string>
-    <string name="survey_id_new">" SURVEY ID :"</string>
-    <string name="points_rejected_new">" POINTS REJECTED:"</string>
 
 
 
+    <string name="async_task_error_timeout">"Hallo, we kunnen uw verzoek op dit moment niet behandelen. Probeer het later opnieuw."</string>
+
+    <string name="txt_puchased_ticket_part2">ik kocht</string>
+
+    <string name="tv_points_in_reject_title">"PUNTEN AFGEWEZEN"</string>
+    <string name="points_and_ticketno">"Punten / ticketnummer: "</string>
+    <string name="points_new">" Punten / ticketnummer:"</string>
+    <string name="survey_id_new">" ONDERZOEKS-ID:"</string>
+    <string name="points_rejected_new">" AFGEWEZEN PUNTEN:"</string>
 
 
 
+    <string name="api_verification_pin_message">"Zijn identificatienummer is XXX. Voer het in om uw account te verifiëren."</string>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <string name="nl">strings</string>
+    <string name="nl">snaren</string>
 
 
 

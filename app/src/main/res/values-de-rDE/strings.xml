@@ -7,6 +7,12 @@
         //Germany
 
 
+
+    <string name="async_task_error_timeout">"Hey, wir können Ihre Anfrage derzeit nicht bearbeiten. Bitte versuchen Sie es später noch einmal."</string>
+
+    <string name="txt_puchased_ticket_part2">ich kaufte</string>
+
+
     <string name="tv_points_in_reject_title">"ABGELEHNTE PUNKTE"</string>
     <string name="points_and_ticketno">"Punkte / Ticket Nr.: "</string>
     <string name="points_new">" Punkte"</string>
@@ -14,6 +20,9 @@
     <string name="points_rejected_new">" ABGELEHNTE PUNKTE:"</string>
     <string name="tv_points_in_review">"UMFRAGEN, DIE ZUR ÜBERPRÜFUNG ANHÄNGIG SIND"</string>
     <string name="txt_voucher_pin">"Gutschein-Pin"</string>
+
+
+    <string name="api_verification_pin_message">"Seine Identifikationsnummer ist XXX. Geben Sie es ein, um Ihr Konto zu bestätigen."</string>
 
 
 

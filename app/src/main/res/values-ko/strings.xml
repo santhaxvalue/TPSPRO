@@ -3,28 +3,32 @@
 
 
 
-    <string name="tv_points_in_reject_title">"POINTS REJECTED"</string>
-    <string name="points_and_ticketno">"Points/Ticket No: "</string>
-    <string name="points_new">" Points"</string>
-    <string name="survey_id_new">" SURVEY ID :"</string>
-    <string name="points_rejected_new">" POINTS REJECTED:"</string>
-    <string name="tv_points_in_review">"SURVEYS PENDING FOR VERIFICATION"</string>
-    <string name="txt_voucher_pin">"Voucher Pin"</string>
+    <string name="async_task_error_timeout">"현재 귀하의 요청을 처리 할 수 ​​없습니다. 나중에 다시 시도 해주십시오."</string>
+
+
+
+    <string name="tv_points_in_reject_title">"거부 된 포인트"</string>
+    <string name="points_and_ticketno">"포인트 / 티켓 번호 :"</string>
+    <string name="points_new">" 포인트들"</string>
+    <string name="survey_id_new">" 설문 조사 ID :"</string>
+    <string name="points_rejected_new">" 거부 된 포인트 :"</string>
+    <string name="tv_points_in_review">"검증 대기중인 설문 조사"</string>
+    <string name="txt_voucher_pin">"바우처 핀"</string>
 
 
 
 
-    <string name="txt_PointsInReview">"   POINTS  \n  IN REVIEW"</string>
+    <string name="txt_PointsInReview">"  포인트 \ n 검토 중"</string>
 
-    <string name="txt_pin_new">"Enter OTP"</string>
-    <string name="txt_info_new">"Info"</string>
+    <string name="txt_pin_new">"OTP 입력"</string>
+    <string name="txt_info_new">"정보"</string>
 
     <string name="btn_verify_new">"OTP"</string>
 
-    <string name="txt_submit_new">"Verify"</string>
+    <string name="txt_submit_new">"검증"</string>
 
 
-    <string name="participate">"PARTICPATE"</string>
+    <string name="participate">"참가하다"</string>
 
 
     <string name="app_name">The Panel Station</string>
@@ -36,14 +40,14 @@
     <string name="lbl_privacy_policy_url">http://www.informatemi.com/tps/pp.php</string>
     <string name="lbl_terms_cond_url">http://www.informatemi.com/tps/tandc.php</string>
 
-    <string name="select_language">Select Language</string>
+    <string name="select_language">언어 선택</string>
 
 
     <string name="FACEBOOK_APP_ID">2214631975437544</string>
     <string name="fb_login_protocol_scheme">fb2214631975437544</string>
     <string name="ACCOUNT_KIT_CLIENT_TOKEN">663529e74794f870c76caa3c96dffc56</string>
 
-    <string name="c">"Connection may not be sufficient at this time to receive request. Please try again later."</string>
+    <string name="c">"현재 연결이 충분하지 않아 요청을받을 수 없습니다. 나중에 다시 시도 해주십시오."</string>
 
 
     <string name="mat_addid">174926</string>
@@ -53,77 +57,77 @@
     <string name="parser_appid">"5Tl7X8lvmLUXHJiHOh5m3zGq2L8UWCqhNy78AMse"</string>
     <string name="parser_clientkey">"kIKn4rBV0MhGYYn0uxCKaDBVBEJf0rsvLSNIR1Dj"</string>
 
-    <string name="info_link">" Please regenerate OTP after 24 hours.\n Please check your SMS settings or Blocked messages.\n SMS won't be delivered if you have activated DND services. \n Keep your mobile number recharged to receive SMS. \n If you still have issues please contact our helpdesk ID: tpsotp@thepanelstationsurveys3.com \n"</string>
+    <string name="info_link">" 24 시간 후에 OTP를 다시 생성하십시오. \ n SMS 설정 또는 차단 된 메시지를 확인하십시오. \ n DND 서비스를 활성화 한 경우 SMS가 전송되지 않습니다. \ n SMS를 받으려면 휴대 전화 번호를 충전하세요. \ n 여전히 문제가있는 경우 헬프 데스크 ID : tpsotp@thepanelstationsurveys3.com에 문의하십시오. \n"</string>
 
 
-    <string name="unsupport_fb_details">"Please enter Facebook account details with email-id"</string>
+    <string name="unsupport_fb_details">"이메일 ID로 Facebook 계정 세부 정보를 입력하십시오"</string>
 
-    <string name="lbl_appusagepermission">"Important Step:\nTurn on Panel Station App Usage permission.\nGo to Settings->Security->Apps with usage access."</string>
-
-
-    <string name="msgcheckemailforotp1">email id. Please check and verify to activate. </string>
+    <string name="lbl_appusagepermission">"중요 단계 : \ nPanel Station 앱 사용 권한을 켜십시오. \ n 설정-> 보안-> 사용 액세스 권한이있는 앱으로 이동하십시오."</string>
 
 
-    <string name="error_enter_otp">"Please enter Activation code."</string>
+    <string name="msgcheckemailforotp1">이메일 주소. 활성화하려면 확인하고 확인하십시오. </string>
+
+
+    <string name="error_enter_otp">"활성화 코드를 입력하십시오."</string>
 
     <string name="_0">0%</string>
-    <string name="profile_name">Name</string>
-    <string name="profile">Profiler</string>
+    <string name="profile_name">이름</string>
+    <string name="profile">프로파일 러</string>
     <string name="maxicano">Maxicano</string>
-    <string name="data_plan">This is offer you to Recharge freely on freeCharge. Please Install the App and get Exiting offer for you data plan.</string>
+    <string name="data_plan">이것은 freeCharge에서 자유롭게 충전 할 수있는 제안입니다. 앱을 설치하고 데이터 요금제에 대한 종료 제안을 받으십시오.</string>
     <string name="points">3000</string>
     <string name="default_channel">tps_notification_channel</string>
 
     <string name="tps">TPS</string>
     <string name="_1">1</string>
     <string name="_0_0">0.0</string>
-    <string name="date">date</string>
+    <string name="date">데이트</string>
 
     <string name="resend_otp_new">OTP</string>
 
 
     <string name="title_activity_ff">FF</string>
-    <string name="notifications">Notifications</string>
+    <string name="notifications">알림</string>
 
 
-    <string name="menu_back">back</string>
-    <string name="home">home</string>
+    <string name="menu_back">뒤</string>
+    <string name="home">집</string>
 
 
-    <string name="please_update_your_mobile_number">Please update your mobile number</string>
-    <string name="btn_txt_update">Update</string>
+    <string name="please_update_your_mobile_number">휴대폰 번호를 업데이트하십시오</string>
+    <string name="btn_txt_update">최신 정보</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">안녕하세요 빈 조각</string>
     <string name="title_faq">FAQ\'s</string>
 
-    <string name="msg_update_available">New update available!</string>
-    <string name="msg_update_app_2">You are using an older version of app, please update the app to the latest version for the seamless experience!</string>
+    <string name="msg_update_available">새로운 업데이트가 있습니다!</string>
+    <string name="msg_update_app_2">이전 버전의 앱을 사용 중입니다. 원활한 경험을 위해 앱을 최신 버전으로 업데이트하십시오!</string>
 
 
-    <string name="thank_you">Thank you</string>
-    <string name="other_reason">Other Reason</string>
+    <string name="thank_you">감사합니다</string>
+    <string name="other_reason">다른 이유</string>
 
-    <string name="if_at_any_point_2">We would respond to your mails within three days of receiving the same.</string>
+    <string name="if_at_any_point_2">우리는 같은 우편물을받은 후 3 일 이내에 귀하의 우편물에 응답 할 것입니다.</string>
 
-    <string name="err_msg_invalid_phone_number">Invalid phone number</string>
+    <string name="err_msg_invalid_phone_number">유효하지 않은 전화 번호</string>
 
-    <string name="user_not_active">You are not a valid user</string>
-    <string name="alert">Alert</string>
-
-
-    <string name="registration_signup">Registration</string>
-    <string name="language_signup">Language</string>
-    <string name="refer_code_optional">Refer Code (optional)</string>
-    <string name="enter_paypal_id">Please enter your PayPal ID</string>
+    <string name="user_not_active">유효한 사용자가 아닙니다.</string>
+    <string name="alert">경보</string>
 
 
-    <string name="your_voucherCode">Your VoucherCode is</string>
+    <string name="registration_signup">기재</string>
+    <string name="language_signup">언어</string>
+    <string name="refer_code_optional">참조 코드 (선택 사항)</string>
+    <string name="enter_paypal_id">PayPal ID를 입력하세요.</string>
+
+
+    <string name="your_voucherCode">귀하의 VoucherCode는</string>
 
     <string name="comm_pref_mobile_whatsapp">WhatsApp</string>
 
-    <string name="your_VoucherPinnew">Voucher pin is </string>
+    <string name="your_VoucherPinnew">바우처 핀은 </string>
 
-    <string name="nl">strings</string>
+    <string name="nl">문자열</string>
 
 
 

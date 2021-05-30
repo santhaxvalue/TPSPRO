@@ -4,44 +4,52 @@
     //Malasyia
 
 
-    <string name="tv_points_in_reject_title">"POINTS REJECTED"</string>
-    <string name="points_and_ticketno">"Points/Ticket No: "</string>
-    <string name="points_new">" Points"</string>
-    <string name="survey_id_new">" SURVEY ID :"</string>
-    <string name="points_rejected_new">" POINTS REJECTED:"</string>
-    <string name="tv_points_in_review">"SURVEYS PENDING FOR VERIFICATION"</string>
-    <string name="txt_voucher_pin">"Voucher Pin"</string>
+
+    <string name="async_task_error_timeout">"Hai, kami tidak dapat menangani permintaan anda buat masa ini. Sila cuba sebentar lagi."</string>
+
+    <string name="txt_puchased_ticket_part2">Saya beli</string>
+
+
+
+    <string name="api_verification_pin_message">"Nombor pengenalannya ialah XXX. Masukkan untuk mengesahkan akaun anda."</string>
+    <string name="tv_points_in_reject_title">"POIN DITOLAK"</string>
+    <string name="points_and_ticketno">"No Mata / Tiket: "</string>
+    <string name="points_new">" Mata"</string>
+    <string name="survey_id_new">" ID KAJIAN:"</string>
+    <string name="points_rejected_new">" POIN DITOLAK:"</string>
+    <string name="tv_points_in_review">"KAJIAN TUNGGU UNTUK PENGESAHAN"</string>
+    <string name="txt_voucher_pin">"Pin Baucar"</string>
 
 
 
 
-    <string name="txt_PointsInReview">"   POINTS  \n  IN REVIEW"</string>
+    <string name="txt_PointsInReview">"   POIN \ n DALAM SEMAKAN"</string>
 
-    <string name="txt_pin_new">"Enter OTP"</string>
-    <string name="txt_info_new">"Info"</string>
+    <string name="txt_pin_new">"Masukkan OTP"</string>
+    <string name="txt_info_new">"Maklumat"</string>
 
     <string name="btn_verify_new">"OTP"</string>
 
-    <string name="txt_submit_new">"Verify"</string>
+    <string name="txt_submit_new">"Sahkan"</string>
 
 
-    <string name="participate">"PARTICPATE"</string>
+    <string name="participate">"PENYERTAAN"</string>
 
 
 
     <string name="app_name">The Panel Station</string>
 
 
-    <string name="select_language">Select Language</string>
+    <string name="select_language">Pilih Bahasa</string>
 
 
     <string name="FACEBOOK_APP_ID">2214631975437544</string>
     <string name="fb_login_protocol_scheme">fb2214631975437544</string>
     <string name="ACCOUNT_KIT_CLIENT_TOKEN">663529e74794f870c76caa3c96dffc56</string>
 
-    <string name="c">"Connection may not be sufficient at this time to receive request. Please try again later."</string>
+    <string name="c">"Sambungan mungkin tidak mencukupi buat masa ini untuk menerima permintaan. Sila cuba sebentar lagi."</string>
 
-    <string name="message_sel_country">"Please Select your country"</string>
+    <string name="message_sel_country">"Sila pilih negara anda"</string>
 
     <string name="mat_addid">174926</string>
     <string name="mat_onversionkey">f9217ab0bd684aee398cfc950547d6e6</string>
@@ -51,73 +59,73 @@
     <string name="parser_appid">"5Tl7X8lvmLUXHJiHOh5m3zGq2L8UWCqhNy78AMse"</string>
     <string name="parser_clientkey">"kIKn4rBV0MhGYYn0uxCKaDBVBEJf0rsvLSNIR1Dj"</string>
 
-    <string name="info_link">" Please regenerate OTP after 24 hours.\n Please check your SMS settings or Blocked messages.\n SMS won't be delivered if you have activated DND services. \n Keep your mobile number recharged to receive SMS. \n If you still have issues please contact our helpdesk ID: tpsotp@thepanelstationsurveys3.com \n"</string>
+    <string name="info_link">" Buat semula OTP setelah 24 jam. \ N Sila periksa tetapan SMS anda atau Pesan yang disekat. \ N SMS tidak akan dihantar jika anda telah mengaktifkan perkhidmatan DND. \ n Pastikan nombor telefon bimbit anda diisi semula untuk menerima SMS. \ n Sekiranya anda masih menghadapi masalah, sila hubungi ID meja bantuan kami: tpsotp@thepanelstationsurveys3.com\n"</string>
 
 
 
 
 
-    <string name="msgcheckemailforotp1">email id. Please check and verify to activate. </string>
+    <string name="msgcheckemailforotp1">ID emel. Sila periksa dan sahkan untuk mengaktifkan. </string>
 
 
 
     <string name="_0">0%</string>
-    <string name="profile_name">Name</string>
+    <string name="profile_name">Nama</string>
     <string name="profile">Profiler</string>
     <string name="maxicano">Maxicano</string>
-    <string name="data_plan">This is offer you to Recharge freely on freeCharge. Please Install the App and get Exiting offer for you data plan.</string>
+    <string name="data_plan">Ini menawarkan anda untuk mengisi semula secara percuma di FreeCharge. Sila Pasang Aplikasi dan dapatkan tawaran Keluar untuk rancangan data anda.</string>
     <string name="points">3000</string>
     <string name="default_channel">tps_notification_channel</string>
 
     <string name="tps">TPS</string>
     <string name="_1">1</string>
     <string name="_0_0">0.0</string>
-    <string name="date">date</string>
+    <string name="date">Tarikh</string>
 
     <string name="resend_otp_new">OTP</string>
 
 
     <string name="title_activity_ff">FF</string>
-    <string name="notifications">Notifications</string>
+    <string name="notifications">Pemberitahuan</string>
 
 
-    <string name="menu_back">back</string>
-    <string name="home">home</string>
+    <string name="menu_back">belakang</string>
+    <string name="home">kediaman</string>
 
-    <string name="please_update_your_mobile_number">Please update your mobile number</string>
-    <string name="btn_txt_update">Update</string>
+    <string name="please_update_your_mobile_number">Sila kemas kini nombor telefon bimbit anda</string>
+    <string name="btn_txt_update">Kemas kini</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Hello serpihan kosong</string>
     <string name="title_faq">FAQ\'s</string>
 
-    <string name="msg_update_available">New update available!</string>
-    <string name="msg_update_app_2">You are using an older version of app, please update the app to the latest version for the seamless experience!</string>
+    <string name="msg_update_available">Kemas kini baru tersedia!</string>
+    <string name="msg_update_app_2">Anda menggunakan versi aplikasi yang lebih lama, sila kemas kini aplikasi ke versi terbaru untuk pengalaman yang lancar!</string>
 
-    <string name="thank_you">Thank you</string>
-    <string name="other_reason">Other Reason</string>
+    <string name="thank_you">Terima kasih</string>
+    <string name="other_reason">Sebab Lain</string>
 
-    <string name="if_at_any_point_2">We would respond to your mails within three days of receiving the same.</string>
+    <string name="if_at_any_point_2">Kami akan membalas surat anda dalam masa tiga hari setelah menerimanya.</string>
 
-    <string name="err_msg_invalid_phone_number">Invalid phone number</string>
-    <string name="swipe_up">Swipe up to Sign In</string>
-    <string name="swipe_down">Swipe down to Sign Up</string>
-    <string name="user_not_active">You are not a valid user</string>
-    <string name="alert">Alert</string>
+    <string name="err_msg_invalid_phone_number">Nombor telefon tidak sah</string>
+    <string name="swipe_up">Leret ke atas untuk Masuk</string>
+    <string name="swipe_down">Leret ke bawah untuk Mendaftar</string>
+    <string name="user_not_active">Anda bukan pengguna yang sah</string>
+    <string name="alert">Amaran</string>
 
 
-    <string name="registration_signup">Registration</string>
-    <string name="language_signup">Language</string>
-    <string name="refer_code_optional">Refer Code (optional)</string>
-    <string name="enter_paypal_id">Please enter your PayPal ID</string>
+    <string name="registration_signup">Pendaftaran</string>
+    <string name="language_signup">Bahasa</string>
+    <string name="refer_code_optional">Rujuk Kod (pilihan)</string>
+    <string name="enter_paypal_id">Sila masukkan ID PayPal anda</string>
 
 f
-    <string name="your_voucherCode">Your VoucherCode is</string>
+    <string name="your_voucherCode">Kod Voucher anda adalah</string>
 
     <string name="comm_pref_mobile_whatsapp">WhatsApp</string>
 
-    <string name="your_VoucherPinnew">Voucher pin is </string>
+    <string name="your_VoucherPinnew">Pin baucar adalah</string>
 
-    <string name="nl">strings</string>
+    <string name="nl">tali</string>
 
 
 

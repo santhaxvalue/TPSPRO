@@ -4,32 +4,36 @@
 
 
 
-    <string name="tv_points_in_reject_title">"POINTS REJECTED"</string>
-    <string name="points_and_ticketno">"Points/Ticket No: "</string>
-    <string name="points_new">" Points"</string>
-    <string name="survey_id_new">" SURVEY ID :"</string>
-    <string name="points_rejected_new">" POINTS REJECTED:"</string>
-    <string name="tv_points_in_review">"SURVEYS PENDING FOR VERIFICATION"</string>
-    <string name="txt_voucher_pin">"Voucher Pin"</string>
+
+    <string name="async_task_error_timeout">"สวัสดีเราไม่สามารถดำเนินการตามคำขอของคุณได้ในขณะนี้ กรุณาลองใหม่อีกครั้งในภายหลัง."</string>
+
+
+    <string name="tv_points_in_reject_title">"คะแนนถูกปฏิเสธ"</string>
+    <string name="points_and_ticketno">"คะแนน / หมายเลขตั๋ว: "</string>
+    <string name="points_new">" คะแนน"</string>
+    <string name="survey_id_new">" รหัสแบบสำรวจ:"</string>
+    <string name="points_rejected_new">" คะแนนที่ถูกปฏิเสธ:"</string>
+    <string name="tv_points_in_review">"แบบสำรวจที่รอการยืนยัน"</string>
+    <string name="txt_voucher_pin">"บัตรกำนัล พิน"</string>
 
 
 
-    <string name="txt_PointsInReview">"   POINTS  \n  IN REVIEW"</string>
+    <string name="txt_PointsInReview">"  คะแนน \ n ในการตรวจสอบ"</string>
 
-    <string name="txt_pin_new">"Enter OTP"</string>
-    <string name="txt_info_new">"Info"</string>
+    <string name="txt_pin_new">"ป้อน OTP"</string>
+    <string name="txt_info_new">"ข้อมูล"</string>
 
     <string name="btn_verify_new">"OTP"</string>
 
-    <string name="txt_submit_new">"Verify"</string>
+    <string name="txt_submit_new">"ยืนยัน"</string>
 
 
-    <string name="participate">"PARTICPATE"</string>
+    <string name="participate">"มีส่วนร่วม"</string>
 
 
 
     <string name="app_name">The Panel Station</string>
-    <string name="login_title">Panel Station</string>
+    <string name="login_title">สถานีแผง</string>
 
     <string name="ptr_pull_to_refresh"></string>
     <string name="ptr_release_to_refresh"></string>
@@ -38,102 +42,105 @@
     <string name="lbl_privacy_policy_url">http://www.informatemi.com/tps/pp.php</string>
     <string name="lbl_terms_cond_url">http://www.informatemi.com/tps/tandc.php</string>
 
-    <string name="select_language">Select Language</string>
+    <string name="select_language">
+เลือกภาษา</string>
 
-    <string name="hint_education">Education</string>
-    <string name="hint_annualHighSAl">Annual HH.Income</string>
-    <string name="hint_maritalStatus">Marital Status</string>
-    <string name="hint_ethnicity">Ethnicity</string>
-    <string name="hint_employment_status">Employment Status</string>
-    <string name="hint_industry">Industry</string>
+    <string name="hint_education">การศึกษา</string>
+    <string name="hint_annualHighSAl">ฮ. ประจำปี</string>
+    <string name="hint_maritalStatus">สถานภาพการสมรส</string>
+    <string name="hint_ethnicity">เชื้อชาติ</string>
+    <string name="hint_employment_status">สถานะการจ้างงาน</string>
+    <string name="hint_industry">อุตสาหกรรม</string>
 
     <string name="FACEBOOK_APP_ID">2214631975437544</string>
     <string name="fb_login_protocol_scheme">fb2214631975437544</string>
     <string name="ACCOUNT_KIT_CLIENT_TOKEN">663529e74794f870c76caa3c96dffc56</string>
-    <string name="panel_copyrights">"Copyright © 2015 thepanelstation. All rights reserved."</string>
+    <string name="panel_copyrights">"ลิขสิทธิ์© 2015 thepanelstation. สงวนลิขสิทธิ์."</string>
 
-    <string name="c">"Connection may not be sufficient at this time to receive request. Please try again later."</string>
+    <string name="c">"การเชื่อมต่ออาจไม่เพียงพอในขณะนี้เพื่อรับคำขอ กรุณาลองใหม่อีกครั้งในภายหลัง."</string>
 
-    <string name="message_sel_country">"Please Select your country"</string>
+    <string name="message_sel_country">"กรุณาเลือกประเทศของคุณ"</string>
 
     <string name="mat_addid">174926</string>
     <string name="mat_onversionkey">f9217ab0bd684aee398cfc950547d6e6</string>
 
 
-    <string name="txt_each_ticket_part2">" Points"</string>
+    <string name="txt_each_ticket_part2">" คะแนน"</string>
 
 
     <string name="parser_appid">"5Tl7X8lvmLUXHJiHOh5m3zGq2L8UWCqhNy78AMse"</string>
     <string name="parser_clientkey">"kIKn4rBV0MhGYYn0uxCKaDBVBEJf0rsvLSNIR1Dj"</string>
 
-    <string name="info_link">" Please regenerate OTP after 24 hours.\n Please check your SMS settings or Blocked messages.\n SMS won't be delivered if you have activated DND services. \n Keep your mobile number recharged to receive SMS. \n If you still have issues please contact our helpdesk ID: tpsotp@thepanelstationsurveys3.com \n"</string>
+    <string name="info_link">" โปรดสร้าง OTP ใหม่หลังจาก 24 ชั่วโมง \ n โปรดตรวจสอบการตั้งค่า SMS หรือข้อความที่ถูกบล็อก \ n SMS จะไม่ถูกส่งหากคุณเปิดใช้งานบริการ DND \ n ชาร์จหมายเลขโทรศัพท์มือถือของคุณเพื่อรับ SMS \ n หากคุณยังคงมีปัญหาโปรดติดต่อฝ่ายช่วยเหลือของเรา ID: tpsotp@thepanelstationsurveys3.com \n"</string>
 
 
-    <string name="unsupport_fb_details">"Please enter Facebook account details with email-id"</string>
+    <string name="unsupport_fb_details">"กรุณากรอกรายละเอียดบัญชี Facebook ด้วย email-id"</string>
 
-    <string name="lbl_appusagepermission">"Important Step:\nTurn on Panel Station App Usage permission.\nGo to Settings->Security->Apps with usage access."</string>
-
-
-    <string name="msgcheckemailforotp1">email id. Please check and verify to activate. </string>
+    <string name="lbl_appusagepermission">"ขั้นตอนสำคัญ:\nเปิดการอนุญาตการใช้แอป Panel Station\nไปที่การตั้งค่า->ความปลอดภัย->แอปที่มีการเข้าถึงการใช้งาน"</string>
 
 
-    <string name="error_enter_otp">"Please enter Activation code."</string>
+    <string name="msgcheckemailforotp1">ชื่ออีเมล์. โปรดตรวจสอบและยืนยันเพื่อเปิดใช้งาน </string>
+
+
+    <string name="error_enter_otp">"กรุณากรอกรหัสการเปิดใช้งาน"</string>
 
     <string name="_0">0%</string>
-    <string name="profile_name">Name</string>
-    <string name="profile">Profiler</string>
-    <string name="maxicano">Maxicano</string>
-    <string name="data_plan">This is offer you to Recharge freely on freeCharge. Please Install the App and get Exiting offer for you data plan.</string>
+    <string name="profile_name">ชื่อ</string>
+    <string name="profile">ข้อมูลส่วนตัว</string>
+    <string name="maxicano">แม็กซิคาโน</string>
+    <string name="data_plan">นี่คือข้อเสนอให้คุณเติมเงินได้อย่างอิสระใน freeCharge โปรดติดตั้งแอปและรับข้อเสนอพิเศษสำหรับแผนข้อมูลของคุณ</string>
     <string name="points">3000</string>
     <string name="default_channel">tps_notification_channel</string>
 
     <string name="tps">TPS</string>
     <string name="_1">1</string>
     <string name="_0_0">0.0</string>
-    <string name="date">date</string>
+    <string name="date">
+วันที่</string>
 
     <string name="resend_otp_new">OTP</string>
 
 
     <string name="title_activity_ff">FF</string>
-    <string name="notifications">Notifications</string>
+    <string name="notifications">การแจ้งเตือน</string>
 
 
-    <string name="menu_back">back</string>
-    <string name="home">home</string>
+    <string name="menu_back">กลับ</string>
+    <string name="home">บ้าน</string>
 
-    <string name="please_update_your_mobile_number">Please update your mobile number</string>
-    <string name="btn_txt_update">Update</string>
+    <string name="please_update_your_mobile_number">โปรดอัปเดตหมายเลขโทรศัพท์มือถือของคุณ</string>
+    <string name="btn_txt_update">อัปเดต</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">สวัสดีส่วนที่ว่างเปล่า</string>
     <string name="title_faq">FAQ\'s</string>
 
-    <string name="msg_update_available">New update available!</string>
-    <string name="msg_update_app_2">You are using an older version of app, please update the app to the latest version for the seamless experience!</string>
+    <string name="msg_update_available">
+มีการอัปเดตใหม่!</string>
+    <string name="msg_update_app_2">คุณกำลังใช้แอปเวอร์ชันเก่าโปรดอัปเดตแอปเป็นเวอร์ชันล่าสุดเพื่อประสบการณ์ที่ราบรื่น!</string>
 
-    <string name="thank_you">Thank you</string>
-    <string name="other_reason">Other Reason</string>
+    <string name="thank_you">ขอขอบคุณ</string>
+    <string name="other_reason">เหตุผลอื่น</string>
 
-    <string name="if_at_any_point_2">We would respond to your mails within three days of receiving the same.</string>
-    <string name="err_msg_invalid_phone_number">Invalid phone number</string>
+    <string name="if_at_any_point_2">เราจะตอบกลับอีเมลของคุณภายในสามวันหลังจากได้รับสิ่งเดียวกัน</string>
+    <string name="err_msg_invalid_phone_number">หมายเลขโทรศัพท์ไม่ถูกต้อง</string>
 
-    <string name="user_not_active">You are not a valid user</string>
-    <string name="alert">Alert</string>
-
-
-    <string name="registration_signup">Registration</string>
-    <string name="language_signup">Language</string>
-    <string name="refer_code_optional">Refer Code (optional)</string>
-    <string name="enter_paypal_id">Please enter your PayPal ID</string>
+    <string name="user_not_active">คุณไม่ใช่ผู้ใช้ที่ถูกต้อง</string>
+    <string name="alert">การแจ้งเตือน</string>
 
 
-    <string name="your_voucherCode">Your VoucherCode is</string>
+    <string name="registration_signup">การลงทะเบียน</string>
+    <string name="language_signup">ภาษา</string>
+    <string name="refer_code_optional">รหัสอ้างอิง (ไม่บังคับ)</string>
+    <string name="enter_paypal_id">กรุณากรอกรหัส PayPal ของคุณ</string>
+
+
+    <string name="your_voucherCode">VoucherCode ของคุณคือ</string>
 
     <string name="comm_pref_mobile_whatsapp">WhatsApp</string>
 
-    <string name="your_VoucherPinnew">Voucher pin is </string>
+    <string name="your_VoucherPinnew">พินบัตรกำนัลคือ</string>
 
-    <string name="nl">strings</string>
+    <string name="nl">สตริง</string>
 
 
 

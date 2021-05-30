@@ -2,6 +2,9 @@
 <resources>
     //Arabic
 
+
+
+
     <string name="tv_points_in_reject_title">"النقاط المرفوضة"</string>
     <string name="points_and_ticketno">"النقاط / رقم التذكرة: "</string>
     <string name="points_new">" نقاط"</string>
@@ -396,6 +399,8 @@
     <string name="txt_mobilenumber">"رقم الهاتف الجوّال"</string>
     <string name="btn_verify">"التحقق"</string>
     <string name="hint_mobile_number">رقم الهاتف المحمول</string>
+
+    <string name="api_verification_pin_message">"رقم تعريفه هو XXX. أدخله للتحقق من حسابك."</string>
 
     <string name="txt_contactus">"اتصل بنا"</string>
     <string name="txt_raise_request">رفع الطلب</string>

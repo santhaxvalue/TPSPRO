@@ -3,30 +3,36 @@
     //Turkish
 
 
-    <string name="tv_points_in_reject_title">"POINTS REJECTED"</string>
-    <string name="points_and_ticketno">"Points/Ticket No: "</string>
-    <string name="points_new">" Points"</string>
-    <string name="survey_id_new">" SURVEY ID :"</string>
-    <string name="points_rejected_new">" POINTS REJECTED:"</string>
-    <string name="tv_points_in_review">"SURVEYS PENDING FOR VERIFICATION"</string>
-    <string name="txt_voucher_pin">"Voucher Pin"</string>
+
+    <string name="async_task_error_timeout">"Hey, şu anda isteğinizi yerine getiremiyoruz. Lütfen daha sonra tekrar deneyiniz."</string>
+
+
+
+    <string name="tv_points_in_reject_title">"REDDEDİLEN PUANLAR"</string>
+    <string name="points_and_ticketno">"Puan / Bilet No:"</string>
+    <string name="points_new">" Puanlar"</string>
+    <string name="survey_id_new">" ANKET ID :"</string>
+    <string name="points_rejected_new">" REDDEDİLEN PUANLAR:"</string>
+    <string name="tv_points_in_review">"DOĞRULAMA İÇİN BEKLENEN ANKETLER"</string>
+    <string name="txt_voucher_pin">"
+Kupon Pimi"</string>
 
 
 
 
 
 
-    <string name="txt_PointsInReview">"   POINTS  \n  IN REVIEW"</string>
+    <string name="txt_PointsInReview">"   İNCELEMEDEKİ PUANLAR \ n"</string>
 
-    <string name="txt_pin_new">"Enter OTP"</string>
-    <string name="txt_info_new">"Info"</string>
+    <string name="txt_pin_new">"OTP'yi girin"</string>
+    <string name="txt_info_new">"Bilgi"</string>
 
     <string name="btn_verify_new">"OTP"</string>
 
-    <string name="txt_submit_new">"Verify"</string>
+    <string name="txt_submit_new">"Doğrulayın"</string>
 
 
-    <string name="participate">"PARTICPATE"</string>
+    <string name="participate">"KATIL"</string>
 
 
     <string name="app_name">The Panel Station</string>
@@ -39,104 +45,104 @@
     <string name="lbl_privacy_policy_url">http://www.informatemi.com/tps/pp.php</string>
     <string name="lbl_terms_cond_url">http://www.informatemi.com/tps/tandc.php</string>
 
-    <string name="select_language">Select Language</string>
+    <string name="select_language">Dil Seçin</string>
 
-    <string name="hint_education">Education</string>
-    <string name="hint_annualHighSAl">Annual HH.Income</string>
-    <string name="hint_maritalStatus">Marital Status</string>
-    <string name="hint_ethnicity">Ethnicity</string>
-    <string name="hint_employment_status">Employment Status</string>
-    <string name="hint_industry">Industry</string>
+    <string name="hint_education">Eğitim</string>
+    <string name="hint_annualHighSAl">Yıllık HH. Gelir</string>
+    <string name="hint_maritalStatus">Medeni hal</string>
+    <string name="hint_ethnicity">Etnik köken</string>
+    <string name="hint_employment_status">çalışma durumu</string>
+    <string name="hint_industry">Sanayi</string>
 
     <string name="FACEBOOK_APP_ID">2214631975437544</string>
     <string name="fb_login_protocol_scheme">fb2214631975437544</string>
     <string name="ACCOUNT_KIT_CLIENT_TOKEN">663529e74794f870c76caa3c96dffc56</string>
 
-    <string name="c">"Connection may not be sufficient at this time to receive request. Please try again later."</string>
+    <string name="c">"Şu anda talebi almak için bağlantı yeterli olmayabilir. Lütfen daha sonra tekrar deneyiniz."</string>
 
-    <string name="message_sel_country">"Please Select your country"</string>
+    <string name="message_sel_country">"Lütfen ülkenizi seçiniz"</string>
 
     <string name="mat_addid">174926</string>
     <string name="mat_onversionkey">f9217ab0bd684aee398cfc950547d6e6</string>
 
-    <string name="alert_dialog_txt_part2">"  more points for general redemption. However you can always participate in our Monthly Prize Draw to win exciting prizes."</string>
-    <string name="alert_dialog_txt_part4">"  more points to redeem."</string>
+    <string name="alert_dialog_txt_part2">"  genel itfa için daha fazla puan. Bununla birlikte, heyecan verici ödüller kazanmak için Aylık Ödül Çekilişimize her zaman katılabilirsiniz."</string>
+    <string name="alert_dialog_txt_part4">"  Kullanılacak daha fazla puan."</string>
 
 
 
     <string name="parser_appid">"5Tl7X8lvmLUXHJiHOh5m3zGq2L8UWCqhNy78AMse"</string>
     <string name="parser_clientkey">"kIKn4rBV0MhGYYn0uxCKaDBVBEJf0rsvLSNIR1Dj"</string>
 
-    <string name="info_link">" Please regenerate OTP after 24 hours.\n Please check your SMS settings or Blocked messages.\n SMS won't be delivered if you have activated DND services. \n Keep your mobile number recharged to receive SMS. \n If you still have issues please contact our helpdesk ID: tpsotp@thepanelstationsurveys3.com \n"</string>
+    <string name="info_link">"Lütfen 24 saat sonra OTP'yi yeniden oluşturun. \ N Lütfen SMS ayarlarınızı veya Engellenen mesajlarınızı kontrol edin. \ N DND hizmetlerini etkinleştirdiyseniz SMS teslim edilmeyecektir. \ n SMS almak için cep telefonu numaranızın şarjlı olmasını sağlayın. \ n Hala sorun yaşıyorsanız lütfen yardım masası kimliğimizle iletişime geçin: tpsotp@thepanelstationsurveys3.com \n"</string>
 
 
-    <string name="unsupport_fb_details">"Please enter Facebook account details with email-id"</string>
+    <string name="unsupport_fb_details">"Lütfen e-posta kimliğiyle Facebook hesabı ayrıntılarını girin"</string>
 
-    <string name="lbl_appusagepermission">"Important Step:\nTurn on Panel Station App Usage permission.\nGo to Settings->Security->Apps with usage access."</string>
-
-
-    <string name="msgcheckemailforotp1">email id. Please check and verify to activate. </string>
+    <string name="lbl_appusagepermission">"Önemli Adım: \ nPanel Station Uygulaması Kullanım iznini açın. \ NKullanım erişimi olan Ayarlar-> Güvenlik-> Uygulamalar'a gidin."</string>
 
 
-    <string name="error_enter_otp">"Please enter Activation code."</string>
+    <string name="msgcheckemailforotp1">email kimliği. Lütfen etkinleştirmek için kontrol edin ve doğrulayın. </string>
+
+
+    <string name="error_enter_otp">"Lütfen Aktivasyon kodunu girin."</string>
 
     <string name="_0">0%</string>
-    <string name="profile_name">Name</string>
-    <string name="profile">Profiler</string>
+    <string name="profile_name">İsim Soyisim</string>
+    <string name="profile">Profil oluşturucu</string>
     <string name="maxicano">Maxicano</string>
-    <string name="data_plan">This is offer you to Recharge freely on freeCharge. Please Install the App and get Exiting offer for you data plan.</string>
+    <string name="data_plan">Bu size freeCharge\'da ücretsiz olarak Şarj Etme teklifidir. Lütfen Uygulamayı Yükleyin ve veri planınız için Çıkış teklifini alın.</string>
     <string name="points">3000</string>
     <string name="default_channel">tps_notification_channel</string>
 
     <string name="tps">TPS</string>
     <string name="_1">1</string>
     <string name="_0_0">0.0</string>
-    <string name="date">date</string>
+    <string name="date">tarih</string>
 
     <string name="resend_otp_new">OTP</string>
 
 
     <string name="title_activity_ff">FF</string>
-    <string name="notifications">Notifications</string>
+    <string name="notifications">Bildirimler</string>
 
 
-    <string name="menu_back">back</string>
-    <string name="home">home</string>
+    <string name="menu_back">geri</string>
+    <string name="home">ev</string>
 
-    <string name="please_update_your_mobile_number">Please update your mobile number</string>
-    <string name="btn_txt_update">Update</string>
+    <string name="please_update_your_mobile_number">Lütfen cep telefonu numaranızı güncelleyin</string>
+    <string name="btn_txt_update">Güncelleme</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Merhaba boş parça</string>
     <string name="title_faq">FAQ\'s</string>
 
-    <string name="msg_update_available">New update available!</string>
-    <string name="msg_update_app_2">You are using an older version of app, please update the app to the latest version for the seamless experience!</string>
+    <string name="msg_update_available">Yeni güncelleme mevcut!</string>
+    <string name="msg_update_app_2">Uygulamanın eski bir sürümünü kullanıyorsunuz, sorunsuz bir deneyim için lütfen uygulamayı en son sürüme güncelleyin!</string>
 
 
 
-    <string name="thank_you">Thank you</string>
-    <string name="other_reason">Other Reason</string>
+    <string name="thank_you">teşekkür ederim</string>
+    <string name="other_reason">Diğer Sebep</string>
 
 
-    <string name="err_msg_invalid_phone_number">Invalid phone number</string>
+    <string name="err_msg_invalid_phone_number">Geçersiz telefon numarası</string>
 
-    <string name="user_not_active">You are not a valid user</string>
-    <string name="alert">Alert</string>
+    <string name="user_not_active">Sen geçerli bir kullanıcı değilsin</string>
+    <string name="alert">Uyarmak</string>
 
-    <string name="registration_signup">Registration</string>
-    <string name="language_signup">Language</string>
-    <string name="refer_code_optional">Refer Code (optional)</string>
-    <string name="enter_paypal_id">Please enter your PayPal ID</string>
+    <string name="registration_signup">Kayıt</string>
+    <string name="language_signup">Dil</string>
+    <string name="refer_code_optional">Referans Kodu (isteğe bağlı)</string>
+    <string name="enter_paypal_id">Lütfen PayPal Kimliğinizi girin</string>
 
 
-    <string name="your_voucherCode">Your VoucherCode is</string>
+    <string name="your_voucherCode">VoucherCode\'unuz</string>
 
     <string name="comm_pref_mobile_whatsapp">WhatsApp</string>
 
-    <string name="your_VoucherPinnew">Voucher pin is </string>
+    <string name="your_VoucherPinnew">Kupon şifresi </string>
 
-    <string name="click_yes">Click Yes to confirm your voucher selection. Please note that you will not be allowed to change the selection once made.</string>
-    <string name="nl">strings</string>
+    <string name="click_yes">Kupon seçiminizi onaylamak için Evet\'i tıklayın. Lütfen seçimi yaptıktan sonra değiştirmenize izin verilmeyeceğini unutmayın.</string>
+    <string name="nl">Teller</string>
 
 
 

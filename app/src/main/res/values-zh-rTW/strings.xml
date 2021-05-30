@@ -2,47 +2,46 @@
 <resources>
 
 
-    <string name="tv_points_in_reject_title">"POINTS REJECTED"</string>
-    <string name="points_and_ticketno">"Points/Ticket No: "</string>
-    <string name="points_new">" Points"</string>
-    <string name="survey_id_new">" SURVEY ID :"</string>
-    <string name="points_rejected_new">" POINTS REJECTED:"</string>
-    <string name="tv_points_in_review">"SURVEYS PENDING FOR VERIFICATION"</string>
-    <string name="txt_voucher_pin">"Voucher Pin"</string>
+
+    <string name="async_task_error_timeout">"嘿，我们目前无法处理您的请求。请稍后再试。"</string>
+
+    <string name="tv_points_in_reject_title">"拒绝积分"</string>
+    <string name="points_and_ticketno">"积分/票号： "</string>
+    <string name="points_new">" 点数"</string>
+    <string name="survey_id_new">" 调查编号："</string>
+    <string name="points_rejected_new">" 拒绝的要点："</string>
+    <string name="tv_points_in_review">"等待验证的调查"</string>
+    <string name="txt_voucher_pin">"凭证针"</string>
 
 
 
-    <string name="txt_PointsInReview">"   POINTS  \n  IN REVIEW"</string>
-
-    <string name="txt_pin_new">"Enter OTP"</string>
-    <string name="txt_info_new">"Info"</string>
-
-    <string name="btn_verify_new">"OTP"</string>
-
-    <string name="txt_submit_new">"Verify"</string>
 
 
-    <string name="participate">"PARTICPATE"</string>
+    <string name="txt_PointsInReview">"   要点\ n审核中"</string>
+
+    <string name="txt_pin_new">"输入一次性密码"</string>
+    <string name="txt_info_new">"信息"</string>
+
+    <string name="btn_verify_new">"一次性密码"</string>
+
+    <string name="txt_submit_new">"核实"</string>
+
+
+    <string name="participate">"参加"</string>
+
 
 
     <string name="app_name">The Panel Station</string>
 
 
-    <string name="hint_education">Education</string>
-    <string name="hint_annualHighSAl">Annual HH.Income</string>
-    <string name="hint_maritalStatus">Marital Status</string>
-    <string name="hint_ethnicity">Ethnicity</string>
-    <string name="hint_employment_status">Employment Status</string>
-    <string name="hint_industry">Industry</string>
 
     <string name="FACEBOOK_APP_ID">2214631975437544</string>
     <string name="fb_login_protocol_scheme">fb2214631975437544</string>
     <string name="ACCOUNT_KIT_CLIENT_TOKEN">663529e74794f870c76caa3c96dffc56</string>
-    <string name="panel_copyrights">"Copyright © 2015 thepanelstation. All rights reserved."</string>
 
-    <string name="c">"Connection may not be sufficient at this time to receive request. Please try again later."</string>
+    <string name="c">"此时连接可能不足以接收请求。请稍后再试。"</string>
 
-    <string name="message_sel_country">"Please Select your country"</string>
+    <string name="message_sel_country">"请选择你的国家"</string>
 
     <string name="mat_addid">174926</string>
     <string name="mat_onversionkey">f9217ab0bd684aee398cfc950547d6e6</string>
@@ -51,75 +50,78 @@
     <string name="parser_appid">"5Tl7X8lvmLUXHJiHOh5m3zGq2L8UWCqhNy78AMse"</string>
     <string name="parser_clientkey">"kIKn4rBV0MhGYYn0uxCKaDBVBEJf0rsvLSNIR1Dj"</string>
 
-    <string name="info_link">" Please regenerate OTP after 24 hours.\n Please check your SMS settings or Blocked messages.\n SMS won't be delivered if you have activated DND services. \n Keep your mobile number recharged to receive SMS. \n If you still have issues please contact our helpdesk ID: tpsotp@thepanelstationsurveys3.com \n"</string>
+    <string name="info_link">" 请在24小时后重新生成OTP。\ n请检查您的SMS设置或已阻止的消息。\ n如果您已激活DND服务，则不会发送SMS。 \n 保持您的手机号码充电以接收短信。 \ n如果仍有问题，请联系我们的服务台ID：tpsotp@thepanelstationsurveys3.com \n"</string>
 
 
-    <string name="unsupport_fb_details">"Please enter Facebook account details with email-id"</string>
+    <string name="unsupport_fb_details">"请输入带有电子邮件ID的Facebook帐户详细信息"</string>
 
-    <string name="lbl_appusagepermission">"Important Step:\nTurn on Panel Station App Usage permission.\nGo to Settings->Security->Apps with usage access."</string>
-
-
-    <string name="msgcheckemailforotp1">email id. Please check and verify to activate. </string>
+    <string name="lbl_appusagepermission">"重要步骤：\ n打开Panel Station应用程序使用权限。\ n转到“设置”->“安全性”->“具有使用权限的应用程序”。"</string>
 
 
-    <string name="error_enter_otp">"Please enter Activation code."</string>
+    <string name="msgcheckemailforotp1">电子邮件ID。请检查并确认激活。 </string>
+
+
+    <string name="error_enter_otp">"请输入激活码。"</string>
 
     <string name="_0">0%</string>
-    <string name="profile_name">Name</string>
-    <string name="profile">Profiler</string>
-    <string name="maxicano">Maxicano</string>
-    <string name="data_plan">This is offer you to Recharge freely on freeCharge. Please Install the App and get Exiting offer for you data plan.</string>
+    <string name="profile_name">名称</string>
+    <string name="profile">探查器</string>
+    <string name="maxicano">马克西卡诺</string>
+    <string name="data_plan">这为您免费提供免费充电。请安装该应用，并为您的数据计划获取退出优惠。</string>
     <string name="points">3000</string>
     <string name="default_channel">tps_notification_channel</string>
 
     <string name="tps">TPS</string>
     <string name="_1">1</string>
     <string name="_0_0">0.0</string>
-    <string name="date">date</string>
+    <string name="date">日期</string>
 
     <string name="resend_otp_new">OTP</string>
 
 
     <string name="title_activity_ff">FF</string>
-    <string name="notifications">Notifications</string>
+    <string name="notifications">通知事项</string>
 
 
-    <string name="menu_back">back</string>
-    <string name="home">home</string>
+    <string name="menu_back">背部</string>
+    <string name="home">家</string>
 
-    <string name="please_update_your_mobile_number">Please update your mobile number</string>
-    <string name="btn_txt_update">Update</string>
+    <string name="please_update_your_mobile_number">请更新您的手机号码</string>
+    <string name="btn_txt_update">更新</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">你好空白片段</string>
     <string name="title_faq">FAQ\'s</string>
-    <string name="title_contact_us">Contact Us</string>
-    <string name="msg_update_available">New update available!</string>
-    <string name="msg_update_app_2">You are using an older version of app, please update the app to the latest version for the seamless experience!</string>
 
-    <string name="thank_you">Thank you</string>
-    <string name="other_reason">Other Reason</string>
+    <string name="msg_update_available">
+有新的更新可用！</string>
+    <string name="msg_update_app_2">您使用的是旧版应用程序，请将该应用程序更新为最新版本，以实现无缝体验！</string>
 
-    <string name="if_at_any_point_2">We would respond to your mails within three days of receiving the same.</string>
+    <string name="thank_you">谢谢</string>
+    <string name="other_reason">其他原因</string>
 
-    <string name="err_msg_invalid_phone_number">Invalid phone number</string>
+    <string name="if_at_any_point_2">我们会在收到您的邮件后三天内回复您的邮件。</string>
 
-    <string name="user_not_active">You are not a valid user</string>
-    <string name="alert">Alert</string>
+    <string name="err_msg_invalid_phone_number">无效的电话号码</string>
 
-
-    <string name="registration_signup">Registration</string>
-    <string name="language_signup">Language</string>
-    <string name="refer_code_optional">Refer Code (optional)</string>
-    <string name="enter_paypal_id">Please enter your PayPal ID</string>
+    <string name="user_not_active">
+您不是有效用户</string>
+    <string name="alert">警报</string>
 
 
-    <string name="your_voucherCode">Your VoucherCode is</string>
+    <string name="registration_signup">
+登记</string>
+    <string name="language_signup">语</string>
+    <string name="refer_code_optional">参考代码（可选）</string>
+    <string name="enter_paypal_id">请输入您的贝宝ID</string>
+
+
+    <string name="your_voucherCode">您的优惠券代码为</string>
 
     <string name="comm_pref_mobile_whatsapp">WhatsApp</string>
 
-    <string name="your_VoucherPinnew">Voucher pin is </string>
+    <string name="your_VoucherPinnew">代金券现为</string>
 
-    <string name="nl">strings</string>
+    <string name="nl">弦乐</string>
 
 
 

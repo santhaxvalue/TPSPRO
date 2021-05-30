@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="txt_pin_new">"Enter OTP"</string>
+    <string name="participate">"PARTICIPATE"</string>
 
-    <string name="async_task_error_timeout">"مهلا، نحن غير قادر على التعامل مع طلبك في هذا الوقت . يرجى المحاولة لاحقا ."</string>
+    <string name="async_task_error_timeout">"Hey, we are unable to handle your request at this time. Please try again later."</string>
 
-    <string name="txt_puchased_ticket_part2">لقد اشتريت </string>
+    <string name="txt_puchased_ticket_part2">I bought</string>
+
+    <string name="api_verification_pin_message">"His identification number is XXX. Enter it to verify your account."</string>
 
 
     <string name="tv_points_in_reject_title">"POINTS REJECTED"</string>
@@ -34,7 +38,7 @@
     <string name="txt_mobilenumber">"Mobile number"</string>
     <string name="txt_donot_enter_code">"Note :Please do not enter country code"</string>
     <string name="txt_pin">"Pin"</string>
-    <string name="txt_pin_new">"Enter OTP"</string>
+
     <string name="txt_info_new">"Info"</string>
 
     <string name="btn_verify">"Verify"</string>
@@ -53,7 +57,6 @@
     <string name="txt_balance_points">"BALANCE POINTS"</string>
     <string name="txt_select_quantity">"SELECT QUANTITY"</string>
     <string name="txt_points_number">"Points: "</string>
-    <string name="participate">"PARTICPATE"</string>
     <string name="txt_BUY">"BUY"</string>
     <string name="txt_buy_btn_agreeing">"By clicking the buy button you are agreeing to all the term &amp; conditions of The Panel Station"</string>
     <string name="alert_dialog_txt_part3">"Sorry you need %d more points to redeem"</string>

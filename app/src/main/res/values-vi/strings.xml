@@ -2,46 +2,54 @@
 <resources>
     //vietnam
 
-
-    <string name="tv_points_in_reject_title">"POINTS REJECTED"</string>
-    <string name="points_and_ticketno">"Points/Ticket No: "</string>
-    <string name="points_new">" Points"</string>
-    <string name="survey_id_new">" SURVEY ID :"</string>
-    <string name="points_rejected_new">" POINTS REJECTED:"</string>
-    <string name="tv_points_in_review">"SURVEYS PENDING FOR VERIFICATION"</string>
-    <string name="txt_voucher_pin">"Voucher Pin"</string>
+    <string name="txt_pin_new">"Nhập OTP"</string>
 
 
 
+    <string name="async_task_error_timeout">"Này, chúng tôi không thể xử lý yêu cầu của bạn vào lúc này. Vui lòng thử lại sau."</string>
 
 
-    <string name="txt_PointsInReview">"   POINTS  \n  IN REVIEW"</string>
+
+    <string name="tv_points_in_reject_title">"ĐIỂM BỊ TỪ CHỐI"</string>
+    <string name="points_and_ticketno">"Số điểm / Số vé: "</string>
+    <string name="points_new">" Điểm"</string>
+    <string name="survey_id_new">" ID KHẢO SÁT:"</string>
+    <string name="points_rejected_new">" CÁC ĐIỂM BỊ TỪ CHỐI:"</string>
+    <string name="tv_points_in_review">"
+PHIẾU KHẢO SÁT ĐỂ XÁC NHẬN"</string>
+    <string name="txt_voucher_pin">"Ghim phiếu thưởng"</string>
+
+
+
+
+
+    <string name="txt_PointsInReview">"   ĐIỂM \ n TRONG BÀI ĐÁNH GIÁ"</string>
     >
-    <string name="txt_info_new">"Info"</string>
+    <string name="txt_info_new">"Thông tin"</string>
 
     <string name="btn_verify_new">"OTP"</string>
 
-    <string name="txt_submit_new">"Verify"</string>
+    <string name="txt_submit_new">"Kiểm chứng"</string>
 
 
-    <string name="participate">"PARTICPATE"</string>
+    <string name="participate">"THAM DỰ"</string>
 
 
 
 
-    <string name="app_name">The Panel Station</string>
+    <string name="app_name">Trạm Panel</string>
 
 
-    <string name="select_language">Select Language</string>
+    <string name="select_language">Chọn ngôn ngữ</string>
 
 
     <string name="FACEBOOK_APP_ID">2214631975437544</string>
     <string name="fb_login_protocol_scheme">fb2214631975437544</string>
     <string name="ACCOUNT_KIT_CLIENT_TOKEN">663529e74794f870c76caa3c96dffc56</string>
 
-    <string name="c">"Connection may not be sufficient at this time to receive request. Please try again later."</string>
+    <string name="c">"Kết nối có thể không đủ tại thời điểm này để nhận yêu cầu. Vui lòng thử lại sau."</string>
 
-    <string name="message_sel_country">"Please Select your country"</string>
+    <string name="message_sel_country">"Vui lòng chọn đất nước của bạn"</string>
 
     <string name="mat_addid">174926</string>
     <string name="mat_onversionkey">f9217ab0bd684aee398cfc950547d6e6</string>
@@ -51,67 +59,67 @@
     <string name="parser_appid">"5Tl7X8lvmLUXHJiHOh5m3zGq2L8UWCqhNy78AMse"</string>
     <string name="parser_clientkey">"kIKn4rBV0MhGYYn0uxCKaDBVBEJf0rsvLSNIR1Dj"</string>
 
-    <string name="info_link">" Please regenerate OTP after 24 hours.\n Please check your SMS settings or Blocked messages.\n SMS won't be delivered if you have activated DND services. \n Keep your mobile number recharged to receive SMS. \n If you still have issues please contact our helpdesk ID: tpsotp@thepanelstationsurveys3.com \n"</string>
+    <string name="info_link">" Vui lòng tạo lại OTP sau 24 giờ. \ N Vui lòng kiểm tra cài đặt SMS của bạn hoặc Tin nhắn bị chặn. \ N SMS sẽ không được gửi nếu bạn đã kích hoạt dịch vụ DND. \ n Giữ số điện thoại di động của bạn được nạp tiền để nhận SMS. \ n Nếu bạn vẫn gặp sự cố, vui lòng liên hệ với ID bộ phận trợ giúp của chúng tôi: tpsotp@thepanelstationsurveys3.com \n"</string>
 
 
 
-    <string name="msgcheckemailforotp1">email id. Please check and verify to activate. </string>
+    <string name="msgcheckemailforotp1">id email. Vui lòng kiểm tra và xác minh để kích hoạt. </string>
 
 
     <string name="_0">0%</string>
-    <string name="profile_name">Name</string>
-    <string name="profile">Profiler</string>
+    <string name="profile_name">Tên</string>
+    <string name="profile">Hồ sơ</string>
     <string name="maxicano">Maxicano</string>
-    <string name="data_plan">This is offer you to Recharge freely on freeCharge. Please Install the App and get Exiting offer for you data plan.</string>
+    <string name="data_plan">Đây là đề nghị bạn Nạp tiền miễn phí trên FreeCharge. Vui lòng Cài đặt Ứng dụng và nhận ưu đãi Thoát cho gói dữ liệu của bạn.</string>
     <string name="points">3000</string>
     <string name="default_channel">tps_notification_channel</string>
 
     <string name="tps">TPS</string>
     <string name="_1">1</string>
     <string name="_0_0">0.0</string>
-    <string name="date">date</string>
+    <string name="date">ngày</string>
 
     <string name="resend_otp_new">OTP</string>
 
 
     <string name="title_activity_ff">FF</string>
-    <string name="notifications">Notifications</string>
+    <string name="notifications">Thông báo</string>
 
-    <string name="menu_back">back</string>
-    <string name="home">home</string>
+    <string name="menu_back">trở lại</string>
+    <string name="home">Trang Chủ</string>
 
 
-    <string name="please_update_your_mobile_number">Please update your mobile number</string>
-    <string name="btn_txt_update">Update</string>
+    <string name="please_update_your_mobile_number">Vui lòng cập nhật số điện thoại di động của bạn</string>
+    <string name="btn_txt_update">Cập nhật</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Xin chào đoạn trống</string>
     <string name="title_faq">FAQ\'s</string>
 
-    <string name="msg_update_available">New update available!</string>
-    <string name="msg_update_app_2">You are using an older version of app, please update the app to the latest version for the seamless experience!</string>
+    <string name="msg_update_available">Cập nhật mới có sẵn!</string>
+    <string name="msg_update_app_2">Bạn đang sử dụng phiên bản ứng dụng cũ hơn, vui lòng cập nhật ứng dụng lên phiên bản mới nhất để có trải nghiệm liền mạch!</string>
 
-    <string name="thank_you">Thank you</string>
-    <string name="other_reason">Other Reason</string>
-
-
-    <string name="err_msg_invalid_phone_number">Invalid phone number</string>
-
-    <string name="user_not_active">You are not a valid user</string>
-    <string name="alert">Alert</string>
-
-    <string name="registration_signup">Registration</string>
-    <string name="language_signup">Language</string>
-    <string name="refer_code_optional">Refer Code (optional)</string>
-    <string name="enter_paypal_id">Please enter your PayPal ID</string>
+    <string name="thank_you">Cảm ơn bạn</string>
+    <string name="other_reason">Lý do khác</string>
 
 
-    <string name="your_voucherCode">Your VoucherCode is</string>
+    <string name="err_msg_invalid_phone_number">Số điện thoại không hợp lệ</string>
+
+    <string name="user_not_active">Bạn không phải là người dùng hợp lệ</string>
+    <string name="alert">Cảnh báo</string>
+
+    <string name="registration_signup">Đăng ký</string>
+    <string name="language_signup">Ngôn ngữ</string>
+    <string name="refer_code_optional">Mã giới thiệu (tùy chọn)</string>
+    <string name="enter_paypal_id">Vui lòng nhập ID PayPal của bạn</string>
+
+
+    <string name="your_voucherCode">VoucherCode của bạn là</string>
 
     <string name="comm_pref_mobile_whatsapp">WhatsApp</string>
 
-    <string name="your_VoucherPinnew">Voucher pin is </string>
+    <string name="your_VoucherPinnew">Mã pin của phiếu thưởng là</string>
 
-    <string name="nl">strings</string>
+    <string name="nl">dây</string>
 
 
 

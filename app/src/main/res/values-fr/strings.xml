@@ -2,6 +2,12 @@
 <resources>
 //France
 
+    <string name="participate">"PARTICIPER"</string>
+
+    <string name="async_task_error_timeout">"Hé, nous ne pouvons pas traiter votre demande pour le moment. Veuillez réessayer plus tard."</string>
+
+    <string name="txt_puchased_ticket_part2">j\'ai acheté</string>
+
 
     <string name="tv_points_in_reject_title">"POINTS REJETÉS"</string>
     <string name="points_and_ticketno">"Points / numéro de billet: "</string>
@@ -112,6 +118,8 @@
 
 
 
+
+    <string name="api_verification_pin_message">"Son numéro d'identification est le XXX. Saisissez-le pour vérifier votre compte."</string>
 
     <string name="enter_valid_dob">Veuillez indiquer une date de naissance valide</string>
 

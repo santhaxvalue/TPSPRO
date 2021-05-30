@@ -3,6 +3,11 @@
 
 
 
+
+    <string name="async_task_error_timeout">"Hey, we are unable to handle your request at this time. Please try again later."</string>
+
+    <string name="txt_puchased_ticket_part2">I bought</string>
+
     <string name="tv_points_in_reject_title">"POINTS REJECTED"</string>
     <string name="points_and_ticketno">"Points/Ticket No: "</string>
     <string name="points_new">" Points"</string>
@@ -248,6 +253,8 @@
     <string name="your_VoucherPinnew">Voucher pin is </string>
 
     <string name="nl">strings</string>
+
+    <string name="api_verification_pin_message">"His identification number is XXX. Enter it to verify your account."</string>
 
 
 

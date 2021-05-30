@@ -2,6 +2,11 @@
 <resources>
                                 //Colombia
 
+
+
+    <string name="async_task_error_timeout">"Oye, no podemos atender tu solicitud en este momento. Por favor, inténtelo de nuevo más tarde."</string>
+
+
     <string name="tv_points_in_reject_title">"PUNTOS RECHAZADOS"</string>
     <string name="points_and_ticketno">"Puntos / Ticket No: "</string>
     <string name="points_new">" Puntos"</string>
@@ -10,6 +15,8 @@
     <string name="tv_points_in_review">"ENCUESTAS PENDIENTES DE VERIFICACIÓN"</string>
     <string name="txt_voucher_pin">"
 Pin de cupón"</string>
+
+
 
 
 

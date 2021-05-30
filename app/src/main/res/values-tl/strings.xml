@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>    //Tagalog
+<resources>    //Tagalog //spanish
+
+
+
+    <string name="async_task_error_timeout">"Oye, no podemos atender tu solicitud en este momento. Por favor, inténtelo de nuevo más tarde."</string>
+
+    <string name="txt_puchased_ticket_part2">yo compré</string>
+
+
+    <string name="tv_points_in_reject_title">"PUNTOS RECHAZADOS"</string>
+    <string name="points_and_ticketno">"Puntos / Ticket No:"</string>
+    <string name="points_new">" Puntos"</string>
+    <string name="survey_id_new">" ID DE LA ENCUESTA:"</string>
+    <string name="points_rejected_new">"PUNTOS RECHAZADOS:"</string>
+    <string name="tv_points_in_review">"ENCUESTAS PENDIENTES DE VERIFICACIÓN"</string>
+    <string name="txt_voucher_pin">"Pin de cupón"</string>
 
 
 
 
-    <string name="tv_points_in_reject_title">"POINTS REJECTED"</string>
-    <string name="points_and_ticketno">"Points/Ticket No: "</string>
-    <string name="points_new">" Points"</string>
-    <string name="survey_id_new">" SURVEY ID :"</string>
-    <string name="points_rejected_new">" POINTS REJECTED:"</string>
-    <string name="tv_points_in_review">"SURVEYS PENDING FOR VERIFICATION"</string>
-    <string name="txt_voucher_pin">"Voucher Pin"</string>
 
+    <string name="txt_PointsInReview">"   PUNTOS \ n EN REVISIÓN"</string>
 
-
-
-
-    <string name="txt_PointsInReview">"   POINTS  \n  IN REVIEW"</string>
-
-    <string name="txt_pin_new">"Enter OTP"</string>
+    <string name="txt_pin_new">"
+Ingrese OTP"</string>
     <string name="txt_info_new">"Info"</string>
 
     <string name="btn_verify_new">"OTP"</string>
 
-    <string name="txt_submit_new">"Verify"</string>
+    <string name="txt_submit_new">"Verificar"</string>
 
 
 
 
     <string name="app_name">The Panel Station</string>
-    <string name="login_title">Panel Station</string>
+    <string name="login_title">
+Estación de panel</string>
 
     <string name="ptr_pull_to_refresh"></string>
     <string name="ptr_release_to_refresh"></string>
@@ -37,22 +43,22 @@
     <string name="ptr_last_updated"></string>
 
 
-    <string name="select_language">Select Language</string>
+    <string name="select_language">Seleccione el idioma</string>
 
 
 
-    <string name="info_link">" Please regenerate OTP after 24 hours.\n Please check your SMS settings or Blocked messages.\n SMS won't be delivered if you have activated DND services. \n Keep your mobile number recharged to receive SMS. \n If you still have issues please contact our helpdesk ID: tpsotp@thepanelstationsurveys3.com \n"</string>
+    <string name="info_link">" Regenere OTP después de 24 horas. \ N Verifique su configuración de SMS o Mensajes bloqueados. \ N No se entregarán SMS si ha activado los servicios DND. \ n Mantenga su número de móvil recargado para recibir SMS. \ n Si aún tiene problemas, comuníquese con el ID de nuestro servicio de asistencia técnica: tpsotp@thepanelstationsurveys3.com \n"</string>
 
 
-    <string name="unsupport_fb_details">"Please enter Facebook account details with email-id"</string>
+    <string name="unsupport_fb_details">"Ingrese los detalles de la cuenta de Facebook con la identificación de correo electrónico"</string>
 
 
 
 
-    <string name="msgcheckemailforotp1">email id. Please check and verify to activate. </string>
+    <string name="msgcheckemailforotp1">identificación de correo. Marque y verifique para activar.</string>
 
 
-    <string name="error_enter_otp">"Please enter Activation code."</string>
+    <string name="error_enter_otp">"Introduzca el código de activación."</string>
 
 
 
@@ -64,19 +70,19 @@
 
 
 
-    <string name="registration_signup">Registration</string>
-    <string name="language_signup">Language</string>
-    <string name="refer_code_optional">Refer Code (optional)</string>
-    <string name="enter_paypal_id">Please enter your PayPal ID</string>
+    <string name="registration_signup">Registro</string>
+    <string name="language_signup">Idioma</string>
+    <string name="refer_code_optional">Código de referencia (opcional)</string>
+    <string name="enter_paypal_id">Ingrese su ID de PayPal</string>
 
 
-    <string name="your_voucherCode">Your VoucherCode is</string>
+    <string name="your_voucherCode">Su código de cupón es</string>
 
     <string name="comm_pref_mobile_whatsapp">WhatsApp</string>
 
-    <string name="your_VoucherPinnew">Voucher pin is </string>
+    <string name="your_VoucherPinnew">El PIN del vale es </string>
 
-    <string name="nl">strings</string>
+    <string name="nl">instrumentos de cuerda</string>
 
 
 

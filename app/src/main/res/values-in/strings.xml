@@ -3,6 +3,11 @@
                         //Indonesian
 
 
+
+    <string name="async_task_error_timeout">"Hei, kami tidak dapat menangani permintaan Anda saat ini. Silakan coba lagi nanti."</string>
+
+
+
     <string name="tv_points_in_reject_title">"POIN DITOLAK"</string>
     <string name="points_and_ticketno">"Poin / Tiket No: "</string>
     <string name="points_new">" Poin"</string>

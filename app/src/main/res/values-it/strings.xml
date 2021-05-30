@@ -4,26 +4,33 @@
     //Italian
 
 
+
+    <string name="async_task_error_timeout">"Ehi, al momento non siamo in grado di gestire la tua richiesta. Per favore riprova più tardi."</string>
+
+    <string name="txt_puchased_ticket_part2">ho comprato</string>
+
+    <string name="api_verification_pin_message">"Il suo numero di identificazione è XXX. Inseriscilo per verificare il tuo account."</string>
+
     <string name="tv_points_in_reject_title">"PUNTI RIFIUTATI"</string>
-    <string name="points_and_ticketno">"Points/Ticket No: "</string>
-    <string name="points_new">" Points"</string>
-    <string name="survey_id_new">" SURVEY ID :"</string>
-    <string name="points_rejected_new">" POINTS REJECTED:"</string>
-    <string name="tv_points_in_review">"SURVEYS PENDING FOR VERIFICATION"</string>
-    <string name="txt_voucher_pin">"Voucher Pin"</string>
+    <string name="points_and_ticketno">"Punti / N. biglietto: "</string>
+    <string name="points_new">" Punti"</string>
+    <string name="survey_id_new">" ID SONDAGGIO:"</string>
+    <string name="points_rejected_new">" PUNTI RIFIUTATI:"</string>
+    <string name="tv_points_in_review">"SONDAGGI IN ATTESA DI VERIFICA"</string>
+    <string name="txt_voucher_pin">"Pin del buono"</string>
 
 
 
 
 
-    <string name="txt_PointsInReview">"   POINTS  \n  IN REVIEW"</string>
+    <string name="txt_PointsInReview">"   PUNTI \ n IN RIESAME"</string>
 
-    <string name="txt_pin_new">"Enter OTP"</string>
-    <string name="txt_info_new">"Info"</string>
+    <string name="txt_pin_new">"Inserisci OTP"</string>
+    <string name="txt_info_new">"Informazioni"</string>
 
     <string name="btn_verify_new">"OTP"</string>
 
-    <string name="txt_submit_new">"Verify"</string>
+    <string name="txt_submit_new">"Verificare"</string>
 
 
 
@@ -33,14 +40,14 @@
 
 
 
-    <string name="info_link">" Please regenerate OTP after 24 hours.\n Please check your SMS settings or Blocked messages.\n SMS won't be delivered if you have activated DND services. \n Keep your mobile number recharged to receive SMS. \n If you still have issues please contact our helpdesk ID: tpsotp@thepanelstationsurveys3.com \n"</string>
+    <string name="info_link">" Rigenera OTP dopo 24 ore. \ N Controlla le impostazioni degli SMS o i messaggi bloccati. \ N Gli SMS non verranno consegnati se hai attivato i servizi DND. \ n Tieni il tuo numero di cellulare ricaricato per ricevere SMS. \ n Se hai ancora problemi, contatta il nostro ID helpdesk: tpsotp@thepanelstationsurveys3.com \n"</string>
 
 
-    <string name="unsupport_fb_details">"Please enter Facebook account details with email-id"</string>
+    <string name="unsupport_fb_details">"Inserisci i dettagli dell'account Facebook con l'ID e-mail"</string>
 
 
 
-    <string name="msgcheckemailforotp1">email id. Please check and verify to activate. </string>
+    <string name="msgcheckemailforotp1">e-mail identificativo utente. Si prega di controllare e verificare per attivare. </string>
 
 
 
@@ -52,19 +59,19 @@
 
 
 
-    <string name="registration_signup">Registration</string>
-    <string name="language_signup">Language</string>
-    <string name="refer_code_optional">Refer Code (optional)</string>
-    <string name="enter_paypal_id">Please enter your PayPal ID</string>
+    <string name="registration_signup">Registrazione</string>
+    <string name="language_signup">linguaggio</string>
+    <string name="refer_code_optional">Codice di riferimento (opzionale)</string>
+    <string name="enter_paypal_id">Inserisci il tuo ID PayPal</string>
 
 
-    <string name="your_voucherCode">Your VoucherCode is</string>
+    <string name="your_voucherCode">Il tuo VoucherCode è</string>
 
     <string name="comm_pref_mobile_whatsapp">WhatsApp</string>
 
-    <string name="your_VoucherPinnew">Voucher pin is </string>
+    <string name="your_VoucherPinnew">Il pin del buono è </string>
 
-    <string name="nl">strings</string>
+    <string name="nl">stringhe</string>
 
 
 
