@@ -117,13 +117,13 @@ public class PointsInRejectedAdapter extends RecyclerView.Adapter<PointsInReject
 //            }
         //new code
         if(!strreviewPointsList.equalsIgnoreCase("") && strreviewPointsList!=null){
-            holder.surveyEarn1.setText("POINTS REJECTED: "+strreviewPointsList);
-//            holder.surveyEarn1.setText(R.string.points_rejected_new +strreviewPointsList);
+//            holder.surveyEarn1.setText("POINTS REJECTED: "+strreviewPointsList);
+            holder.surveyEarn1.setText(context.getResources().getString(R.string.points_rejected_new) +strreviewPointsList);
         }
 
         if(!strsurveyIdList.equalsIgnoreCase("") && strsurveyIdList!=null){
-            holder.tv_serveyID1.setText("SURVEY ID : "+strsurveyIdList);
-//            holder.tv_serveyID1.setText(R.string.survey_id_new +strsurveyIdList);
+//            holder.tv_serveyID1.setText("SURVEY ID : "+strsurveyIdList);
+            holder.tv_serveyID1.setText(context.getResources().getString(R.string.survey_id_new) +strsurveyIdList);
 
         }
 
