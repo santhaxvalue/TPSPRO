@@ -85,29 +85,16 @@
     <string name="txt_save">"Save"</string>
     <string name="txt_tickets_buyMax">"You can buy maximum %d Ticket(s)"</string>
     <string name="app_name">The Panel Station</string>
-    <string name="login_title">Panel Station</string>
 
-    <string name="ptr_pull_to_refresh"></string>
-    <string name="ptr_release_to_refresh"></string>
-    <string name="ptr_refreshing"></string>
-    <string name="ptr_last_updated"></string>
-    <string name="lbl_privacy_policy_url">http://www.informatemi.com/tps/pp.php</string>
-    <string name="lbl_terms_cond_url">http://www.informatemi.com/tps/tandc.php</string>
 
     <string name="select_language">Select Language</string>
     <string name="emailSignupMesage">Or Sign-Up using Email</string>
 
-    <string name="hint_education">Education</string>
-    <string name="hint_annualHighSAl">Annual HH.Income</string>
-    <string name="hint_maritalStatus">Marital Status</string>
-    <string name="hint_ethnicity">Ethnicity</string>
-    <string name="hint_employment_status">Employment Status</string>
-    <string name="hint_industry">Industry</string>
+
 
     <string name="FACEBOOK_APP_ID">2214631975437544</string>
     <string name="fb_login_protocol_scheme">fb2214631975437544</string>
     <string name="ACCOUNT_KIT_CLIENT_TOKEN">663529e74794f870c76caa3c96dffc56</string>
-    <string name="panel_copyrights">"Copyright © 2015 thepanelstation. All rights reserved."</string>
 
     <string name="c">"Connection may not be sufficient at this time to receive request. Please try again later."</string>
 
@@ -118,7 +105,6 @@
 
     <string name="alert_dialog_txt_part2">"  more points for general redemption. However you can always participate in our Monthly Prize Draw to win exciting prizes."</string>
     <string name="alert_dialog_txt_part4">"  more points to redeem."</string>
-    <string name="webpage_being_loaded">"Web Page Loading"</string>
 
     <string name="press_again_close">"Press Again to Close!"</string>
     <string name="txt_each_ticket_part2">" Points"</string>
@@ -141,7 +127,6 @@
     <string name="info_link">" Please regenerate OTP after 24 hours.\n Please check your SMS settings or Blocked messages.\n SMS won't be delivered if you have activated DND services. \n Keep your mobile number recharged to receive SMS. \n If you still have issues please contact our helpdesk ID: tpsotp@thepanelstationsurveys3.com \n"</string>
 
 
-    <string name="unsupport_fb_details">"Please enter Facebook account details with email-id"</string>
 
     <string name="lbl_appusagepermission">"Important Step:\nTurn on Panel Station App Usage permission.\nGo to Settings->Security->Apps with usage access."</string>
 
@@ -262,7 +247,6 @@
 
     <string name="your_VoucherPinnew">Voucher pin is </string>
 
-    <string name="click_yes">Click Yes to confirm your voucher selection. Please note that you will not be allowed to change the selection once made.</string>
     <string name="nl">strings</string>
 
 

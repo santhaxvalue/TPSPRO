@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+
+    <string name="async_task_error_timeout">"مهلا، نحن غير قادر على التعامل مع طلبك في هذا الوقت . يرجى المحاولة لاحقا ."</string>
+
+    <string name="txt_puchased_ticket_part2">لقد اشتريت </string>
+
+
     <string name="tv_points_in_reject_title">"POINTS REJECTED"</string>
     <string name="points_and_ticketno">"Points/Ticket No: "</string>
     <string name="points_new">" Points"</string>
