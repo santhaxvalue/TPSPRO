@@ -161,6 +161,10 @@ public abstract class BaseFragment extends Fragment implements RequestListener {
                 mAppRequest = new AsyncHttpRequest(getActivity(), url, null, requestCode, AsyncHttpRequest.Type.GET);
                 mAppRequest.setRequestListener(this);
                 mAppRequest.execute();
+
+                Log.d("newoneGET1:","newoneGET1:"+url);
+                Log.d("newoneGET2:","newoneGET2:"+requestCode);
+
             } else {
                 dismissDialog();
                 showErrorAlert(getString(R.string.error), getString(R.string.msg_low_conn));

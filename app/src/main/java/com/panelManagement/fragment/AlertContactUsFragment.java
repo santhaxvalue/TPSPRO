@@ -217,7 +217,7 @@ public class AlertContactUsFragment extends BaseFragment implements OnClickListe
                             _setSpinnerData();
                         }
                     } else {
-                        showErrorAlert("", object.getString("Message"));
+                            showErrorAlert("", object.getString("Message"));
                     }
                 } catch (JSONException e) {
                     e.printStackTrace();

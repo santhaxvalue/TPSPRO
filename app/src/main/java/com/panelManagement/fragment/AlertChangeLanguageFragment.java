@@ -245,6 +245,11 @@ public class AlertChangeLanguageFragment extends BaseFragment implements LocaleC
             case "ar-EG":
                 InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE, "ar-EG"); //done
                 break;
+
+            case "ar-MA":
+                InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE, "ar-MA"); //done
+                break;
+
             case "de-DE":
                 InformatePreferences.setStringPrefrence(mActivity, Constants.PREF_LOCALECODE, "de-DE"); //done
                 break;

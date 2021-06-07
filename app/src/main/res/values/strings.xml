@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+
+    <string name="no_information_available">"No informations available"</string>
+
     <string name="txt_pin_new">"Enter OTP"</string>
     <string name="participate">"PARTICIPATE"</string>
     <string name="async_task_error_timeout">"Hey, we are unable to handle your request at this time. Please try again later."</string>

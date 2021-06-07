@@ -604,8 +604,8 @@ Nieuw wachtwoord en bevestig nieuw wachtwoord komt niet overeen</string>
     <string name="communication_preferences">COMMUNICATIE VOORKEUREN</string>
     <string name="lbl_privacy_statement">PRIVACYVERKLARING</string>
 
-    <string name="poll_result">POLL RESULT</string>
-    <string name="quick_poll">QUICK POLL</string>
+    <string name="poll_result">POLL RESULTAAT</string>
+    <string name="quick_poll">SNELLE POLL</string>
     <string name="result">Resultaat</string>
     <string name="notification">Meldingen</string>
     <string name="no_notifications">Geen notificaties</string>

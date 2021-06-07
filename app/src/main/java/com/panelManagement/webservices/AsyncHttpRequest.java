@@ -183,6 +183,10 @@ public class AsyncHttpRequest extends AsyncTask<Void, Void, Void> {
         mGet = new HttpGet(url);
         mGet.setHeader("Content-Type", "application/json");
         mGet.setHeader("LanguageCulture", InformatePreferences.getStringPrefrence(mContext, Constants.PREF_LOCALECODE));
+
+        Log.d("languageculture:1","languageculture:1"+url);
+        Log.d("languageculture:11","languageculture:11"+InformatePreferences.getStringPrefrence(mContext, Constants.PREF_LOCALECODE));
+
         HttpParams httpParams = mHttpClient.getParams();
         httpParams.setParameter(CoreProtocolPNames.USER_AGENT, System.getProperty("http.agent"));
         int timeoutConnection = 80000;
