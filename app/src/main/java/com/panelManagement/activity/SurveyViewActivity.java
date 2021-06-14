@@ -10,6 +10,7 @@ import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.panelManagement.utils.Constants;
@@ -34,6 +35,9 @@ public class SurveyViewActivity extends Activity implements Listener {
 
         // mUrl= getIntent().getStringExtra("surveyUrl");
         String strURL = bundles.getStringExtra("surveyUrl");
+
+        Log.d("strurl:","strurl:"+strURL);
+
         mDialog = new ProgressDialog(SurveyViewActivity.this);
         if (bundles != null) {
             isIntentFromNotification = bundles.hasExtra(Constants.PUSHNOTIFY);

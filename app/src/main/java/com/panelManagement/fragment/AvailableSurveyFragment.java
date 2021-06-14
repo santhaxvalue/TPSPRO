@@ -121,6 +121,11 @@ public class AvailableSurveyFragment extends BaseFragment implements View.OnClic
         String url = Utility.getUrlForPuzzle(Constants.API_MATCH_THE_PUZZLE_STAGE
                 , InformatePreferences.getStringPrefrence(context, Constants.PREF_ID)
                 , InformatePreferences.getStringPrefrence(context, Constants.PREF_LOCALECODE));
+
+        Log.d("urlnew:","urlnew:"+url);
+        Log.d("urlnew:","urlnew:"+InformatePreferences.getStringPrefrence(context, Constants.PREF_ID));
+        Log.d("urlnew:","urlnew:"+InformatePreferences.getStringPrefrence(context, Constants.PREF_LOCALECODE));
+
         intent.putExtra(SurveyViewFragment.SURVEY_URL_KEY, url);
         ((Activity) context).startActivityForResult(intent, ProfilerFragment.RESULT_PROFILER);
     }
