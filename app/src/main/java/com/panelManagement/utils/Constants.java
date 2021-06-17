@@ -105,7 +105,23 @@ public class Constants {
     public static final String API_LOGOUT = BASEURL + "PanelistLogOut";
     public static final String API_UNSUBSCRIBE_USER = BASEURL + "UnSubscribeSave";
     public static final String API_UNSUBSCRIBE_DELETE_USER = BASEURL + "UnSubscribeDeleteSaveWeb";
-    public static final String API_MATCH_THE_PUZZLE_STAGE = "http://staging.thepanelstation.com/routing.aspx";
+
+    //old code
+//    public static final String API_MATCH_THE_PUZZLE_STAGE = "http://staging.thepanelstation.com/routing.aspx";
+    //old code
+
+    //new code
+    //    API_MATCH_THE_PUZZLE_STAGE url for staging/QA/Production  on 17/06/2021
+
+//    Staging Link: https://staging.thepanelstation.com/
+//    QA Link: https://qa.thepanelstation.com/
+//    Production Link: https://surveys.thepanelstation.com/
+
+    public static final String API_MATCH_THE_PUZZLE_STAGE = "https://surveys.thepanelstation.com/routing.aspx";
+    //new code
+
+
+
     public static final String API_CONSENT_LOG_SAVE = BASEURL + "ConsentLogSave";
     public static final String API_CONSENT_CHECK = BASEURL + "PanelistConsentTextcheck";
     public static final String API_SAVE_LANGUAGE = BASEURL + "LanguageCultureSave";
