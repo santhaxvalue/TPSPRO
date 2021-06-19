@@ -98,6 +98,7 @@
                 android:layout_marginTop="@dimen/activity_vertical_margin"
                 android:background="@color/aqua_dark"
                 android:text="@string/btn_verify_new"
+                android:visibility="gone"
                 android:textColor="@color/white" />
 
             <Button
@@ -110,6 +111,53 @@
                 android:text="@string/btn_verify_new"
                 android:textColor="@color/white"
                 android:visibility="gone"/>
+
+<!--            new-->
+            <Button
+                android:id="@+id/missed_call"
+                android:layout_width="@dimen/alert_dialog_height"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:background="@color/aqua_dark"
+                android:textAllCaps="false"
+                android:text="@string/btn_missed_call"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/missed_call_hide"
+                android:layout_width="@dimen/alert_dialog_height"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:background="@color/gray"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                android:text="@string/btn_missed_call"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/get_otp_on_sms"
+                android:layout_width="@dimen/alert_dialog_height"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:background="@color/aqua_dark"
+                android:textAllCaps="false"
+                android:visibility="gone"
+                android:text="@string/get_otp_on_sms"
+                android:textColor="@color/white" />
+
+<!--            new -->
+            <com.panelManagement.widgets.TextViewPlus
+                android:id="@+id/missed_call_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/missed_call_subtitle"
+                android:textColor="@color/gray_dark"
+                android:textSize="12sp" />
 
             <com.panelManagement.widgets.TextViewPlus
                 android:id="@+id/infolink"
@@ -167,6 +215,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
                 android:text="@string/txt_msg_pinsent"
+                android:visibility="gone"
                 android:textColor="@color/black"
                 android:textSize="14sp"
                 android:textStyle="bold" />
@@ -177,6 +226,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:visibility="gone"
                 android:text="@string/txt_donot_enter_code"
                 android:textColor="@color/gray_dark"
                 android:textSize="12sp" />
@@ -195,6 +245,39 @@
            <!-- android:textColor="@color/blue"
             android:textSize="16sp"-->
 
+<!--            new -->
+            <com.panelManagement.widgets.TextViewPlus
+                android:id="@+id/otp_send_successfullynew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/otp_send_successfully_new"
+                android:textColor="@color/gray_dark"
+                android:textSize="12sp" />
+
+<!--            new -->
+            <com.panelManagement.widgets.TextViewPlus
+                android:id="@+id/note_please_do_not_entercountrycode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/note_please_do_not_enter"
+                android:textColor="@color/gray_dark"
+                android:textSize="12sp" />
+
+<!--            new-->
+            <com.panelManagement.widgets.TextViewPlus
+                android:id="@+id/enter_four_digit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/enter_four_digit"
+                android:textColor="@color/gray_dark"
+                android:textSize="12sp" />
+
             <Button
                 android:id="@+id/btn_new_submit"
                 android:layout_width="@dimen/alert_dialog_height"
@@ -203,8 +286,9 @@
                 android:layout_marginTop="@dimen/activity_vertical_margin"
                 android:background="@color/aqua_dark"
                 android:text="@string/txt_submit_new"
+                android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:visibility="gone"/>
+                android:visibility="visible"/>
             <!--<com.panelManagement.widgets.ButtonPlus
                 android:id="@+id/btn_verify"
                 android:layout_width="wrap_content"

@@ -45,6 +45,7 @@ import java.util.regex.Pattern;
 public class MobileVerificationFragment extends BaseFragment implements OnClickListener {
 
     public static String verify_Code;
+    public static String cli_id;
     public static String encrypted_mobile_number = "";
 
     public static ArrayList<String> listOfMessages = new ArrayList<String>();
@@ -56,11 +57,20 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
     private TextView tv_resend_otp;
 
     private TextView infolink;
+    private TextView missed_call_subtitle;
+    private TextView enter_four_digit;
+    private TextView otp_send_successfullynew;
+
+    private TextView note_please_do_not_entercountrycode;
 
     private TextView infolinkmsg;
 
 
     private Button btn_verify;
+    private Button missed_call;
+    private Button missed_call_hide;
+    private Button get_otp_on_sms;
+
     private Button btn_verify_resend_otp;
     private Button btn_new_submit;
     private int maxPhoneLength;
@@ -154,6 +164,12 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
         tv_isdCode.setText(InformatePreferences.getStringPrefrence(getActivity(), Constants.PREF_ISDCODE));
         btn_verify = view.findViewById(R.id.btn_verify);
         btn_verify.setOnClickListener(this);
+        missed_call = view.findViewById(R.id.missed_call);
+        missed_call.setOnClickListener(this);
+        missed_call_hide = view.findViewById(R.id.missed_call_hide);
+        get_otp_on_sms = view.findViewById(R.id.get_otp_on_sms);
+        get_otp_on_sms.setOnClickListener(this);
+
 
         btn_verify_resend_otp = view.findViewById(R.id.btn_verify_resend_otp);
         btn_verify_resend_otp.setOnClickListener(this);
@@ -166,6 +182,15 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
 
         infolink = view.findViewById(R.id.infolink);
         infolink.setOnClickListener(this);
+
+        missed_call_subtitle = view.findViewById(R.id.missed_call_subtitle);
+        enter_four_digit = view.findViewById(R.id.enter_four_digit);
+
+        otp_send_successfullynew = view.findViewById(R.id.otp_send_successfullynew);
+
+
+        note_please_do_not_entercountrycode = view.findViewById(R.id.note_please_do_not_entercountrycode);
+
 
         infolinkmsg = view.findViewById(R.id.infolinkmsg);
 
@@ -262,6 +287,69 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
                 break;
             }
 
+            case R.id.missed_call: {
+                String phone = edt_mobileNumber.getText().toString();
+
+                Log.d("inputnumber:","inputnumbet:"+phone);
+
+                //old code
+//                edt_mobileNumber.setFocusable(false);
+
+//                if (phone.length() < minPhoneLength || edt_mobileNumber.getText().toString().equals(InformatePreferences.getStringPrefrence(getActivity(), Constants.PREF_MOBILENUMBER))) {
+                if (phone.length() < minPhoneLength) {
+
+                    edt_mobileNumber.getText().clear();
+                    showErrorAlert(" ", getString(R.string.error_phone_length));
+
+//                    edt_mobileNumber.setText(null);
+                }else if(phone.equals("0000000000") || phone.equals("00000000000")||phone.equals("000000000000")||phone.equals("0000000000000")) {
+
+                    edt_mobileNumber.getText().clear();
+                    showErrorAlert(" ", getString(R.string.error_phone_length));
+
+                }else {
+                    edt_mobileNumber.setEnabled(false);
+                    if ((edt_pinNumber.getVisibility() == View.INVISIBLE || edt_pinNumber.getVisibility() == View.GONE)
+                            && TextUtils.isEmpty(edt_pinNumber.getText().toString())) {
+
+                        btn_verify.setEnabled(false);
+                        btn_verify.setBackgroundColor(Color.RED);
+
+
+                        btn_verify.postDelayed(new Runnable() {
+                            @Override
+                            public void run() {
+                                btn_verify.setEnabled(true);
+                                btn_verify.setBackgroundColor(btn_verify.getContext().getResources().getColor(R.color.aqua_dark));
+                            }
+                        }, 45000);
+
+
+                        try {
+                            if (Utility.isConnectedToInternet(getActivity())) {
+                                showDialog(true, getString(R.string.dialog_login));
+                                requestTypePost(Constants.API_ENCRYPTMOBILENUMBER, new ParseJSonObject(getActivity()).getEncryptedMobileNumberObject(edt_mobileNumber.getText().toString()),
+                                        Constants.REQUESTCODE_ENCRYPTMOBILE);
+
+                            } else {
+                                showErrorAlert(" ", getString(R.string.msg_low_conn));
+                            }
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+
+                        Handler handler = new Handler();
+                        handler.postDelayed(new Runnable() {
+                            public void run() {
+                                checkForEncryptedMobileNumber(false);
+                            }
+                        }, 5000);
+                    }
+
+                }
+                break;
+            }
+
             case R.id.tv_resend_otp: {
                 tv_resend_otp.setEnabled(false);
                 tv_resend_otp.setTextColor(Color.RED);
@@ -296,6 +384,48 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
             }
             break;
 
+            case R.id.get_otp_on_sms: {
+
+                String phone = edt_mobileNumber.getText().toString();
+
+                Log.d("inputnumber:","inputnumbet:"+phone);
+
+                //old code
+//                edt_mobileNumber.setFocusable(false);
+
+//                if (phone.length() < minPhoneLength || edt_mobileNumber.getText().toString().equals(InformatePreferences.getStringPrefrence(getActivity(), Constants.PREF_MOBILENUMBER))) {
+                if (phone.length() < minPhoneLength) {
+
+                    edt_mobileNumber.getText().clear();
+                    showErrorAlert(" ", getString(R.string.error_phone_length));
+
+//                    edt_mobileNumber.setText(null);
+                }else if(phone.equals("0000000000") || phone.equals("00000000000")||phone.equals("000000000000")||phone.equals("0000000000000")) {
+
+                    edt_mobileNumber.getText().clear();
+                    showErrorAlert(" ", getString(R.string.error_phone_length));
+
+                }else {
+
+                    checkForEncryptedMobileNumber(true);
+                    get_otp_on_sms.setEnabled(false);
+                    get_otp_on_sms.setBackgroundColor(getContext().getResources().getColor(R.color.gray));
+
+
+                    get_otp_on_sms.postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            get_otp_on_sms.setEnabled(true);
+                            get_otp_on_sms.setBackgroundColor(getContext().getResources().getColor(R.color.aqua_dark));
+                        }
+                    }, 20000);
+
+
+
+                }
+            }
+
+            break;
 
 
 
@@ -383,21 +513,60 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
 
                     if (object.getBoolean("Status")) {
                         verify_Code = object.getString("Message");
+                        cli_id = object.getString("CLI_Id");
                         listOfMessages.add(verify_Code);
                         edt_mobileNumber.setEnabled(false);
                         edt_mobileNumber.setCursorVisible(false);
                         //OLD CODE
                         btn_verify.setVisibility(View.GONE);
                         //NEW CODE
-                        btn_verify_resend_otp.setVisibility(View.VISIBLE);
+//                        btn_verify_resend_otp.setVisibility(View.VISIBLE);
+
+                        //latest new code
+                        btn_verify_resend_otp.setVisibility(View.GONE);
+
                        /* btn_verify.setId(btn_submit);
                         btn_verify.setText(getResources().getString(R.string.txt_submit));
                         btn_verify.setOnClickListener(this);*/
                         isPinNoEnabled = true;
                         edt_pinNumber.setVisibility(View.VISIBLE);
                         tv_pin.setVisibility(View.VISIBLE);
-                        tv_pinSent.setVisibility(View.VISIBLE);
+                        //old code
+//                        tv_pinSent.setVisibility(View.VISIBLE);
+                        //old code
                         btn_new_submit.setVisibility(View.VISIBLE);
+                        enter_four_digit.setVisibility(View.VISIBLE);
+                        otp_send_successfullynew.setVisibility(View.GONE);
+                        note_please_do_not_entercountrycode.setVisibility(View.GONE);
+
+                        //latest new
+                        missed_call.setVisibility(View.GONE);
+                        missed_call_hide.setVisibility(View.VISIBLE);
+
+
+                        final Handler handler = new Handler();
+                        handler.postDelayed(new Runnable() {
+                            @Override
+                            public void run() {
+
+                                missed_call.setVisibility(View.GONE);
+                                missed_call_hide.setVisibility(View.GONE);
+                                get_otp_on_sms.setVisibility(View.VISIBLE);
+                                missed_call_subtitle.setVisibility(View.GONE);
+                                edt_pinNumber.setVisibility(View.VISIBLE);
+                                tv_pin.setText(getString(R.string.enter_onetime_password));
+                                tv_pin.setVisibility(View.VISIBLE);
+                                btn_new_submit.setVisibility(View.VISIBLE);
+                                enter_four_digit.setVisibility(View.GONE);
+                                otp_send_successfullynew.setVisibility(View.VISIBLE);
+                                note_please_do_not_entercountrycode.setVisibility(View.VISIBLE);
+
+
+                            }
+                        }, 30000);
+
+
+
                         //old code
 //                        tv_resend_otp.setVisibility(View.VISIBLE);
                         //old code
