@@ -2,6 +2,12 @@
 <resources>
     //vietnam
 
+    <string name="btn_missed_call">"Cuộc gọi nhỡ"</string>
+    <string name="missed_call_subtitle">"Không trả lời cuộc gọi"</string>
+    <string name="enter_four_digit">"Nhập 4 chữ số cuối của số cuộc gọi nhỡ làm OTP"</string>
+    <string name="get_otp_on_sms">"Nhận OTP trên SMS"</string>
+    <string name="enter_onetime_password">Nhập mật khẩu dùng một lần</string>
+
     <string name="txt_pin_new">"Nhập OTP"</string>
 
 

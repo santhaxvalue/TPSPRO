@@ -2,6 +2,12 @@
 <resources>
 //France
 
+    <string name="btn_missed_call">"Appel manqué"</string>
+    <string name="missed_call_subtitle">"Ne répondez pas à l'appel"</string>
+    <string name="enter_four_digit">"Entrez les 4 derniers chiffres du numéro d'appel manqué comme OTP"</string>
+    <string name="get_otp_on_sms">"Obtenez OTP sur SMS"</string>
+    <string name="enter_onetime_password">Entrez le mot de passe à usage unique (OTP)</string>
+
     <string name="participate">"PARTICIPER"</string>
 
     <string name="async_task_error_timeout">"Hé, nous ne pouvons pas traiter votre demande pour le moment. Veuillez réessayer plus tard."</string>

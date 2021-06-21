@@ -64,6 +64,7 @@ public class Constants {
     public static final String API_ENCRYPTMOBILENUMBER = BASEURL + "GetEncryptString";
     public static final String API_MOBILEVERIFICATIONPIN = BASEURL + "GetMobileVerificationPin";
     public static final String API_SAVEMOBILE = BASEURL + "SaveMobile";
+    public static final String API_SAVEMOBILE_MISSEDCALL = BASEURL + "SavePanelistMobileNumber";
     public static final String API_ISVALIDUSER = BASEURL + "IsValidUser";
     public static final String API_SAVEPANELISTPROFILE = BASEURL + "SavePanelistProfiler";
     public static final String API_REGISTERPANELISTTHROUGHMOBILE = BASEURL + "RegisterPanelistthroughMobile_New"; //need toset lang culture
@@ -177,10 +178,13 @@ public class Constants {
     public static final int REQUESTCODE_GENERALREDEEM = 11;
     public static final int REQUESTCODE_AUTOSOCIALLOGIN = 12;
     public static final int REQUESTCODE_MOBILEVERIFICATIONPIN = 13;
+
+    public static final int REQUESTCODE_MOBILEVERIFICATIONPINTWO = 13553;
     public static final int REQUESTCODE_MOBILEEXISTS = 41;
     public static final int REQUESTCODE_ENCRYPTMOBILE = 42;
     public static final int REQUESTCODE_PANELIST_SAVE = 98;
     public static final int REQUESTCODE_SAVEMOBILE = 14;
+    public static final int REQUESTCODE_SAVEMOBILE_MISSEDCALL = 1412;
     public static final int REQUESTCODE_SURVEYPOINTSREVIEW = 1234;
     public static final int REQUESTCODE_SURVEYPOINTSREJECTED = 12340;
     public static final int REQUESTCODE_SURVEYPOINTSREVIEWS = 12345;

@@ -3,6 +3,12 @@
 
     //Malasyia
 
+    <string name="btn_missed_call">"Panggilan Terlepas"</string>
+    <string name="missed_call_subtitle">"Jangan jawab panggilan"</string>
+    <string name="enter_four_digit">"Masukkan 4 digit terakhir nombor panggilan yang terlepas sebagai OTP"</string>
+    <string name="get_otp_on_sms">"Dapatkan OTP di SMS"</string>
+    <string name="enter_onetime_password">Masukkan Kata Laluan Sekali Sahaja</string>
+
 
 
     <string name="async_task_error_timeout">"Hai, kami tidak dapat menangani permintaan anda buat masa ini. Sila cuba sebentar lagi."</string>

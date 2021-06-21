@@ -2,6 +2,11 @@
 <resources>
 
 
+    <string name="btn_missed_call">"未接来电"</string>
+    <string name="missed_call_subtitle">"请勿接听电话"</string>
+    <string name="enter_four_digit">"请输入未接来电的最后4位电话号码作为一次性密码。"</string>
+    <string name="get_otp_on_sms">"用短信接收一次性密码"</string>
+    <string name="enter_onetime_password">请输入一次性密码</string>
 
     <string name="async_task_error_timeout">"嘿，我们目前无法处理您的请求。请稍后再试。"</string>
 

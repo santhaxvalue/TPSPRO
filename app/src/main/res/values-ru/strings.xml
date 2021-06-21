@@ -2,6 +2,11 @@
 <resources>
                     //Russian
 
+    <string name="btn_missed_call">"Пропущенный звонок"</string>
+    <string name="missed_call_subtitle">"Не отвечайте на звонок "</string>
+    <string name="enter_four_digit">"Введите последние 4 цифры пропущенного звонка в качестве одноразового пароля"</string>
+    <string name="get_otp_on_sms">"Получить код по СМС"</string>
+    <string name="enter_onetime_password">Введите одноразовый пароль</string>
 
 
     <string name="async_task_error_timeout">"Эй, в настоящее время мы не можем обработать ваш запрос. Пожалуйста, повторите попытку позже."</string>

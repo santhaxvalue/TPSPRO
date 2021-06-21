@@ -3,6 +3,11 @@
                     //Polish
 
 
+    <string name="btn_missed_call">"Połączenie nieodebrane"</string>
+    <string name="missed_call_subtitle">"Nie odbieraj połączenia"</string>
+    <string name="enter_four_digit">"Jako jednorazowe hasło (OTP) wprowadź ostatnie 4 cyfry numeru z nieodebranego połączenia "</string>
+    <string name="get_otp_on_sms">"Otrzymaj jednorazowe hasło (OTP) w wiadomości SMS"</string>
+    <string name="enter_onetime_password">Wprowadź jednorazowe hasło </string>
 
     <string name="async_task_error_timeout">"Hej, w tej chwili nie możemy obsłużyć Twojej prośby. Spróbuj ponownie później."</string>
 

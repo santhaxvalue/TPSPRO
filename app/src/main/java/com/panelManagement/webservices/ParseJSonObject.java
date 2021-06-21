@@ -183,6 +183,7 @@ public class ParseJSonObject extends BaseParser {
             put("UserId", InformatePreferences.getStringPrefrence(mContext, Constants.PREF_ID));
             put("sessionID", InformatePreferences.getStringPrefrence(mContext, Constants.PREF_SESSIONID));
             put("MobileNumber", mobileNumber);
+
             //   put("LanguageCulture", InformatePreferences.getStringPrefrence(mContext,Constants.PREF_LOCALECODE));
 
         } catch (JSONException e) {
@@ -190,6 +191,22 @@ public class ParseJSonObject extends BaseParser {
         }
         return super.getObject();
     }
+
+    public JSONObject getSaveMobileObjectTwo(String mobileNumber,String pinnumber,String cli_id) {
+        try {
+            put("UserId", InformatePreferences.getStringPrefrence(mContext, Constants.PREF_ID));
+            put("sessionID", InformatePreferences.getStringPrefrence(mContext, Constants.PREF_SESSIONID));
+            put("MobileNumber", mobileNumber);
+            put("id", cli_id);
+            put("pin", pinnumber);
+            //   put("LanguageCulture", InformatePreferences.getStringPrefrence(mContext,Constants.PREF_LOCALECODE));
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return super.getObject();
+    }
+
 
     /**
      * json object for contact us api

@@ -2,6 +2,17 @@
 <resources>
 
 
+    <string name="btn_missed_call">"Missed Call"</string>
+    <string name="missed_call_subtitle">"Note :Please do not answer the call"</string>
+    <string name="enter_four_digit">"Enter last 4 digits of missed call number as OTP"</string>
+    <string name="get_otp_on_sms">"Get OTP on SMS"</string>
+    <string name="enter_onetime_password">Enter One Time Password</string>
+
+<!--    <string name="otp_send_successfully_new">"OTP sent successfully"</string>-->
+<!--    <string name="note_please_do_not_enter">"Note:Please do not enter Country Code"</string>-->
+
+
+
     <string name="no_information_available">"No informations available"</string>
 
     <string name="txt_pin_new">"Enter OTP"</string>
@@ -35,13 +46,7 @@
     <string name="txt_mobilenumber">"Mobile number"</string>
     <string name="txt_donot_enter_code">"Note :Please do not enter country code"</string>
 
-    <string name="missed_call_subtitle">"Note :Please do not answer the call"</string>
 
-    <string name="enter_four_digit">"Enter last 4 digits of missed call number as OTP"</string>
-
-    <string name="otp_send_successfully_new">"OTP sent successfully"</string>
-
-    <string name="note_please_do_not_enter">"Note:Please do not enter Country Code"</string>
 
     <string name="txt_pin">"Pin"</string>
 
@@ -50,9 +55,7 @@
     <string name="btn_verify">"Verify"</string>
     <string name="btn_verify_new">"OTP"</string>
 
-    <string name="btn_missed_call">"Missed Call"</string>
 
-    <string name="get_otp_on_sms">"Get OTP on SMS"</string>
 
     <string name="txt_submit_new">"Verify"</string>
 
@@ -103,7 +106,7 @@
     <string name="txt_tickets_buyMax">"You can buy maximum %d Ticket(s)"</string>
     <string name="app_name">The Panel Station</string>
 
-    <string name="enter_onetime_password">Enter One Time Password</string>
+
 
     <string name="login_title">Panel Station</string>
 

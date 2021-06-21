@@ -5,6 +5,11 @@
 
 
 
+    <string name="btn_missed_call">"Gemiste oproep"</string>
+    <string name="missed_call_subtitle">"Beantwoord de oproep niet"</string>
+    <string name="enter_four_digit">"Voer de laatste 4 cijfers van het gemiste oproepnummer in als eenmalig wachtwoord"</string>
+    <string name="get_otp_on_sms">"Ontvang eenmalig wachtwoord via sms"</string>
+    <string name="enter_onetime_password">Voer het eenmalige wachtwoord in</string>
 
     <string name="async_task_error_timeout">"Hallo, we kunnen uw verzoek op dit moment niet behandelen. Probeer het later opnieuw."</string>
 

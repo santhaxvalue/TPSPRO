@@ -2,6 +2,11 @@
 <resources>
     //Turkish
 
+    <string name="btn_missed_call">"Cevapsız Arama"</string>
+    <string name="missed_call_subtitle">"Aramayı yanıtlamayın"</string>
+    <string name="enter_four_digit">"Cevapsız arama numarasının son 4 hanesini Tek Kullanımlık Şifre olarak girin"</string>
+    <string name="get_otp_on_sms">"Tek Kullanımlık Şifre'yi SMS olarak al"</string>
+    <string name="enter_onetime_password">Tek Kullanımlık Şifre\'yi Girin</string>
 
 
     <string name="async_task_error_timeout">"Hey, şu anda isteğinizi yerine getiremiyoruz. Lütfen daha sonra tekrar deneyiniz."</string>

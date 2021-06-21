@@ -4,6 +4,11 @@
     //Brazil
     //Potugese
 
+    <string name="btn_missed_call">"Chamada Perdida"</string>
+    <string name="missed_call_subtitle">"Não atenda a chamada"</string>
+    <string name="enter_four_digit">"Entre com os últimos 4 dígitos do número de chamada perdida como OTP"</string>
+    <string name="get_otp_on_sms">"Obtenha OTP no SMS"</string>
+    <string name="enter_onetime_password">Entre Uma Vez com a Senha</string>
 
 
     <string name="async_task_error_timeout">"

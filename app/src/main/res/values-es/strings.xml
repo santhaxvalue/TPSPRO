@@ -3,6 +3,11 @@
         // spanish
 
 
+    <string name="btn_missed_call">"Llamada perdida"</string>
+    <string name="missed_call_subtitle">"No conteste la llamada"</string>
+    <string name="enter_four_digit">"Ingrese los últimos 4 dígitos del número de la llamada perdida como contraseña de un solo uso (OTP)."</string>
+    <string name="get_otp_on_sms">"Obtener contraseña de un solo uso (OTP) a través de un SMS"</string>
+    <string name="enter_onetime_password">Ingresar contraseña de un solo uso</string>
 
     <string name="async_task_error_timeout">"Oye, no podemos atender tu solicitud en este momento. Por favor, inténtelo de nuevo más tarde."</string>
 

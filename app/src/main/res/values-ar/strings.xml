@@ -3,6 +3,11 @@
     //Arabic
 
 
+    <string name="btn_missed_call">"المكالمة الفائتة"</string>
+    <string name="missed_call_subtitle">"لا ترد على المكالمة"</string>
+    <string name="enter_four_digit">"أدخِل آخر 4 أرقام من رقم المكالمة الفائتة ككلمة مرور تصلح لمرة واحدة"</string>
+    <string name="get_otp_on_sms">"احصل على كلمة مرور تصلح لمرة واحدة في رسالة نصيّة قصيرة"</string>
+    <string name="enter_onetime_password">أدخِل كلمة مرور تصلح لمرة واحدة</string>
 
 
     <string name="tv_points_in_reject_title">"النقاط المرفوضة"</string>

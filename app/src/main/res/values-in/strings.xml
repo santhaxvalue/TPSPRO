@@ -3,6 +3,11 @@
                         //Indonesian
 
 
+    <string name="btn_missed_call">"Panggilan Tak Terjawab "</string>
+    <string name="missed_call_subtitle">"Jangan jawab panggilan ini"</string>
+    <string name="enter_four_digit">"Masukkan 4 digit terakhir nomor panggilan tak terjawab ini sebagai OTP"</string>
+    <string name="get_otp_on_sms">"Dapatkan OTP melalui SMS"</string>
+    <string name="enter_onetime_password">Masukkan Kata Sandi Sekali Pakai (OTP)</string>
 
     <string name="async_task_error_timeout">"Hei, kami tidak dapat menangani permintaan Anda saat ini. Silakan coba lagi nanti."</string>
 

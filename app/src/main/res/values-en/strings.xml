@@ -4,6 +4,7 @@
 
 
 
+
     <string name="async_task_error_timeout">"Hey, we are unable to handle your request at this time. Please try again later."</string>
 
     <string name="txt_puchased_ticket_part2">I bought</string>
@@ -495,6 +496,11 @@
     <string name="new_password">Enter New Password</string>
     <string name="retry">Retry</string>
 
+    <string name="btn_missed_call">"Missed Call"</string>
+    <string name="missed_call_subtitle">"Note :Please do not answer the call"</string>
+    <string name="enter_four_digit">"Enter last 4 digits of missed call number as OTP"</string>
+    <string name="get_otp_on_sms">"Get OTP on SMS"</string>
+    <string name="enter_onetime_password">Enter One Time Password</string>
 
 
     <string name="my_rewards">My Rewards</string>

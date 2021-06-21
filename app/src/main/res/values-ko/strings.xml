@@ -2,6 +2,11 @@
 <resources>     //Korean
 
 
+    <string name="btn_missed_call">"부재 중 전화"</string>
+    <string name="missed_call_subtitle">"전화를 받지마세요"</string>
+    <string name="enter_four_digit">"부재 중 전화번호의 마지막 4자리를 일회용 비밀번호로 입력"</string>
+    <string name="get_otp_on_sms">"SMS에서 일회용 비밀번호 받기"</string>
+    <string name="enter_onetime_password">일회용 비밀번호 입력</string>
 
     <string name="async_task_error_timeout">"현재 귀하의 요청을 처리 할 수 ​​없습니다. 나중에 다시 시도 해주십시오."</string>
 

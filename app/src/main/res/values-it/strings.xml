@@ -4,6 +4,11 @@
     //Italian
 
 
+    <string name="btn_missed_call">"Chiamata persa"</string>
+    <string name="missed_call_subtitle">"Non rispondere alla chiamata"</string>
+    <string name="enter_four_digit">"Inserisci le ultime 4 cifre del numero di chiamata persa come OTP"</string>
+    <string name="get_otp_on_sms">"Ottieni OTP su SMS"</string>
+    <string name="enter_onetime_password">Immettere una password unica</string>
 
     <string name="async_task_error_timeout">"Ehi, al momento non siamo in grado di gestire la tua richiesta. Per favore riprova più tardi."</string>
 

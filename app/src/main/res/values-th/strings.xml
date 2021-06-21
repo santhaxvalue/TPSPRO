@@ -3,6 +3,11 @@
 ///Thai
 
 
+    <string name="btn_missed_call">"สายที่ไม่ได้รับ"</string>
+    <string name="missed_call_subtitle">"อย่ารับสาย"</string>
+    <string name="enter_four_digit">"กรอกเลข 4 ตัวสุดท้ายของหมายเลขที่ไม่ได้รับสายเป็น OTP"</string>
+    <string name="get_otp_on_sms">"รับ OTP ทาง SMS "</string>
+    <string name="enter_onetime_password">กรอกรหัสผ่านครั้งเดียว </string>
 
 
     <string name="async_task_error_timeout">"สวัสดีเราไม่สามารถดำเนินการตามคำขอของคุณได้ในขณะนี้ กรุณาลองใหม่อีกครั้งในภายหลัง."</string>

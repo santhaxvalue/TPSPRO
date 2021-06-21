@@ -7,6 +7,11 @@
         //Germany
 
 
+    <string name="btn_missed_call">"Verpasster Anruf "</string>
+    <string name="missed_call_subtitle">"Den Anruf nicht annehmen "</string>
+    <string name="enter_four_digit">"Die letzten 4 Ziffern der Nummer des verpassten Anrufs als OTP eingeben"</string>
+    <string name="get_otp_on_sms">"OTP per SMS erhalten "</string>
+    <string name="enter_onetime_password">Einmaliges Passwort eingeben</string>
 
     <string name="async_task_error_timeout">"Hey, wir können Ihre Anfrage derzeit nicht bearbeiten. Bitte versuchen Sie es später noch einmal."</string>
 
