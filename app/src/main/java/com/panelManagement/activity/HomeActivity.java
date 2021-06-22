@@ -1676,6 +1676,7 @@ public class HomeActivity extends AppCompatActivity implements LocaleChangeListe
                         edit_ph_number.setVisibility(View.VISIBLE);
                     }else if(profile_mobienoupdate.equals("false")) {
                         edit_ph_number.setVisibility(View.GONE);
+
                     }
 
                     boolean IsUserActive = jsonObject.optBoolean("IsUserActive");

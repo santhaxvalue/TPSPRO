@@ -616,8 +616,8 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
                         btn_new_submit.setVisibility(View.GONE);
                         btn_new_submit_missedcall.setVisibility(View.VISIBLE);
 
-                        enter_four_digit.setVisibility(View.VISIBLE);
-                        otp_send_successfullynew.setVisibility(View.GONE);
+                        enter_four_digit.setVisibility(View.GONE);
+                        otp_send_successfullynew.setVisibility(View.VISIBLE);
                         note_please_do_not_entercountrycode.setVisibility(View.GONE);
 
                         //latest new
@@ -652,6 +652,32 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
 //
 //                            }
 //                        }, 30000);
+
+
+                        final Handler handler = new Handler();
+                        handler.postDelayed(new Runnable() {
+                            @Override
+                            public void run() {
+
+                                missed_call.setVisibility(View.GONE);
+                                missed_call_hide.setVisibility(View.GONE);
+                                get_otp_on_sms.setVisibility(View.VISIBLE);
+                                get_otp_on_sms.setEnabled(true);
+                                get_otp_on_sms.setBackgroundColor(getContext().getResources().getColor(R.color.aqua));
+                                missed_call_subtitle.setVisibility(View.GONE);
+                                edt_pinNumber.setVisibility(View.VISIBLE);
+                                tv_pin.setText(getString(R.string.enter_onetime_password));
+                                tv_pin.setVisibility(View.VISIBLE);
+                                btn_new_submit.setVisibility(View.VISIBLE);
+                                btn_new_submit_missedcall.setVisibility(View.GONE);
+                                enter_four_digit.setVisibility(View.GONE);
+                                otp_send_successfullynew.setVisibility(View.GONE);
+                                note_please_do_not_entercountrycode.setVisibility(View.VISIBLE);
+
+
+                            }
+                        }, 20000);
+
 
 
 
@@ -792,7 +818,7 @@ public class MobileVerificationFragment extends BaseFragment implements OnClickL
                                 btn_new_submit.setVisibility(View.VISIBLE);
                                 btn_new_submit_missedcall.setVisibility(View.GONE);
                                 enter_four_digit.setVisibility(View.GONE);
-                                otp_send_successfullynew.setVisibility(View.VISIBLE);
+                                otp_send_successfullynew.setVisibility(View.GONE);
                                 note_please_do_not_entercountrycode.setVisibility(View.VISIBLE);
 
 
